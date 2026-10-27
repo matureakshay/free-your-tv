@@ -50,7 +50,7 @@ Free Your TV empowers you to replace bloated, subscription-heavy, ad-saturated c
     </tr>
   </thead>
   <tbody>
-    <!-- Row 1: YouTube -> SmartTube -->
+    <!-- Row 1: YouTube -> TizenTube Cobalt -->
     <tr>
       <td align="center">
         <img src="docs/alternatives/youtube.svg" alt="YouTube for Android TV logo" width="160" height="90"><br>
@@ -59,41 +59,23 @@ Free Your TV empowers you to replace bloated, subscription-heavy, ad-saturated c
       </td>
       <td align="center" style="font-size: 20px;">➔</td>
       <td align="center">
-        <img src="docs/alternatives/smarttube.svg" alt="SmartTube open-source player logo" width="160" height="90"><br>
-        <strong>SmartTube</strong><br>
-        <sub>Free &amp; open-source, built-in SponsorBlock, ad-free playback, up to 4K 60fps HDR, background audio, zero Google tracking.</sub>
+        <img src="docs/alternatives/tizentube.png" alt="TizenTube Cobalt player logo" width="160" height="90"><br>
+        <strong>TizenTube Cobalt</strong><br>
+        <sub>Free &amp; open-source Android TV / Google TV YouTube client built on Google's lightweight Cobalt runtime. Native ad blocking, SponsorBlock, DeArrow, video speed controls, and zero Google tracking.</sub>
       </td>
       <td align="left">
         <strong>Category:</strong> Independent App<br>
         <strong>Installer:</strong> <span style="color:#d29922">Planned / Sideload</span><br>
-        <strong>Licence:</strong> GPL-3.0
+        <strong>Package:</strong> <code>io.gh.reisxd.tizentube.cobalt</code><br>
+        <strong>Runtime:</strong> Cobalt (Google TV / Android TV)
       </td>
     </tr>
-    <!-- Row 2: Netflix -> CloudStream -->
+    <!-- Row 2: Netflix -> NetMirror TV -->
     <tr>
       <td align="center">
         <img src="docs/alternatives/netflix.svg" alt="Netflix streaming service logo" width="160" height="90"><br>
         <strong>Netflix</strong><br>
         <sub>Recurring monthly subscription fees, password-sharing crackdowns, DRM lock-in, and tier-limited resolutions.</sub>
-      </td>
-      <td align="center" style="font-size: 20px;">➔</td>
-      <td align="center">
-        <img src="docs/alternatives/cloudstream.svg" alt="CloudStream 3 open-source media scraper logo" width="160" height="90"><br>
-        <strong>CloudStream 3</strong><br>
-        <sub>Free &amp; open-source modular media streaming framework with community extensions, multilingual subtitles, and remote-friendly UI.</sub>
-      </td>
-      <td align="left">
-        <strong>Category:</strong> Independent App<br>
-        <strong>Installer:</strong> <span style="color:#d29922">Planned / Sideload</span><br>
-        <strong>Licence:</strong> GPL-3.0
-      </td>
-    </tr>
-    <!-- Row 3: Prime Video -> NetMirror -->
-    <tr>
-      <td align="center">
-        <img src="docs/alternatives/prime-video.svg" alt="Prime Video streaming logo" width="160" height="90"><br>
-        <strong>Prime Video</strong><br>
-        <sub>Paid subscription with embedded commercial ads, additional rental paywalls, and regional catalog lockouts.</sub>
       </td>
       <td align="center" style="font-size: 20px;">➔</td>
       <td align="center">
@@ -104,7 +86,28 @@ Free Your TV empowers you to replace bloated, subscription-heavy, ad-saturated c
       <td align="left">
         <strong>Category:</strong> Independent App<br>
         <strong>Installer:</strong> <span style="color:#d29922">Planned / Sideload</span><br>
-        <strong>Package:</strong> <code>app.netmirror.newtv</code>
+        <strong>Package:</strong> <code>app.netmirror.newtv</code><br>
+        <strong>Source:</strong> <a href="https://netmirror.gg/10/en-in">netmirror.gg</a>
+      </td>
+    </tr>
+    <!-- Row 3: Prime Video -> CloudStream 3 -->
+    <tr>
+      <td align="center">
+        <img src="docs/alternatives/prime-video.svg" alt="Prime Video streaming logo" width="160" height="90"><br>
+        <strong>Prime Video</strong><br>
+        <sub>Paid subscription with embedded commercial ads, additional rental paywalls, and regional catalog lockouts.</sub>
+      </td>
+      <td align="center" style="font-size: 20px;">➔</td>
+      <td align="center">
+        <img src="docs/alternatives/cloudstream.svg" alt="CloudStream 3 official red logo" width="160" height="90"><br>
+        <strong>CloudStream 3</strong><br>
+        <sub>Free &amp; open-source modular media streaming framework with community extensions, multilingual subtitles, remote-friendly TV UI, and zero telemetry.</sub>
+      </td>
+      <td align="left">
+        <strong>Category:</strong> Independent App<br>
+        <strong>Installer:</strong> <span style="color:#d29922">Planned / Sideload</span><br>
+        <strong>Licence:</strong> GPL-3.0<br>
+        <strong>Package:</strong> <code>com.lagradost.cloudstream3</code>
       </td>
     </tr>
     <!-- Row 4: Cable TV / DTH -> Free Your TV Live TV -->
@@ -138,8 +141,8 @@ A static source audit of the repository installer tools confirms the exact state
 1. **Free Your TV Launcher (`com.freeyourtv.launcher`):** Built and installed via [`launcher/build-and-install.ps1`](launcher/build-and-install.ps1) and [`launcher/build-and-install.sh`](launcher/build-and-install.sh). The script verifies connection, builds the release APK, uploads via `b64push.py`, installs via `pm install -r`, sets default home, and prompts to enable optional accessibility services. If installation fails, the stock launcher is immediately preserved/restored.
 2. **RAM Cleaner (`com.freeyourtv.cleaner`):** Built locally via `./gradlew :cleaner:assembleRelease` and installed via standard `adb install`.
 3. **Flutter Live TV (`com.freeyourtv.livetv`):** Built locally via `flutter build apk` and installed via standard `adb install`. It includes a built-in 441-channel catalogue and custom M3U playlist import capabilities.
-4. **Third-Party Viewing Alternatives (SmartTube, CloudStream, NetMirror):**
-   - **Current Status:** **Planned / Installer not yet available.**
+4. **Third-Party Viewing Alternatives (TizenTube Cobalt, NetMirror TV, CloudStream):**
+   - **Current Status:** **Planned / Sideload (Installer not yet available in repository).**
    - Automated download-and-install scripts for third-party APKs are currently in development and are **not yet bundled** in the repository.
    - Users who choose to use these alternatives install them independently via standard Android sideloading (ADB, USB drive, Send Files to TV, or Downloader).
    - **No Silent Uninstallation:** Installing Free Your TV or applying debloat profiles **never** uninstalls YouTube, Netflix, Prime Video, or any other commercial streaming app. Debloating is strictly an explicit user action that only *disables* packages for user 0 (`pm disable-user --user 0`), which can be fully reverted at any time using [`tools/restore.sh`](tools/restore.sh) or [`tools/restore.ps1`](tools/restore.ps1).
@@ -150,7 +153,7 @@ A static source audit of the repository installer tools confirms the exact state
 > To maintain complete transparency, Free Your TV upholds strict architectural distinctions:
 > - **Free Your TV Launcher:** Our custom-engineered Leanback launcher (`com.freeyourtv.launcher`), providing the home screen, on-TV remote dock editor, 28 themes, luminous festival greetings, weather, and power controls.
 > - **Debloating:** Reversible ADB scripts (`tools/disable.*` and `tools/restore.*`) to disable preinstalled manufacturer bloatware and telemetry packages without deleting system files.
-> - **Free Viewing Alternatives:** Independent, third-party open-source applications (such as SmartTube and CloudStream) that users may independently choose to sideload. Free Your TV does not develop, bundle, or officially endorse these applications.
+> - **Free Viewing Alternatives:** Independent, third-party open-source applications (such as TizenTube Cobalt and CloudStream) that users may independently choose to sideload. Free Your TV does not develop, bundle, or officially endorse these applications. NetMirror TV is an independent third-party streaming utility and is not affiliated with, sponsored by, or endorsed by Netflix.
 > - **Free Your TV Live TV:** Our built-in Flutter IPTV player (`com.freeyourtv.livetv`), featuring a curated 441-channel Pan-Indian catalogue across 10 categories, 45 fallback stream mappings, automatic safe catalogue refreshes, and custom M3U/M3U8 playlist management.
 >
 > **Disclaimers:**
@@ -361,7 +364,7 @@ flutter test --no-pub
 - **Button Mapper ([`flar2.homebutton`](https://play.google.com/store/apps/details?id=flar2.homebutton)):** Recommended optional third-party utility. On Android TV devices where OEM firmware restricts third-party launchers, Button Mapper allows you to remap the remote Home key to open `com.freeyourtv.launcher` or launch Live TV directly with a double-tap.
 - **External Video Players & Streaming Apps:** The Free Your TV launcher organizes and launches all installed streaming apps (Netflix, Prime Video, YouTube, Hotstar, etc.).
 - **Future Integration Hooks (Planned):**
-  - *SmartTube / YouTube:* Planned launcher top-shelf shortcut and direct deep-linking hooks. *(Not currently bundled or integrated in source code).*
+  - *TizenTube Cobalt / YouTube:* Planned launcher top-shelf shortcut and direct deep-linking hooks. *(Not currently bundled or integrated in source code).*
   - *NetMirror:* Planned streaming shortcut integration for supported media services. *(Not currently bundled or integrated in source code).*
 
 ---
