@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RAM Cleaner</string>
+    <string name="cleaner_cleaning_title">Optimizing TV Memory…</string>
+    <string name="cleaner_cleaning_subtitle">Reclaiming background memory</string>
+    <string name="cleaner_done_optimal">RAM Already Optimal</string>
+</resources>

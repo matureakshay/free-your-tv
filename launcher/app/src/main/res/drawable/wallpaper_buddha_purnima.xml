@@ -1,0 +1,83 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="1920dp"
+    android:height="1080dp"
+    android:viewportWidth="1920"
+    android:viewportHeight="1080">
+
+    <!-- 1. Deep Serene Midnight Azure Atmosphere -->
+    <path
+        android:fillColor="#040814"
+        android:pathData="M0,0h1920v1080h-1920z" />
+    <path
+        android:fillColor="#0A1226"
+        android:pathData="M0,360 Q960,220 1920,360 L1920,1080 L0,1080 Z" />
+    <path
+        android:fillColor="#101D3D"
+        android:pathData="M0,640 Q960,520 1920,640 L1920,1080 L0,1080 Z" />
+
+    <!-- 2. Luminous Full Moon (Vaishakha Purnima at Top Center) -->
+    <path
+        android:fillColor="#14E0F7FA"
+        android:pathData="M960,160m-200,0a200,200 0,1,1 400,0a200,200 0,1,1 -400,0" />
+    <path
+        android:fillColor="#24E8F0FE"
+        android:pathData="M960,160m-120,0a120,120 0,1,1 240,0a120,120 0,1,1 -240,0" />
+    <path
+        android:fillColor="#80FFFFFF"
+        android:pathData="M960,160m-60,0a60,60 0,1,1 120,0a60,60 0,1,1 -120,0" />
+    <path
+        android:fillColor="#E8F0FE"
+        android:pathData="M960,160m-52,0a52,52 0,1,1 104,0a52,52 0,1,1 -104,0" />
+
+    <!-- 3. Sacred Bodhi Leaf Silhouettes (Top Corners) -->
+    <!-- Left Bodhi Leaf -->
+    <path
+        android:fillColor="#332E7D32"
+        android:pathData="M140,80 Q220,110 240,190 Q210,250 140,240 Q70,250 40,190 Q60,110 140,80 Z" />
+    <path
+        android:strokeColor="#2681C784"
+        android:strokeWidth="1.5"
+        android:pathData="M140,80 L140,240 M140,140 Q180,130 200,150 M140,170 Q100,160 80,180" />
+
+    <!-- Right Bodhi Leaf -->
+    <path
+        android:fillColor="#332E7D32"
+        android:pathData="M1780,80 Q1860,110 1880,190 Q1850,250 1780,240 Q1710,250 1680,190 Q1700,110 1780,80 Z" />
+    <path
+        android:strokeColor="#2681C784"
+        android:strokeWidth="1.5"
+        android:pathData="M1780,80 L1780,240 M1780,140 Q1820,130 1840,150 M1780,170 Q1740,160 1720,180" />
+
+    <!-- 4. Tranquil Water Ripples & Blooming Lotus along Bottom -->
+    <path
+        android:fillColor="#091124"
+        android:pathData="M0,880 Q480,850 960,880 Q1440,910 1920,880 L1920,1080 L0,1080 Z" />
+    <!-- Water reflection lines -->
+    <path
+        android:strokeColor="#1F80DEEA"
+        android:strokeWidth="1.5"
+        android:pathData="M840,890 L1080,890 M780,915 L1140,915 M860,940 L1060,940 M900,965 L1020,965" />
+
+    <!-- Peaceful Blooming Lotus (Bottom Center) -->
+    <path
+        android:fillColor="#4DFFF8E7"
+        android:pathData="M960,920 Q975,870 960,850 Q945,870 960,920 Z" />
+    <path
+        android:fillColor="#33FFB300"
+        android:pathData="M960,920 Q990,880 1005,870 Q995,895 960,920 Z" />
+    <path
+        android:fillColor="#33FFB300"
+        android:pathData="M960,920 Q930,880 915,870 Q925,895 960,920 Z" />
+    <path
+        android:fillColor="#24FFE082"
+        android:pathData="M960,920 Q1020,900 1035,895 Q1015,915 960,920 Z" />
+    <path
+        android:fillColor="#24FFE082"
+        android:pathData="M960,920 Q900,900 885,895 Q905,915 960,920 Z" />
+
+    <!-- 5. Distant Meditative Golden Particles -->
+    <path android:fillColor="#4DFFE082" android:pathData="M380,240m-2.5,0a2.5,2.5 0,1,1 5,0a2.5,2.5 0,1,1 -5,0" />
+    <path android:fillColor="#33E0F7FA" android:pathData="M640,180m-2,0a2,2 0,1,1 4,0a2,2 0,1,1 -4,0" />
+    <path android:fillColor="#33E0F7FA" android:pathData="M1280,180m-2,0a2,2 0,1,1 4,0a2,2 0,1,1 -4,0" />
+    <path android:fillColor="#4DFFE082" android:pathData="M1540,240m-2.5,0a2.5,2.5 0,1,1 5,0a2.5,2.5 0,1,1 -5,0" />
+</vector>

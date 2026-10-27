@@ -1,0 +1,98 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="1920dp"
+    android:height="1080dp"
+    android:viewportWidth="1920"
+    android:viewportHeight="1080">
+
+    <!-- 1. Fresh New Year Dawn Green / Warm Soil Atmosphere -->
+    <path
+        android:fillColor="#08140C"
+        android:pathData="M0,0h1920v1080h-1920z" />
+    <path
+        android:fillColor="#102617"
+        android:pathData="M0,420 Q960,280 1920,420 L1920,1080 L0,1080 Z" />
+    <path
+        android:fillColor="#1B3822"
+        android:pathData="M0,740 Q960,620 1920,740 L1920,1080 L0,1080 Z" />
+
+    <!-- 2. Traditional Gudi Motif (Prominent in Top Right) -->
+    <!-- Bamboo staff -->
+    <path
+        android:strokeColor="#C5A059"
+        android:strokeWidth="5"
+        android:pathData="M1720,60 L1660,650" />
+    <!-- Bright Saffron/Yellow Silk Cloth (Patta) -->
+    <path
+        android:fillColor="#FF8F00"
+        android:pathData="M1710,140 Q1670,220 1685,340 Q1710,380 1735,320 Q1750,220 1715,140 Z" />
+    <path
+        android:fillColor="#FFC107"
+        android:pathData="M1720,150 Q1690,220 1705,320 L1725,310 Q1740,220 1720,150 Z" />
+    <!-- Gold border on cloth -->
+    <path
+        android:strokeColor="#FFD54F"
+        android:strokeWidth="3"
+        android:pathData="M1685,340 Q1710,380 1735,320" />
+    <!-- Fresh Neem & Mango Twigs behind kalash -->
+    <path
+        android:strokeColor="#43A047"
+        android:strokeWidth="3.5"
+        android:pathData="M1715,120 Q1670,100 1640,110 M1715,120 Q1760,100 1790,110 M1715,130 Q1660,140 1630,165 M1715,130 Q1770,140 1800,165" />
+    <!-- Inverted Copper / Brass Kalash on top of staff -->
+    <path
+        android:fillColor="#D84315"
+        android:pathData="M1690,80 Q1715,50 1740,80 Q1755,115 1740,135 L1690,135 Q1675,115 1690,80 Z" />
+    <!-- Shining kalash rim -->
+    <path
+        android:fillColor="#BF360C"
+        android:pathData="M1685,135 L1745,135 L1745,145 L1685,145 Z" />
+    <path
+        android:fillColor="#FF8A65"
+        android:pathData="M1705,75 Q1715,65 1725,75 Q1730,95 1725,120 L1705,120 Z" />
+
+    <!-- 3. Auspicious Mango & Neem Leaves Toran Garland across Top -->
+    <path
+        android:strokeColor="#2E7D32"
+        android:strokeWidth="2"
+        android:pathData="M0,25 Q480,55 960,25 Q1440,55 1920,25" />
+    <!-- Hanging pointed mango leaves -->
+    <path android:fillColor="#388E3C" android:pathData="M160,40 Q170,100 160,130 Q150,100 160,40 Z" />
+    <path android:fillColor="#2E7D32" android:pathData="M320,48 Q330,108 320,138 Q310,108 320,48 Z" />
+    <path android:fillColor="#388E3C" android:pathData="M480,55 Q490,115 480,145 Q470,115 480,55 Z" />
+    <path android:fillColor="#2E7D32" android:pathData="M640,48 Q650,108 640,138 Q630,108 640,48 Z" />
+    <path android:fillColor="#388E3C" android:pathData="M800,40 Q810,100 800,130 Q790,100 800,40 Z" />
+    <path android:fillColor="#2E7D32" android:pathData="M960,35 Q970,95 960,125 Q950,95 960,35 Z" />
+    <path android:fillColor="#388E3C" android:pathData="M1120,40 Q1130,100 1120,130 Q1110,100 1120,40 Z" />
+    <path android:fillColor="#2E7D32" android:pathData="M1280,48 Q1290,108 1280,138 Q1270,108 1280,48 Z" />
+    <path android:fillColor="#388E3C" android:pathData="M1440,55 Q1450,115 1440,145 Q1430,115 1440,55 Z" />
+
+    <!-- 4. Fresh Rangoli Mandalas in Bottom Corners -->
+    <!-- Bottom-Left Rangoli -->
+    <path
+        android:strokeColor="#4DFFF59D"
+        android:strokeWidth="2"
+        android:pathData="M0,1080m-140,0a140,140 0,1,1 280,0a140,140 0,1,1 -280,0" />
+    <path
+        android:strokeColor="#33FFB300"
+        android:strokeWidth="1.5"
+        android:pathData="M0,1080m-90,0a90,90 0,1,1 180,0a90,90 0,1,1 -180,0" />
+    <!-- Bottom-Right Rangoli -->
+    <path
+        android:strokeColor="#4DFFF59D"
+        android:strokeWidth="2"
+        android:pathData="M1920,1080m-140,0a140,140 0,1,1 280,0a140,140 0,1,1 -280,0" />
+    <path
+        android:strokeColor="#33FFB300"
+        android:strokeWidth="1.5"
+        android:pathData="M1920,1080m-90,0a90,90 0,1,1 180,0a90,90 0,1,1 -180,0" />
+
+    <!-- 5. Fresh Jasmine & Marigold Blossom Accents -->
+    <path android:fillColor="#FFFDE7" android:pathData="M240,46m-4,0a4,4 0,1,1 8,0a4,4 0,1,1 -8,0" />
+    <path android:fillColor="#FFB300" android:pathData="M400,52m-5,0a5,5 0,1,1 10,0a5,5 0,1,1 -10,0" />
+    <path android:fillColor="#FFFDE7" android:pathData="M560,52m-4,0a4,4 0,1,1 8,0a4,4 0,1,1 -8,0" />
+    <path android:fillColor="#FFB300" android:pathData="M720,44m-5,0a5,5 0,1,1 10,0a5,5 0,1,1 -10,0" />
+    <path android:fillColor="#FFFDE7" android:pathData="M880,38m-4,0a4,4 0,1,1 8,0a4,4 0,1,1 -8,0" />
+    <path android:fillColor="#FFB300" android:pathData="M1040,38m-5,0a5,5 0,1,1 10,0a5,5 0,1,1 -10,0" />
+    <path android:fillColor="#FFFDE7" android:pathData="M1200,44m-4,0a4,4 0,1,1 8,0a4,4 0,1,1 -8,0" />
+    <path android:fillColor="#FFB300" android:pathData="M1360,52m-5,0a5,5 0,1,1 10,0a5,5 0,1,1 -10,0" />
+</vector>

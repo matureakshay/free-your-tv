@@ -1,0 +1,78 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="1920dp"
+    android:height="1080dp"
+    android:viewportWidth="1920"
+    android:viewportHeight="1080">
+
+    <!-- 1. Jewel-Toned Royal Magenta & Amethyst Base -->
+    <path
+        android:fillColor="#140418"
+        android:pathData="M0,0h1920v1080h-1920z" />
+    <path
+        android:fillColor="#24072B"
+        android:pathData="M0,380 Q960,250 1920,380 L1920,1080 L0,1080 Z" />
+    <path
+        android:fillColor="#3D0B45"
+        android:pathData="M0,660 Q960,530 1920,660 L1920,1080 L0,1080 Z" />
+
+    <!-- 2. Crossed Ornamental Dandiya Sticks (Top Right) -->
+    <!-- Dandiya 1 (Diagonal down-right) -->
+    <path
+        android:strokeColor="#FF6D00"
+        android:strokeWidth="7"
+        android:pathData="M1580,70 L1780,270" />
+    <path
+        android:strokeColor="#FFD600"
+        android:strokeWidth="4"
+        android:pathData="M1620,110 L1630,120 M1680,170 L1690,180 M1740,230 L1750,240" />
+
+    <!-- Dandiya 2 (Diagonal down-left) -->
+    <path
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="7"
+        android:pathData="M1780,70 L1580,270" />
+    <path
+        android:strokeColor="#E040FB"
+        android:strokeWidth="4"
+        android:pathData="M1740,110 L1730,120 M1680,170 L1670,180 M1620,230 L1610,240" />
+
+    <!-- Small bells (Ghungroo) on Dandiya tips -->
+    <path android:fillColor="#FFD54F" android:pathData="M1575,65m-5,0a5,5 0,1,1 10,0a5,5 0,1,1 -10,0" />
+    <path android:fillColor="#FFD54F" android:pathData="M1785,65m-5,0a5,5 0,1,1 10,0a5,5 0,1,1 -10,0" />
+
+    <!-- 3. Dynamic Garba Concentric Circular Mandala (Bottom Center) -->
+    <path
+        android:strokeColor="#FFD600"
+        android:strokeWidth="3.5"
+        android:pathData="M960,1000m-240,0a240,110 0,1,1 480,0a240,110 0,1,1 -480,0" />
+    <path
+        android:strokeColor="#E040FB"
+        android:strokeWidth="3"
+        android:pathData="M960,1000m-190,0a190,85 0,1,1 380,0a190,85 0,1,1 -380,0" />
+    <path
+        android:strokeColor="#FF6D00"
+        android:strokeWidth="2.5"
+        android:pathData="M960,1000m-140,0a140,62 0,1,1 280,0a140,62 0,1,1 -280,0" />
+    <path
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="2"
+        android:pathData="M960,1000m-90,0a90,40 0,1,1 180,0a90,40 0,1,1 -180,0" />
+
+    <!-- Shimmering mirror-work (Abhala) circular highlights along the Garba ring -->
+    <path android:fillColor="#E0F7FA" android:pathData="M780,980m-5,0a5,5 0,1,1 10,0a5,5 0,1,1 -10,0" />
+    <path android:fillColor="#E0F7FA" android:pathData="M870,950m-5,0a5,5 0,1,1 10,0a5,5 0,1,1 -10,0" />
+    <path android:fillColor="#E0F7FA" android:pathData="M960,940m-6,0a6,6 0,1,1 12,0a6,6 0,1,1 -12,0" />
+    <path android:fillColor="#E0F7FA" android:pathData="M1050,950m-5,0a5,5 0,1,1 10,0a5,5 0,1,1 -10,0" />
+    <path android:fillColor="#E0F7FA" android:pathData="M1140,980m-5,0a5,5 0,1,1 10,0a5,5 0,1,1 -10,0" />
+
+    <!-- 4. Festive Hanging Lights along Top -->
+    <path
+        android:strokeColor="#4DFFD54F"
+        android:strokeWidth="1.5"
+        android:pathData="M0,20 Q240,60 480,20 Q720,60 960,20 Q1200,60 1440,20" />
+    <path android:fillColor="#B3FFD600" android:pathData="M240,60m-4,0a4,4 0,1,1 8,0a4,4 0,1,1 -8,0" />
+    <path android:fillColor="#B3E040FB" android:pathData="M480,20m-3.5,0a3.5,3.5 0,1,1 7,0a3.5,3.5 0,1,1 -7,0" />
+    <path android:fillColor="#B3FF6D00" android:pathData="M720,60m-4,0a4,4 0,1,1 8,0a4,4 0,1,1 -8,0" />
+    <path android:fillColor="#B300E5FF" android:pathData="M960,20m-3.5,0a3.5,3.5 0,1,1 7,0a3.5,3.5 0,1,1 -7,0" />
+    <path android:fillColor="#B3FFD600" android:pathData="M1200,60m-4,0a4,4 0,1,1 8,0a4,4 0,1,1 -8,0" />
+</vector>

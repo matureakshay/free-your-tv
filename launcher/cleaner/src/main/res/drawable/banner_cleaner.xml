@@ -1,0 +1,36 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="320dp"
+    android:height="180dp"
+    android:viewportWidth="320"
+    android:viewportHeight="180">
+    <!-- Deep navy/slate tvOS card background -->
+    <path
+        android:fillColor="#FF0D141E"
+        android:pathData="M0,0h320v180H0z" />
+    <!-- Ambient cyan circular glow in center-left -->
+    <path
+        android:fillColor="#1A00E5FF"
+        android:pathData="M110,90m-70,0a70,70 0,1,1 140,0a70,70 0,1,1 -140,0" />
+    <!-- Memory Chip Housing -->
+    <path
+        android:fillColor="#FF152232"
+        android:strokeColor="#FF00E5FF"
+        android:strokeWidth="3"
+        android:pathData="M80,60h60v60H80z" />
+    <!-- Chip Pins -->
+    <path
+        android:strokeColor="#8000E5FF"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M92,48v12 M110,48v12 M128,48v12 M92,120v12 M110,120v12 M128,120v12 M68,72h12 M68,90h12 M68,108h12 M140,72h12 M140,90h12 M140,108h12" />
+    <!-- Lightning Bolt Accelerator -->
+    <path
+        android:fillColor="#FF00E676"
+        android:pathData="M112,72L98,92h12l-3,16 19,-22h-13z" />
+    <!-- Subtle decorative speed lines -->
+    <path
+        android:strokeColor="#3300E676"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M180,82h70 M180,98h95 M180,114h50" />
+</vector>

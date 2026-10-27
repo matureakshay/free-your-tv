@@ -1,0 +1,91 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="1920dp"
+    android:height="1080dp"
+    android:viewportWidth="1920"
+    android:viewportHeight="1080">
+
+    <!-- 1. Serene Slate-Ivory Twilight Atmosphere -->
+    <path
+        android:fillColor="#0D1017"
+        android:pathData="M0,0h1920v1080h-1920z" />
+    <path
+        android:fillColor="#151A24"
+        android:pathData="M0,380 Q960,260 1920,380 L1920,1080 L0,1080 Z" />
+    <path
+        android:fillColor="#1D2433"
+        android:pathData="M0,660 Q960,540 1920,660 L1920,1080 L0,1080 Z" />
+
+    <!-- 2. Sacred Bhamandal (Divine Golden Halo Aura at Top Center) -->
+    <path
+        android:fillColor="#1AD4AF37"
+        android:pathData="M960,180m-240,0a240,240 0,1,1 480,0a240,240 0,1,1 -480,0" />
+    <path
+        android:fillColor="#2ED4AF37"
+        android:pathData="M960,180m-150,0a150,150 0,1,1 300,0a150,150 0,1,1 -300,0" />
+    <path
+        android:fillColor="#4DFFE082"
+        android:pathData="M960,180m-70,0a70,70 0,1,1 140,0a70,70 0,1,1 -140,0" />
+
+    <!-- Elegant Concentric Geometric Mandala Rings -->
+    <path
+        android:strokeColor="#40D4AF37"
+        android:strokeWidth="1.5"
+        android:pathData="M960,180m-180,0a180,180 0,1,1 360,0a180,180 0,1,1 -360,0" />
+    <path
+        android:strokeColor="#2EFFF8E7"
+        android:strokeWidth="1"
+        android:pathData="M960,180m-210,0a210,210 0,1,1 420,0a210,210 0,1,1 -420,0" />
+
+    <!-- 3. Stylized Sacred Lotus (Kamalasan) at Bottom Center -->
+    <path
+        android:fillColor="#3DFFE082"
+        android:pathData="M960,940 Q960,860 930,890 Q945,920 960,940 Z" />
+    <path
+        android:fillColor="#3DFFE082"
+        android:pathData="M960,940 Q960,860 990,890 Q975,920 960,940 Z" />
+    <path
+        android:fillColor="#26FFF8E7"
+        android:pathData="M960,940 Q910,880 870,910 Q915,930 960,940 Z" />
+    <path
+        android:fillColor="#26FFF8E7"
+        android:pathData="M960,940 Q1010,880 1050,910 Q1005,930 960,940 Z" />
+    <!-- Lotus base bar -->
+    <path
+        android:fillColor="#33D4AF37"
+        android:pathData="M840,945 L1080,945 L1060,958 L860,958 Z" />
+
+    <!-- 4. Corner Geometric Filigree / Lotus Silhouettes -->
+    <!-- Top-Left Corner -->
+    <path
+        android:strokeColor="#33D4AF37"
+        android:strokeWidth="1.5"
+        android:pathData="M40,40 L160,40 L160,160 L40,160 Z" />
+    <path
+        android:strokeColor="#26FFF8E7"
+        android:strokeWidth="1"
+        android:pathData="M60,60 L140,60 L140,140 L60,140 Z" />
+    <path
+        android:strokeColor="#33D4AF37"
+        android:strokeWidth="1.5"
+        android:pathData="M100,40 L100,160 M40,100 L160,100" />
+
+    <!-- Top-Right Corner -->
+    <path
+        android:strokeColor="#33D4AF37"
+        android:strokeWidth="1.5"
+        android:pathData="M1760,40 L1880,40 L1880,160 L1760,160 Z" />
+    <path
+        android:strokeColor="#26FFF8E7"
+        android:strokeWidth="1"
+        android:pathData="M1780,60 L1860,60 L1860,140 L1780,140 Z" />
+    <path
+        android:strokeColor="#33D4AF37"
+        android:strokeWidth="1.5"
+        android:pathData="M1820,40 L1820,160 M1760,100 L1880,100" />
+
+    <!-- 5. Peaceful Ivory Starlight / Halo Sparks -->
+    <path android:fillColor="#66FFF8E7" android:pathData="M320,180m-2.5,0a2.5,2.5 0,1,1 5,0a2.5,2.5 0,1,1 -5,0" />
+    <path android:fillColor="#4DFFE082" android:pathData="M580,120m-3,0a3,3 0,1,1 6,0a3,3 0,1,1 -6,0" />
+    <path android:fillColor="#4DFFE082" android:pathData="M1340,120m-3,0a3,3 0,1,1 6,0a3,3 0,1,1 -6,0" />
+    <path android:fillColor="#66FFF8E7" android:pathData="M1600,180m-2.5,0a2.5,2.5 0,1,1 5,0a2.5,2.5 0,1,1 -5,0" />
+</vector>

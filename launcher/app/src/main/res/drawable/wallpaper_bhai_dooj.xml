@@ -1,0 +1,91 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="1920dp"
+    android:height="1080dp"
+    android:viewportWidth="1920"
+    android:viewportHeight="1080">
+
+    <!-- 1. Warm Royal Plum & Amethyst Twilight Base -->
+    <path
+        android:fillColor="#140715"
+        android:pathData="M0,0h1920v1080h-1920z" />
+    <path
+        android:fillColor="#240C26"
+        android:pathData="M0,380 Q960,250 1920,380 L1920,1080 L0,1080 Z" />
+    <path
+        android:fillColor="#3D123F"
+        android:pathData="M0,660 Q960,530 1920,660 L1920,1080 L0,1080 Z" />
+
+    <!-- 2. Sacred Aarti Pooja Thali with Tilak Plate (Bottom Center) -->
+    <!-- Thali outer brass rim -->
+    <path
+        android:strokeColor="#C5A059"
+        android:strokeWidth="5"
+        android:pathData="M960,980m-240,0a240,90 0,1,1 480,0a240,90 0,1,1 -480,0" />
+    <path
+        android:fillColor="#1A0A1C"
+        android:pathData="M960,980m-235,0a235,85 0,1,1 470,0a235,85 0,1,1 -470,0" />
+    <!-- Inner gold border -->
+    <path
+        android:strokeColor="#FFD54F"
+        android:strokeWidth="2"
+        android:pathData="M960,980m-210,0a210,75 0,1,1 420,0a210,75 0,1,1 -420,0" />
+
+    <!-- Vermilion Roli / Tilak Bowl (Left side of Thali) -->
+    <path
+        android:fillColor="#B71C1C"
+        android:pathData="M880,970m-25,0a25,18 0,1,1 50,0a25,18 0,1,1 -50,0" />
+    <path
+        android:fillColor="#D32F2F"
+        android:pathData="M880,970m-16,0a16,11 0,1,1 32,0a16,11 0,1,1 -32,0" />
+
+    <!-- Sacred Rice (Akshat) Bowl (Right side of Thali) -->
+    <path
+        android:fillColor="#FFE082"
+        android:pathData="M1040,970m-25,0a25,18 0,1,1 50,0a25,18 0,1,1 -50,0" />
+    <path
+        android:fillColor="#FFFDE7"
+        android:pathData="M1040,970m-16,0a16,11 0,1,1 32,0a16,11 0,1,1 -32,0" />
+
+    <!-- Central Glowing Ghee Diya -->
+    <path
+        android:fillColor="#D84315"
+        android:pathData="M960,960 Q985,985 1010,960 Q985,950 960,960 Z" />
+    <path
+        android:fillColor="#FF8F00"
+        android:pathData="M985,955 Q995,935 985,918 Q975,935 985,955 Z" />
+    <path
+        android:fillColor="#FFE082"
+        android:pathData="M985,950 Q990,935 985,924 Q980,935 985,950 Z" />
+    <!-- Diya radiance aura -->
+    <path
+        android:fillColor="#1FFFD54F"
+        android:pathData="M985,930m-45,0a45,45 0,1,1 90,0a45,45 0,1,1 -90,0" />
+
+    <!-- 3. Auspicious Tika / Tilak Symbol in Top Center -->
+    <path
+        android:fillColor="#D32F2F"
+        android:pathData="M960,110 L952,175 L968,175 Z" />
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M960,188m-4,0a4,4 0,1,1 8,0a4,4 0,1,1 -8,0" />
+
+    <!-- 4. Corner Floral Mandalas in Top Corners -->
+    <!-- Top-Left -->
+    <path
+        android:strokeColor="#33FFD54F"
+        android:strokeWidth="1.5"
+        android:pathData="M0,0m120,0a120,120 0,0,1 -120,120 M0,0m80,0a80,80 0,0,1 -80,80" />
+    <path android:fillColor="#33D81B60" android:pathData="M60,60m-8,0a8,8 0,1,1 16,0a8,8 0,1,1 -16,0" />
+    <!-- Top-Right -->
+    <path
+        android:strokeColor="#33FFD54F"
+        android:strokeWidth="1.5"
+        android:pathData="M1920,0m-120,0a120,120 0,0,0 120,120 M1920,0m-80,0a80,80 0,0,0 80,80" />
+    <path android:fillColor="#33D81B60" android:pathData="M1860,60m-8,0a8,8 0,1,1 16,0a8,8 0,1,1 -16,0" />
+
+    <!-- 5. Warm Golden Ambient Sparkles -->
+    <path android:fillColor="#66FFE082" android:pathData="M380,140m-2.5,0a2.5,2.5 0,1,1 5,0a2.5,2.5 0,1,1 -5,0" />
+    <path android:fillColor="#4DFFD54F" android:pathData="M680,180m-3,0a3,3 0,1,1 6,0a3,3 0,1,1 -6,0" />
+    <path android:fillColor="#4DFFD54F" android:pathData="M1240,180m-3,0a3,3 0,1,1 6,0a3,3 0,1,1 -6,0" />
+    <path android:fillColor="#66FFE082" android:pathData="M1540,140m-2.5,0a2.5,2.5 0,1,1 5,0a2.5,2.5 0,1,1 -5,0" />
+</vector>

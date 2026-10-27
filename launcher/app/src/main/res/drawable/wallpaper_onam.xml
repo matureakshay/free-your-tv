@@ -1,0 +1,92 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="1920dp"
+    android:height="1080dp"
+    android:viewportWidth="1920"
+    android:viewportHeight="1080">
+
+    <!-- 1. Lush Kerala Twilight Emerald Atmosphere -->
+    <path
+        android:fillColor="#061209"
+        android:pathData="M0,0h1920v1080h-1920z" />
+    <path
+        android:fillColor="#0C2413"
+        android:pathData="M0,380 Q960,240 1920,380 L1920,1080 L0,1080 Z" />
+    <path
+        android:fillColor="#15361D"
+        android:pathData="M0,680 Q960,540 1920,680 L1920,1080 L0,1080 Z" />
+
+    <!-- 2. Tropical Banana & Palm Leaf Silhouettes (Flanking Corners) -->
+    <!-- Left Banana Leaf -->
+    <path
+        android:fillColor="#242E7D32"
+        android:pathData="M0,300 Q180,320 220,500 Q180,620 0,600 Z" />
+    <path
+        android:strokeColor="#2E66BB6A"
+        android:strokeWidth="2"
+        android:pathData="M0,450 Q140,430 220,500" />
+    <!-- Right Palm Fronds -->
+    <path
+        android:fillColor="#242E7D32"
+        android:pathData="M1920,300 Q1740,320 1700,500 Q1740,620 1920,600 Z" />
+    <path
+        android:strokeColor="#2E66BB6A"
+        android:strokeWidth="2"
+        android:pathData="M1920,450 Q1780,430 1700,500" />
+
+    <!-- 3. Grand Athapookalam (Concentric Floral Carpet at Bottom Center) -->
+    <!-- Outer Marigold Ring -->
+    <path
+        android:strokeColor="#FFB300"
+        android:strokeWidth="10"
+        android:pathData="M960,980m-260,0a260,110 0,1,1 520,0a260,110 0,1,1 -520,0" />
+    <!-- Saffron Ring -->
+    <path
+        android:strokeColor="#E65100"
+        android:strokeWidth="8"
+        android:pathData="M960,980m-220,0a220,90 0,1,1 440,0a220,90 0,1,1 -440,0" />
+    <!-- Ivory / Jasmine Petal Ring -->
+    <path
+        android:strokeColor="#F5F5F0"
+        android:strokeWidth="7"
+        android:pathData="M960,980m-180,0a180,75 0,1,1 360,0a180,75 0,1,1 -360,0" />
+    <!-- Crimson Petal Ring -->
+    <path
+        android:strokeColor="#C2185B"
+        android:strokeWidth="6"
+        android:pathData="M960,980m-140,0a140,58 0,1,1 280,0a140,58 0,1,1 -280,0" />
+    <!-- Emerald Leaf Ring -->
+    <path
+        android:strokeColor="#43A047"
+        android:strokeWidth="6"
+        android:pathData="M960,980m-100,0a100,42 0,1,1 200,0a100,42 0,1,1 -200,0" />
+    <!-- Central Golden Core -->
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M960,980m-50,0a50,22 0,1,1 100,0a50,22 0,1,1 -100,0" />
+
+    <!-- 4. Sacred Nilavilakku (Traditional Kerala Brass Lamp at Top Center) -->
+    <path
+        android:strokeColor="#D4AF37"
+        android:strokeWidth="4"
+        android:pathData="M960,110 L960,60" />
+    <path
+        android:fillColor="#B78103"
+        android:pathData="M940,110 L980,110 L960,122 Z" />
+    <!-- Auspicious Flame -->
+    <path
+        android:fillColor="#FFA000"
+        android:pathData="M960,60 Q968,48 960,34 Q952,48 960,60 Z" />
+    <path
+        android:fillColor="#FFE082"
+        android:pathData="M960,56 Q964,48 960,39 Q956,48 960,56 Z" />
+    <!-- Lamp halo -->
+    <path
+        android:fillColor="#1FFFD54F"
+        android:pathData="M960,50m-45,0a45,45 0,1,1 90,0a45,45 0,1,1 -90,0" />
+
+    <!-- 5. Floating Floral Jasmine Sprinkles in Upper Corners -->
+    <path android:fillColor="#4DFFFDE7" android:pathData="M240,120m-3,0a3,3 0,1,1 6,0a3,3 0,1,1 -6,0" />
+    <path android:fillColor="#33FFEB3B" android:pathData="M380,85m-4,0a4,4 0,1,1 8,0a4,4 0,1,1 -8,0" />
+    <path android:fillColor="#4DFFFDE7" android:pathData="M1540,85m-4,0a4,4 0,1,1 8,0a4,4 0,1,1 -8,0" />
+    <path android:fillColor="#33FFEB3B" android:pathData="M1680,120m-3,0a3,3 0,1,1 6,0a3,3 0,1,1 -6,0" />
+</vector>

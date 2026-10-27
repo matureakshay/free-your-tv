@@ -1,0 +1,89 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="1920dp"
+    android:height="1080dp"
+    android:viewportWidth="1920"
+    android:viewportHeight="1080">
+
+    <!-- 1. Auspicious Vermilion-Terracotta Night Atmosphere -->
+    <path
+        android:fillColor="#1A0704"
+        android:pathData="M0,0h1920v1080h-1920z" />
+    <path
+        android:fillColor="#2C0C07"
+        android:pathData="M0,380 Q960,250 1920,380 L1920,1080 L0,1080 Z" />
+    <path
+        android:fillColor="#45140A"
+        android:pathData="M0,660 Q960,530 1920,660 L1920,1080 L0,1080 Z" />
+
+    <!-- 2. Decorative Festive Mandap Arch Framing (Top Edge) -->
+    <path
+        android:fillColor="#8C1C03"
+        android:pathData="M0,0 L1920,0 L1920,40 L0,40 Z" />
+    <path
+        android:strokeColor="#FFB300"
+        android:strokeWidth="3.5"
+        android:pathData="M0,40 Q480,90 960,40 Q1440,90 1920,40" />
+
+    <!-- 3. Hanging Marigold Garlands (Genda Phool) along Arch -->
+    <path android:fillColor="#FF8F00" android:pathData="M160,58m-9,0a9,9 0,1,1 18,0a9,9 0,1,1 -18,0" />
+    <path android:fillColor="#FFC107" android:pathData="M160,74m-8,0a8,8 0,1,1 16,0a8,8 0,1,1 -16,0" />
+    <path android:fillColor="#FF8F00" android:pathData="M160,88m-7,0a7,7 0,1,1 14,0a7,7 0,1,1 -14,0" />
+
+    <path android:fillColor="#FF8F00" android:pathData="M480,75m-9,0a9,9 0,1,1 18,0a9,9 0,1,1 -18,0" />
+    <path android:fillColor="#FFC107" android:pathData="M480,91m-8,0a8,8 0,1,1 16,0a8,8 0,1,1 -16,0" />
+    <path android:fillColor="#FF8F00" android:pathData="M480,105m-7,0a7,7 0,1,1 14,0a7,7 0,1,1 -14,0" />
+
+    <path android:fillColor="#FF8F00" android:pathData="M960,50m-9,0a9,9 0,1,1 18,0a9,9 0,1,1 -18,0" />
+    <path android:fillColor="#FFC107" android:pathData="M960,66m-8,0a8,8 0,1,1 16,0a8,8 0,1,1 -16,0" />
+    <path android:fillColor="#FF8F00" android:pathData="M960,80m-7,0a7,7 0,1,1 14,0a7,7 0,1,1 -14,0" />
+
+    <path android:fillColor="#FF8F00" android:pathData="M1440,75m-9,0a9,9 0,1,1 18,0a9,9 0,1,1 -18,0" />
+    <path android:fillColor="#FFC107" android:pathData="M1440,91m-8,0a8,8 0,1,1 16,0a8,8 0,1,1 -16,0" />
+    <path android:fillColor="#FF8F00" android:pathData="M1440,105m-7,0a7,7 0,1,1 14,0a7,7 0,1,1 -14,0" />
+
+    <path android:fillColor="#FF8F00" android:pathData="M1760,58m-9,0a9,9 0,1,1 18,0a9,9 0,1,1 -18,0" />
+    <path android:fillColor="#FFC107" android:pathData="M1760,74m-8,0a8,8 0,1,1 16,0a8,8 0,1,1 -16,0" />
+    <path android:fillColor="#FF8F00" android:pathData="M1760,88m-7,0a7,7 0,1,1 14,0a7,7 0,1,1 -14,0" />
+
+    <!-- 4. Traditional Brass Temple Bells (Hanging from Top) -->
+    <!-- Left Bell -->
+    <path
+        android:strokeColor="#FFB300"
+        android:strokeWidth="2"
+        android:pathData="M320,40 L320,110" />
+    <path
+        android:fillColor="#D4AF37"
+        android:pathData="M305,145 Q310,115 320,110 Q330,115 335,145 Z" />
+    <path
+        android:strokeColor="#FFD54F"
+        android:strokeWidth="2.5"
+        android:pathData="M300,145 L340,145" />
+    <path android:fillColor="#FFA000" android:pathData="M320,150m-3,0a3,3 0,1,1 6,0a3,3 0,1,1 -6,0" />
+
+    <!-- Right Bell -->
+    <path
+        android:strokeColor="#FFB300"
+        android:strokeWidth="2"
+        android:pathData="M1600,40 L1600,110" />
+    <path
+        android:fillColor="#D4AF37"
+        android:pathData="M1585,145 Q1590,115 1600,110 Q1610,115 1615,145 Z" />
+    <path
+        android:strokeColor="#FFD54F"
+        android:strokeWidth="2.5"
+        android:pathData="M1580,145 L1620,145" />
+    <path android:fillColor="#FFA000" android:pathData="M1600,150m-3,0a3,3 0,1,1 6,0a3,3 0,1,1 -6,0" />
+
+    <!-- 5. Modak Offering Silhouette (Bottom Right) -->
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M1720,950 Q1740,900 1740,885 Q1740,900 1760,950 Q1740,962 1720,950 Z" />
+    <path
+        android:strokeColor="#FFA000"
+        android:strokeWidth="1.5"
+        android:pathData="M1740,885 L1740,955 M1730,915 Q1735,935 1730,952 M1750,915 Q1745,935 1750,952" />
+
+    <!-- 6. Golden Aura Sparks in Upper Corners -->
+    <path android:fillColor="#66FFE082" android:pathData="M720,120m-3,0a3,3 0,1,1 6,0a3,3 0,1,1 -6,0" />
+    <path android:fillColor="#66FFE082" android:pathData="M1200,120m-3,0a3,3 0,1,1 6,0a3,3 0,1,1 -6,0" />
+</vector>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="320dp"
+    android:height="180dp"
+    android:viewportWidth="320"
+    android:viewportHeight="180">
+    <!-- Tile Background -->
+    <path
+        android:fillColor="#181818"
+        android:pathData="M0,0h320v180h-320z" />
+    <!-- YouTube Red Button -->
+    <path
+        android:fillColor="#FF0000"
+        android:pathData="M126,48 L194,48 C206.15,48 216,57.85 216,70 L216,110 C216,122.15 206.15,132 194,132 L126,132 C113.85,132 104,122.15 104,110 L104,70 C104,57.85 113.85,48 126,48 Z" />
+    <!-- White Play Triangle -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M150,72 L180,90 L150,108 Z" />
+</vector>

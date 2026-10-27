@@ -1,0 +1,113 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="1920dp"
+    android:height="1080dp"
+    android:viewportWidth="1920"
+    android:viewportHeight="1080">
+
+    <!-- 1. Deep Royal Navy & Constitution Night Atmosphere -->
+    <path
+        android:fillColor="#060C1D"
+        android:pathData="M0,0h1920v1080h-1920z" />
+    <path
+        android:fillColor="#0B1633"
+        android:pathData="M0,380 Q960,220 1920,380 L1920,1080 L0,1080 Z" />
+    <path
+        android:fillColor="#040814"
+        android:pathData="M0,700 Q960,560 1920,700 L1920,1080 L0,1080 Z" />
+
+    <!-- 2. Saffron Dawn Aura (Top Edge & Horizon) -->
+    <path
+        android:fillColor="#1FFF9933"
+        android:pathData="M0,0 Q960,180 1920,0 L1920,180 Q960,320 0,180 Z" />
+    <path
+        android:fillColor="#14FFB74D"
+        android:pathData="M180,0 Q960,240 1740,0 L1600,120 Q960,280 320,120 Z" />
+
+    <!-- 3. India Green Horizon Aura (Bottom Edge) -->
+    <path
+        android:fillColor="#1F138808"
+        android:pathData="M0,900 Q960,820 1920,900 L1920,1080 L0,1080 Z" />
+    <path
+        android:fillColor="#142E7D32"
+        android:pathData="M0,960 Q960,900 1920,960 L1920,1080 L0,1080 Z" />
+
+    <!-- 4. Ascending Tricolor Ribbon Waves -->
+    <path
+        android:strokeColor="#2EFF9933"
+        android:strokeWidth="3.5"
+        android:pathData="M0,320 C600,280 1200,420 1920,300" />
+    <path
+        android:strokeColor="#2EFFFFFF"
+        android:strokeWidth="2.5"
+        android:pathData="M0,340 C600,300 1200,440 1920,320" />
+    <path
+        android:strokeColor="#2E138808"
+        android:strokeWidth="3.5"
+        android:pathData="M0,360 C600,320 1200,460 1920,340" />
+
+    <!-- 5. Majestic Ashoka Chakra Medallion (Center-Upper Background: Center 960, 500) -->
+    <!-- Soft outer halo glow -->
+    <path
+        android:fillColor="#0D1E88E5"
+        android:pathData="M960,320 A180,180 0 1,0 960,680 A180,180 0 1,0 960,320 Z" />
+    <path
+        android:fillColor="#15FFD54F"
+        android:pathData="M960,360 A140,140 0 1,0 960,640 A140,140 0 1,0 960,360 Z" />
+
+    <!-- Outer Rim -->
+    <path
+        android:strokeColor="#D4AF37"
+        android:strokeWidth="4"
+        android:pathData="M960,370 A130,130 0 1,0 960,630 A130,130 0 1,0 960,370 Z" />
+    <path
+        android:strokeColor="#1E88E5"
+        android:strokeWidth="2"
+        android:pathData="M960,380 A120,120 0 1,0 960,620 A120,120 0 1,0 960,380 Z" />
+
+    <!-- 24 Radial Spokes (Navy & Gold highlights) -->
+    <!-- 0 deg / 180 deg (Vertical) -->
+    <path android:strokeColor="#FFD54F" android:strokeWidth="2.5" android:pathData="M960,382 L960,618" />
+    <!-- 90 deg / 270 deg (Horizontal) -->
+    <path android:strokeColor="#FFD54F" android:strokeWidth="2.5" android:pathData="M842,500 L1078,500" />
+
+    <!-- 45 deg / 225 deg -->
+    <path android:strokeColor="#FFD54F" android:strokeWidth="2.2" android:pathData="M876,416 L1044,584" />
+    <!-- 135 deg / 315 deg -->
+    <path android:strokeColor="#FFD54F" android:strokeWidth="2.2" android:pathData="M876,584 L1044,416" />
+
+    <!-- 15 deg / 195 deg -->
+    <path android:strokeColor="#90CAF9" android:strokeWidth="1.8" android:pathData="M929,386 L991,614" />
+    <!-- 30 deg / 210 deg -->
+    <path android:strokeColor="#90CAF9" android:strokeWidth="1.8" android:pathData="M900,400 L1020,600" />
+    <!-- 60 deg / 240 deg -->
+    <path android:strokeColor="#90CAF9" android:strokeWidth="1.8" android:pathData="M860,440 L1060,560" />
+    <!-- 75 deg / 255 deg -->
+    <path android:strokeColor="#90CAF9" android:strokeWidth="1.8" android:pathData="M846,471 L1074,529" />
+
+    <!-- 105 deg / 285 deg -->
+    <path android:strokeColor="#90CAF9" android:strokeWidth="1.8" android:pathData="M846,529 L1074,471" />
+    <!-- 120 deg / 300 deg -->
+    <path android:strokeColor="#90CAF9" android:strokeWidth="1.8" android:pathData="M860,560 L1060,440" />
+    <!-- 150 deg / 330 deg -->
+    <path android:strokeColor="#90CAF9" android:strokeWidth="1.8" android:pathData="M900,600 L1020,400" />
+    <!-- 165 deg / 345 deg -->
+    <path android:strokeColor="#90CAF9" android:strokeWidth="1.8" android:pathData="M929,614 L991,386" />
+
+    <!-- Central Inner Hub -->
+    <path
+        android:fillColor="#0A1633"
+        android:strokeColor="#FFD54F"
+        android:strokeWidth="3"
+        android:pathData="M960,465 A35,35 0 1,0 960,535 A35,35 0 1,0 960,465 Z" />
+    <!-- Golden Center Pin -->
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M960,490 A10,10 0 1,0 960,510 A10,10 0 1,0 960,490 Z" />
+
+    <!-- 6. Elegant Golden Starlight Accents -->
+    <path android:fillColor="#60FFD54F" android:pathData="M240,260 L244,248 L248,260 L260,264 L248,268 L244,280 L240,268 L228,264 Z" />
+    <path android:fillColor="#40FF9933" android:pathData="M420,180 L423,170 L426,180 L436,183 L426,186 L423,196 L420,186 L410,183 Z" />
+    <path android:fillColor="#60FFD54F" android:pathData="M1680,260 L1684,248 L1688,260 L1700,264 L1688,268 L1684,280 L1680,268 L1668,264 Z" />
+    <path android:fillColor="#4081C784" android:pathData="M1520,780 L1523,770 L1526,780 L1536,783 L1526,786 L1523,796 L1520,786 L1510,783 Z" />
+    <path android:fillColor="#50FFD54F" android:pathData="M360,780 L363,770 L366,780 L376,783 L366,786 L363,796 L360,786 L350,783 Z" />
+</vector>

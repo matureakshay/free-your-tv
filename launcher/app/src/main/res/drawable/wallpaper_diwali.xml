@@ -1,0 +1,144 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="1920dp"
+    android:height="1080dp"
+    android:viewportWidth="1920"
+    android:viewportHeight="1080">
+
+    <!-- 1. Deep Midnight-Indigo / Dark Plum Sky Atmosphere -->
+    <path
+        android:fillColor="#0B0616"
+        android:pathData="M0,0h1920v1080h-1920z" />
+
+    <!-- Plum / Royal Amethyst ambient depth -->
+    <path
+        android:fillColor="#150A26"
+        android:pathData="M0,450 Q960,300 1920,450 L1920,1080 L0,1080 Z" />
+    <path
+        android:fillColor="#200E38"
+        android:pathData="M0,720 Q960,560 1920,720 L1920,1080 L0,1080 Z" />
+
+    <!-- 2. Warm golden horizon glow along the bottom -->
+    <path
+        android:fillColor="#1FBF6A02"
+        android:pathData="M0,860 Q960,780 1920,860 L1920,1080 L0,1080 Z" />
+    <path
+        android:fillColor="#38D97706"
+        android:pathData="M0,950 Q960,900 1920,950 L1920,1080 L0,1080 Z" />
+
+    <!-- 3. Festive Bokeh & Starry Night Lights -->
+    <!-- Distant festive bokeh sparkles -->
+    <path android:fillColor="#33FFD54F" android:pathData="M240,140m-4,0a4,4 0,1,1 8,0a4,4 0,1,1 -8,0" />
+    <path android:fillColor="#4DFFE082" android:pathData="M380,95m-6,0a6,6 0,1,1 12,0a6,6 0,1,1 -12,0" />
+    <path android:fillColor="#33FFD700" android:pathData="M520,180m-5,0a5,5 0,1,1 10,0a5,5 0,1,1 -10,0" />
+    <path android:fillColor="#4DFFCA28" android:pathData="M780,110m-7,0a7,7 0,1,1 14,0a7,7 0,1,1 -14,0" />
+    <path android:fillColor="#33FFE082" android:pathData="M960,160m-5,0a5,5 0,1,1 10,0a5,5 0,1,1 -10,0" />
+    <path android:fillColor="#4DFFD700" android:pathData="M1150,90m-6,0a6,6 0,1,1 12,0a6,6 0,1,1 -12,0" />
+    <path android:fillColor="#33FFC107" android:pathData="M1420,150m-7,0a7,7 0,1,1 14,0a7,7 0,1,1 -14,0" />
+    <path android:fillColor="#4DFFE082" android:pathData="M1650,110m-5,0a5,5 0,1,1 10,0a5,5 0,1,1 -10,0" />
+    <path android:fillColor="#33FFD54F" android:pathData="M1780,180m-4,0a4,4 0,1,1 8,0a4,4 0,1,1 -8,0" />
+
+    <!-- 4. Top Decorative Hanging Fairy Light Garlands -->
+    <path
+        android:strokeColor="#2ECCA010"
+        android:strokeWidth="1.5"
+        android:pathData="M0,20 Q240,65 480,20 Q720,65 960,20 Q1200,65 1440,20 Q1680,65 1920,20" />
+    <!-- Small luminous light drops along the garland -->
+    <path android:fillColor="#80FFD700" android:pathData="M120,44m-4,0a4,4 0,1,1 8,0a4,4 0,1,1 -8,0" />
+    <path android:fillColor="#B3FFE082" android:pathData="M240,65m-5,0a5,5 0,1,1 10,0a5,5 0,1,1 -10,0" />
+    <path android:fillColor="#80FFD700" android:pathData="M360,44m-4,0a4,4 0,1,1 8,0a4,4 0,1,1 -8,0" />
+    <path android:fillColor="#80FFD700" android:pathData="M600,44m-4,0a4,4 0,1,1 8,0a4,4 0,1,1 -8,0" />
+    <path android:fillColor="#B3FFE082" android:pathData="M720,65m-5,0a5,5 0,1,1 10,0a5,5 0,1,1 -10,0" />
+    <path android:fillColor="#80FFD700" android:pathData="M840,44m-4,0a4,4 0,1,1 8,0a4,4 0,1,1 -8,0" />
+    <path android:fillColor="#80FFD700" android:pathData="M1080,44m-4,0a4,4 0,1,1 8,0a4,4 0,1,1 -8,0" />
+    <path android:fillColor="#B3FFE082" android:pathData="M1200,65m-5,0a5,5 0,1,1 10,0a5,5 0,1,1 -10,0" />
+    <path android:fillColor="#80FFD700" android:pathData="M1320,44m-4,0a4,4 0,1,1 8,0a4,4 0,1,1 -8,0" />
+    <path android:fillColor="#80FFD700" android:pathData="M1560,44m-4,0a4,4 0,1,1 8,0a4,4 0,1,1 -8,0" />
+    <path android:fillColor="#B3FFE082" android:pathData="M1680,65m-5,0a5,5 0,1,1 10,0a5,5 0,1,1 -10,0" />
+    <path android:fillColor="#80FFD700" android:pathData="M1800,44m-4,0a4,4 0,1,1 8,0a4,4 0,1,1 -8,0" />
+
+    <!-- 5. Elegant Rangoli / Mandala Geometry in Corners -->
+    <!-- Top-Left Rangoli Mandala -->
+    <path
+        android:strokeColor="#2ECCA010"
+        android:strokeWidth="1.5"
+        android:pathData="M0,0 M40,0 A40,40 0 0,1 0,40 M80,0 A80,80 0 0,1 0,80 M120,0 A120,120 0 0,1 0,120 M160,0 A160,160 0 0,1 0,160 M200,0 A200,200 0 0,1 0,200" />
+    <path
+        android:strokeColor="#40FFD700"
+        android:strokeWidth="1.2"
+        android:pathData="M0,0 L140,140 M0,70 L70,140 L140,70 L70,0 Z M0,140 L140,0 M0,105 L105,105 L105,0" />
+
+    <!-- Top-Right Rangoli Mandala -->
+    <path
+        android:strokeColor="#2ECCA010"
+        android:strokeWidth="1.5"
+        android:pathData="M1920,0 M1880,0 A40,40 0 0,0 1920,40 M1840,0 A80,80 0 0,0 1920,80 M1800,0 A120,120 0 0,0 1920,120 M1760,0 A160,160 0 0,0 1920,160 M1720,0 A200,200 0 0,0 1920,200" />
+    <path
+        android:strokeColor="#40FFD700"
+        android:strokeWidth="1.2"
+        android:pathData="M1920,0 L1780,140 M1920,70 L1850,140 L1780,70 L1850,0 Z M1920,140 L1780,0 M1920,105 L1815,105 L1815,0" />
+
+    <!-- 6. Row of Glowing Traditional Diyas along the bottom horizon -->
+
+    <!-- DIYA 1 (Left flank - X=180) -->
+    <!-- Halo glow -->
+    <path android:fillColor="#1AFFA000" android:pathData="M180,1005m-48,0a48,48 0,1,1 96,0a48,48 0,1,1 -96,0" />
+    <path android:fillColor="#33FFB300" android:pathData="M180,1015m-28,0a28,28 0,1,1 56,0a28,28 0,1,1 -56,0" />
+    <!-- Diya Clay Bowl -->
+    <path android:fillColor="#8D3C08" android:pathData="M142,1035 Q180,1065 218,1035 Q224,1030 216,1028 Q180,1034 144,1028 Q136,1030 142,1035 Z" />
+    <path android:fillColor="#D97706" android:pathData="M145,1032 Q180,1038 215,1032 Q180,1035 145,1032 Z" />
+    <!-- Flame Outer Gold -->
+    <path android:fillColor="#FF8F00" android:pathData="M180,992 C189,1006 193,1016 186,1026 C183,1029 177,1029 174,1026 C167,1016 171,1006 180,992 Z" />
+    <!-- Flame Inner Warm Yellow Core -->
+    <path android:fillColor="#FFF9C4" android:pathData="M180,1004 C184,1012 186,1018 183,1024 C181,1026 179,1026 177,1024 C174,1018 176,1012 180,1004 Z" />
+
+    <!-- DIYA 2 (Mid-Left - X=570) -->
+    <!-- Halo glow -->
+    <path android:fillColor="#1AFFA000" android:pathData="M570,1005m-48,0a48,48 0,1,1 96,0a48,48 0,1,1 -96,0" />
+    <path android:fillColor="#33FFB300" android:pathData="M570,1015m-28,0a28,28 0,1,1 56,0a28,28 0,1,1 -56,0" />
+    <!-- Diya Clay Bowl -->
+    <path android:fillColor="#8D3C08" android:pathData="M532,1035 Q570,1065 608,1035 Q614,1030 606,1028 Q570,1034 534,1028 Q526,1030 532,1035 Z" />
+    <path android:fillColor="#D97706" android:pathData="M535,1032 Q570,1038 605,1032 Q570,1035 535,1032 Z" />
+    <!-- Flame Outer Gold -->
+    <path android:fillColor="#FF8F00" android:pathData="M570,992 C579,1006 583,1016 576,1026 C573,1029 567,1029 564,1026 C557,1016 561,1006 570,992 Z" />
+    <!-- Flame Inner Warm Yellow Core -->
+    <path android:fillColor="#FFF9C4" android:pathData="M570,1004 C574,1012 576,1018 573,1024 C571,1026 569,1026 567,1024 C564,1018 566,1012 570,1004 Z" />
+
+    <!-- DIYA 3 (Center Focal Diya - X=960, slightly larger and elevated) -->
+    <!-- Majestic halo glow -->
+    <path android:fillColor="#1ECCA010" android:pathData="M960,995m-68,0a68,68 0,1,1 136,0a68,68 0,1,1 -136,0" />
+    <path android:fillColor="#3DFFB300" android:pathData="M960,1005m-40,0a40,40 0,1,1 80,0a40,40 0,1,1 -80,0" />
+    <!-- Diya Clay Bowl with ornamental gold rim -->
+    <path android:fillColor="#783104" android:pathData="M915,1033 Q960,1070 1005,1033 Q1013,1027 1003,1024 Q960,1032 917,1024 Q907,1027 915,1033 Z" />
+    <path android:fillColor="#F59E0B" android:pathData="M918,1028 Q960,1036 1002,1028 Q960,1032 918,1028 Z" />
+    <!-- Flame Outer Gold -->
+    <path android:fillColor="#FF6D00" android:pathData="M960,978 C972,996 977,1009 969,1022 C965,1026 955,1026 951,1022 C943,1009 948,996 960,978 Z" />
+    <!-- Flame Middle Amber -->
+    <path android:fillColor="#FFD54F" android:pathData="M960,988 C968,1001 971,1011 966,1021 C963,1024 957,1024 954,1021 C949,1011 952,1001 960,988 Z" />
+    <!-- Flame Inner Warm Ivory Core -->
+    <path android:fillColor="#FFFFF0" android:pathData="M960,999 C964,1007 966,1013 963,1019 C961,1021 959,1021 957,1019 C954,1013 956,1007 960,999 Z" />
+
+    <!-- DIYA 4 (Mid-Right - X=1350) -->
+    <!-- Halo glow -->
+    <path android:fillColor="#1AFFA000" android:pathData="M1350,1005m-48,0a48,48 0,1,1 96,0a48,48 0,1,1 -96,0" />
+    <path android:fillColor="#33FFB300" android:pathData="M1350,1015m-28,0a28,28 0,1,1 56,0a28,28 0,1,1 -56,0" />
+    <!-- Diya Clay Bowl -->
+    <path android:fillColor="#8D3C08" android:pathData="M1312,1035 Q1350,1065 1388,1035 Q1394,1030 1386,1028 Q1350,1034 1314,1028 Q1306,1030 1312,1035 Z" />
+    <path android:fillColor="#D97706" android:pathData="M1315,1032 Q1350,1038 1385,1032 Q1350,1035 1315,1032 Z" />
+    <!-- Flame Outer Gold -->
+    <path android:fillColor="#FF8F00" android:pathData="M1350,992 C1359,1006 1363,1016 1356,1026 C1353,1029 1347,1029 1344,1026 C1337,1016 1341,1006 1350,992 Z" />
+    <!-- Flame Inner Warm Yellow Core -->
+    <path android:fillColor="#FFF9C4" android:pathData="M1350,1004 C1354,1012 1356,1018 1353,1024 C1351,1026 1349,1026 1347,1024 C1344,1018 1346,1012 1350,1004 Z" />
+
+    <!-- DIYA 5 (Right flank - X=1740) -->
+    <!-- Halo glow -->
+    <path android:fillColor="#1AFFA000" android:pathData="M1740,1005m-48,0a48,48 0,1,1 96,0a48,48 0,1,1 -96,0" />
+    <path android:fillColor="#33FFB300" android:pathData="M1740,1015m-28,0a28,28 0,1,1 56,0a28,28 0,1,1 -56,0" />
+    <!-- Diya Clay Bowl -->
+    <path android:fillColor="#8D3C08" android:pathData="M1702,1035 Q1740,1065 1778,1035 Q1784,1030 1776,1028 Q1740,1034 1704,1028 Q1696,1030 1702,1035 Z" />
+    <path android:fillColor="#D97706" android:pathData="M1705,1032 Q1740,1038 1775,1032 Q1740,1035 1705,1032 Z" />
+    <!-- Flame Outer Gold -->
+    <path android:fillColor="#FF8F00" android:pathData="M1740,992 C1749,1006 1753,1016 1746,1026 C1743,1029 1737,1029 1734,1026 C1727,1016 1731,1006 1740,992 Z" />
+    <!-- Flame Inner Warm Yellow Core -->
+    <path android:fillColor="#FFF9C4" android:pathData="M1740,1004 C1744,1012 1746,1018 1743,1024 C1741,1026 1739,1026 1737,1024 C1734,1018 1736,1012 1740,1004 Z" />
+
+</vector>

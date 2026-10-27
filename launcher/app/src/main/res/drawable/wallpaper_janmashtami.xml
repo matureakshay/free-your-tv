@@ -1,0 +1,85 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="1920dp"
+    android:height="1080dp"
+    android:viewportWidth="1920"
+    android:viewportHeight="1080">
+
+    <!-- 1. Deep Midnight Blue Yamuna Sky Atmosphere -->
+    <path
+        android:fillColor="#04091A"
+        android:pathData="M0,0h1920v1080h-1920z" />
+    <path
+        android:fillColor="#081433"
+        android:pathData="M0,380 Q960,250 1920,380 L1920,1080 L0,1080 Z" />
+    <path
+        android:fillColor="#0E1F4D"
+        android:pathData="M0,660 Q960,530 1920,660 L1920,1080 L0,1080 Z" />
+
+    <!-- 2. Sacred Peacock Feather (Mor Pankh) in Top Left Corner -->
+    <!-- Feather stem -->
+    <path
+        android:strokeColor="#2E7D32"
+        android:strokeWidth="3.5"
+        android:pathData="M120,400 Q160,260 260,140 Q320,60 380,20" />
+    <!-- Feather outer vanes (Emerald green) -->
+    <path
+        android:fillColor="#4D388E3C"
+        android:pathData="M230,170 Q280,100 360,60 Q300,160 260,230 Z" />
+    <path
+        android:fillColor="#4D388E3C"
+        android:pathData="M270,140 Q330,70 410,30 Q350,130 310,200 Z" />
+    <!-- Feather Eye - Golden ring -->
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M310,130m-42,0a42,52 0,1,1 84,0a42,52 0,1,1 -84,0" />
+    <!-- Feather Eye - Peacock Blue ring -->
+    <path
+        android:fillColor="#0077B6"
+        android:pathData="M310,130m-28,0a28,36 0,1,1 56,0a28,36 0,1,1 -56,0" />
+    <!-- Feather Eye - Deep Royal Navy core -->
+    <path
+        android:fillColor="#03045E"
+        android:pathData="M310,135m-15,0a15,20 0,1,1 30,0a15,20 0,1,1 -30,0" />
+
+    <!-- 3. Divine Golden Flute (Bansuri) at Top Right -->
+    <path
+        android:strokeColor="#FFB300"
+        android:strokeWidth="7"
+        android:pathData="M1480,160 L1840,70" />
+    <!-- Flute holes -->
+    <path android:fillColor="#E65100" android:pathData="M1540,145m-3,0a3,3 0,1,1 6,0a3,3 0,1,1 -6,0" />
+    <path android:fillColor="#E65100" android:pathData="M1580,135m-3,0a3,3 0,1,1 6,0a3,3 0,1,1 -6,0" />
+    <path android:fillColor="#E65100" android:pathData="M1620,125m-3,0a3,3 0,1,1 6,0a3,3 0,1,1 -6,0" />
+    <path android:fillColor="#E65100" android:pathData="M1660,115m-3,0a3,3 0,1,1 6,0a3,3 0,1,1 -6,0" />
+    <path android:fillColor="#E65100" android:pathData="M1700,105m-3,0a3,3 0,1,1 6,0a3,3 0,1,1 -6,0" />
+    <path android:fillColor="#E65100" android:pathData="M1740,95m-3,0a3,3 0,1,1 6,0a3,3 0,1,1 -6,0" />
+    <!-- Golden hanging tassel from flute end -->
+    <path
+        android:strokeColor="#FFD54F"
+        android:strokeWidth="2"
+        android:pathData="M1840,70 Q1855,110 1845,150" />
+    <path android:fillColor="#FFC107" android:pathData="M1845,150m-5,0a5,5 0,1,1 10,0a5,5 0,1,1 -10,0" />
+
+    <!-- 4. Earthen Butter Pot (Matki / Dahi Handi) at Bottom Center -->
+    <path
+        android:fillColor="#8D4004"
+        android:pathData="M960,960m-50,0a50,42 0,1,0 100,0a50,42 0,1,0 -100,0" />
+    <path
+        android:fillColor="#5D2800"
+        android:pathData="M925,928 L995,928 L1002,940 L918,940 Z" />
+    <!-- White Butter Froth (Makhan) -->
+    <path
+        android:fillColor="#FFFDE7"
+        android:pathData="M922,928 Q960,915 998,928 Q1008,938 990,944 Q960,936 930,944 Q912,938 922,928 Z" />
+    <!-- Hanging ropes -->
+    <path
+        android:strokeColor="#4DC5A059"
+        android:strokeWidth="2"
+        android:pathData="M918,940 L880,860 M1002,940 L1040,860" />
+
+    <!-- 5. Celestial Stars & Ethereal Blue Glow -->
+    <path android:fillColor="#80E0F7FA" android:pathData="M620,110m-3,0a3,3 0,1,1 6,0a3,3 0,1,1 -6,0" />
+    <path android:fillColor="#B3FFE082" android:pathData="M780,160m-3.5,0a3.5,3.5 0,1,1 7,0a3.5,3.5 0,1,1 -7,0" />
+    <path android:fillColor="#80E0F7FA" android:pathData="M1160,110m-3,0a3,3 0,1,1 6,0a3,3 0,1,1 -6,0" />
+    <path android:fillColor="#B3FFE082" android:pathData="M1340,170m-3.5,0a3.5,3.5 0,1,1 7,0a3.5,3.5 0,1,1 -7,0" />
+</vector>

@@ -1,0 +1,121 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="1920dp"
+    android:height="1080dp"
+    android:viewportWidth="1920"
+    android:viewportHeight="1080">
+
+    <!-- 1. Warm Harvest Sunrise Sky -->
+    <path
+        android:fillColor="#1C0E07"
+        android:pathData="M0,0h1920v1080h-1920z" />
+    <path
+        android:fillColor="#301509"
+        android:pathData="M0,400 Q960,260 1920,400 L1920,1080 L0,1080 Z" />
+    <path
+        android:fillColor="#4D200A"
+        android:pathData="M0,650 Q960,520 1920,650 L1920,1080 L0,1080 Z" />
+
+    <!-- 2. Golden Solar Glow at Center Horizon -->
+    <path
+        android:fillColor="#24FF8F00"
+        android:pathData="M960,700m-360,0a360,360 0,1,1 720,0a360,360 0,1,1 -720,0" />
+    <path
+        android:fillColor="#3DFFB300"
+        android:pathData="M960,700m-220,0a220,220 0,1,1 440,0a220,220 0,1,1 -440,0" />
+    <path
+        android:fillColor="#66FFE082"
+        android:pathData="M960,700m-110,0a110,110 0,1,1 220,0a110,110 0,1,1 -220,0" />
+
+    <!-- 3. Rolling Harvest Field Silhouettes along the Bottom -->
+    <path
+        android:fillColor="#261005"
+        android:pathData="M0,880 Q480,820 960,860 Q1440,900 1920,840 L1920,1080 L0,1080 Z" />
+    <path
+        android:fillColor="#170A03"
+        android:pathData="M0,950 Q480,910 960,930 Q1440,950 1920,910 L1920,1080 L0,1080 Z" />
+
+    <!-- 4. Traditional Earthen Pongal Pot & Auspicious Froth (Bottom Center) -->
+    <!-- Pot body -->
+    <path
+        android:fillColor="#B25900"
+        android:pathData="M960,970m-55,0a55,42 0,1,0 110,0a55,42 0,1,0 -110,0" />
+    <path
+        android:fillColor="#8C4000"
+        android:pathData="M925,935 L995,935 L1005,948 L915,948 Z" />
+    <!-- Overflowing milk froth -->
+    <path
+        android:fillColor="#FFF8E1"
+        android:pathData="M920,935 Q960,918 1000,935 Q1015,948 995,955 Q960,948 925,955 Q905,948 920,935 Z" />
+    <path
+        android:fillColor="#FFE082"
+        android:pathData="M980,945 Q990,965 982,975 Q975,965 980,945 Z" />
+
+    <!-- 5. Sugarcane Stalks Flanking Corners -->
+    <!-- Left sugarcane -->
+    <path
+        android:strokeColor="#558B2F"
+        android:strokeWidth="7"
+        android:pathData="M160,1080 Q190,850 140,650 Q110,500 80,350" />
+    <path
+        android:strokeColor="#7CB342"
+        android:strokeWidth="3"
+        android:pathData="M140,650 Q90,620 50,630 M150,600 Q200,560 250,575 M120,500 Q70,470 30,480 M100,420 Q160,380 210,400" />
+    <!-- Right sugarcane -->
+    <path
+        android:strokeColor="#558B2F"
+        android:strokeWidth="7"
+        android:pathData="M1760,1080 Q1730,850 1780,650 Q1810,500 1840,350" />
+    <path
+        android:strokeColor="#7CB342"
+        android:strokeWidth="3"
+        android:pathData="M1780,650 Q1830,620 1870,630 M1770,600 Q1720,560 1670,575 M1800,500 Q1850,470 1890,480 M1820,420 Q1760,380 1710,400" />
+
+    <!-- 6. Traditional Colorful Kites Soaring in the Sky -->
+    <!-- Kite 1 (Top Left, Saffron & Sky-Blue) -->
+    <path
+        android:fillColor="#FFA000"
+        android:pathData="M320,180 L370,230 L320,280 L270,230 Z" />
+    <path
+        android:fillColor="#0288D1"
+        android:pathData="M320,180 L370,230 L320,230 Z" />
+    <path
+        android:fillColor="#D32F2F"
+        android:pathData="M305,280 L335,280 L320,305 Z" />
+    <path
+        android:strokeColor="#80FFFFFF"
+        android:strokeWidth="1.5"
+        android:pathData="M320,305 Q300,340 330,370 Q360,400 325,440" />
+
+    <!-- Kite 2 (Top Right, Crimson & Golden-Yellow) -->
+    <path
+        android:fillColor="#D81B60"
+        android:pathData="M1580,140 L1635,195 L1580,250 L1525,195 Z" />
+    <path
+        android:fillColor="#FFD600"
+        android:pathData="M1580,140 L1635,195 L1580,195 Z" />
+    <path
+        android:fillColor="#00897B"
+        android:pathData="M1565,250 L1595,250 L1580,275 Z" />
+    <path
+        android:strokeColor="#80FFFFFF"
+        android:strokeWidth="1.5"
+        android:pathData="M1580,275 Q1610,310 1575,345 Q1540,380 1585,420" />
+
+    <!-- Kite 3 (Distant small kite, Turquoise) -->
+    <path
+        android:fillColor="#00ACC1"
+        android:pathData="M820,120 L845,145 L820,170 L795,145 Z" />
+    <path
+        android:fillColor="#FFB300"
+        android:pathData="M810,170 L830,170 L820,185 Z" />
+    <path
+        android:strokeColor="#4DFFFFFF"
+        android:strokeWidth="1"
+        android:pathData="M820,185 Q805,210 830,235" />
+
+    <!-- 7. Distant golden harvest birds in flight -->
+    <path
+        android:strokeColor="#4DFFD54F"
+        android:strokeWidth="1.5"
+        android:pathData="M480,120 Q495,110 510,120 Q525,110 540,120 M1240,150 Q1255,140 1270,150 Q1285,140 1300,150 M1340,130 Q1352,122 1365,130 Q1377,122 1390,130" />
+</vector>

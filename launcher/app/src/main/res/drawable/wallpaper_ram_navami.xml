@@ -1,0 +1,85 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="1920dp"
+    android:height="1080dp"
+    android:viewportWidth="1920"
+    android:viewportHeight="1080">
+
+    <!-- 1. Devotional Deep Saffron / Solar Dusk Atmosphere -->
+    <path
+        android:fillColor="#1A0A03"
+        android:pathData="M0,0h1920v1080h-1920z" />
+    <path
+        android:fillColor="#2E1206"
+        android:pathData="M0,380 Q960,240 1920,380 L1920,1080 L0,1080 Z" />
+    <path
+        android:fillColor="#4D1D09"
+        android:pathData="M0,660 Q960,540 1920,660 L1920,1080 L0,1080 Z" />
+
+    <!-- 2. Radiant Surya Solar Mandala (Top Center) -->
+    <path
+        android:fillColor="#1FFF8F00"
+        android:pathData="M960,160m-200,0a200,200 0,1,1 400,0a200,200 0,1,1 -400,0" />
+    <path
+        android:fillColor="#3DFFB300"
+        android:pathData="M960,160m-110,0a110,110 0,1,1 220,0a110,110 0,1,1 -220,0" />
+    <path
+        android:fillColor="#66FFE082"
+        android:pathData="M960,160m-50,0a50,50 0,1,1 100,0a50,50 0,1,1 -100,0" />
+    <!-- Radiating solar rays -->
+    <path
+        android:strokeColor="#2EFFF176"
+        android:strokeWidth="1.5"
+        android:pathData="M960,30 L960,70 M960,250 L960,290 M830,160 L870,160 M1050,160 L1090,160 M868,68 L896,96 M1024,224 L1052,252 M868,252 L896,224 M1024,96 L1052,68" />
+
+    <!-- 3. Divine Bow (Kodanda) & Arrow Motif (Top Right Corner) -->
+    <!-- Curved bow arc -->
+    <path
+        android:strokeColor="#FFB300"
+        android:strokeWidth="4"
+        android:pathData="M1640,60 Q1780,220 1640,420" />
+    <!-- Bowstring -->
+    <path
+        android:strokeColor="#FFE082"
+        android:strokeWidth="1.5"
+        android:pathData="M1640,60 L1640,420" />
+    <!-- Bow grip -->
+    <path
+        android:fillColor="#E65100"
+        android:pathData="M1685,220m-14,0a14,24 0,1,1 28,0a14,24 0,1,1 -28,0" />
+    <!-- Arrow pointing upward diagonally -->
+    <path
+        android:strokeColor="#FFD54F"
+        android:strokeWidth="2.5"
+        android:pathData="M1600,320 L1740,160" />
+    <!-- Arrowhead -->
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M1740,160 L1720,165 L1745,135 L1735,180 Z" />
+
+    <!-- 4. Temple Shikhar Silhouettes along Bottom Horizon -->
+    <path
+        android:fillColor="#1F0C04"
+        android:pathData="M0,900 L180,880 L240,820 L270,720 L300,820 L360,880 L680,890 L740,840 L770,760 L800,840 L860,890 L1180,890 L1240,840 L1270,760 L1300,840 L1360,890 L1680,880 L1740,820 L1770,720 L1800,820 L1860,880 L1920,900 L1920,1080 L0,1080 Z" />
+
+    <!-- 5. Floating Sacred Lotus Petals in Corners -->
+    <!-- Lotus Left Corner -->
+    <path
+        android:fillColor="#66FF7043"
+        android:pathData="M240,940 Q270,890 270,860 Q270,890 300,940 Z" />
+    <path
+        android:fillColor="#4DFF8A65"
+        android:pathData="M240,940 Q215,905 190,920 Q215,935 240,940 Z" />
+    <path
+        android:fillColor="#4DFF8A65"
+        android:pathData="M300,940 Q325,905 350,920 Q325,935 300,940 Z" />
+    <!-- Lotus Right Corner -->
+    <path
+        android:fillColor="#66FF7043"
+        android:pathData="M1680,940 Q1710,890 1710,860 Q1710,890 1740,940 Z" />
+    <path
+        android:fillColor="#4DFF8A65"
+        android:pathData="M1680,940 Q1655,905 1630,920 Q1655,935 1680,940 Z" />
+    <path
+        android:fillColor="#4DFF8A65"
+        android:pathData="M1740,940 Q1765,905 1790,920 Q1765,935 1740,940 Z" />
+</vector>

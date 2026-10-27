@@ -1,0 +1,194 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="1920dp"
+    android:height="1080dp"
+    android:viewportWidth="1920"
+    android:viewportHeight="1080">
+
+    <!-- 1. Deep Riverbank Twilight Sky -->
+    <path
+        android:fillColor="#120815"
+        android:pathData="M0,0h1920v1080h-1920z" />
+    <path
+        android:fillColor="#2A1224"
+        android:pathData="M0,350 Q960,220 1920,350 L1920,1080 L0,1080 Z" />
+    <path
+        android:fillColor="#451829"
+        android:pathData="M0,600 Q960,480 1920,600 L1920,1080 L0,1080 Z" />
+
+    <!-- 2. Sacred Surya Dawn/Dusk Solar Halo -->
+    <path
+        android:fillColor="#15FF8F00"
+        android:pathData="M960,680m-420,0a420,420 0,1,1 840,0a420,420 0,1,1 -840,0" />
+    <path
+        android:fillColor="#2AEE5A24"
+        android:pathData="M960,680m-280,0a280,280 0,1,1 560,0a280,280 0,1,1 -560,0" />
+    <path
+        android:fillColor="#55FFB300"
+        android:pathData="M960,680m-160,0a160,160 0,1,1 320,0a160,160 0,1,1 -320,0" />
+    <!-- Rising Sun Disc on River Horizon -->
+    <path
+        android:fillColor="#FFF8E1"
+        android:pathData="M960,680m-80,0a80,80 0,1,1 160,0a80,80 0,1,1 -160,0" />
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M960,680m-72,0a72,72 0,1,1 144,0a72,72 0,1,1 -144,0" />
+
+    <!-- Radiating Solar Rays (Sunbeams reaching into sky) -->
+    <path
+        android:strokeColor="#22FFD54F"
+        android:strokeWidth="3"
+        android:pathData="M960,600 L960,250 M890,620 L760,320 M1030,620 L1160,320 M830,650 L600,420 M1090,650 L1320,420 M790,700 L500,560 M1130,700 L1420,560" />
+
+    <!-- 3. Distant River Shoreline Silhouettes -->
+    <path
+        android:fillColor="#1F0D1C"
+        android:pathData="M0,740 Q480,710 960,730 Q1440,710 1920,740 L1920,780 L0,780 Z" />
+
+    <!-- 4. Sacred Ganga / Yamuna River Water (Foreground Basin) -->
+    <path
+        android:fillColor="#150B1E"
+        android:pathData="M0,780 Q480,770 960,775 Q1440,770 1920,780 L1920,1080 L0,1080 Z" />
+    <path
+        android:fillColor="#0D0614"
+        android:pathData="M0,880 Q480,870 960,875 Q1440,870 1920,880 L1920,1080 L0,1080 Z" />
+
+    <!-- Golden Water Reflections & Ripples -->
+    <path
+        android:strokeColor="#44FFB300"
+        android:strokeWidth="3"
+        android:pathData="M880,800 Q960,805 1040,800 M820,830 Q960,836 1100,830 M760,865 Q960,872 1160,865 M800,900 Q960,908 1120,900 M850,935 Q960,942 1070,935" />
+    <path
+        android:strokeColor="#22FFE082"
+        android:strokeWidth="2"
+        android:pathData="M920,815 Q960,818 1000,815 M860,845 Q960,850 1060,845 M820,880 Q960,886 1100,880" />
+
+    <!-- 5. Sugarcane Stalks forming Sacred Chhath Arghya Canopy (Sides) -->
+    <!-- Left Sugarcane -->
+    <path
+        android:strokeColor="#33691E"
+        android:strokeWidth="9"
+        android:pathData="M180,1080 Q220,750 200,480 Q180,260 260,120" />
+    <path
+        android:strokeColor="#558B2F"
+        android:strokeWidth="5"
+        android:pathData="M180,1080 Q220,750 200,480 Q180,260 260,120" />
+    <!-- Sugarcane joints & leaves -->
+    <path
+        android:strokeColor="#7CB342"
+        android:strokeWidth="3"
+        android:pathData="M195,650 Q260,630 330,660 M205,530 Q270,500 340,520 M195,410 Q250,370 310,380 M220,290 Q290,240 360,250 M250,190 Q320,140 380,150" />
+    <path
+        android:strokeColor="#FFD54F"
+        android:strokeWidth="4"
+        android:pathData="M196,650 H204 M203,530 H211 M198,410 H206" />
+
+    <!-- Right Sugarcane -->
+    <path
+        android:strokeColor="#33691E"
+        android:strokeWidth="9"
+        android:pathData="M1740,1080 Q1700,750 1720,480 Q1740,260 1660,120" />
+    <path
+        android:strokeColor="#558B2F"
+        android:strokeWidth="5"
+        android:pathData="M1740,1080 Q1700,750 1720,480 Q1740,260 1660,120" />
+    <!-- Right leaves -->
+    <path
+        android:strokeColor="#7CB342"
+        android:strokeWidth="3"
+        android:pathData="M1725,650 Q1660,630 1590,660 M1715,530 Q1650,500 1580,520 M1725,410 Q1670,370 1610,380 M1700,290 Q1630,240 1560,250 M1670,190 Q1600,140 1540,150" />
+    <path
+        android:strokeColor="#FFD54F"
+        android:strokeWidth="4"
+        android:pathData="M1716,650 H1724 M1709,530 H1717 M1714,410 H1722" />
+
+    <!-- Auspicious Kalava (Red/Yellow sacred thread tying the top) -->
+    <path
+        android:strokeColor="#D32F2F"
+        android:strokeWidth="4"
+        android:pathData="M250,130 Q960,60 1670,130" />
+    <path
+        android:strokeColor="#FFC107"
+        android:strokeWidth="2"
+        android:pathData="M250,133 Q960,63 1670,133" />
+
+    <!-- 6. Traditional Bamboo Soop (Offering Tray) at Bottom Center -->
+    <!-- Woven bamboo base (trapezoidal tray) -->
+    <path
+        android:fillColor="#8D5B18"
+        android:strokeColor="#B27B2B"
+        android:strokeWidth="3"
+        android:pathData="M840,970 L1080,970 L1110,1050 L810,1050 Z" />
+    <!-- Woven texture lines on soop -->
+    <path
+        android:strokeColor="#5E3A0B"
+        android:strokeWidth="2"
+        android:pathData="M840,990 H1080 M830,1015 H1090 M820,1035 H1100 M880,970 L870,1050 M930,970 L925,1050 M990,970 L995,1050 M1040,970 L1050,1050" />
+
+    <!-- Offerings inside Soop: Thekua, Auspicious Coconut, Bananas -->
+    <!-- Thekua prasad cookies -->
+    <path
+        android:fillColor="#D87A22"
+        android:pathData="M850,990m-18,0a18,12 0,1,0 36,0a18,12 0,1,0 -36,0" />
+    <path
+        android:fillColor="#D87A22"
+        android:pathData="M885,985m-18,0a18,12 0,1,0 36,0a18,12 0,1,0 -36,0" />
+    <!-- Golden Banana bunch -->
+    <path
+        android:fillColor="#FDD835"
+        android:strokeColor="#F57F17"
+        android:strokeWidth="2"
+        android:pathData="M1020,980 Q1055,985 1075,1010 Q1055,1000 1020,995 Z" />
+    <path
+        android:fillColor="#FFEE58"
+        android:strokeColor="#F57F17"
+        android:strokeWidth="2"
+        android:pathData="M1010,970 Q1045,975 1068,998 Q1045,990 1010,985 Z" />
+    <!-- Auspicious Sriphal (Coconut) -->
+    <path
+        android:fillColor="#6D4C41"
+        android:pathData="M935,975m-22,0a22,22 0,1,0 44,0a22,22 0,1,0 -44,0" />
+    <path
+        android:fillColor="#8D6E63"
+        android:pathData="M925,960 L945,960 L935,950 Z" />
+
+    <!-- Burning Sacred Diya in Soop -->
+    <path
+        android:fillColor="#D84315"
+        android:pathData="M960,1010m-35,0a35,16 0,1,0 70,0a35,16 0,1,0 -70,0" />
+    <path
+        android:fillColor="#BF360C"
+        android:pathData="M925,1010 L995,1010 L985,1018 L935,1018 Z" />
+    <!-- Glowing Flame -->
+    <path
+        android:fillColor="#33FFB300"
+        android:pathData="M960,995m-40,0a40,40 0,1,1 80,0a40,40 0,1,1 -80,0" />
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M960,995 Q975,975 960,950 Q945,975 960,995 Z" />
+    <path
+        android:fillColor="#FFF9C4"
+        android:pathData="M960,990 Q968,978 960,962 Q952,978 960,990 Z" />
+
+    <!-- 7. Gentle Floating Marigold Blossoms on Sacred Water -->
+    <path
+        android:fillColor="#FFA000"
+        android:pathData="M650,860m-14,0a14,14 0,1,1 28,0a14,14 0,1,1 -28,0" />
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M650,860m-7,0a7,7 0,1,1 14,0a7,7 0,1,1 -14,0" />
+
+    <path
+        android:fillColor="#E65100"
+        android:pathData="M1280,880m-14,0a14,14 0,1,1 28,0a14,14 0,1,1 -28,0" />
+    <path
+        android:fillColor="#FFB300"
+        android:pathData="M1280,880m-7,0a7,7 0,1,1 14,0a7,7 0,1,1 -14,0" />
+
+    <path
+        android:fillColor="#FFA000"
+        android:pathData="M520,920m-12,0a12,12 0,1,1 24,0a12,12 0,1,1 -24,0" />
+    <path
+        android:fillColor="#E65100"
+        android:pathData="M1400,940m-12,0a12,12 0,1,1 24,0a12,12 0,1,1 -24,0" />
+
+</vector>

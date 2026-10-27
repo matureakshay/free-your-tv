@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="cleaner_bg">#FF000000</color>
+    <color name="cleaner_card_bg">#1AFFFFFF</color>
+    <color name="cleaner_card_stroke">#26FFFFFF</color>
+    <color name="cleaner_accent">#FF00E5FF</color>
+    <color name="cleaner_success">#FF00E676</color>
+    <color name="cleaner_text_primary">#FFFFFFFF</color>
+    <color name="cleaner_text_secondary">#8CFFFFFF</color>
+</resources>

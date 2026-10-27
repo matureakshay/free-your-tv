@@ -1,0 +1,89 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="1920dp"
+    android:height="1080dp"
+    android:viewportWidth="1920"
+    android:viewportHeight="1080">
+
+    <!-- 1. Deep Midnight Indigo Night Atmosphere -->
+    <path
+        android:fillColor="#040612"
+        android:pathData="M0,0h1920v1080h-1920z" />
+    <path
+        android:fillColor="#0A1026"
+        android:pathData="M0,350 Q960,220 1920,350 L1920,1080 L0,1080 Z" />
+    <path
+        android:fillColor="#111B3D"
+        android:pathData="M0,620 Q960,500 1920,620 L1920,1080 L0,1080 Z" />
+
+    <!-- 2. Sacred Mount Kailash Mountain Silhouette (Bottom Horizon) -->
+    <path
+        android:fillColor="#0A0F21"
+        android:pathData="M0,820 L320,740 L580,790 L960,650 L1340,790 L1620,730 L1920,810 L1920,1080 L0,1080 Z" />
+    <path
+        android:fillColor="#060A17"
+        android:pathData="M0,890 L400,850 L750,880 L960,820 L1200,870 L1550,830 L1920,890 L1920,1080 L0,1080 Z" />
+
+    <!-- Kailash snowcap glow -->
+    <path
+        android:fillColor="#1A80D8FF"
+        android:pathData="M960,650 L890,740 Q960,720 1030,740 Z" />
+
+    <!-- 3. Luminous Crescent Moon (Chandra) at Top Center-Left -->
+    <path
+        android:fillColor="#E0F7FA"
+        android:pathData="M420,120 A42,42 0 1,0 478,178 A34,34 0 1,1 420,120 Z" />
+    <path
+        android:fillColor="#2680DEEA"
+        android:pathData="M435,145m-65,0a65,65 0,1,1 130,0a65,65 0,1,1 -130,0" />
+
+    <!-- 4. Divine Trishul & Damru Motif (Top Right) -->
+    <!-- Central trident shaft -->
+    <path
+        android:strokeColor="#80D4AF37"
+        android:strokeWidth="4"
+        android:pathData="M1680,80 L1680,480" />
+    <!-- Center spearhead -->
+    <path
+        android:fillColor="#D4AF37"
+        android:pathData="M1680,60 L1692,105 L1680,95 L1668,105 Z" />
+    <!-- Left prong -->
+    <path
+        android:strokeColor="#D4AF37"
+        android:strokeWidth="3.5"
+        android:pathData="M1680,140 Q1640,140 1630,95 Q1635,70 1645,85" />
+    <!-- Right prong -->
+    <path
+        android:strokeColor="#D4AF37"
+        android:strokeWidth="3.5"
+        android:pathData="M1680,140 Q1720,140 1730,95 Q1725,70 1715,85" />
+    <!-- Damru on Trishul shaft -->
+    <path
+        android:fillColor="#B78103"
+        android:pathData="M1655,240 L1705,240 L1680,265 L1705,290 L1655,290 L1680,265 Z" />
+    <path
+        android:strokeColor="#FFE082"
+        android:strokeWidth="1.5"
+        android:pathData="M1655,240 L1705,290 M1655,290 L1705,240" />
+
+    <!-- 5. Sacred Bilva / Bel Patra (Trifoliate Leaves) in Left Corner -->
+    <!-- Central leaf -->
+    <path
+        android:fillColor="#332E7D32"
+        android:pathData="M180,680 Q195,630 180,590 Q165,630 180,680 Z" />
+    <!-- Left leaf -->
+    <path
+        android:fillColor="#33388E3C"
+        android:pathData="M175,665 Q130,660 100,690 Q140,700 175,665 Z" />
+    <!-- Right leaf -->
+    <path
+        android:fillColor="#33388E3C"
+        android:pathData="M185,665 Q230,660 260,690 Q220,700 185,665 Z" />
+
+    <!-- 6. Celestial Starlight & Meditative Aura -->
+    <path android:fillColor="#66B3E5FC" android:pathData="M220,220m-3,0a3,3 0,1,1 6,0a3,3 0,1,1 -6,0" />
+    <path android:fillColor="#4DE0F7FA" android:pathData="M640,160m-2.5,0a2.5,2.5 0,1,1 5,0a2.5,2.5 0,1,1 -5,0" />
+    <path android:fillColor="#80B3E5FC" android:pathData="M880,95m-3,0a3,3 0,1,1 6,0a3,3 0,1,1 -6,0" />
+    <path android:fillColor="#66E0F7FA" android:pathData="M1180,180m-2.5,0a2.5,2.5 0,1,1 5,0a2.5,2.5 0,1,1 -5,0" />
+    <path android:fillColor="#80B3E5FC" android:pathData="M1450,110m-3,0a3,3 0,1,1 6,0a3,3 0,1,1 -6,0" />
+    <path android:fillColor="#4DE0F7FA" android:pathData="M1780,240m-2.5,0a2.5,2.5 0,1,1 5,0a2.5,2.5 0,1,1 -5,0" />
+</vector>

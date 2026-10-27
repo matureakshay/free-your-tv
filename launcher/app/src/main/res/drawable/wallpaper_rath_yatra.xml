@@ -1,0 +1,90 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="1920dp"
+    android:height="1080dp"
+    android:viewportWidth="1920"
+    android:viewportHeight="1080">
+
+    <!-- 1. Rich Deep Temple Crimson / Maroon Atmosphere -->
+    <path
+        android:fillColor="#1A0508"
+        android:pathData="M0,0h1920v1080h-1920z" />
+    <path
+        android:fillColor="#29080D"
+        android:pathData="M0,380 Q960,250 1920,380 L1920,1080 L0,1080 Z" />
+    <path
+        android:fillColor="#3D0B13"
+        android:pathData="M0,660 Q960,530 1920,660 L1920,1080 L0,1080 Z" />
+
+    <!-- 2. Grand Ornate Chariot Wheels (Rath Chakra) Flanking Left & Right -->
+    <!-- Left Wheel Hub & Outer Rims -->
+    <path
+        android:strokeColor="#C5961E"
+        android:strokeWidth="7"
+        android:pathData="M0,650m-240,0a240,240 0,1,1 480,0a240,240 0,1,1 -480,0" />
+    <path
+        android:strokeColor="#D32F2F"
+        android:strokeWidth="4"
+        android:pathData="M0,650m-220,0a220,220 0,1,1 440,0a220,220 0,1,1 -440,0" />
+    <path
+        android:fillColor="#B78103"
+        android:pathData="M0,650m-50,0a50,50 0,1,1 100,0a50,50 0,1,1 -100,0" />
+    <!-- Left Wheel Spokes -->
+    <path
+        android:strokeColor="#FFD54F"
+        android:strokeWidth="3.5"
+        android:pathData="M0,430 L0,870 M-220,650 L220,650 M-155,495 L155,805 M-155,805 L155,495 M-85,455 L85,845 M85,455 L-85,845" />
+
+    <!-- Right Wheel Hub & Outer Rims -->
+    <path
+        android:strokeColor="#C5961E"
+        android:strokeWidth="7"
+        android:pathData="M1920,650m-240,0a240,240 0,1,1 480,0a240,240 0,1,1 -480,0" />
+    <path
+        android:strokeColor="#D32F2F"
+        android:strokeWidth="4"
+        android:pathData="M1920,650m-220,0a220,220 0,1,1 440,0a220,220 0,1,1 -440,0" />
+    <path
+        android:fillColor="#B78103"
+        android:pathData="M1920,650m-50,0a50,50 0,1,1 100,0a50,50 0,1,1 -100,0" />
+    <!-- Right Wheel Spokes -->
+    <path
+        android:strokeColor="#FFD54F"
+        android:strokeWidth="3.5"
+        android:pathData="M1920,430 L1920,870 M1700,650 L2140,650 M1765,495 L2075,805 M1765,805 L2075,495 M1835,455 L2005,845 M2005,455 L1835,845" />
+
+    <!-- 3. Festive Triangular Temple Flags (Pataka) & Applique Canopy along Top -->
+    <path
+        android:fillColor="#8C1515"
+        android:pathData="M0,0 L1920,0 L1920,35 L0,35 Z" />
+    <path
+        android:strokeColor="#FFD600"
+        android:strokeWidth="3"
+        android:pathData="M0,35 L1920,35" />
+
+    <!-- Hanging flags across the top bar -->
+    <path android:fillColor="#D32F2F" android:pathData="M100,35 L140,35 L120,95 Z" />
+    <path android:fillColor="#FFD600" android:pathData="M220,35 L260,35 L240,95 Z" />
+    <path android:fillColor="#2E7D32" android:pathData="M340,35 L380,35 L360,95 Z" />
+    <path android:fillColor="#D32F2F" android:pathData="M460,35 L500,35 L480,95 Z" />
+    <path android:fillColor="#FFD600" android:pathData="M580,35 L620,35 L600,95 Z" />
+    <path android:fillColor="#2E7D32" android:pathData="M700,35 L740,35 L720,95 Z" />
+    <path android:fillColor="#D32F2F" android:pathData="M820,35 L860,35 L840,95 Z" />
+    <path android:fillColor="#FFD600" android:pathData="M940,35 L980,35 L960,95 Z" />
+    <path android:fillColor="#2E7D32" android:pathData="M1060,35 L1100,35 L1080,95 Z" />
+    <path android:fillColor="#D32F2F" android:pathData="M1180,35 L1220,35 L1200,95 Z" />
+    <path android:fillColor="#FFD600" android:pathData="M1300,35 L1340,35 L1320,95 Z" />
+    <path android:fillColor="#2E7D32" android:pathData="M1420,35 L1460,35 L1440,95 Z" />
+    <path android:fillColor="#D32F2F" android:pathData="M1540,35 L1580,35 L1560,95 Z" />
+    <path android:fillColor="#FFD600" android:pathData="M1660,35 L1700,35 L1680,95 Z" />
+    <path android:fillColor="#2E7D32" android:pathData="M1780,35 L1820,35 L1800,95 Z" />
+
+    <!-- 4. Sacred Chariot Ropes (Shankhachuda / Ratha Rasi) across Bottom -->
+    <path
+        android:strokeColor="#33FFD54F"
+        android:strokeWidth="5"
+        android:pathData="M0,920 Q480,880 960,920 Q1440,960 1920,920" />
+    <path
+        android:strokeColor="#24FFA000"
+        android:strokeWidth="3"
+        android:pathData="M0,935 Q480,895 960,935 Q1440,975 1920,935" />
+</vector>

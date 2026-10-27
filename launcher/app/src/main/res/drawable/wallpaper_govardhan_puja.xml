@@ -1,0 +1,72 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="1920dp"
+    android:height="1080dp"
+    android:viewportWidth="1920"
+    android:viewportHeight="1080">
+
+    <!-- 1. Pastoral Earthy Forest-Dusk Atmosphere -->
+    <path
+        android:fillColor="#07140B"
+        android:pathData="M0,0h1920v1080h-1920z" />
+    <path
+        android:fillColor="#0E2414"
+        android:pathData="M0,380 Q960,250 1920,380 L1920,1080 L0,1080 Z" />
+    <path
+        android:fillColor="#163820"
+        android:pathData="M0,660 Q960,530 1920,660 L1920,1080 L0,1080 Z" />
+
+    <!-- 2. Sacred Govardhan Parvat / Mountain Silhouette across Bottom -->
+    <path
+        android:fillColor="#0B1A0F"
+        android:pathData="M0,860 Q280,740 600,790 Q960,670 1320,780 Q1640,730 1920,850 L1920,1080 L0,1080 Z" />
+    <path
+        android:fillColor="#061009"
+        android:pathData="M0,920 Q320,840 700,880 Q960,800 1280,870 Q1600,830 1920,910 L1920,1080 L0,1080 Z" />
+
+    <!-- Sacred Golden Aura over Govardhan Hilltop -->
+    <path
+        android:fillColor="#1FFFB300"
+        android:pathData="M960,670m-180,0a180,180 0,1,1 360,0a180,180 0,1,1 -360,0" />
+
+    <!-- 3. Annakoot (Mountain of Harvest Offerings) Silhouette at Bottom Center -->
+    <path
+        android:fillColor="#33FFD54F"
+        android:pathData="M960,820 L910,910 L1010,910 Z" />
+    <path
+        android:fillColor="#26FFB300"
+        android:pathData="M960,835 L925,905 L995,905 Z" />
+
+    <!-- 4. Sacred Kadamba Foliage & Garland Flanking Top-Left Corner -->
+    <path
+        android:fillColor="#332E7D32"
+        android:pathData="M0,0 Q180,30 240,160 Q120,260 0,180 Z" />
+    <path
+        android:strokeColor="#2E66BB6A"
+        android:strokeWidth="2"
+        android:pathData="M0,0 Q140,80 240,160" />
+    <!-- Golden floral garland drops from the branches -->
+    <path
+        android:strokeColor="#FFD54F"
+        android:strokeWidth="2"
+        android:pathData="M80,120 L80,240 M160,140 L160,260" />
+    <path android:fillColor="#FFA000" android:pathData="M80,240m-5,0a5,5 0,1,1 10,0a5,5 0,1,1 -10,0" />
+    <path android:fillColor="#FFA000" android:pathData="M160,260m-5,0a5,5 0,1,1 10,0a5,5 0,1,1 -10,0" />
+
+    <!-- 5. Flute & Peacock Feather Motif in Top Right -->
+    <path
+        android:strokeColor="#4DFFD54F"
+        android:strokeWidth="3"
+        android:pathData="M1640,140 L1840,60" />
+    <path
+        android:fillColor="#3300E5FF"
+        android:pathData="M1820,70m-20,0a20,28 0,1,1 40,0a20,28 0,1,1 -40,0" />
+    <path
+        android:fillColor="#4D0077B6"
+        android:pathData="M1820,70m-10,0a10,16 0,1,1 20,0a10,16 0,1,1 -20,0" />
+
+    <!-- 6. Gentle Starlight & Pastoral Fireflies -->
+    <path android:fillColor="#4DFFE082" android:pathData="M480,140m-2.5,0a2.5,2.5 0,1,1 5,0a2.5,2.5 0,1,1 -5,0" />
+    <path android:fillColor="#3381C784" android:pathData="M740,200m-3,0a3,3 0,1,1 6,0a3,3 0,1,1 -6,0" />
+    <path android:fillColor="#4DFFE082" android:pathData="M1200,160m-2.5,0a2.5,2.5 0,1,1 5,0a2.5,2.5 0,1,1 -5,0" />
+    <path android:fillColor="#3381C784" android:pathData="M1420,110m-3,0a3,3 0,1,1 6,0a3,3 0,1,1 -6,0" />
+</vector>

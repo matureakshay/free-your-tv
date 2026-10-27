@@ -1,0 +1,104 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="1920dp"
+    android:height="1080dp"
+    android:viewportWidth="1920"
+    android:viewportHeight="1080">
+
+    <!-- 1. Warm Rose-Wine & Coral Twilight Base -->
+    <path
+        android:fillColor="#170810"
+        android:pathData="M0,0h1920v1080h-1920z" />
+    <path
+        android:fillColor="#260C1A"
+        android:pathData="M0,380 Q960,250 1920,380 L1920,1080 L0,1080 Z" />
+    <path
+        android:fillColor="#3D122A"
+        android:pathData="M0,660 Q960,530 1920,660 L1920,1080 L0,1080 Z" />
+
+    <!-- 2. Ornamental Rakhi Medallion 1 (Top Left) -->
+    <!-- Golden outer starburst -->
+    <path
+        android:strokeColor="#C5961E"
+        android:strokeWidth="2"
+        android:pathData="M240,160m-75,0a75,75 0,1,1 150,0a75,75 0,1,1 -150,0" />
+    <!-- Crimson floral petal ring -->
+    <path
+        android:strokeColor="#D81B60"
+        android:strokeWidth="6"
+        android:pathData="M240,160m-60,0a60,60 0,1,1 120,0a60,60 0,1,1 -120,0" />
+    <!-- Golden inner filigree ring -->
+    <path
+        android:strokeColor="#FFD54F"
+        android:strokeWidth="3"
+        android:pathData="M240,160m-42,0a42,42 0,1,1 84,0a42,42 0,1,1 -84,0" />
+    <!-- Pearlescent gem core -->
+    <path
+        android:fillColor="#FFF8E7"
+        android:pathData="M240,160m-20,0a20,20 0,1,1 40,0a20,20 0,1,1 -40,0" />
+    <path
+        android:fillColor="#FF4081"
+        android:pathData="M240,160m-10,0a10,10 0,1,1 20,0a10,10 0,1,1 -20,0" />
+
+    <!-- Rakhi 1 Silk Threads (Moli / Kalava) Draping Across -->
+    <path
+        android:strokeColor="#E91E63"
+        android:strokeWidth="3.5"
+        android:pathData="M0,130 Q120,145 165,160 M315,160 Q420,180 560,170" />
+    <path
+        android:strokeColor="#FFD54F"
+        android:strokeWidth="2"
+        android:pathData="M0,140 Q120,155 165,160 M315,160 Q420,175 560,180" />
+    <!-- Hanging tassels & golden beads -->
+    <path
+        android:strokeColor="#FFD54F"
+        android:strokeWidth="1.5"
+        android:pathData="M225,235 L220,310 M255,235 L260,310" />
+    <path android:fillColor="#FFE082" android:pathData="M220,310m-4,0a4,4 0,1,1 8,0a4,4 0,1,1 -8,0" />
+    <path android:fillColor="#FFE082" android:pathData="M260,310m-4,0a4,4 0,1,1 8,0a4,4 0,1,1 -8,0" />
+
+    <!-- 3. Ornamental Rakhi Medallion 2 (Top Right) -->
+    <!-- Golden outer starburst -->
+    <path
+        android:strokeColor="#C5961E"
+        android:strokeWidth="2"
+        android:pathData="M1680,160m-75,0a75,75 0,1,1 150,0a75,75 0,1,1 -150,0" />
+    <!-- Crimson floral petal ring -->
+    <path
+        android:strokeColor="#D81B60"
+        android:strokeWidth="6"
+        android:pathData="M1680,160m-60,0a60,60 0,1,1 120,0a60,60 0,1,1 -120,0" />
+    <!-- Golden inner filigree ring -->
+    <path
+        android:strokeColor="#FFD54F"
+        android:strokeWidth="3"
+        android:pathData="M1680,160m-42,0a42,42 0,1,1 84,0a42,42 0,1,1 -84,0" />
+    <!-- Pearlescent gem core -->
+    <path
+        android:fillColor="#FFF8E7"
+        android:pathData="M1680,160m-20,0a20,20 0,1,1 40,0a20,20 0,1,1 -40,0" />
+    <path
+        android:fillColor="#FF4081"
+        android:pathData="M1680,160m-10,0a10,10 0,1,1 20,0a10,10 0,1,1 -20,0" />
+
+    <!-- Rakhi 2 Silk Threads Draping -->
+    <path
+        android:strokeColor="#E91E63"
+        android:strokeWidth="3.5"
+        android:pathData="M1360,170 Q1500,180 1605,160 M1755,160 Q1800,145 1920,130" />
+    <path
+        android:strokeColor="#FFD54F"
+        android:strokeWidth="2"
+        android:pathData="M1360,180 Q1500,175 1605,160 M1755,160 Q1800,155 1920,140" />
+    <path
+        android:strokeColor="#FFD54F"
+        android:strokeWidth="1.5"
+        android:pathData="M1665,235 L1660,310 M1695,235 L1700,310" />
+    <path android:fillColor="#FFE082" android:pathData="M1660,310m-4,0a4,4 0,1,1 8,0a4,4 0,1,1 -8,0" />
+    <path android:fillColor="#FFE082" android:pathData="M1700,310m-4,0a4,4 0,1,1 8,0a4,4 0,1,1 -8,0" />
+
+    <!-- 4. Soft Golden Festive Sparkles across Middle Sky -->
+    <path android:fillColor="#4DFFD54F" android:pathData="M720,130m-3,0a3,3 0,1,1 6,0a3,3 0,1,1 -6,0" />
+    <path android:fillColor="#66FFE082" android:pathData="M880,90m-4,0a4,4 0,1,1 8,0a4,4 0,1,1 -8,0" />
+    <path android:fillColor="#4DFFD54F" android:pathData="M1040,140m-3,0a3,3 0,1,1 6,0a3,3 0,1,1 -6,0" />
+    <path android:fillColor="#66FFE082" android:pathData="M1200,90m-4,0a4,4 0,1,1 8,0a4,4 0,1,1 -8,0" />
+</vector>

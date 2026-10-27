@@ -1,0 +1,77 @@
+# Free Your TV - Monorepo .gitignore
+
+# -----------------------------------------------------------------------------
+# 1. Private TV Backups, Device Dumps & Scratch
+# -----------------------------------------------------------------------------
+tv-backup/
+**/tv-backup/
+backup/
+**/backup/
+scratch/
+**/scratch/
+source-backup-*/
+**/source-backup-*/
+
+# -----------------------------------------------------------------------------
+# 2. ADB Keys, Signing Credentials & Machine Configuration
+# -----------------------------------------------------------------------------
+tools/adbkey/
+adbkey
+adbkey.pub
+*.keystore
+*.jks
+*.p12
+*.pem
+*.key
+.env
+.env.*
+local.properties
+**/local.properties
+
+# -----------------------------------------------------------------------------
+# 3. Python Virtual Environments & Caches
+# -----------------------------------------------------------------------------
+tools/venv/
+.venv/
+venv/
+ENV/
+env/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+
+# -----------------------------------------------------------------------------
+# 4. Build Artifacts & Binaries (Android, Gradle, Flutter)
+# -----------------------------------------------------------------------------
+*.apk
+*.aab
+*.dex
+*.class
+
+# Android / Gradle build directories
+.gradle/
+**/.gradle/
+build/
+**/build/
+
+# Flutter build & ephemeral caches
+.dart_tool/
+**/.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+ephemeral/
+**/ephemeral/
+
+# -----------------------------------------------------------------------------
+# 5. IDE & OS Clutter
+# -----------------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+ehthumbs.db
+.idea/
+**/.idea/
+*.iml
+**/*.iml
+.vscode/
+**/.vscode/

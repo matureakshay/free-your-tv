@@ -1,0 +1,85 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="1920dp"
+    android:height="1080dp"
+    android:viewportWidth="1920"
+    android:viewportHeight="1080">
+
+    <!-- 1. Deep Violet-Charcoal Ambient Base -->
+    <path
+        android:fillColor="#11071A"
+        android:pathData="M0,0h1920v1080h-1920z" />
+    <path
+        android:fillColor="#1C0A2E"
+        android:pathData="M0,0 L900,0 Q400,450 0,600 Z" />
+    <path
+        android:fillColor="#1C0A2E"
+        android:pathData="M1920,0 L1100,0 Q1500,450 1920,600 Z" />
+
+    <!-- 2. Energetic Gulal Cloud Sweeps (Top Left: Magenta & Violet) -->
+    <path
+        android:fillColor="#3DE91E63"
+        android:pathData="M0,0 Q350,80 420,260 Q180,380 0,280 Z" />
+    <path
+        android:fillColor="#5CE040FB"
+        android:pathData="M0,0 Q240,40 280,180 Q100,260 0,180 Z" />
+    <path
+        android:fillColor="#3D7B1FA2"
+        android:pathData="M80,140 Q320,160 360,320 Q220,420 60,320 Z" />
+
+    <!-- 3. Vibrant Gulal Cloud Sweeps (Top Right: Turquoise Cyan & Emerald) -->
+    <path
+        android:fillColor="#3D00E5FF"
+        android:pathData="M1920,0 Q1580,70 1500,240 Q1740,360 1920,260 Z" />
+    <path
+        android:fillColor="#4D00B0FF"
+        android:pathData="M1920,0 Q1680,40 1640,160 Q1800,240 1920,160 Z" />
+    <path
+        android:fillColor="#3300E676"
+        android:pathData="M1840,120 Q1620,150 1580,290 Q1700,380 1860,290 Z" />
+
+    <!-- 4. Saffron & Festive Turmeric Yellow Bursts (Bottom Left & Right) -->
+    <path
+        android:fillColor="#33FFD600"
+        android:pathData="M0,1080 Q180,880 380,920 Q300,1080 0,1080 Z" />
+    <path
+        android:fillColor="#33FF6D00"
+        android:pathData="M0,1080 Q120,940 260,960 Q200,1080 0,1080 Z" />
+
+    <path
+        android:fillColor="#33FF1744"
+        android:pathData="M1920,1080 Q1740,880 1540,920 Q1620,1080 1920,1080 Z" />
+    <path
+        android:fillColor="#33FFAB00"
+        android:pathData="M1920,1080 Q1800,940 1660,960 Q1720,1080 1920,1080 Z" />
+
+    <!-- 5. Gulal Powder Droplets & Splash Particles in Corners -->
+    <!-- Top-Left Pink/Purple splash particles -->
+    <path android:fillColor="#99FF4081" android:pathData="M380,110m-8,0a8,8 0,1,1 16,0a8,8 0,1,1 -16,0" />
+    <path android:fillColor="#80E040FB" android:pathData="M440,180m-5,0a5,5 0,1,1 10,0a5,5 0,1,1 -10,0" />
+    <path android:fillColor="#B3FF80AB" android:pathData="M310,240m-6,0a6,6 0,1,1 12,0a6,6 0,1,1 -12,0" />
+    <path android:fillColor="#80EA80FC" android:pathData="M240,310m-7,0a7,7 0,1,1 14,0a7,7 0,1,1 -14,0" />
+    <path android:fillColor="#66FF4081" android:pathData="M480,260m-4,0a4,4 0,1,1 8,0a4,4 0,1,1 -8,0" />
+
+    <!-- Top-Right Turquoise splash particles -->
+    <path android:fillColor="#9918FFFF" android:pathData="M1520,100m-7,0a7,7 0,1,1 14,0a7,7 0,1,1 -14,0" />
+    <path android:fillColor="#8000E5FF" android:pathData="M1460,170m-5,0a5,5 0,1,1 10,0a5,5 0,1,1 -10,0" />
+    <path android:fillColor="#B384FFFF" android:pathData="M1600,230m-6,0a6,6 0,1,1 12,0a6,6 0,1,1 -12,0" />
+    <path android:fillColor="#8069F0AE" android:pathData="M1680,290m-7,0a7,7 0,1,1 14,0a7,7 0,1,1 -14,0" />
+    <path android:fillColor="#6600E5FF" android:pathData="M1420,240m-4,0a4,4 0,1,1 8,0a4,4 0,1,1 -8,0" />
+
+    <!-- Bottom splash accents -->
+    <path android:fillColor="#80FFD600" android:pathData="M320,900m-6,0a6,6 0,1,1 12,0a6,6 0,1,1 -12,0" />
+    <path android:fillColor="#80FF6D00" android:pathData="M400,940m-5,0a5,5 0,1,1 10,0a5,5 0,1,1 -10,0" />
+    <path android:fillColor="#80FF1744" android:pathData="M1580,910m-6,0a6,6 0,1,1 12,0a6,6 0,1,1 -12,0" />
+    <path android:fillColor="#80FFAB00" android:pathData="M1500,950m-5,0a5,5 0,1,1 10,0a5,5 0,1,1 -10,0" />
+
+    <!-- 6. Playful Curved Powder Streams across the Outer Edges -->
+    <path
+        android:strokeColor="#33FF4081"
+        android:strokeWidth="3"
+        android:pathData="M80,40 Q280,120 380,320" />
+    <path
+        android:strokeColor="#3300E5FF"
+        android:strokeWidth="3"
+        android:pathData="M1840,40 Q1640,120 1540,320" />
+</vector>

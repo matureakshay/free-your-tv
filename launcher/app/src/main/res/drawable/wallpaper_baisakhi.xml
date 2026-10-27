@@ -1,0 +1,85 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="1920dp"
+    android:height="1080dp"
+    android:viewportWidth="1920"
+    android:viewportHeight="1080">
+
+    <!-- 1. Warm Harvest Amber & Spring Green Atmosphere -->
+    <path
+        android:fillColor="#170F04"
+        android:pathData="M0,0h1920v1080h-1920z" />
+    <path
+        android:fillColor="#261706"
+        android:pathData="M0,400 Q960,260 1920,400 L1920,1080 L0,1080 Z" />
+    <path
+        android:fillColor="#3D2409"
+        android:pathData="M0,680 Q960,540 1920,680 L1920,1080 L0,1080 Z" />
+
+    <!-- 2. Golden Harvest Horizon Aura -->
+    <path
+        android:fillColor="#24FBC02D"
+        android:pathData="M0,860 Q960,760 1920,860 L1920,1080 L0,1080 Z" />
+
+    <!-- 3. Swaying Golden Wheat Stalks (Baliyan) on Left Flank -->
+    <!-- Wheat stalk 1 -->
+    <path
+        android:strokeColor="#C68400"
+        android:strokeWidth="3.5"
+        android:pathData="M160,1080 Q190,850 140,650" />
+    <path android:fillColor="#FFD54F" android:pathData="M140,650 Q130,630 145,615 Q160,630 140,650 Z" />
+    <path android:fillColor="#FBC02D" android:pathData="M140,650 Q160,640 165,660 Q145,670 140,650 Z" />
+    <path android:fillColor="#FBC02D" android:pathData="M140,650 Q120,640 115,660 Q135,670 140,650 Z" />
+    <path android:fillColor="#FFD54F" android:pathData="M145,680 Q170,670 175,690 Q150,700 145,680 Z" />
+    <path android:fillColor="#FFD54F" android:pathData="M145,680 Q120,670 115,690 Q140,700 145,680 Z" />
+
+    <!-- Wheat stalk 2 -->
+    <path
+        android:strokeColor="#C68400"
+        android:strokeWidth="3.5"
+        android:pathData="M240,1080 Q220,880 260,700" />
+    <path android:fillColor="#FFD54F" android:pathData="M260,700 Q250,680 265,665 Q280,680 260,700 Z" />
+    <path android:fillColor="#FBC02D" android:pathData="M260,700 Q280,690 285,710 Q265,720 260,700 Z" />
+    <path android:fillColor="#FBC02D" android:pathData="M260,700 Q240,690 235,710 Q255,720 260,700 Z" />
+
+    <!-- 4. Traditional Brass Kuthuvilakku / Nilavilakku Oil Lamp (Right Flank) -->
+    <!-- Base and stem -->
+    <path
+        android:fillColor="#B78103"
+        android:pathData="M1740,980 L1800,980 L1785,960 L1755,960 Z" />
+    <path
+        android:strokeColor="#D4AF37"
+        android:strokeWidth="6"
+        android:pathData="M1770,960 L1770,760" />
+    <!-- Oil basin tier -->
+    <path
+        android:fillColor="#D4AF37"
+        android:pathData="M1730,760 L1810,760 Q1770,785 1730,760 Z" />
+    <!-- Crowning flame -->
+    <path
+        android:fillColor="#FF8F00"
+        android:pathData="M1770,760 Q1785,745 1770,725 Q1755,745 1770,760 Z" />
+    <path
+        android:fillColor="#FFE082"
+        android:pathData="M1770,755 Q1778,745 1770,735 Q1762,745 1770,755 Z" />
+    <!-- Lamp glow -->
+    <path
+        android:fillColor="#24FFD54F"
+        android:pathData="M1770,740m-50,0a50,50 0,1,1 100,0a50,50 0,1,1 -100,0" />
+
+    <!-- 5. Fresh Spring Floral Vine & Kanikonna (Golden Cassia) Garland along Top -->
+    <path
+        android:strokeColor="#2E7D32"
+        android:strokeWidth="2"
+        android:pathData="M0,20 Q480,50 960,20 Q1440,50 1920,20" />
+    <!-- Hanging golden blossom clusters (Kanikonna) -->
+    <path android:fillColor="#FFEB3B" android:pathData="M220,35m-5,0a5,5 0,1,1 10,0a5,5 0,1,1 -10,0" />
+    <path android:fillColor="#FBC02D" android:pathData="M220,50m-4,0a4,4 0,1,1 8,0a4,4 0,1,1 -8,0" />
+    <path android:fillColor="#FFEB3B" android:pathData="M540,40m-5,0a5,5 0,1,1 10,0a5,5 0,1,1 -10,0" />
+    <path android:fillColor="#FBC02D" android:pathData="M540,55m-4,0a4,4 0,1,1 8,0a4,4 0,1,1 -8,0" />
+    <path android:fillColor="#FFEB3B" android:pathData="M960,25m-5,0a5,5 0,1,1 10,0a5,5 0,1,1 -10,0" />
+    <path android:fillColor="#FBC02D" android:pathData="M960,40m-4,0a4,4 0,1,1 8,0a4,4 0,1,1 -8,0" />
+    <path android:fillColor="#FFEB3B" android:pathData="M1380,40m-5,0a5,5 0,1,1 10,0a5,5 0,1,1 -10,0" />
+    <path android:fillColor="#FBC02D" android:pathData="M1380,55m-4,0a4,4 0,1,1 8,0a4,4 0,1,1 -8,0" />
+    <path android:fillColor="#FFEB3B" android:pathData="M1700,35m-5,0a5,5 0,1,1 10,0a5,5 0,1,1 -10,0" />
+    <path android:fillColor="#FBC02D" android:pathData="M1700,50m-4,0a4,4 0,1,1 8,0a4,4 0,1,1 -8,0" />
+</vector>

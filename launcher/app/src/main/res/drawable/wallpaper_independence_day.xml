@@ -1,0 +1,99 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="1920dp"
+    android:height="1080dp"
+    android:viewportWidth="1920"
+    android:viewportHeight="1080">
+
+    <!-- 1. Deep Midnight Freedom Atmosphere -->
+    <path
+        android:fillColor="#040D07"
+        android:pathData="M0,0h1920v1080h-1920z" />
+    <path
+        android:fillColor="#08180E"
+        android:pathData="M0,360 Q960,200 1920,360 L1920,1080 L0,1080 Z" />
+    <path
+        android:fillColor="#020603"
+        android:pathData="M0,720 Q960,580 1920,720 L1920,1080 L0,1080 Z" />
+
+    <!-- 2. Radiant Saffron Aurora (Top Right & Zenith) -->
+    <path
+        android:fillColor="#24FF9933"
+        android:pathData="M700,0 Q1310,120 1920,0 L1920,240 Q1310,340 700,120 Z" />
+    <path
+        android:fillColor="#18FFB74D"
+        android:pathData="M1100,0 Q1510,160 1920,60 L1920,320 Q1510,380 1100,200 Z" />
+
+    <!-- 3. India Green Horizon Aurora (Bottom Band) -->
+    <path
+        android:fillColor="#22138808"
+        android:pathData="M0,880 Q960,800 1920,880 L1920,1080 L0,1080 Z" />
+    <path
+        android:fillColor="#18388E3C"
+        android:pathData="M0,940 Q960,880 1920,940 L1920,1080 L0,1080 Z" />
+
+    <!-- 4. Graceful Ascending Tricolor Ribbons -->
+    <path
+        android:strokeColor="#33FF9933"
+        android:strokeWidth="4"
+        android:pathData="M0,420 C500,340 1100,480 1920,360" />
+    <path
+        android:strokeColor="#33FFFFFF"
+        android:strokeWidth="3"
+        android:pathData="M0,442 C500,362 1100,502 1920,382" />
+    <path
+        android:strokeColor="#33138808"
+        android:strokeWidth="4"
+        android:pathData="M0,464 C500,384 1100,524 1920,404" />
+
+    <!-- 5. Celestial Luminous Ashoka Chakra (Center: 960, 500) -->
+    <!-- Ambient radiant halo -->
+    <path
+        android:fillColor="#0D00ACC1"
+        android:pathData="M960,320 A180,180 0 1,0 960,680 A180,180 0 1,0 960,320 Z" />
+    <path
+        android:fillColor="#15E0F2F1"
+        android:pathData="M960,360 A140,140 0 1,0 960,640 A140,140 0 1,0 960,360 Z" />
+
+    <!-- Outer Rim in Celestial Blue & Silver-Gold -->
+    <path
+        android:strokeColor="#E0F2F1"
+        android:strokeWidth="3.5"
+        android:pathData="M960,370 A130,130 0 1,0 960,630 A130,130 0 1,0 960,370 Z" />
+    <path
+        android:strokeColor="#0277BD"
+        android:strokeWidth="2.5"
+        android:pathData="M960,380 A120,120 0 1,0 960,620 A120,120 0 1,0 960,380 Z" />
+
+    <!-- 24 Radial Spokes -->
+    <path android:strokeColor="#FFFFFF" android:strokeWidth="2.5" android:pathData="M960,382 L960,618" />
+    <path android:strokeColor="#FFFFFF" android:strokeWidth="2.5" android:pathData="M842,500 L1078,500" />
+    <path android:strokeColor="#FFFFFF" android:strokeWidth="2.2" android:pathData="M876,416 L1044,584" />
+    <path android:strokeColor="#FFFFFF" android:strokeWidth="2.2" android:pathData="M876,584 L1044,416" />
+
+    <path android:strokeColor="#81D4FA" android:strokeWidth="1.8" android:pathData="M929,386 L991,614" />
+    <path android:strokeColor="#81D4FA" android:strokeWidth="1.8" android:pathData="M900,400 L1020,600" />
+    <path android:strokeColor="#81D4FA" android:strokeWidth="1.8" android:pathData="M860,440 L1060,560" />
+    <path android:strokeColor="#81D4FA" android:strokeWidth="1.8" android:pathData="M846,471 L1074,529" />
+
+    <path android:strokeColor="#81D4FA" android:strokeWidth="1.8" android:pathData="M846,529 L1074,471" />
+    <path android:strokeColor="#81D4FA" android:strokeWidth="1.8" android:pathData="M860,560 L1060,440" />
+    <path android:strokeColor="#81D4FA" android:strokeWidth="1.8" android:pathData="M900,600 L1020,400" />
+    <path android:strokeColor="#81D4FA" android:strokeWidth="1.8" android:pathData="M929,614 L991,386" />
+
+    <!-- Inner Central Hub -->
+    <path
+        android:fillColor="#06180D"
+        android:strokeColor="#E0F2F1"
+        android:strokeWidth="3"
+        android:pathData="M960,465 A35,35 0 1,0 960,535 A35,35 0 1,0 960,465 Z" />
+    <path
+        android:fillColor="#81C784"
+        android:pathData="M960,490 A10,10 0 1,0 960,510 A10,10 0 1,0 960,490 Z" />
+
+    <!-- 6. Freedom Diamond Starlight Accents -->
+    <path android:fillColor="#60FFB74D" android:pathData="M260,240 L264,228 L268,240 L280,244 L268,248 L264,260 L260,248 L248,244 Z" />
+    <path android:fillColor="#45FFFFFF" android:pathData="M480,160 L483,150 L486,160 L496,163 L486,166 L483,176 L480,166 L470,163 Z" />
+    <path android:fillColor="#6081C784" android:pathData="M1660,220 L1664,208 L1668,220 L1680,224 L1668,228 L1664,240 L1660,228 L1648,224 Z" />
+    <path android:fillColor="#45FFD54F" android:pathData="M1480,740 L1483,730 L1486,740 L1496,743 L1486,746 L1483,756 L1480,746 L1470,743 Z" />
+    <path android:fillColor="#5081C784" android:pathData="M320,800 L323,790 L326,800 L336,803 L326,806 L323,816 L320,806 L310,803 Z" />
+</vector>

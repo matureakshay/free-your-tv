@@ -1,0 +1,1213 @@
+{
+  "snapshot_manifest_version": "1.0",
+  "created_at": "2026-10-27T07:20:04.413136+00:00",
+  "snapshot_root": ".",
+  "total_files": 241,
+  "files": [
+    {
+      "path": ".gitignore",
+      "size": 1696,
+      "sha256": "410FF22902E1F2798B9B6CBEAE78A9C4198FBA08A3DFBCE7BCBDB5598D87F1EE"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "size": 3400,
+      "sha256": "E60839282A1B2B8F34B8AB3361E71B43EE2381A4C5E091F6789EC4C0C40EE3DE"
+    },
+    {
+      "path": "LICENSE",
+      "size": 1286,
+      "sha256": "AC25D01035D1C768AE5956956DE3DD41309367E39A49CF46A8556CEA763E0D7C"
+    },
+    {
+      "path": "PROMPT.md",
+      "size": 5369,
+      "sha256": "FA48E98E4FF82C47D327BBB2919A259CD2C88003346305FBFDCF3EBB027C79CA"
+    },
+    {
+      "path": "README.md",
+      "size": 16833,
+      "sha256": "C39F42E83B8FD8F957BA89B9FFEDA95042A04CA2A037123133EEAEE0E5F425C4"
+    },
+    {
+      "path": "apps/live-tv/.gitignore",
+      "size": 734,
+      "sha256": "A36CA275533062651096C69C910D5C78AA0A8E572D431BF0DE5B2B506161633D"
+    },
+    {
+      "path": "apps/live-tv/.metadata",
+      "size": 1751,
+      "sha256": "28017E13232E3E537AC203A851344F06EBE627DFF204353DA805FC9E4BAE7C68"
+    },
+    {
+      "path": "apps/live-tv/LICENSE",
+      "size": 1090,
+      "sha256": "1F8B9AF19AC99CC3C75DAE5AF40C36DE17CB8E11DFAB50639622C44D68B1F865"
+    },
+    {
+      "path": "apps/live-tv/README.md",
+      "size": 3042,
+      "sha256": "76AC85DEC8761E90F9665EAB44CFDA27FBE75B0A12A1E25DD907401F60A3C9D4"
+    },
+    {
+      "path": "apps/live-tv/analysis_options.yaml",
+      "size": 179,
+      "sha256": "135B59806B4FBD49B15728C6E660DBA6FE47E14345EA278BAD270B6E29448436"
+    },
+    {
+      "path": "apps/live-tv/android/.gitignore",
+      "size": 298,
+      "sha256": "9689053E8616D047C0A025D748CD6BCFAB6951D18D2CA0CE305B2FCE7A085622"
+    },
+    {
+      "path": "apps/live-tv/android/app/build.gradle",
+      "size": 2013,
+      "sha256": "6CE680FD8EC404C44CD1CCA3AA7BC635801B4D999EB6C2CAE1914AF03211EB9E"
+    },
+    {
+      "path": "apps/live-tv/android/app/src/debug/AndroidManifest.xml",
+      "size": 385,
+      "sha256": "B01A4541A8144C15BC617BAB7EB267C99FA1476368FBBDA5A12CDBF4E316A34C"
+    },
+    {
+      "path": "apps/live-tv/android/app/src/main/AndroidManifest.xml",
+      "size": 2631,
+      "sha256": "90A845808FA7BE151F70B58BE5EF3BC47D35AAF50EB9EEFBA14C74009A73DCAC"
+    },
+    {
+      "path": "apps/live-tv/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java",
+      "size": 1768,
+      "sha256": "429A65B8CE27F0A9528E629EC15963E20CF3870B1538C7ABEE5011B7121E8EEA"
+    },
+    {
+      "path": "apps/live-tv/android/app/src/main/kotlin/com/freeyourtv/livetv/MainActivity.kt",
+      "size": 125,
+      "sha256": "2F6658225A3181F10203BFD220F47144D44CA5B6219412075A109454D6A535E0"
+    },
+    {
+      "path": "apps/live-tv/android/app/src/main/res/drawable-v21/launch_background.xml",
+      "size": 450,
+      "sha256": "DCA312EC77DE83E43EF70A825C299B51451247286C29167D62F19165750B8793"
+    },
+    {
+      "path": "apps/live-tv/android/app/src/main/res/drawable-xhdpi/banner.png",
+      "size": 20061,
+      "sha256": "33EB557CC353804D826B34034725B23B453E1278450E2247AD802837B40DEA4B"
+    },
+    {
+      "path": "apps/live-tv/android/app/src/main/res/drawable-xxhdpi/banner.png",
+      "size": 31511,
+      "sha256": "CF120095FBE8BCA5977F1E1DB07466B2DA314D52B25F81611F3340E200796AB4"
+    },
+    {
+      "path": "apps/live-tv/android/app/src/main/res/drawable-xxxhdpi/banner.png",
+      "size": 43461,
+      "sha256": "8B8A0738732C50D6599A76753602B68CC98DEC6AA025F51F63799470CE2CA75F"
+    },
+    {
+      "path": "apps/live-tv/android/app/src/main/res/drawable/launch_background.xml",
+      "size": 446,
+      "sha256": "2DF60E2CFBEE873CE2858088CF003E6B93498F2F568476DA437610467EA1A9D7"
+    },
+    {
+      "path": "apps/live-tv/android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml",
+      "size": 272,
+      "sha256": "C8E78C3A37130917038EA0A2AB8578834316B4743C0E2CACCE1D94EC6F25A5EC"
+    },
+    {
+      "path": "apps/live-tv/android/app/src/main/res/mipmap-hdpi/ic_launcher.png",
+      "size": 3773,
+      "sha256": "28419FBEF34DC6C19412A7442F12BAF0C7BA10D0297C861F66A6B7D2DBBD3EC9"
+    },
+    {
+      "path": "apps/live-tv/android/app/src/main/res/mipmap-hdpi/ic_launcher_adaptive_back.png",
+      "size": 411,
+      "sha256": "357F36EBE80938BFC23E9554CAA421F3E320D9EAA2A0DF79B0C65ECD53667865"
+    },
+    {
+      "path": "apps/live-tv/android/app/src/main/res/mipmap-hdpi/ic_launcher_adaptive_fore.png",
+      "size": 1941,
+      "sha256": "AD4B991781562515A828B577F510C384AED0123F4751BBF34891C12DD97E976B"
+    },
+    {
+      "path": "apps/live-tv/android/app/src/main/res/mipmap-mdpi/ic_launcher.png",
+      "size": 2448,
+      "sha256": "5207B0CA3E43E0892A23431121575B6962BDBDF32F7E3EB7689CC179B847DC12"
+    },
+    {
+      "path": "apps/live-tv/android/app/src/main/res/mipmap-mdpi/ic_launcher_adaptive_back.png",
+      "size": 278,
+      "sha256": "48235D5F74162ECA89533206A76C0CB99A6298A8BD1E69BA5939EDC75B5C4D06"
+    },
+    {
+      "path": "apps/live-tv/android/app/src/main/res/mipmap-mdpi/ic_launcher_adaptive_fore.png",
+      "size": 1330,
+      "sha256": "9F87E5D85BF02EAD7D4BA993CE5D9DAB164713393CC519716A1F77BD49DEE80B"
+    },
+    {
+      "path": "apps/live-tv/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png",
+      "size": 4958,
+      "sha256": "F25A71AA12B4F6A5EEEAFDD266D5649A5BEED9FEFEA5A5B3FC9DF0C948EEE09E"
+    },
+    {
+      "path": "apps/live-tv/android/app/src/main/res/mipmap-xhdpi/ic_launcher_adaptive_back.png",
+      "size": 567,
+      "sha256": "19CDCF5167329E67ACEAB583BA6C5D9042BDEAD2FF49487DF32B1A2065C35FBE"
+    },
+    {
+      "path": "apps/live-tv/android/app/src/main/res/mipmap-xhdpi/ic_launcher_adaptive_fore.png",
+      "size": 2431,
+      "sha256": "675CF004D0D6B9B848494E5130F97837443EDA9C7F5C645A32F21F9F926D9354"
+    },
+    {
+      "path": "apps/live-tv/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png",
+      "size": 7823,
+      "sha256": "997C9F9FFE9AE02D46F093E603DD35D472606E28F181A44AAC6426184C45A5DA"
+    },
+    {
+      "path": "apps/live-tv/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_adaptive_back.png",
+      "size": 883,
+      "sha256": "D127F01B0236D540C008F48939A47CC865E2D5480109CC00438871E23F655B41"
+    },
+    {
+      "path": "apps/live-tv/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_adaptive_fore.png",
+      "size": 3869,
+      "sha256": "47BD9FD082AEC176ACED644F29820449DC8879E82ABED61A0F4D7ABDB3F0A7F2"
+    },
+    {
+      "path": "apps/live-tv/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+      "size": 9983,
+      "sha256": "5BBC9672A39153D0995E32356180B868810966C40DE52F9720DCDEB1C6C5E812"
+    },
+    {
+      "path": "apps/live-tv/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_adaptive_back.png",
+      "size": 1312,
+      "sha256": "B33614BCE22E6ACC939E8AEBB8C171711A2D266759F7CAEE7A46B9694AD5565D"
+    },
+    {
+      "path": "apps/live-tv/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_adaptive_fore.png",
+      "size": 5095,
+      "sha256": "8F42972EC64C200C2D11E017AF796F274104D43CFE5B202309D994AAA1A35ACE"
+    },
+    {
+      "path": "apps/live-tv/android/app/src/main/res/values-night/styles.xml",
+      "size": 1013,
+      "sha256": "EA763597DC1A84C8034251CAEE98D7753E0FBF57340FFC94677427DE4B537516"
+    },
+    {
+      "path": "apps/live-tv/android/app/src/main/res/values/styles.xml",
+      "size": 1014,
+      "sha256": "CCA15A99B59380A548BF6A890F7CA5380EE509B1F9BBB2F5F9EC3589FA25C2F7"
+    },
+    {
+      "path": "apps/live-tv/android/app/src/profile/AndroidManifest.xml",
+      "size": 385,
+      "sha256": "B01A4541A8144C15BC617BAB7EB267C99FA1476368FBBDA5A12CDBF4E316A34C"
+    },
+    {
+      "path": "apps/live-tv/android/build.gradle",
+      "size": 601,
+      "sha256": "504DD56838966E0F6853D3B1C4F8AF83D3EDAD2DBA097A6EB013CCEC389E1872"
+    },
+    {
+      "path": "apps/live-tv/android/gradle.properties",
+      "size": 312,
+      "sha256": "D3BA557947C10846851B8660C09D32C4A450D7614B0ED12F2547664549233874"
+    },
+    {
+      "path": "apps/live-tv/android/gradle/wrapper/gradle-wrapper.jar",
+      "size": 53636,
+      "sha256": "16CAEAF66D57A0D1D2087FEF6A97EFA62DE8DA69AFA5B908F40DB35AFC4342DA"
+    },
+    {
+      "path": "apps/live-tv/android/gradle/wrapper/gradle-wrapper.properties",
+      "size": 208,
+      "sha256": "3D668F5F8E5960DCADE719B50264B88B08DB5ADB8E46BB4199F13AA375365FAD"
+    },
+    {
+      "path": "apps/live-tv/android/gradlew",
+      "size": 4971,
+      "sha256": "EC56C02543666D92D9AC5AE7FCC48F88CE4DE0DEB8B7F9B39928CA46F68C1B2B"
+    },
+    {
+      "path": "apps/live-tv/android/gradlew.bat",
+      "size": 2404,
+      "sha256": "C13C6E91B9A517783976DE213D46398C661EA9E17651376D7301E839EAEDCC62"
+    },
+    {
+      "path": "apps/live-tv/android/settings.gradle",
+      "size": 818,
+      "sha256": "2FAB134A6AEACDAA5B0D59F99867DF64DC44E4C3930470CFF0E87DC781743E49"
+    },
+    {
+      "path": "apps/live-tv/assets/data/baseline_channels.json",
+      "size": 162596,
+      "sha256": "DE1CF0405FBA21A9F60DB6808E6C08034C6C075E9B744E6203311D13C9CE2786"
+    },
+    {
+      "path": "apps/live-tv/assets/images/no-image.png",
+      "size": 4874,
+      "sha256": "DC1BEA1A67B521677EC460E378E8BAA854B863AD479778DF4BB7045DFA24093C"
+    },
+    {
+      "path": "apps/live-tv/assets/images/tv-icon.png",
+      "size": 33894,
+      "sha256": "CC4807B10C0AAE5522E34104EB319CC23CA3D59401903F38619D24D0AC345852"
+    },
+    {
+      "path": "apps/live-tv/lib/main.dart",
+      "size": 1358,
+      "sha256": "9175AA78BA3225A311CBFE85A7BCA28FF5817DB1AE209D721AAF55ADE8BBF333"
+    },
+    {
+      "path": "apps/live-tv/lib/model/channel.dart",
+      "size": 1875,
+      "sha256": "37A0A48437F8B56398F06EC05ED0C0EF35799C78560ED2C7AFE5CFFE3D534773"
+    },
+    {
+      "path": "apps/live-tv/lib/model/user_playlist.dart",
+      "size": 1592,
+      "sha256": "9A63896FBF1C52F882B7AF04B1884D2B0AB3D056549237022DCCDD10CB1C0ACC"
+    },
+    {
+      "path": "apps/live-tv/lib/provider/channels_provider.dart",
+      "size": 24842,
+      "sha256": "0E585653F32D4F08DC48A466C1136732BD13F271000BBC85DCB0283DF9C14750"
+    },
+    {
+      "path": "apps/live-tv/lib/screens/home.dart",
+      "size": 40375,
+      "sha256": "1731435B999E9AD5A9ED10D098AE29CDFC25389963941EEBC3D8BB17554A7ACB"
+    },
+    {
+      "path": "apps/live-tv/lib/screens/manage_playlists.dart",
+      "size": 26082,
+      "sha256": "C07E9280C46E4E4699616F4CE08676BB094EF509CFE5B539F93D50108DD9A8F6"
+    },
+    {
+      "path": "apps/live-tv/lib/screens/player.dart",
+      "size": 8837,
+      "sha256": "AE4C7B034A2CC4F51D562F38D8896A2B63A46CAF525463529522351FB642B162"
+    },
+    {
+      "path": "apps/live-tv/lib/services/playlist_manager.dart",
+      "size": 8988,
+      "sha256": "2723D79A334AEC9BE097481D912DC1383FEC4EE55BEC5482B1FA6CBFA510CC74"
+    },
+    {
+      "path": "apps/live-tv/lib/services/playlist_parser.dart",
+      "size": 4658,
+      "sha256": "572EBA5F55E15D397CEC4263FFB00BD78727B96CBCE8373642FD4CE9E1F51CA6"
+    },
+    {
+      "path": "apps/live-tv/lib/widgets/channel_icon.dart",
+      "size": 7550,
+      "sha256": "CE4400E92DBC2718BC553B9E205904CB87FF698B1E43D712B3C3CAA2D1A3B3DF"
+    },
+    {
+      "path": "apps/live-tv/lib/widgets/logo_cache.dart",
+      "size": 3007,
+      "sha256": "D6E68A4C9D25C7F2F07FED2D9BAE633B12C235759064D2DA4970A5C1EAB86A66"
+    },
+    {
+      "path": "apps/live-tv/pubspec.lock",
+      "size": 16937,
+      "sha256": "E114E41E67C7D6F9D3C1246B54E52B621CC1411E54B7FD7BF2401AF34B0E5F16"
+    },
+    {
+      "path": "apps/live-tv/pubspec.yaml",
+      "size": 4061,
+      "sha256": "BFB03A8BE2205B30C4A80E4071C3D1CB13AF9A62178D01FED0CD75166C45D434"
+    },
+    {
+      "path": "apps/live-tv/test/baseline_inventory_test.dart",
+      "size": 5304,
+      "sha256": "79A2E00C2962A760A95F27C24EE5A291FEA7B051E0F0ED6593A09278E2D85F5E"
+    },
+    {
+      "path": "apps/live-tv/test/catalogue_refresh_test.dart",
+      "size": 20023,
+      "sha256": "F5A58D061B93D52273AC7BC9CA45FFABF1A241A263CE28F309BC5411D4A191E1"
+    },
+    {
+      "path": "apps/live-tv/test/fixtures/baseline_channel_inventory.json",
+      "size": 162596,
+      "sha256": "DE1CF0405FBA21A9F60DB6808E6C08034C6C075E9B744E6203311D13C9CE2786"
+    },
+    {
+      "path": "apps/live-tv/test/playlist_manager_test.dart",
+      "size": 8879,
+      "sha256": "38DC63ED54544BC4F0148A13F369F7B3805B5F97E7D8C5E0E827B6BADB6FD175"
+    },
+    {
+      "path": "apps/live-tv/test/playlist_parser_test.dart",
+      "size": 4368,
+      "sha256": "40930BDF97CC5FE5743189C999DAC5367E23229F35AA803B46BEE46ACCC358F5"
+    },
+    {
+      "path": "apps/live-tv/test/ui_navigation_test.dart",
+      "size": 6233,
+      "sha256": "9F2951327DD7E8457DE88D18F4EDE4CBF9A6CDDA8131CAF56014319F06A0AE5B"
+    },
+    {
+      "path": "apps/live-tv/web/favicon.png",
+      "size": 917,
+      "sha256": "7AB2525F4B86B65D3E4C70358A17E5A1AAF6F437F99CBCC046DAD73D59BB9015"
+    },
+    {
+      "path": "apps/live-tv/web/icons/Icon-192.png",
+      "size": 5292,
+      "sha256": "3DCE99077602F70421C1C6B2A240BC9B83D64D86681D45F2154143310C980BE3"
+    },
+    {
+      "path": "apps/live-tv/web/icons/Icon-512.png",
+      "size": 8252,
+      "sha256": "BACCB205AE45F0B421BE1657259B4943AC40C95094AB877F3BCBE12CD544DCBE"
+    },
+    {
+      "path": "apps/live-tv/web/icons/Icon-maskable-192.png",
+      "size": 5594,
+      "sha256": "D2C842E22A9F4EC9D996B23373A905C88D9A203B220C5C151885AD621F974B5C"
+    },
+    {
+      "path": "apps/live-tv/web/icons/Icon-maskable-512.png",
+      "size": 20998,
+      "sha256": "6AEE06CDCAB6B2AEF74B1734C4778F4421D2DA100B0FF9E52B21B55240202929"
+    },
+    {
+      "path": "apps/live-tv/web/index.html",
+      "size": 1894,
+      "sha256": "90A3DF964A29DD3CB6EF3158EA25AE65B885F89AE572DE242B27E431198BA09F"
+    },
+    {
+      "path": "apps/live-tv/web/manifest.json",
+      "size": 939,
+      "sha256": "456BD51CCE4EB88CEDD9F269285E86C85733BEAAA56F4AE77D83C661843374AB"
+    },
+    {
+      "path": "apps/make_live_tv_icons.py",
+      "size": 6058,
+      "sha256": "20982CD40B2CF558B8940797E64A8E1F2698CB537969AEB95DD2714A8926B871"
+    },
+    {
+      "path": "build_live_tv.sh",
+      "size": 641,
+      "sha256": "645400619504D5ADF78B990D644E6FDAFA7082FC7CCA0F77AB0A7B9E0FF095FA"
+    },
+    {
+      "path": "docs/clock-screensaver.png",
+      "size": 91439,
+      "sha256": "2BAADA3C899B295BEF84CB83A540292AA78299C87A9989542E6EF8FFC6252BC8"
+    },
+    {
+      "path": "docs/focus-1-fancode.png",
+      "size": 132923,
+      "sha256": "0243B2720E01D636932FE2FB2A6FB55B151D1EED69FE2182290E071657C492AF"
+    },
+    {
+      "path": "docs/focus-2-up-netflix.png",
+      "size": 139499,
+      "sha256": "AD9BED9F688873C35676D0901339F53AB0B59100ACD4256557FA2F66867C09F5"
+    },
+    {
+      "path": "docs/focus-3-back-from-app.png",
+      "size": 132271,
+      "sha256": "9D45A4C906EB469B1D45909A5062E287B623C491765C935D4DE93392C2A46E9E"
+    },
+    {
+      "path": "docs/new-home.jpg",
+      "size": 418439,
+      "sha256": "CB03A375C757ED57ED7D3C47A8B6F913E294A3069008BEEC34600E48254069C5"
+    },
+    {
+      "path": "docs/stock-home.jpg",
+      "size": 480097,
+      "sha256": "350FD8C60E88961839B42A47858F62413F3DAF97C586FF3D23CF0D1B66F35C02"
+    },
+    {
+      "path": "docs/stock-vs-new-side.jpg",
+      "size": 283460,
+      "sha256": "B418060555C8E62F2892FD048BB1D2ADBC8DDF06940737B9D4FA4C4E1D8CF384"
+    },
+    {
+      "path": "docs/stock-vs-new.jpg",
+      "size": 617280,
+      "sha256": "A72CDDA28C8A3632E06B41CCAB72C7CCA2C68490B0C69797D8E796AC91C7116F"
+    },
+    {
+      "path": "docs/tweet.png",
+      "size": 349893,
+      "sha256": "62FA288E2DD7949487291BF72449CA81514FE9D7EB9EB0A6B19BEA5F280CCDDE"
+    },
+    {
+      "path": "examples/README.md",
+      "size": 4041,
+      "sha256": "A2D78985277BAA7AC42EEE8E74E447A2013F5D1DFCEF93BD98EFF8E390E8F65C"
+    },
+    {
+      "path": "examples/benq-e55-735/debloat.txt",
+      "size": 3339,
+      "sha256": "912CB554D28F0C0E5DC5D205FBEA4F16271837CAA45FA138F94C8F67FADE1633"
+    },
+    {
+      "path": "examples/chiq-ai-pont/debloat.txt",
+      "size": 3156,
+      "sha256": "BCCD6687D3782BB02AA0F30F6FBFCFE7DB556DEE65DDEA3B65D72FACFCE0A602"
+    },
+    {
+      "path": "examples/hisense-smarttv-4k-ffm/debloat.txt",
+      "size": 3266,
+      "sha256": "7002D9FC17AE57B7163AC0F2FDBF49A52287E8C379951565E975F7C4DF25F7F2"
+    },
+    {
+      "path": "examples/insignia-ns55f301na25/debloat.txt",
+      "size": 6226,
+      "sha256": "580ED82833AA8D1360DF21B6CEC244C1B140B9B3772113FB00445C4A40716314"
+    },
+    {
+      "path": "examples/nvidia-shield-tv-pro-2019/debloat.txt",
+      "size": 5938,
+      "sha256": "76FE0B431AD1ACD4D37C46862792470753F97B1851E094D6BB9819340C2ED9FC"
+    },
+    {
+      "path": "examples/oneplus-tv-dubai/debloat.txt",
+      "size": 1806,
+      "sha256": "3C89D8188F080966BAD153C8C1059829C5AD5CE17FE9AF5C5BE42DE019C43042"
+    },
+    {
+      "path": "examples/rca-ai-pont/debloat.txt",
+      "size": 4328,
+      "sha256": "A1DFE5DEB928F8B31F90CB8C5BF7CB236296BDD32C8968C758C100C4DC2CC192"
+    },
+    {
+      "path": "examples/sanyo-atv-r2/debloat.txt",
+      "size": 3386,
+      "sha256": "46B0A57EB43B6EC41695BB40E1A12F97A188ECA3F65B6DB1D394CE165CE274C8"
+    },
+    {
+      "path": "examples/sony-bravia-4k-ur2/debloat.txt",
+      "size": 2160,
+      "sha256": "583368D723EE5E9A85C845264DC233887A388E425F26CD0606D3EC7F49DF4673"
+    },
+    {
+      "path": "examples/sony-xbr-x900e/debloat.txt",
+      "size": 4085,
+      "sha256": "BE3159A70AB6D795CB03D305F4278C17A78661538EF99EEA5897230C1EB39B34"
+    },
+    {
+      "path": "examples/tcl-65c725/debloat.txt",
+      "size": 4972,
+      "sha256": "1919F839F66E5F0A643F9F1F59C8C0A6740E423305C09C1F7458C6B6D5A76E3F"
+    },
+    {
+      "path": "examples/tcl-beyondtv/debloat.txt",
+      "size": 2160,
+      "sha256": "6E3E8ABC06065126525BBF7A63731FAD9810A515F946DA099591B305AC5BCA44"
+    },
+    {
+      "path": "examples/tcl-g10-google-tv/debloat.txt",
+      "size": 3098,
+      "sha256": "916CB66B1C232CA08D3C983016B4ED14733C6A29417EA352C969336E14671400"
+    },
+    {
+      "path": "examples/tcl-qm6k-google-tv/debloat.txt",
+      "size": 3842,
+      "sha256": "C18B81403DFF165BE39624249151A46B3A01AD0C599342A6850997DCC528A0AD"
+    },
+    {
+      "path": "examples/xiaomi-mi-box-s/debloat.txt",
+      "size": 4401,
+      "sha256": "FB5819F830C25FC006975B56A67CC8EE7FC5CFD8494559EE69E68E748B16719B"
+    },
+    {
+      "path": "examples/xiaomi-mi-tv-4a/debloat.txt",
+      "size": 1635,
+      "sha256": "17B74F6D85B3F4C366994BD3C8E716C9CAEE00D18D134179B6A4E5D3C5232CE1"
+    },
+    {
+      "path": "examples/xiaomi-mitv-aesp0/debloat.txt",
+      "size": 2133,
+      "sha256": "E4BDE223726E64ECC37A063C7F892FBC70C0F1724E2663F16D57E00ED3018499"
+    },
+    {
+      "path": "examples/xiaomi-mitv-axso0/debloat.txt",
+      "size": 3035,
+      "sha256": "174ABAFDD6BAB941BC5C9E5DF8783E21F9BCE686084D09304E166A8755EF1FC4"
+    },
+    {
+      "path": "examples/xiaomi-mitv-mooq0/debloat.txt",
+      "size": 4352,
+      "sha256": "AF0DFF9F8761A81F4CB172BD43C5DCCDF50AB0B46EE9EE2A2FB6054D07A2593D"
+    },
+    {
+      "path": "examples/xiaomi-mitv-moor2/debloat.txt",
+      "size": 4913,
+      "sha256": "724E210B6DAAE4BF269900245B0B60A4E2E2835F7EA7BD6165244D2B2B52CC3B"
+    },
+    {
+      "path": "examples/xiaomi-tv-a-pro-2026/debloat.txt",
+      "size": 3605,
+      "sha256": "44D9C2E236ABB4CAD07D1564206F487CB53C5FDB719D60FB5ECDAADFF9AFD202"
+    },
+    {
+      "path": "launcher/FONT-LICENSE-OFL.txt",
+      "size": 4482,
+      "sha256": "916FDCB34129E58B62D12A9D27AC746BB8742BC42409521C1438521CFCEA7EB5"
+    },
+    {
+      "path": "launcher/app/build.gradle",
+      "size": 1181,
+      "sha256": "9183377777ED5AC9AD2F054EA3D916ED7A0D2D3B9C9179A2E1D3DEBF11E47667"
+    },
+    {
+      "path": "launcher/app/proguard-rules.pro",
+      "size": 254,
+      "sha256": "1FE927D3083F2ED297BE70C0DEFC52C5DDD61DF79310C89222DA577A3AC2A74C"
+    },
+    {
+      "path": "launcher/app/src/main/AndroidManifest.xml",
+      "size": 4792,
+      "sha256": "B0076F7A95DF42C9619431B39E4F7D37480465AFC3B3962F7BBE971723DC3AE5"
+    },
+    {
+      "path": "launcher/app/src/main/java/com/freeyourtv/launcher/AppAdapter.java",
+      "size": 27809,
+      "sha256": "28EF5564C6F63A6B328B9D24747D465730F36A6C57C33C9A0E575E6F7D6A5D06"
+    },
+    {
+      "path": "launcher/app/src/main/java/com/freeyourtv/launcher/ClockDream.java",
+      "size": 4257,
+      "sha256": "EF668840040552EC231366578C917C14DDD17289CFA4C55A0F3DDAFBCA8C8891"
+    },
+    {
+      "path": "launcher/app/src/main/java/com/freeyourtv/launcher/DateProvider.java",
+      "size": 446,
+      "sha256": "592EE7BCE24386EC7C728E45C3A6EB906EF4C546B957DA2DA43263ED299B8DB8"
+    },
+    {
+      "path": "launcher/app/src/main/java/com/freeyourtv/launcher/DockDecoration.java",
+      "size": 2667,
+      "sha256": "2751A2D9301139AFD91A2937774118D279E928E369B78C9C32592B7456715C41"
+    },
+    {
+      "path": "launcher/app/src/main/java/com/freeyourtv/launcher/Festival.java",
+      "size": 3316,
+      "sha256": "48702E5185431204269F02661FFB9807A47E1BEE32BCB1AC85F3B2BEB617539F"
+    },
+    {
+      "path": "launcher/app/src/main/java/com/freeyourtv/launcher/FestivalCalendar.java",
+      "size": 15852,
+      "sha256": "4787C803D4693B8A67045F22D310D93E47F956C5567E2AC75D3994095B19567C"
+    },
+    {
+      "path": "launcher/app/src/main/java/com/freeyourtv/launcher/FestivalGreetingHelper.java",
+      "size": 2952,
+      "sha256": "DAEC59B257EA78891EF89D9129A3C8380400B14AA893400AEFD984853CD87433"
+    },
+    {
+      "path": "launcher/app/src/main/java/com/freeyourtv/launcher/FestivalThemeEngine.java",
+      "size": 9703,
+      "sha256": "EBB8160ABC54338AAA204ABDD3D0D42C2206CA800D3FA406420DFAD1D5B0CD81"
+    },
+    {
+      "path": "launcher/app/src/main/java/com/freeyourtv/launcher/GlassView.java",
+      "size": 3396,
+      "sha256": "7CCCAAF80B0A954E0B05E534B26D10F00DE3EDA3C723ECB54151CDEFCD7A5F84"
+    },
+    {
+      "path": "launcher/app/src/main/java/com/freeyourtv/launcher/HomeKeyService.java",
+      "size": 2526,
+      "sha256": "F7A5F109D972C906A93B638879A7AB21ED2E4BB328CE7D5914296D980117F95A"
+    },
+    {
+      "path": "launcher/app/src/main/java/com/freeyourtv/launcher/HomeSettingsActivity.java",
+      "size": 892,
+      "sha256": "4CA8385FBD4420C7055B49E169E2DB25A087F6DCC315BEDAB70EFAA023410C41"
+    },
+    {
+      "path": "launcher/app/src/main/java/com/freeyourtv/launcher/InputKeyService.java",
+      "size": 1447,
+      "sha256": "354625D8DF09CF5612811437327B76D26C3ABB9C4E510C1584B442DBEC4F10B7"
+    },
+    {
+      "path": "launcher/app/src/main/java/com/freeyourtv/launcher/MainActivity.java",
+      "size": 77715,
+      "sha256": "16D8EC14F14C245C3D69AD40F62E68D829452D72DC38401564F11E24320E999C"
+    },
+    {
+      "path": "launcher/app/src/main/java/com/freeyourtv/launcher/Shamsi.java",
+      "size": 1626,
+      "sha256": "8B7AB1EB9C8D1C101FB1AC3C2F8AB790759D132DD051B0E028F383C411D68704"
+    },
+    {
+      "path": "launcher/app/src/main/java/com/freeyourtv/launcher/ThemeManager.java",
+      "size": 31767,
+      "sha256": "903B4A70DA976E433E02F8ABECDB26F55F1838D6DF0086EBDA6C147E6AD48DD1"
+    },
+    {
+      "path": "launcher/app/src/main/java/com/freeyourtv/launcher/VpnBadge.java",
+      "size": 2677,
+      "sha256": "74C351DE1A802B650F33852E8EB0878BE4E7F0867BC6C0DD8373C8416580B453"
+    },
+    {
+      "path": "launcher/app/src/main/java/com/freeyourtv/launcher/WeatherManager.java",
+      "size": 11731,
+      "sha256": "F36097355CE25B734549CCE81FE037E9A9C800A84C9B0576D7B8D0B14DC7C584"
+    },
+    {
+      "path": "launcher/app/src/main/res/anim/tile_enter.xml",
+      "size": 518,
+      "sha256": "3D954099C4259DE0729D87E13611066FD6734B378EE2B062CC80BF5FA3B3DF22"
+    },
+    {
+      "path": "launcher/app/src/main/res/drawable-nodpi/banner.jpg",
+      "size": 4565,
+      "sha256": "839C222DD3B2408F955E9AF2B1FD5C22314C8873768B55D941C743DCC49F89EF"
+    },
+    {
+      "path": "launcher/app/src/main/res/drawable/banner_youtube.xml",
+      "size": 765,
+      "sha256": "ED731656C3EEA27E7A29693F1072A82FD4907D7A29E624168546F49CEF172F2B"
+    },
+    {
+      "path": "launcher/app/src/main/res/drawable/glass_panel.xml",
+      "size": 437,
+      "sha256": "3783AC8E4E75FC5BB3182381F200A9F290936AFB0F6E6E651CBB787D9B2A125C"
+    },
+    {
+      "path": "launcher/app/src/main/res/drawable/ic_add.xml",
+      "size": 345,
+      "sha256": "EBE45CB9360296F909940B53BDC99C144705F2C5553F029242C7F7F26A4D2EFD"
+    },
+    {
+      "path": "launcher/app/src/main/res/drawable/ic_arrow_down.xml",
+      "size": 358,
+      "sha256": "25C386D734A2F7E611E5A79D91E474B1D2F9609664C5078D65D2D4563A3E96B4"
+    },
+    {
+      "path": "launcher/app/src/main/res/drawable/ic_arrow_left.xml",
+      "size": 356,
+      "sha256": "F4AE0005209897938437253BE1E8AAF6698B38C8A4BDBF0E1E82C5487DD4297F"
+    },
+    {
+      "path": "launcher/app/src/main/res/drawable/ic_arrow_right.xml",
+      "size": 357,
+      "sha256": "9739FC6A2E19509849A1CA914209146AFFC41C060FADC09B9895E5B56BEFD663"
+    },
+    {
+      "path": "launcher/app/src/main/res/drawable/ic_arrow_up.xml",
+      "size": 358,
+      "sha256": "DF5BDFFE56376DCBEEEA6F966EE9E8ECA6B27B439BB8D012335BC25475C24213"
+    },
+    {
+      "path": "launcher/app/src/main/res/drawable/ic_av.xml",
+      "size": 638,
+      "sha256": "3DEA42821F2B447688EB226DB14EE50D5704187D68A12DDCA516113AF51CF6C6"
+    },
+    {
+      "path": "launcher/app/src/main/res/drawable/ic_cancel.xml",
+      "size": 411,
+      "sha256": "FF75675840438E1C5F209AE8691A48C28DE180739636CE893EC821D1F7302939"
+    },
+    {
+      "path": "launcher/app/src/main/res/drawable/ic_dock.xml",
+      "size": 430,
+      "sha256": "730C27A5640C318B2CFD33FB013D0A02CE518D72E5181717A66AC1A0DA597EB0"
+    },
+    {
+      "path": "launcher/app/src/main/res/drawable/ic_ethernet.xml",
+      "size": 505,
+      "sha256": "6BE735EEF491F929C85485436A9C5FA482FAC79C23F5E4E54E75BF43C44CF14E"
+    },
+    {
+      "path": "launcher/app/src/main/res/drawable/ic_home_settings.xml",
+      "size": 338,
+      "sha256": "F4E45A79CB47E9AED05EA386BA521FD1D70A93F57A6DAA796CC9F870623DFD98"
+    },
+    {
+      "path": "launcher/app/src/main/res/drawable/ic_info.xml",
+      "size": 409,
+      "sha256": "91DF0BF6DA2F855306552A159E8C38E2BD8DDC663CBE327DFEF2C224BA7C5042"
+    },
+    {
+      "path": "launcher/app/src/main/res/drawable/ic_input.xml",
+      "size": 408,
+      "sha256": "26942E533C73BCF78CD5788B89E5C2BD81DCE8461BD0D649D650D37695494AB1"
+    },
+    {
+      "path": "launcher/app/src/main/res/drawable/ic_livetv.xml",
+      "size": 479,
+      "sha256": "86E0B8237C4FD7821D201E55987902C2B9DFD064E52ACBC01574385E7373BDD1"
+    },
+    {
+      "path": "launcher/app/src/main/res/drawable/ic_lock.xml",
+      "size": 553,
+      "sha256": "66411B11B4E0D1D74BF3D29386E702B09C75958F8BE158EDA8C660A1761B6823"
+    },
+    {
+      "path": "launcher/app/src/main/res/drawable/ic_motion.xml",
+      "size": 560,
+      "sha256": "468163AEE110DFDB93871E517D07440AA0388ED47D4840E6814ECAEF8F324FF7"
+    },
+    {
+      "path": "launcher/app/src/main/res/drawable/ic_palette.xml",
+      "size": 827,
+      "sha256": "0CA1519FD26AC27C54B5B31EECC7FC3984FEF8DCF17E01B992736227554D9391"
+    },
+    {
+      "path": "launcher/app/src/main/res/drawable/ic_power.xml",
+      "size": 534,
+      "sha256": "D0E8627343FC4383AF248F30C11A4B77B797F1EE8C57149610C75E9518E35384"
+    },
+    {
+      "path": "launcher/app/src/main/res/drawable/ic_remove.xml",
+      "size": 327,
+      "sha256": "65D971D27B44326AC6D17583616F8A5BF98415B942A5E0D3A1259014B7AE256F"
+    },
+    {
+      "path": "launcher/app/src/main/res/drawable/ic_restart.xml",
+      "size": 528,
+      "sha256": "24761F89066A645A5C4E33F8D5F61F5C60D13EACDC0A53C634A4DADC1F6CB491"
+    },
+    {
+      "path": "launcher/app/src/main/res/drawable/ic_settings.xml",
+      "size": 1205,
+      "sha256": "A916491937D5BB63783B6D985453949CAC5DB5B25552E38DB6DCC0356B9E7D5A"
+    },
+    {
+      "path": "launcher/app/src/main/res/drawable/ic_wifi.xml",
+      "size": 480,
+      "sha256": "6673606641B0C9B8FFD89A2034C3ECFD1E15CA646D7A360F7084423CC569D83D"
+    },
+    {
+      "path": "launcher/app/src/main/res/drawable/input_row_bg.xml",
+      "size": 517,
+      "sha256": "5773C1AA8BA2EA1CB4DBD8505E2A2A17D738688B75EEE52B58F6A9B8C79D8391"
+    },
+    {
+      "path": "launcher/app/src/main/res/drawable/pill_bg.xml",
+      "size": 644,
+      "sha256": "C5B62E5BA92CCCBAF84954E7A6D5DD12C2802EAF2993D78189CBA1A20120FD6F"
+    },
+    {
+      "path": "launcher/app/src/main/res/drawable/pill_bg_light.xml",
+      "size": 699,
+      "sha256": "DB795ED2CEEFF165A1817E691D7426AA6A0D2B91F57DA074E9C1843E91D3533C"
+    },
+    {
+      "path": "launcher/app/src/main/res/drawable/pill_text.xml",
+      "size": 233,
+      "sha256": "13D58D4163BE9CDD8E41A97BEA795FBCE93011AB498D16BF5B324C2237149CCE"
+    },
+    {
+      "path": "launcher/app/src/main/res/drawable/pill_text_dim.xml",
+      "size": 233,
+      "sha256": "2498DB82C4924926666CBC4D426FF1D7D52DDD843C011060AAE1941DE81A5B7F"
+    },
+    {
+      "path": "launcher/app/src/main/res/drawable/status_dot.xml",
+      "size": 180,
+      "sha256": "3C64D28517BE25D3D87B24B5BBE0004F90EEE7618B62951C28228700D31EF8D9"
+    },
+    {
+      "path": "launcher/app/src/main/res/drawable/tile_bg.xml",
+      "size": 224,
+      "sha256": "F6CD44B727F8495491489FBFB0527006DFF06494A72885157C3DCAE9DD0A965F"
+    },
+    {
+      "path": "launcher/app/src/main/res/drawable/wallpaper_aurora.jpg",
+      "size": 92891,
+      "sha256": "99EF30A1C2C895E94B805B8084D0B44357B8CEBCF8CA6435DDF2C20445B6C9EF"
+    },
+    {
+      "path": "launcher/app/src/main/res/drawable/wallpaper_baisakhi.xml",
+      "size": 4281,
+      "sha256": "B2480170E30AC8BECBB6AB59AC99E9852FBD218BBA90B0CCA2FAD5C1F3A2606A"
+    },
+    {
+      "path": "launcher/app/src/main/res/drawable/wallpaper_bhai_dooj.xml",
+      "size": 3843,
+      "sha256": "762D87852924AD6AC8E5659BB9489333B36A720751832DCC6A3CC8E6761B91EA"
+    },
+    {
+      "path": "launcher/app/src/main/res/drawable/wallpaper_buddha_purnima.xml",
+      "size": 3609,
+      "sha256": "DDCA23A43AE77B7BB65FDC7809E57C70A5F4BA9E545A9B8A5C83BF8D26384A64"
+    },
+    {
+      "path": "launcher/app/src/main/res/drawable/wallpaper_chhath_puja.xml",
+      "size": 7811,
+      "sha256": "8AD3533B5580460CDBAD0E9C1E650A45B89DC1899D2427C01DDD6EB2C4A734A3"
+    },
+    {
+      "path": "launcher/app/src/main/res/drawable/wallpaper_christmas.xml",
+      "size": 8820,
+      "sha256": "4641412AFC27ECCEA42FFFA0693F3B150C0F7C0D0979855245932D18224BBC31"
+    },
+    {
+      "path": "launcher/app/src/main/res/drawable/wallpaper_diwali.xml",
+      "size": 9866,
+      "sha256": "BBAA600EF12E988963EC6E5A004AB2192C7AC718F9233359DBD457201C630E06"
+    },
+    {
+      "path": "launcher/app/src/main/res/drawable/wallpaper_dussehra.xml",
+      "size": 11614,
+      "sha256": "C8BAE734795BEAB4D773C804DDEDFC9FD14758FB9EAEF79CA88D900F5F67EF9A"
+    },
+    {
+      "path": "launcher/app/src/main/res/drawable/wallpaper_ganesh_chaturthi.xml",
+      "size": 4315,
+      "sha256": "01F6EE7C6C272017C2FA8275A077DAB69329D84275EF3615EFE603FCB1ABBF27"
+    },
+    {
+      "path": "launcher/app/src/main/res/drawable/wallpaper_govardhan_puja.xml",
+      "size": 3163,
+      "sha256": "DFD50CC6265B17CA91C9745604B30E6E237268E43837531D2C107E1366F5F9F3"
+    },
+    {
+      "path": "launcher/app/src/main/res/drawable/wallpaper_guru_nanak_jayanti.xml",
+      "size": 7276,
+      "sha256": "0315BED4B594BADDA8E6CD9B244BFF5194AD84BFB521C49D26ABA72A70C82FDD"
+    },
+    {
+      "path": "launcher/app/src/main/res/drawable/wallpaper_holi.xml",
+      "size": 4096,
+      "sha256": "77C5D7A1D4253AE8A532B23DCCC29B43D1725BB2BC35A8A347EE8E167727B125"
+    },
+    {
+      "path": "launcher/app/src/main/res/drawable/wallpaper_independence_day.xml",
+      "size": 4905,
+      "sha256": "0AE6D3B5B2F89570948A271070273590ED9ED45B538B3EA2F66EA7765EF1950A"
+    },
+    {
+      "path": "launcher/app/src/main/res/drawable/wallpaper_janmashtami.xml",
+      "size": 3970,
+      "sha256": "FC1B502F139A160D9D31489416AD5B2A1F33755B5A95452F8343A1C2C3D38CB1"
+    },
+    {
+      "path": "launcher/app/src/main/res/drawable/wallpaper_karwa_chauth.xml",
+      "size": 2905,
+      "sha256": "DD4C56AA8A8B873A557A0C85B38482BA2064AC5AD2F757208EC15DE866250DD1"
+    },
+    {
+      "path": "launcher/app/src/main/res/drawable/wallpaper_light.xml",
+      "size": 875,
+      "sha256": "2F5F96CF2C504096693BB895969BEDDCB3FB76627E64C75066D5E56DAA7C7157"
+    },
+    {
+      "path": "launcher/app/src/main/res/drawable/wallpaper_maha_shivratri.xml",
+      "size": 3768,
+      "sha256": "5269565821C5A01AE2C89F308902DB37A5C430EDCC81B96865F3098CB47C83C2"
+    },
+    {
+      "path": "launcher/app/src/main/res/drawable/wallpaper_mahavir_jayanti.xml",
+      "size": 3700,
+      "sha256": "B129E9C14542B19564AA224F1E59498E96687481200DE904611D84095859027E"
+    },
+    {
+      "path": "launcher/app/src/main/res/drawable/wallpaper_makar_sankranti.xml",
+      "size": 4776,
+      "sha256": "985570A76173BA09AF8588E4264CD215DA4C5202EA09FCA37F6333EF093D1300"
+    },
+    {
+      "path": "launcher/app/src/main/res/drawable/wallpaper_navratri.xml",
+      "size": 3729,
+      "sha256": "71C3386BBB5E3CA3C2776C37CC1E482761632CFBB5EFB1557A2802BE10BF06A5"
+    },
+    {
+      "path": "launcher/app/src/main/res/drawable/wallpaper_onam.xml",
+      "size": 3705,
+      "sha256": "D658AE34A7F1D7B3E3DBAE4736A75B19B540359390F1BABA463BB0C48DB1F322"
+    },
+    {
+      "path": "launcher/app/src/main/res/drawable/wallpaper_raksha_bandhan.xml",
+      "size": 4497,
+      "sha256": "6C073B85F656A21E577C4F9C6BA01642F4EECFEDCB8D2CFF3D7D369F6CFA79E5"
+    },
+    {
+      "path": "launcher/app/src/main/res/drawable/wallpaper_ram_navami.xml",
+      "size": 3458,
+      "sha256": "E95F002318472008E266454901DB85B6635AB8B7970F489AD6BBA4BF410D0378"
+    },
+    {
+      "path": "launcher/app/src/main/res/drawable/wallpaper_rath_yatra.xml",
+      "size": 4267,
+      "sha256": "3A03345BD2BD03AC7B0105FC746049657A1B6E4E4A47EB13DABCAB67CA5DFBB6"
+    },
+    {
+      "path": "launcher/app/src/main/res/drawable/wallpaper_republic_day.xml",
+      "size": 5336,
+      "sha256": "2D6129C1E93E08880FB273F1058511836D6AFD18CADE054CDC0953E8FF561C88"
+    },
+    {
+      "path": "launcher/app/src/main/res/drawable/wallpaper_ugadi.xml",
+      "size": 4994,
+      "sha256": "822C6885C8952C1471B936FE2E6F7F7C6384F4E2004F23B77DE853324AC14AF3"
+    },
+    {
+      "path": "launcher/app/src/main/res/font/outfit.ttf",
+      "size": 110884,
+      "sha256": "FC7287273E66929776E2BA54F144FE699080BEC29F61BF649D70D871468AEADE"
+    },
+    {
+      "path": "launcher/app/src/main/res/layout/activity_main.xml",
+      "size": 12069,
+      "sha256": "8CB307F8AA300671B5D9AE34CB76C69220D18DEDC84EEEEA94C8C66F88D56AB2"
+    },
+    {
+      "path": "launcher/app/src/main/res/layout/dialog_confirm.xml",
+      "size": 1886,
+      "sha256": "D5692C11BB4968B02335400811FE78988A8A1CB07BCD7343B41953984369F756"
+    },
+    {
+      "path": "launcher/app/src/main/res/layout/dream_clock.xml",
+      "size": 2632,
+      "sha256": "E0AE9711F11BC7D62F07DAB4C44E27960EDD530616D59EFAA0C36C040B0A09CE"
+    },
+    {
+      "path": "launcher/app/src/main/res/layout/item_app.xml",
+      "size": 2448,
+      "sha256": "00BDC9D4D435D6B2C77881BC5BB3E54A150010CC5F7504958907F928668BA471"
+    },
+    {
+      "path": "launcher/app/src/main/res/layout/item_input.xml",
+      "size": 1797,
+      "sha256": "C47D79208AC0E67206289AD9BAC5E40ADE93C3AF0ADE2904CBB4501FF0E08744"
+    },
+    {
+      "path": "launcher/app/src/main/res/layout/item_menu_header.xml",
+      "size": 608,
+      "sha256": "D428DEC07C170045BE641E1AAD9D01031844020B4CE1EDD795BC39C3C45D4DA0"
+    },
+    {
+      "path": "launcher/app/src/main/res/layout/popup_inputs.xml",
+      "size": 572,
+      "sha256": "56D208EAEE293C3C88B2C150D3078678CA25B5FE576D3B04352441C59B8487F8"
+    },
+    {
+      "path": "launcher/app/src/main/res/mipmap-xhdpi/ic_launcher.jpg",
+      "size": 3439,
+      "sha256": "6460D3B890488434417F50633B843AF88914BDD82FB8F8C5488046E59C3AF100"
+    },
+    {
+      "path": "launcher/app/src/main/res/values-ca/strings.xml",
+      "size": 1069,
+      "sha256": "38E3E8A4258E817786619C259004F4B3717A20E632F61A9861A1301C88FCEF9D"
+    },
+    {
+      "path": "launcher/app/src/main/res/values-de/strings.xml",
+      "size": 1237,
+      "sha256": "12AB0A4D1693580C9ADCA0A23917C15AF4523F2C27B9D15DCFECF12CE00239FC"
+    },
+    {
+      "path": "launcher/app/src/main/res/values-es/strings.xml",
+      "size": 1120,
+      "sha256": "C94373DD3941276A35FB991CA36422935447345C39ACD9DA3ED2B5C0258D67B4"
+    },
+    {
+      "path": "launcher/app/src/main/res/values-v28/styles.xml",
+      "size": 283,
+      "sha256": "0F7D7A197376B6A130D65937FC8F56D92F9A4BB17EBFB8242DF491602086E1AE"
+    },
+    {
+      "path": "launcher/app/src/main/res/values-zh-rCN/strings.xml",
+      "size": 1098,
+      "sha256": "9A2ABAF9154D0CC6E2208EA49F31F4CB5BF0BBD56D5899E8EE7CDE0C2C26BB52"
+    },
+    {
+      "path": "launcher/app/src/main/res/values/config.xml",
+      "size": 2163,
+      "sha256": "EE6171673DFE2307ADE8ADAFD51E6A487605FD0E5BB32BD08203B63797F6399C"
+    },
+    {
+      "path": "launcher/app/src/main/res/values/strings.xml",
+      "size": 9032,
+      "sha256": "6D55FD4580564880B312FAD82DC77EDFA55F668170E7BFF045576B566FD2B99A"
+    },
+    {
+      "path": "launcher/app/src/main/res/values/styles.xml",
+      "size": 1760,
+      "sha256": "34E5D437E0D7F3C176CCC6CDFCF83383468A926EB1A34D26BC9B6D899A7A8CFC"
+    },
+    {
+      "path": "launcher/app/src/main/res/xml/home_key_service.xml",
+      "size": 408,
+      "sha256": "580258E2067A08D1B13801D3D9407756AA63D3EE8798CD4811754ECAA67232D8"
+    },
+    {
+      "path": "launcher/app/src/main/res/xml/input_key_service.xml",
+      "size": 417,
+      "sha256": "663E49971FA73CB33B3D5EF4B7E64B48AC3194A475C206A0A9F68920C96759DA"
+    },
+    {
+      "path": "launcher/app/src/main/res/xml/locales_config.xml",
+      "size": 535,
+      "sha256": "60C3B78A40F51680D12CD36AAA7B0CE9E8D79BF9D16908C97A49F9D42C936AB2"
+    },
+    {
+      "path": "launcher/app/src/test/java/com/freeyourtv/launcher/FestivalGreetingTest.java",
+      "size": 3478,
+      "sha256": "B38E21DFB48D85832F851FA46FE69F18ECFCFDD9CA3E6506CD5EB0C1E785ED00"
+    },
+    {
+      "path": "launcher/app/src/test/java/com/freeyourtv/launcher/FestivalThemeTest.java",
+      "size": 31600,
+      "sha256": "D3F5285E9AD6197448A11AF7F54DAF4C57EE7E74C2FA90B3EC5A81B7CA0DB2C0"
+    },
+    {
+      "path": "launcher/app/src/test/java/com/freeyourtv/launcher/WeatherTest.java",
+      "size": 4579,
+      "sha256": "3DD87A2FBCBD70EF8CA56976732D740C7A44DA9F2F6403DC31BFA2646F682FF0"
+    },
+    {
+      "path": "launcher/build-and-install.ps1",
+      "size": 6169,
+      "sha256": "3596688A3AE9D83373339CC4299FDDAEB6978473BC5790B44E70A2AE969E65E3"
+    },
+    {
+      "path": "launcher/build-and-install.sh",
+      "size": 5884,
+      "sha256": "5AE0F29B0A0F3E91C75529836E17F053DC04B6811EB52E741717B5C8DE737640"
+    },
+    {
+      "path": "launcher/build.gradle",
+      "size": 76,
+      "sha256": "019E7D53164FD9BAF204773183AFD77B7DE032A1E485A36F83D4F96E1E095187"
+    },
+    {
+      "path": "launcher/cleaner/build.gradle",
+      "size": 735,
+      "sha256": "45B3CF542B78186F33D49BAA46ED405B783BB1657E22B10F524AA31046E61E83"
+    },
+    {
+      "path": "launcher/cleaner/proguard-rules.pro",
+      "size": 234,
+      "sha256": "DB818CDE74528F215572595A7EF7DD40D1544512FE7CC2E7D813762396C0A62C"
+    },
+    {
+      "path": "launcher/cleaner/src/main/AndroidManifest.xml",
+      "size": 1346,
+      "sha256": "18D51BD30F3E782D4F95C687D6F99F0CB415C8C9F756ADB67A890BDE2F2B994E"
+    },
+    {
+      "path": "launcher/cleaner/src/main/java/com/freeyourtv/cleaner/CleanerActivity.java",
+      "size": 5678,
+      "sha256": "9C40CD2D22C1398C88877F7B0EE1EC6FF8414EF3F941F021774F9A6913206DDA"
+    },
+    {
+      "path": "launcher/cleaner/src/main/java/com/freeyourtv/cleaner/CleanerEngine.java",
+      "size": 6030,
+      "sha256": "75252E7C73E8EA0FA04D992B0313FBB61FC3471440364D0CEE51D33CDC9DB959"
+    },
+    {
+      "path": "launcher/cleaner/src/main/res/drawable/banner_cleaner.xml",
+      "size": 1411,
+      "sha256": "3A49C4947968C14F4F6A2C6E3C69212F1DAB754156C1EB584548AB6F9334F39B"
+    },
+    {
+      "path": "launcher/cleaner/src/main/res/drawable/bg_cleaner_card.xml",
+      "size": 332,
+      "sha256": "DF8817043A179B1CD4E77911761960F40F297CD822C97311D2788409B204B532"
+    },
+    {
+      "path": "launcher/cleaner/src/main/res/drawable/ic_check_clean.xml",
+      "size": 645,
+      "sha256": "F98C8F1981D5C987EAD30153A5F763BB34A117A44B6053894FB304A0234AB83F"
+    },
+    {
+      "path": "launcher/cleaner/src/main/res/drawable/ic_cleaner.xml",
+      "size": 1312,
+      "sha256": "EECFC2829D2CB805B0A19707F016FCF253515666ADB2A824FA86656D793C9A8B"
+    },
+    {
+      "path": "launcher/cleaner/src/main/res/layout/activity_cleaner.xml",
+      "size": 2596,
+      "sha256": "6DA3C9F085DFBCEB4A837B0754375117008EA9A62FE283C87FB623F8EBBA0A5A"
+    },
+    {
+      "path": "launcher/cleaner/src/main/res/values/colors.xml",
+      "size": 438,
+      "sha256": "D018CB057A3C0BB9CFA7B1EC23B389C693B636053E281977595B49063AA3E5C3"
+    },
+    {
+      "path": "launcher/cleaner/src/main/res/values/strings.xml",
+      "size": 340,
+      "sha256": "92CD254A298E5EE7EDDC2C480DD5F65B8E6EC722286E300751D6DC5FAC357234"
+    },
+    {
+      "path": "launcher/cleaner/src/main/res/values/styles.xml",
+      "size": 472,
+      "sha256": "008379945323B8DEEE3BE592D0C6C9D109D79333671389955995C74C2D0190E4"
+    },
+    {
+      "path": "launcher/cleaner/src/test/java/com/freeyourtv/cleaner/CleanerEngineTest.java",
+      "size": 7316,
+      "sha256": "8ADF988FE554F80CB2A54FD46517B586833B6D96704906C9511F8CA189ED6BDF"
+    },
+    {
+      "path": "launcher/gradle.properties",
+      "size": 109,
+      "sha256": "BF77020F98F019A7CD4A500C2FEDFFE7C4F07633FA9EA012FB831E71E6100DD5"
+    },
+    {
+      "path": "launcher/gradle/wrapper/gradle-wrapper.jar",
+      "size": 43504,
+      "sha256": "498495120A03B9A6AB5D155F5DE3C8F0D986A449153702FB80FC80E134484F17"
+    },
+    {
+      "path": "launcher/gradle/wrapper/gradle-wrapper.properties",
+      "size": 257,
+      "sha256": "D5C23E3DCDF30974A50AF37D042B5D8692159C25754DA5AEBE0466135BFA2B70"
+    },
+    {
+      "path": "launcher/gradlew",
+      "size": 9014,
+      "sha256": "1CE03A421A975125820E1E4B7230F6A151617255B39CF84758505C7E67B316FA"
+    },
+    {
+      "path": "launcher/gradlew.bat",
+      "size": 2966,
+      "sha256": "57931B17DD228E5C24DAC90E815D0BF82477E831A4618DFAB4136F5446B42A9F"
+    },
+    {
+      "path": "launcher/settings.gradle",
+      "size": 335,
+      "sha256": "57923CE251233A3F2457C2A5236E62C03C789B01C23B7480A06C4AF170F42DE2"
+    },
+    {
+      "path": "tools/b64push.py",
+      "size": 1375,
+      "sha256": "36FC2995D0071502F50F81601FF6CF52D3FFCB5BD97E43E564EE6401C6A8AE4B"
+    },
+    {
+      "path": "tools/disable.ps1",
+      "size": 1260,
+      "sha256": "BC1CD136E290B2E4FFD2B5B208C34B9099EBA8802F51171DD23552FE9995AE50"
+    },
+    {
+      "path": "tools/disable.sh",
+      "size": 797,
+      "sha256": "C5D6A6137684ED629E394FEB2FCC7AE9641DC9D1D0E8EC908A3BC1CE26EAE3BA"
+    },
+    {
+      "path": "tools/requirements.txt",
+      "size": 30,
+      "sha256": "DCCBBA69EDDF317AF81ED5BF7F116A824C9113B176BB1F0B7937443427D3E6CB"
+    },
+    {
+      "path": "tools/restore.ps1",
+      "size": 1630,
+      "sha256": "95627734D28F15037145E08755092251FC2E99C162643F5484FA442F788EE3E0"
+    },
+    {
+      "path": "tools/restore.sh",
+      "size": 1189,
+      "sha256": "92366388BD4912AE20B256C5795CE8569AF4A5CFA6AA839105FBDAEC6910B882"
+    },
+    {
+      "path": "tools/tv.py",
+      "size": 3081,
+      "sha256": "2108B53F4E5374BBB30A692DB8EDD3E538F03F1589C612DDB7B722A4A81EBD5C"
+    }
+  ]
+}

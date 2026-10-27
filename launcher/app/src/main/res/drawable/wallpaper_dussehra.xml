@@ -1,0 +1,177 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="1920dp"
+    android:height="1080dp"
+    android:viewportWidth="1920"
+    android:viewportHeight="1080">
+
+    <!-- 1. Rich Warm Terracotta / Crimson Dusk Atmosphere -->
+    <path
+        android:fillColor="#140602"
+        android:pathData="M0,0h1920v1080h-1920z" />
+
+    <!-- Terracotta / Deep Saffron twilight depth -->
+    <path
+        android:fillColor="#240A04"
+        android:pathData="M0,420 Q960,320 1920,420 L1920,1080 L0,1080 Z" />
+    <path
+        android:fillColor="#3A1005"
+        android:pathData="M0,700 Q960,580 1920,700 L1920,1080 L0,1080 Z" />
+
+    <!-- 2. Warm Victory Flame Radiance along the horizon -->
+    <path
+        android:fillColor="#24D95300"
+        android:pathData="M0,860 Q960,760 1920,860 L1920,1080 L0,1080 Z" />
+    <path
+        android:fillColor="#3DFF6D00"
+        android:pathData="M0,960 Q960,890 1920,960 L1920,1080 L0,1080 Z" />
+
+    <!-- 3. Upper Warm Golden Aura -->
+    <path android:fillColor="#1AFF9800" android:pathData="M960,180m-240,0a240,120 0,1,1 480,0a240,120 0,1,1 -480,0" />
+
+    <!-- 4. Traditional Festive Toran along the Top Border (Mango Leaves + Marigold Garlands) -->
+    <!-- Golden Hanging Rope / Garland Cord -->
+    <path
+        android:strokeColor="#FFC107"
+        android:strokeWidth="3"
+        android:pathData="M0,8 Q120,42 240,8 Q360,42 480,8 Q600,42 720,8 Q840,42 960,8 Q1080,42 1200,8 Q1320,42 1440,8 Q1560,42 1680,8 Q1800,42 1920,8" />
+
+    <!-- Hanging Mango Leaves (Auspicious Green Foliage) -->
+    <!-- Leaf 1 (X=60) -->
+    <path android:fillColor="#2E7D32" android:pathData="M60,18 C52,38 46,62 60,88 C74,62 68,38 60,18 Z" />
+    <path android:strokeColor="#43A047" android:strokeWidth="1" android:pathData="M60,22 L60,82" />
+    <!-- Leaf 2 (X=180) -->
+    <path android:fillColor="#2E7D32" android:pathData="M180,26 C172,46 166,70 180,96 C194,70 188,46 180,26 Z" />
+    <path android:strokeColor="#43A047" android:strokeWidth="1" android:pathData="M180,30 L180,90" />
+    <!-- Leaf 3 (X=300) -->
+    <path android:fillColor="#2E7D32" android:pathData="M300,18 C292,38 286,62 300,88 C314,62 308,38 300,18 Z" />
+    <path android:strokeColor="#43A047" android:strokeWidth="1" android:pathData="M300,22 L300,82" />
+    <!-- Leaf 4 (X=420) -->
+    <path android:fillColor="#2E7D32" android:pathData="M420,26 C412,46 406,70 420,96 C434,70 428,46 420,26 Z" />
+    <path android:strokeColor="#43A047" android:strokeWidth="1" android:pathData="M420,30 L420,90" />
+    <!-- Leaf 5 (X=540) -->
+    <path android:fillColor="#2E7D32" android:pathData="M540,18 C532,38 526,62 540,88 C554,62 548,38 540,18 Z" />
+    <path android:strokeColor="#43A047" android:strokeWidth="1" android:pathData="M540,22 L540,82" />
+    <!-- Leaf 6 (X=660) -->
+    <path android:fillColor="#2E7D32" android:pathData="M660,26 C652,46 646,70 660,96 C674,70 668,46 660,26 Z" />
+    <path android:strokeColor="#43A047" android:strokeWidth="1" android:pathData="M660,30 L660,90" />
+    <!-- Leaf 7 (X=780) -->
+    <path android:fillColor="#2E7D32" android:pathData="M780,18 C772,38 766,62 780,88 C794,62 788,38 780,18 Z" />
+    <path android:strokeColor="#43A047" android:strokeWidth="1" android:pathData="M780,22 L780,82" />
+    <!-- Leaf 8 (X=900) -->
+    <path android:fillColor="#2E7D32" android:pathData="M900,26 C892,46 886,70 900,96 C914,70 908,46 900,26 Z" />
+    <path android:strokeColor="#43A047" android:strokeWidth="1" android:pathData="M900,30 L900,90" />
+    <!-- Leaf 9 (Center - X=960) -->
+    <path android:fillColor="#1B5E20" android:pathData="M960,10 C950,34 944,60 960,90 C976,60 970,34 960,10 Z" />
+    <path android:strokeColor="#4CAF50" android:strokeWidth="1.2" android:pathData="M960,14 L960,84" />
+    <!-- Leaf 10 (X=1020) -->
+    <path android:fillColor="#2E7D32" android:pathData="M1020,26 C1012,46 1006,70 1020,96 C1034,70 1028,46 1020,26 Z" />
+    <path android:strokeColor="#43A047" android:strokeWidth="1" android:pathData="M1020,30 L1020,90" />
+    <!-- Leaf 11 (X=1140) -->
+    <path android:fillColor="#2E7D32" android:pathData="M1140,18 C1132,38 1126,62 1140,88 C1154,62 1148,38 1140,18 Z" />
+    <path android:strokeColor="#43A047" android:strokeWidth="1" android:pathData="M1140,22 L1140,82" />
+    <!-- Leaf 12 (X=1260) -->
+    <path android:fillColor="#2E7D32" android:pathData="M1260,26 C1252,46 1246,70 1260,96 C1274,70 1268,46 1260,26 Z" />
+    <path android:strokeColor="#43A047" android:strokeWidth="1" android:pathData="M1260,30 L1260,90" />
+    <!-- Leaf 13 (X=1380) -->
+    <path android:fillColor="#2E7D32" android:pathData="M1380,18 C1372,38 1366,62 1380,88 C1394,62 1388,38 1380,18 Z" />
+    <path android:strokeColor="#43A047" android:strokeWidth="1" android:pathData="M1380,22 L1380,82" />
+    <!-- Leaf 14 (X=1500) -->
+    <path android:fillColor="#2E7D32" android:pathData="M1500,26 C1492,46 1486,70 1500,96 C1514,70 1508,46 1500,26 Z" />
+    <path android:strokeColor="#43A047" android:strokeWidth="1" android:pathData="M1500,30 L1500,90" />
+    <!-- Leaf 15 (X=1620) -->
+    <path android:fillColor="#2E7D32" android:pathData="M1620,18 C1612,38 1606,62 1620,88 C1634,62 1628,38 1620,18 Z" />
+    <path android:strokeColor="#43A047" android:strokeWidth="1" android:pathData="M1620,22 L1620,82" />
+    <!-- Leaf 16 (X=1740) -->
+    <path android:fillColor="#2E7D32" android:pathData="M1740,26 C1732,46 1726,70 1740,96 C1754,70 1748,46 1740,26 Z" />
+    <path android:strokeColor="#43A047" android:strokeWidth="1" android:pathData="M1740,30 L1740,90" />
+    <!-- Leaf 17 (X=1860) -->
+    <path android:fillColor="#2E7D32" android:pathData="M1860,18 C1852,38 1846,62 1860,88 C1874,62 1868,38 1860,18 Z" />
+    <path android:strokeColor="#43A047" android:strokeWidth="1" android:pathData="M1860,22 L1860,82" />
+
+    <!-- Hanging Marigold Blossom Clusters (Genda Phool) -->
+    <!-- Blossom 1 (X=120) -->
+    <path android:fillColor="#E65100" android:pathData="M120,42m-13,0a13,13 0,1,1 26,0a13,13 0,1,1 -26,0" />
+    <path android:fillColor="#FF9800" android:pathData="M120,42m-9,0a9,9 0,1,1 18,0a9,9 0,1,1 -18,0" />
+    <path android:fillColor="#FFD54F" android:pathData="M120,42m-5,0a5,5 0,1,1 10,0a5,5 0,1,1 -10,0" />
+
+    <!-- Blossom 2 (X=240) -->
+    <path android:fillColor="#E65100" android:pathData="M240,14m-12,0a12,12 0,1,1 24,0a12,12 0,1,1 -24,0" />
+    <path android:fillColor="#FF9800" android:pathData="M240,14m-8,0a8,8 0,1,1 16,0a8,8 0,1,1 -16,0" />
+    <path android:fillColor="#FFD54F" android:pathData="M240,14m-4,0a4,4 0,1,1 8,0a4,4 0,1,1 -8,0" />
+
+    <!-- Blossom 3 (X=360) -->
+    <path android:fillColor="#E65100" android:pathData="M360,42m-13,0a13,13 0,1,1 26,0a13,13 0,1,1 -26,0" />
+    <path android:fillColor="#FF9800" android:pathData="M360,42m-9,0a9,9 0,1,1 18,0a9,9 0,1,1 -18,0" />
+    <path android:fillColor="#FFD54F" android:pathData="M360,42m-5,0a5,5 0,1,1 10,0a5,5 0,1,1 -10,0" />
+
+    <!-- Blossom 4 (X=480) -->
+    <path android:fillColor="#E65100" android:pathData="M480,14m-12,0a12,12 0,1,1 24,0a12,12 0,1,1 -24,0" />
+    <path android:fillColor="#FF9800" android:pathData="M480,14m-8,0a8,8 0,1,1 16,0a8,8 0,1,1 -16,0" />
+    <path android:fillColor="#FFD54F" android:pathData="M480,14m-4,0a4,4 0,1,1 8,0a4,4 0,1,1 -8,0" />
+
+    <!-- Blossom 5 (X=600) -->
+    <path android:fillColor="#E65100" android:pathData="M600,42m-13,0a13,13 0,1,1 26,0a13,13 0,1,1 -26,0" />
+    <path android:fillColor="#FF9800" android:pathData="M600,42m-9,0a9,9 0,1,1 18,0a9,9 0,1,1 -18,0" />
+    <path android:fillColor="#FFD54F" android:pathData="M600,42m-5,0a5,5 0,1,1 10,0a5,5 0,1,1 -10,0" />
+
+    <!-- Blossom 6 (X=720) -->
+    <path android:fillColor="#E65100" android:pathData="M720,14m-12,0a12,12 0,1,1 24,0a12,12 0,1,1 -24,0" />
+    <path android:fillColor="#FF9800" android:pathData="M720,14m-8,0a8,8 0,1,1 16,0a8,8 0,1,1 -16,0" />
+    <path android:fillColor="#FFD54F" android:pathData="M720,14m-4,0a4,4 0,1,1 8,0a4,4 0,1,1 -8,0" />
+
+    <!-- Blossom 7 (X=840) -->
+    <path android:fillColor="#E65100" android:pathData="M840,42m-13,0a13,13 0,1,1 26,0a13,13 0,1,1 -26,0" />
+    <path android:fillColor="#FF9800" android:pathData="M840,42m-9,0a9,9 0,1,1 18,0a9,9 0,1,1 -18,0" />
+    <path android:fillColor="#FFD54F" android:pathData="M840,42m-5,0a5,5 0,1,1 10,0a5,5 0,1,1 -10,0" />
+
+    <!-- Center Grand Blossom (X=960) -->
+    <path android:fillColor="#D84315" android:pathData="M960,40m-16,0a16,16 0,1,1 32,0a16,16 0,1,1 -32,0" />
+    <path android:fillColor="#FFA000" android:pathData="M960,40m-11,0a11,11 0,1,1 22,0a11,11 0,1,1 -22,0" />
+    <path android:fillColor="#FFE082" android:pathData="M960,40m-6,0a6,6 0,1,1 12,0a6,6 0,1,1 -12,0" />
+
+    <!-- Blossom 8 (X=1080) -->
+    <path android:fillColor="#E65100" android:pathData="M1080,42m-13,0a13,13 0,1,1 26,0a13,13 0,1,1 -26,0" />
+    <path android:fillColor="#FF9800" android:pathData="M1080,42m-9,0a9,9 0,1,1 18,0a9,9 0,1,1 -18,0" />
+    <path android:fillColor="#FFD54F" android:pathData="M1080,42m-5,0a5,5 0,1,1 10,0a5,5 0,1,1 -10,0" />
+
+    <!-- Blossom 9 (X=1200) -->
+    <path android:fillColor="#E65100" android:pathData="M1200,14m-12,0a12,12 0,1,1 24,0a12,12 0,1,1 -24,0" />
+    <path android:fillColor="#FF9800" android:pathData="M1200,14m-8,0a8,8 0,1,1 16,0a8,8 0,1,1 -16,0" />
+    <path android:fillColor="#FFD54F" android:pathData="M1200,14m-4,0a4,4 0,1,1 8,0a4,4 0,1,1 -8,0" />
+
+    <!-- Blossom 10 (X=1320) -->
+    <path android:fillColor="#E65100" android:pathData="M1320,42m-13,0a13,13 0,1,1 26,0a13,13 0,1,1 -26,0" />
+    <path android:fillColor="#FF9800" android:pathData="M1320,42m-9,0a9,9 0,1,1 18,0a9,9 0,1,1 -18,0" />
+    <path android:fillColor="#FFD54F" android:pathData="M1320,42m-5,0a5,5 0,1,1 10,0a5,5 0,1,1 -10,0" />
+
+    <!-- Blossom 11 (X=1440) -->
+    <path android:fillColor="#E65100" android:pathData="M1440,14m-12,0a12,12 0,1,1 24,0a12,12 0,1,1 -24,0" />
+    <path android:fillColor="#FF9800" android:pathData="M1440,14m-8,0a8,8 0,1,1 16,0a8,8 0,1,1 -16,0" />
+    <path android:fillColor="#FFD54F" android:pathData="M1440,14m-4,0a4,4 0,1,1 8,0a4,4 0,1,1 -8,0" />
+
+    <!-- Blossom 12 (X=1560) -->
+    <path android:fillColor="#E65100" android:pathData="M1560,42m-13,0a13,13 0,1,1 26,0a13,13 0,1,1 -26,0" />
+    <path android:fillColor="#FF9800" android:pathData="M1560,42m-9,0a9,9 0,1,1 18,0a9,9 0,1,1 -18,0" />
+    <path android:fillColor="#FFD54F" android:pathData="M1560,42m-5,0a5,5 0,1,1 10,0a5,5 0,1,1 -10,0" />
+
+    <!-- Blossom 13 (X=1680) -->
+    <path android:fillColor="#E65100" android:pathData="M1680,14m-12,0a12,12 0,1,1 24,0a12,12 0,1,1 -24,0" />
+    <path android:fillColor="#FF9800" android:pathData="M1680,14m-8,0a8,8 0,1,1 16,0a8,8 0,1,1 -16,0" />
+    <path android:fillColor="#FFD54F" android:pathData="M1680,14m-4,0a4,4 0,1,1 8,0a4,4 0,1,1 -8,0" />
+
+    <!-- Blossom 14 (X=1800) -->
+    <path android:fillColor="#E65100" android:pathData="M1800,42m-13,0a13,13 0,1,1 26,0a13,13 0,1,1 -26,0" />
+    <path android:fillColor="#FF9800" android:pathData="M1800,42m-9,0a9,9 0,1,1 18,0a9,9 0,1,1 -18,0" />
+    <path android:fillColor="#FFD54F" android:pathData="M1800,42m-5,0a5,5 0,1,1 10,0a5,5 0,1,1 -10,0" />
+
+    <!-- 5. Auspicious Golden Geometric Motifs in Bottom Corners -->
+    <path
+        android:strokeColor="#33FFA000"
+        android:strokeWidth="1.2"
+        android:pathData="M60,1020 L120,960 L180,1020 L120,1080 Z M90,1020 L120,990 L150,1020 L120,1050 Z" />
+    <path
+        android:strokeColor="#33FFA000"
+        android:strokeWidth="1.2"
+        android:pathData="M1740,1020 L1800,960 L1860,1020 L1800,1080 Z M1770,1020 L1800,990 L1830,1020 L1800,1050 Z" />
+
+</vector>

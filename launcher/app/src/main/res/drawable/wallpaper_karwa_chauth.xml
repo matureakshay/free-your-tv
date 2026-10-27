@@ -1,0 +1,68 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="1920dp"
+    android:height="1080dp"
+    android:viewportWidth="1920"
+    android:viewportHeight="1080">
+
+    <!-- 1. Deep Burgundy & Autumn Midnight Base -->
+    <path
+        android:fillColor="#14050E"
+        android:pathData="M0,0h1920v1080h-1920z" />
+    <path
+        android:fillColor="#240A1A"
+        android:pathData="M0,380 Q960,250 1920,380 L1920,1080 L0,1080 Z" />
+    <path
+        android:fillColor="#3D102C"
+        android:pathData="M0,660 Q960,530 1920,660 L1920,1080 L0,1080 Z" />
+
+    <!-- 2. Radiant Glowing Moonrise (Top Left) -->
+    <!-- Soft moon glow aura -->
+    <path
+        android:fillColor="#14FFF8E7"
+        android:pathData="M340,180m-160,0a160,160 0,1,1 320,0a160,160 0,1,1 -320,0" />
+    <path
+        android:fillColor="#29FFE082"
+        android:pathData="M340,180m-90,0a90,90 0,1,1 180,0a90,90 0,1,1 -180,0" />
+    <path
+        android:fillColor="#FFF8E7"
+        android:pathData="M340,180m-52,0a52,52 0,1,1 104,0a52,52 0,1,1 -104,0" />
+
+    <!-- 3. Ornamental Sieve (Chalni) Silhouette Framing the Moon -->
+    <!-- Sieve outer circular frame -->
+    <path
+        android:strokeColor="#C5A059"
+        android:strokeWidth="5"
+        android:pathData="M340,180m-70,0a70,70 0,1,1 140,0a70,70 0,1,1 -140,0" />
+    <!-- Fine wire mesh lattice lines across sieve -->
+    <path
+        android:strokeColor="#33C5A059"
+        android:strokeWidth="1"
+        android:pathData="M340,115 L340,245 M310,120 L310,240 M370,120 L370,240 M275,180 L405,180 M280,150 L400,150 M280,210 L400,210" />
+
+    <!-- 4. Traditional Diya on Pooja Thali (Bottom Right) -->
+    <!-- Thali rim silhouette -->
+    <path
+        android:strokeColor="#D4AF37"
+        android:strokeWidth="4"
+        android:pathData="M1680,960 Q1760,940 1840,960" />
+    <!-- Diya body -->
+    <path
+        android:fillColor="#D84315"
+        android:pathData="M1740,945 Q1760,965 1780,945 Q1760,935 1740,945 Z" />
+    <!-- Glowing Flame -->
+    <path
+        android:fillColor="#FFB300"
+        android:pathData="M1760,938 Q1768,922 1760,908 Q1752,922 1760,938 Z" />
+    <path
+        android:fillColor="#FFE082"
+        android:pathData="M1760,935 Q1764,923 1760,914 Q1756,923 1760,935 Z" />
+    <path
+        android:fillColor="#1FFFD54F"
+        android:pathData="M1760,920m-35,0a35,35 0,1,1 70,0a35,35 0,1,1 -70,0" />
+
+    <!-- 5. Autumn Night Stars across Sky -->
+    <path android:fillColor="#80FFF8E7" android:pathData="M640,120m-2.5,0a2.5,2.5 0,1,1 5,0a2.5,2.5 0,1,1 -5,0" />
+    <path android:fillColor="#4DFFE082" android:pathData="M880,160m-3,0a3,3 0,1,1 6,0a3,3 0,1,1 -6,0" />
+    <path android:fillColor="#66FFF8E7" android:pathData="M1120,95m-2.5,0a2.5,2.5 0,1,1 5,0a2.5,2.5 0,1,1 -5,0" />
+    <path android:fillColor="#80FFE082" android:pathData="M1420,150m-3,0a3,3 0,1,1 6,0a3,3 0,1,1 -6,0" />
+</vector>

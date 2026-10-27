@@ -1,0 +1,173 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="1920dp"
+    android:height="1080dp"
+    android:viewportWidth="1920"
+    android:viewportHeight="1080">
+
+    <!-- 1. Deep Celestial Midnight Indigo Sky -->
+    <path
+        android:fillColor="#070C18"
+        android:pathData="M0,0h1920v1080h-1920z" />
+    <path
+        android:fillColor="#0D1830"
+        android:pathData="M0,350 Q960,200 1920,350 L1920,1080 L0,1080 Z" />
+    <path
+        android:fillColor="#142445"
+        android:pathData="M0,620 Q960,480 1920,620 L1920,1080 L0,1080 Z" />
+
+    <!-- 2. Sacred Divine Radiance / Celestial Halo (Center Upper Sky) -->
+    <path
+        android:fillColor="#12F5C542"
+        android:pathData="M960,260m-360,0a360,360 0,1,1 720,0a360,360 0,1,1 -720,0" />
+    <path
+        android:fillColor="#22E6A817"
+        android:pathData="M960,260m-240,0a240,240 0,1,1 480,0a240,240 0,1,1 -480,0" />
+    <path
+        android:fillColor="#44FFE082"
+        android:pathData="M960,260m-130,0a130,130 0,1,1 260,0a130,130 0,1,1 -260,0" />
+    <path
+        android:fillColor="#88FFF8E1"
+        android:pathData="M960,260m-50,0a50,50 0,1,1 100,0a50,50 0,1,1 -100,0" />
+
+    <!-- Radiating Divine Light Beams from Halo -->
+    <path
+        android:strokeColor="#18FFD54F"
+        android:strokeWidth="3"
+        android:pathData="M960,260 L600,0 M960,260 L780,0 M960,260 L960,0 M960,260 L1140,0 M960,260 L1320,0 M960,260 L400,100 M960,260 L1520,100 M960,260 L300,260 M960,260 L1620,260 M960,260 L400,420 M960,260 L1520,420" />
+
+    <!-- 3. Celestial Stars & Divine Sparks in Night Sky -->
+    <path
+        android:fillColor="#FFF8E1"
+        android:pathData="M240,120 L242,125 L247,127 L242,129 L240,134 L238,129 L233,127 L238,125 Z M420,220 L421,223 L424,224 L421,225 L420,228 L419,225 L416,224 L419,223 Z M1500,140 L1502,145 L1507,147 L1502,149 L1500,154 L1498,149 L1493,147 L1498,145 Z M1720,240 L1721,243 L1724,244 L1721,245 L1720,248 L1719,245 L1716,244 L1719,243 Z M820,100 L821,103 L824,104 L821,105 L820,108 L819,105 L816,104 L819,103 Z M1100,90 L1101,93 L1104,94 L1101,95 L1100,98 L1099,95 L1096,94 L1099,93 Z" />
+
+    <!-- 4. Majestic Gurdwara Silhouette (Lower Center) -->
+    <!-- Lower Gurdwara Base Structure -->
+    <path
+        android:fillColor="#0A1120"
+        android:pathData="M810,920 L1110,920 L1120,840 L1080,840 L1080,820 L840,820 L840,840 L800,840 Z" />
+
+    <!-- Ornate Golden Edging & Chhatri Balconies -->
+    <path
+        android:strokeColor="#C5A046"
+        android:strokeWidth="3"
+        android:pathData="M800,840 H1120 M835,820 H1085 M840,920 H1080" />
+
+    <!-- Central Fluted Gurdwara Dome (Harmandir / Gurdwara Silhouette) -->
+    <!-- Dome body -->
+    <path
+        android:fillColor="#152648"
+        android:strokeColor="#E6A817"
+        android:strokeWidth="3"
+        android:pathData="M870,820 Q870,710 960,670 Q1050,710 1050,820 Z" />
+    <!-- Golden Kalash & Lotus Finial on Top of Dome -->
+    <path
+        android:fillColor="#F5C542"
+        android:pathData="M956,670 L964,670 L966,645 L972,640 L964,625 L960,610 L956,625 L948,640 L954,645 Z" />
+    <path
+        android:strokeColor="#FFE082"
+        android:strokeWidth="2"
+        android:pathData="M960,610 L960,595" />
+
+    <!-- Flanking Side Domes (Small Chhatris) -->
+    <path
+        android:fillColor="#0D1830"
+        android:strokeColor="#C5A046"
+        android:strokeWidth="2"
+        android:pathData="M805,820 Q805,770 835,750 Q865,770 865,820 Z" />
+    <path
+        android:fillColor="#F5C542"
+        android:pathData="M833,750 L837,750 L835,735 Z" />
+
+    <path
+        android:fillColor="#0D1830"
+        android:strokeColor="#C5A046"
+        android:strokeWidth="2"
+        android:pathData="M1055,820 Q1055,770 1085,750 Q1115,770 1115,820 Z" />
+    <path
+        android:fillColor="#F5C542"
+        android:pathData="M1083,750 L1087,750 L1085,735 Z" />
+
+    <!-- Cusped Gurdwara Archway (Inner glowing sanctum) -->
+    <path
+        android:fillColor="#3D2B10"
+        android:strokeColor="#FFD54F"
+        android:strokeWidth="2"
+        android:pathData="M920,920 V870 Q920,845 940,845 Q960,835 960,840 Q960,835 980,845 Q1000,845 1000,870 V920 Z" />
+    <!-- Divine Inner Glow from Sanctum -->
+    <path
+        android:fillColor="#FFF8E1"
+        android:pathData="M960,885m-18,0a18,18 0,1,1 36,0a18,18 0,1,1 -36,0" />
+
+    <!-- 5. Sacred Amrit Sarovar (Pool of Nectar) in Foreground -->
+    <path
+        android:fillColor="#050A14"
+        android:pathData="M0,920 H1920 V1080 H0 Z" />
+    <!-- Parapet walkway line (Parkarma) -->
+    <path
+        android:fillColor="#0F1A2E"
+        android:pathData="M0,920 H1920 V945 H0 Z" />
+    <path
+        android:strokeColor="#C5A046"
+        android:strokeWidth="2"
+        android:pathData="M0,920 H1920 M0,945 H1920" />
+
+    <!-- Parapet Inlay Pattern -->
+    <path
+        android:strokeColor="#33FFE082"
+        android:strokeWidth="1.5"
+        android:pathData="M100,932 H300 M400,932 H600 M700,932 H900 M1020,932 H1220 M1320,932 H1520 M1620,932 H1820" />
+
+    <!-- Water Reflections in Sarovar -->
+    <path
+        android:strokeColor="#44E6A817"
+        android:strokeWidth="3"
+        android:pathData="M880,965 Q960,970 1040,965 M820,990 Q960,996 1100,990 M780,1020 Q960,1026 1140,1020 M850,1050 Q960,1056 1070,1050" />
+    <path
+        android:strokeColor="#22FFF8E1"
+        android:strokeWidth="2"
+        android:pathData="M910,975 Q960,978 1010,975 M870,1005 Q960,1010 1050,1005 M920,1035 Q960,1038 1000,1035" />
+
+    <!-- 6. Deepaks (Sacred Lamps) on Parapet Wall -->
+    <!-- Left Diya -->
+    <path
+        android:fillColor="#C5A046"
+        android:pathData="M480,920m-20,0a20,10 0,1,0 40,0a20,10 0,1,0 -40,0" />
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M480,910 Q488,898 480,885 Q472,898 480,910 Z" />
+    <path
+        android:fillColor="#15FFD54F"
+        android:pathData="M480,900m-24,0a24,24 0,1,1 48,0a24,24 0,1,1 -48,0" />
+
+    <!-- Right Diya -->
+    <path
+        android:fillColor="#C5A046"
+        android:pathData="M1440,920m-20,0a20,10 0,1,0 40,0a20,10 0,1,0 -40,0" />
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M1440,910 Q1448,898 1440,885 Q1432,898 1440,910 Z" />
+    <path
+        android:fillColor="#15FFD54F"
+        android:pathData="M1440,900m-24,0a24,24 0,1,1 48,0a24,24 0,1,1 -48,0" />
+
+    <!-- Additional Flanking Diyas -->
+    <path
+        android:fillColor="#C5A046"
+        android:pathData="M260,920m-16,0a16,8 0,1,0 32,0a16,8 0,1,0 -32,0" />
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M260,912 Q266,902 260,892 Q254,902 260,912 Z" />
+
+    <path
+        android:fillColor="#C5A046"
+        android:pathData="M1660,920m-16,0a16,8 0,1,0 32,0a16,8 0,1,0 -32,0" />
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M1660,912 Q1666,902 1660,892 Q1654,902 1660,912 Z" />
+
+    <!-- 7. Gentle Floating Lotus Petals in the Air & Water -->
+    <path
+        android:fillColor="#33FFE082"
+        android:pathData="M350,500 Q365,485 380,500 Q365,515 350,500 Z M620,620 Q635,605 650,620 Q635,635 620,620 Z M1320,580 Q1335,565 1350,580 Q1335,595 1320,580 Z M1580,480 Q1595,465 1610,480 Q1595,495 1580,480 Z" />
+
+</vector>

@@ -1,0 +1,209 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="1920dp"
+    android:height="1080dp"
+    android:viewportWidth="1920"
+    android:viewportHeight="1080">
+
+    <!-- 1. Deep Midnight Winter Forest Sky -->
+    <path
+        android:fillColor="#06120E"
+        android:pathData="M0,0h1920v1080h-1920z" />
+    <path
+        android:fillColor="#0A1D17"
+        android:pathData="M0,320 Q960,180 1920,320 L1920,1080 L0,1080 Z" />
+    <path
+        android:fillColor="#112920"
+        android:pathData="M0,600 Q960,450 1920,600 L1920,1080 L0,1080 Z" />
+
+    <!-- 2. Radiant Star of Bethlehem (Upper Sky Center) -->
+    <!-- Star Aura & Glow -->
+    <path
+        android:fillColor="#10FFE082"
+        android:pathData="M960,160m-260,0a260,260 0,1,1 520,0a260,260 0,1,1 -520,0" />
+    <path
+        android:fillColor="#22FFD54F"
+        android:pathData="M960,160m-140,0a140,140 0,1,1 280,0a140,140 0,1,1 -280,0" />
+    <path
+        android:fillColor="#55FFF8E1"
+        android:pathData="M960,160m-50,0a50,50 0,1,1 100,0a50,50 0,1,1 -100,0" />
+
+    <!-- Radiant Heavenly Beam reaching down -->
+    <path
+        android:fillColor="#0DFFF9C4"
+        android:pathData="M950,160 L850,750 L1070,750 L970,160 Z" />
+
+    <!-- 8-Pointed Golden Star -->
+    <!-- Long vertical & horizontal rays -->
+    <path
+        android:fillColor="#FFFDE7"
+        android:pathData="M960,70 L965,155 L1050,160 L965,165 L960,250 L955,165 L870,160 L955,155 Z" />
+    <!-- Diagonal rays -->
+    <path
+        android:fillColor="#FFE082"
+        android:pathData="M960,160 L995,125 L960,160 L995,195 L960,160 L925,195 L960,160 L925,125 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M960,160m-8,0a8,8 0,1,1 16,0a8,8 0,1,1 -16,0" />
+
+    <!-- 3. Gentle Crystalline Snowflakes in Sky -->
+    <!-- Large snowflake left -->
+    <path
+        android:strokeColor="#55FFFFFF"
+        android:strokeWidth="1.5"
+        android:pathData="M320,180 V220 M300,200 H340 M306,186 L334,214 M306,214 L334,186" />
+    <!-- Large snowflake right -->
+    <path
+        android:strokeColor="#55FFFFFF"
+        android:strokeWidth="1.5"
+        android:pathData="M1620,190 V230 M1600,210 H1640 M1606,196 L1634,224 M1606,224 L1634,196" />
+    <!-- Small star crystals -->
+    <path
+        android:fillColor="#AAFFFFFF"
+        android:pathData="M180,320m-3,0a3,3 0,1,1 6,0a3,3 0,1,1 -6,0 M480,260m-2,0a2,2 0,1,1 4,0a2,2 0,1,1 -4,0 M720,190m-3,0a3,3 0,1,1 6,0a3,3 0,1,1 -6,0 M1240,170m-2,0a2,2 0,1,1 4,0a2,2 0,1,1 -4,0 M1440,280m-3,0a3,3 0,1,1 6,0a3,3 0,1,1 -6,0 M1760,340m-2,0a2,2 0,1,1 4,0a2,2 0,1,1 -4,0" />
+
+    <!-- 4. Evergreen Pine Garlands Framing Top & Corners -->
+    <!-- Top Garland Swag: Left to Center to Right -->
+    <path
+        android:strokeColor="#1B4332"
+        android:strokeWidth="24"
+        android:pathData="M0,0 Q480,80 960,40 Q1440,80 1920,0" />
+    <path
+        android:strokeColor="#2D6A4F"
+        android:strokeWidth="14"
+        android:pathData="M0,0 Q480,80 960,40 Q1440,80 1920,0" />
+    <path
+        android:strokeColor="#40916C"
+        android:strokeWidth="6"
+        android:pathData="M0,0 Q480,80 960,40 Q1440,80 1920,0" />
+
+    <!-- Left Pine Branch Cluster in Top Corner -->
+    <path
+        android:strokeColor="#1B4332"
+        android:strokeWidth="10"
+        android:pathData="M0,0 Q120,60 220,120 M40,0 Q160,80 240,160 M0,60 Q80,120 180,200" />
+    <path
+        android:strokeColor="#2D6A4F"
+        android:strokeWidth="5"
+        android:pathData="M0,0 Q120,60 220,120 M40,0 Q160,80 240,160 M0,60 Q80,120 180,200" />
+
+    <!-- Right Pine Branch Cluster in Top Corner -->
+    <path
+        android:strokeColor="#1B4332"
+        android:strokeWidth="10"
+        android:pathData="M1920,0 Q1800,60 1700,120 M1880,0 Q1760,80 1680,160 M1920,60 Q1840,120 1740,200" />
+    <path
+        android:strokeColor="#2D6A4F"
+        android:strokeWidth="5"
+        android:pathData="M1920,0 Q1800,60 1700,120 M1880,0 Q1760,80 1680,160 M1920,60 Q1840,120 1740,200" />
+
+    <!-- Fairy Lights String Swag across Top Garland -->
+    <path
+        android:strokeColor="#33FFD54F"
+        android:strokeWidth="2"
+        android:pathData="M0,20 Q240,110 480,80 Q720,120 960,60 Q1200,120 1440,80 Q1680,110 1920,20" />
+
+    <!-- Glowing Fairy Light Bulbs along the string -->
+    <!-- Amber/Gold bulbs -->
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M160,60m-8,0a8,8 0,1,1 16,0a8,8 0,1,1 -16,0 M480,80m-8,0a8,8 0,1,1 16,0a8,8 0,1,1 -16,0 M800,100m-8,0a8,8 0,1,1 16,0a8,8 0,1,1 -16,0 M1120,100m-8,0a8,8 0,1,1 16,0a8,8 0,1,1 -16,0 M1440,80m-8,0a8,8 0,1,1 16,0a8,8 0,1,1 -16,0 M1760,60m-8,0a8,8 0,1,1 16,0a8,8 0,1,1 -16,0" />
+    <!-- Festive Crimson bulbs -->
+    <path
+        android:fillColor="#E53935"
+        android:pathData="M320,95m-7,0a7,7 0,1,1 14,0a7,7 0,1,1 -14,0 M640,105m-7,0a7,7 0,1,1 14,0a7,7 0,1,1 -14,0 M1280,105m-7,0a7,7 0,1,1 14,0a7,7 0,1,1 -14,0 M1600,95m-7,0a7,7 0,1,1 14,0a7,7 0,1,1 -14,0" />
+    <!-- Soft Warm-White bulbs -->
+    <path
+        android:fillColor="#FFF9C4"
+        android:pathData="M240,80m-6,0a6,6 0,1,1 12,0a6,6 0,1,1 -12,0 M720,115m-6,0a6,6 0,1,1 12,0a6,6 0,1,1 -12,0 M960,60m-6,0a6,6 0,1,1 12,0a6,6 0,1,1 -12,0 M1200,115m-6,0a6,6 0,1,1 12,0a6,6 0,1,1 -12,0 M1680,80m-6,0a6,6 0,1,1 12,0a6,6 0,1,1 -12,0" />
+
+    <!-- Hanging Christmas Baubles / Ornaments from Garland -->
+    <!-- Left Gold Bauble -->
+    <path
+        android:strokeColor="#C5A046"
+        android:strokeWidth="1.5"
+        android:pathData="M280,85 V150" />
+    <path
+        android:fillColor="#FFC107"
+        android:pathData="M280,165m-15,0a15,15 0,1,1 30,0a15,15 0,1,1 -30,0" />
+    <path
+        android:fillColor="#FFF8E1"
+        android:pathData="M276,160m-4,0a4,4 0,1,1 8,0a4,4 0,1,1 -8,0" />
+
+    <!-- Left-Center Red Bauble -->
+    <path
+        android:strokeColor="#C5A046"
+        android:strokeWidth="1.5"
+        android:pathData="M560,95 V180" />
+    <path
+        android:fillColor="#D32F2F"
+        android:pathData="M560,198m-18,0a18,18 0,1,1 36,0a18,18 0,1,1 -36,0" />
+    <path
+        android:fillColor="#FFCDD2"
+        android:pathData="M555,192m-4,0a4,4 0,1,1 8,0a4,4 0,1,1 -8,0" />
+
+    <!-- Right-Center Red Bauble -->
+    <path
+        android:strokeColor="#C5A046"
+        android:strokeWidth="1.5"
+        android:pathData="M1360,95 V180" />
+    <path
+        android:fillColor="#D32F2F"
+        android:pathData="M1360,198m-18,0a18,18 0,1,1 36,0a18,18 0,1,1 -36,0" />
+    <path
+        android:fillColor="#FFCDD2"
+        android:pathData="M1355,192m-4,0a4,4 0,1,1 8,0a4,4 0,1,1 -8,0" />
+
+    <!-- Right Gold Bauble -->
+    <path
+        android:strokeColor="#C5A046"
+        android:strokeWidth="1.5"
+        android:pathData="M1640,85 V150" />
+    <path
+        android:fillColor="#FFC107"
+        android:pathData="M1640,165m-15,0a15,15 0,1,1 30,0a15,15 0,1,1 -30,0" />
+    <path
+        android:fillColor="#FFF8E1"
+        android:pathData="M1636,160m-4,0a4,4 0,1,1 8,0a4,4 0,1,1 -8,0" />
+
+    <!-- 5. Peaceful Distant Pine Silhouettes & Winter Hills at Bottom -->
+    <!-- Distant hills -->
+    <path
+        android:fillColor="#091913"
+        android:pathData="M0,860 Q480,800 960,840 Q1440,800 1920,860 L1920,1080 L0,1080 Z" />
+
+    <!-- Distant Pine Trees on Horizon (Left & Right Flanks) -->
+    <!-- Left tree -->
+    <path
+        android:fillColor="#06120E"
+        android:pathData="M180,850 L200,810 L192,810 L208,770 L202,770 L215,730 L228,770 L222,770 L238,810 L230,810 L250,850 Z" />
+    <!-- Left tree 2 -->
+    <path
+        android:fillColor="#071510"
+        android:pathData="M240,870 L255,835 L248,835 L262,800 L257,800 L270,765 L283,800 L278,800 L292,835 L285,835 L300,870 Z" />
+    <!-- Right tree -->
+    <path
+        android:fillColor="#06120E"
+        android:pathData="M1670,850 L1690,810 L1682,810 L1698,770 L1692,770 L1705,730 L1718,770 L1712,770 L1728,810 L1720,810 L1740,850 Z" />
+    <!-- Right tree 2 -->
+    <path
+        android:fillColor="#071510"
+        android:pathData="M1730,870 L1745,835 L1738,835 L1752,800 L1747,800 L1760,765 L1773,800 L1768,800 L1782,835 L1775,835 L1790,870 Z" />
+
+    <!-- Foreground Snow Drifts with Soft Frosted Highlight -->
+    <path
+        android:fillColor="#050E0A"
+        android:pathData="M0,930 Q480,890 960,915 Q1440,890 1920,930 L1920,1080 L0,1080 Z" />
+    <path
+        android:strokeColor="#22C8E6C9"
+        android:strokeWidth="2"
+        android:pathData="M0,930 Q480,890 960,915 Q1440,890 1920,930" />
+
+    <path
+        android:fillColor="#030806"
+        android:pathData="M0,990 Q480,965 960,980 Q1440,965 1920,990 L1920,1080 L0,1080 Z" />
+    <path
+        android:strokeColor="#18E8F5E9"
+        android:strokeWidth="1.5"
+        android:pathData="M0,990 Q480,965 960,980 Q1440,965 1920,990" />
+
+</vector>

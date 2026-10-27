@@ -1,0 +1,4926 @@
+{
+  "total_raw_entries": 1744,
+  "total_1080p_entries": 498,
+  "excluded_non_1080p": 1246,
+  "deduplicated_channels_count": 441,
+  "channels_with_fallbacks_count": 45,
+  "categories": {
+    "Movies": 28,
+    "News": 94,
+    "Music": 16,
+    "Devotional": 24,
+    "Entertainment": 45,
+    "Business": 6,
+    "Infotainment": 13,
+    "Sports": 200,
+    "Kids": 4,
+    "Other": 11
+  },
+  "channels": [
+    {
+      "n": "&TV HD",
+      "l": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SYMANDTV/images/LOGO_HD/LOGO_HD_image.png",
+      "c": "Movies",
+      "i": "AndTV.in@HD",
+      "s": [
+        "http://202.70.146.135:8000/play/a06c/index.m3u8"
+      ],
+      "raw_name": "&TV HD (1080p)",
+      "geo": false
+    },
+    {
+      "n": "&TV International",
+      "l": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SYMANDTV/images/LOGO_HD/LOGO_HD_image.png",
+      "c": "Movies",
+      "i": "AndTV.in@International",
+      "s": [
+        "https://amg01117-amg01117c1-amgplt0029.playout.now3.amagi.tv/playlist/amg01117-amg01117c1-amgplt0029/playlist.m3u8"
+      ],
+      "raw_name": "&TV International (1080p)",
+      "geo": false
+    },
+    {
+      "n": "&xplor HD",
+      "l": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SYMANDXPLOR_HD/images/LOGO_HD/LOGO_HD_image.png",
+      "c": "Movies",
+      "i": "AndxplorHD.in@HD",
+      "s": [
+        "http://dksmedia.tv/play/live.php?mac=00:1A:79:B6:60:3D&stream=209743&extension=ts&play_token=mR7FwO88sY"
+      ],
+      "raw_name": "&xplor HD (1080p) [Geo-blocked]",
+      "geo": true
+    },
+    {
+      "n": "22Scope News",
+      "l": "https://jiotvimages.cdn.jio.com/dare_images/images/22Scope_News.png",
+      "c": "News",
+      "i": "22ScopeNews.in@SD",
+      "s": [
+        "https://thelegitpro.in/HDlive/22scope/index.fmp4.m3u8"
+      ],
+      "raw_name": "22Scope News (1080p)",
+      "geo": false
+    },
+    {
+      "n": "4 SiDES TV",
+      "l": "https://jiotvimages.cdn.jio.com/dare_images/images/4sites.png",
+      "c": "News",
+      "i": "4SiDESTV.in@SD",
+      "s": [
+        "https://stream.ottlive.co.in/4sidestv/index.m3u8"
+      ],
+      "raw_name": "4 SiDES TV (1080p)",
+      "geo": false
+    },
+    {
+      "n": "9 Plus News",
+      "l": "https://jiotvimages.cdn.jio.com/dare_images/images/9plusnews.png",
+      "c": "News",
+      "i": "9PlusNews.in@SD",
+      "s": [
+        "https://stream.ottlive.co.in/9plusnews/index.m3u8"
+      ],
+      "raw_name": "9 Plus News (1080p)",
+      "geo": false
+    },
+    {
+      "n": "9X Jalwa",
+      "l": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_9X_JALWA/images/LOGO_HD/image.png",
+      "c": "Music",
+      "i": "9XJalwa.in@SD",
+      "s": [
+        "https://wiselp.wiseplayout.com/9X_Jalwa/master.m3u8"
+      ],
+      "raw_name": "9X Jalwa (1080p)",
+      "geo": false
+    },
+    {
+      "n": "9X Jhakaas",
+      "l": "https://dtil.tmsimg.com/assets/s90012_ld_h15_aa.png?lock=720x540",
+      "c": "Music",
+      "i": "9XJhakaas.in@SD",
+      "s": [
+        "https://amg01281-9xmediapvtltd-9xjhakaas-samsungin-ci2cs.amagi.tv/playlist/amg01281-9xmediapvtltd-9xjhakaas-samsungin/playlist.m3u8",
+        "https://wiselp.wiseplayout.com/9X_Jhakaas/master.m3u8"
+      ],
+      "raw_name": "9X Jhakaas (1080p)",
+      "geo": false
+    },
+    {
+      "n": "9X Tashan",
+      "l": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_9X_TASHAN/images/LOGO_HD/image.png",
+      "c": "Music",
+      "i": "9XTashan.in@SD",
+      "s": [
+        "https://amg01281-9xmediapvtltd-9xtashan-samsungin-xz1sd.amagi.tv/playlist/amg01281-9xmediapvtltd-9xtashan-samsungin/playlist.m3u8",
+        "https://wiselp.wiseplayout.com/9X_Tashan/master.m3u8"
+      ],
+      "raw_name": "9X Tashan (1080p)",
+      "geo": false
+    },
+    {
+      "n": "9XM",
+      "l": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_9XM/images/LOGO_HD/image.png",
+      "c": "Music",
+      "i": "9XM.in@SD",
+      "s": [
+        "https://9xjio.wiseplayout.com/9XM/master.m3u8",
+        "https://epiconvh.akamaized.net/live/9XM/master.m3u8",
+        "https://wiselp.wiseplayout.com/9XM/master.m3u8"
+      ],
+      "raw_name": "9XM (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Aaj Ki Khabar",
+      "l": "https://m.media-amazon.com/images/I/71q8sOMPwHL.png",
+      "c": "News",
+      "i": "AajKiKhabar.in@SD",
+      "s": [
+        "https://stream.ottlive.co.in/aajkikhabar/index.m3u8"
+      ],
+      "raw_name": "Aaj Ki Khabar (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Aaj Tak",
+      "l": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_AAJ_TAK/images/LOGO_HD/image.png",
+      "c": "News",
+      "i": "AajTak.in@SD",
+      "s": [
+        "http://103.213.31.109:90/AajtakHD/playlist.m3u8",
+        "https://feeds.intoday.in/aajtak/api/aajtakhd/master.m3u8",
+        "https://livehub-voidnet.onrender.com/cluster/streamcore/in/AAJTAK_REDIS.m3u8"
+      ],
+      "raw_name": "Aaj Tak (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Aaryaa TV",
+      "l": "https://jiotvimages.cdn.jio.com/dare_images/images/aryatvtamil.png",
+      "c": "Music",
+      "i": "AaryaaTV.in@SD",
+      "s": [
+        "https://stream.ottlive.co.in/aryatvtamil/index.m3u8"
+      ],
+      "raw_name": "Aaryaa TV (1080p)",
+      "geo": false
+    },
+    {
+      "n": "ABP Ananda",
+      "l": "https://dtil.tmsimg.com/assets/s142518_ld_h15_aa.png?lock=720x540",
+      "c": "News",
+      "i": "ABPAnanda.in@SD",
+      "s": [
+        "https://d2l4ar6y3mrs4k.cloudfront.net/live-streaming/ananda-livetv/master.m3u8"
+      ],
+      "raw_name": "ABP Ananda (1080p)",
+      "geo": false
+    },
+    {
+      "n": "ABP Asmita",
+      "l": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/ABP_Asmita_logo.svg/500px-ABP_Asmita_logo.svg.png",
+      "c": "News",
+      "i": "ABPAsmita.in@SD",
+      "s": [
+        "https://d2l4ar6y3mrs4k.cloudfront.net/live-streaming/asmita-livetv/master.m3u8"
+      ],
+      "raw_name": "ABP Asmita (1080p)",
+      "geo": false
+    },
+    {
+      "n": "ABP Ganga",
+      "l": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/ABP_Ganga.svg/500px-ABP_Ganga.svg.png",
+      "c": "News",
+      "i": "ABPGanga.in@SD",
+      "s": [
+        "https://d2l4ar6y3mrs4k.cloudfront.net/live-streaming/ganga-livetv/master.m3u8"
+      ],
+      "raw_name": "ABP Ganga (1080p)",
+      "geo": false
+    },
+    {
+      "n": "ABP News",
+      "l": "https://dtil.tmsimg.com/assets/s158138_ld_h15_aa.png?lock=720x540",
+      "c": "News",
+      "i": "ABPNews.in@SD",
+      "s": [
+        "https://d1rc86nwwc9fag.cloudfront.net/vglive-sk-472500/abpnews/master.m3u8",
+        "https://d2l4ar6y3mrs4k.cloudfront.net/live-streaming/abpnews-livetv/master.m3u8"
+      ],
+      "raw_name": "ABP News (1080p)",
+      "geo": false
+    },
+    {
+      "n": "AKD Calcutta News",
+      "l": "https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/Calcutta%20News.png",
+      "c": "News",
+      "i": "AKDCalcuttaNews.in@SD",
+      "s": [
+        "https://live.legitpro.co.in/cnnnews/index.m3u8"
+      ],
+      "raw_name": "AKD Calcutta News (1080p)",
+      "geo": false
+    },
+    {
+      "n": "AmarUjala",
+      "l": "https://i.imgur.com/ndQ8LZp.png",
+      "c": "News",
+      "i": "AmarUjala.in@SD",
+      "s": [
+        "https://amarujala.ottlive.co.in/amarujala/index.m3u8"
+      ],
+      "raw_name": "AmarUjala (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Anand TV",
+      "l": "https://jiotvimages.cdn.jio.com/dare_images/images/Anand_TV.png",
+      "c": "Devotional",
+      "i": "AnandTV.in@SD",
+      "s": [
+        "https://live.legitpro.co.in/anandtv/index.m3u8"
+      ],
+      "raw_name": "Anand TV (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Asian News",
+      "l": "https://jiotvimages.cdn.jio.com/dare_images/images/Asian_News.png",
+      "c": "News",
+      "i": "AsianNews.in@SD",
+      "s": [
+        "https://stream.ottlive.co.in/asiannews/index.m3u8"
+      ],
+      "raw_name": "Asian News (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Asianet HD",
+      "l": "https://i.imgur.com/Wv7MOzg.png",
+      "c": "Entertainment",
+      "i": "Asianet.in@HD",
+      "s": [
+        "https://da86m1sqpm3o0.cloudfront.net/28072023/smil:starasianet.smil/chunklist_b1928000.m3u8"
+      ],
+      "raw_name": "Asianet HD (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Asianet News",
+      "l": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ASIANET_NEWS/images/LOGO_HD/image.png",
+      "c": "News",
+      "i": "AsianetNews.in@SD",
+      "s": [
+        "https://amg13737-amg13737c1-amgplt0016.playout.now3.amagi.tv/playlist/amg13737-amg13737c1-amgplt0016/playlist.m3u8",
+        "https://asianet-samsung.vgcdn.net/ptnr-monitoring/vglive-sk-906908/playlist.m3u8"
+      ],
+      "raw_name": "Asianet News (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Asianet Suvarna News",
+      "l": "https://dtil.tmsimg.com/assets/s142682_ld_h15_aa.png?lock=720x540",
+      "c": "News",
+      "i": "AsianetSuvarnaNews.in@SD",
+      "s": [
+        "https://asianetnews.vgcdn.net/vglive-sk-335835/playlist.m3u8"
+      ],
+      "raw_name": "Asianet Suvarna News (1080p) [Not 24/7]",
+      "geo": false
+    },
+    {
+      "n": "B4U Bhojpuri",
+      "l": "https://i.imgur.com/NwOQUDp.png",
+      "c": "Movies",
+      "i": "B4UBhojpuri.in@SD",
+      "s": [
+        "https://cdnb4u.wiseplayout.com/B4U_Bhojpuri/master.m3u8"
+      ],
+      "raw_name": "B4U Bhojpuri (1080p)",
+      "geo": false
+    },
+    {
+      "n": "B4U Music",
+      "l": "https://dtil.tmsimg.com/assets/s158141_ld_h15_aa.png?lock=720x540",
+      "c": "Music",
+      "i": "B4UMusic.in@India",
+      "s": [
+        "https://amg01408-amg01408c5-amgplt0747.playout.now3.amagi.tv/b4um001/playlist.m3u8",
+        "https://amg00877-b4unew-amg00877c3-xiaomi-in-5474.playouts.now.amagi.tv/720p/index.m3u8"
+      ],
+      "raw_name": "B4U Music (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Bhagyam TV",
+      "l": "https://jiotvimages.cdn.jio.com/dare_images/images/aanadhamtvtamil.png",
+      "c": "Devotional",
+      "i": "BhagyamTV.in@SD",
+      "s": [
+        "https://ott.bhagyam.net/hls/bhagyamweb/index-1409148900-now.m3u8"
+      ],
+      "raw_name": "Bhagyam TV (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Big TV 24x7",
+      "l": "https://i.postimg.cc/rpHrRxR5/big_tv_malayalam.png",
+      "c": "News",
+      "i": "BigTV24x7.in@SD",
+      "s": [
+        "https://stream.ottlive.co.in/bigtvmalayalam/index.m3u8"
+      ],
+      "raw_name": "Big TV 24x7 (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Bollygold",
+      "l": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN4000600Q_20260805T003941SQUARE.png",
+      "c": "Movies",
+      "i": "Bollygold.in@HD",
+      "s": [
+        "https://jmp2.uk/stvp-IN4000600Q"
+      ],
+      "raw_name": "Bollygold (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Channel Divya",
+      "l": "https://dtil.tmsimg.com/assets/s143010_ld_h15_aa.png?lock=720x540",
+      "c": "Devotional",
+      "i": "ChannelDivya.in@SD",
+      "s": [
+        "https://vg-pitaaratvlive.akamaized.net/v1/vglive-sk-906482/playlist.m3u8"
+      ],
+      "raw_name": "Channel Divya (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Chardikla Gurbaani TV",
+      "l": "https://i.imgur.com/NXD8CPq.png",
+      "c": "News",
+      "i": "ChardiklaGurbaaniTV.in@SD",
+      "s": [
+        "https://chardikalatimestv.gigabitcdn.net/in-chardikala/chardikala-gurbani-tv/playlist.m3u8"
+      ],
+      "raw_name": "Chardikla Gurbaani TV (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Chardikla Time TV",
+      "l": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_CHARDIKLA_TIME_TV/images/LOGO_HD/image.png",
+      "c": "News",
+      "i": "ChardiklaTimeTV.in@SD",
+      "s": [
+        "https://chardikalagurbanitv.gigabitcdn.net/in-chardikala/chardikala-timetv/playlist.m3u8"
+      ],
+      "raw_name": "Chardikla Time TV (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Chardikla Time TV North America",
+      "l": "https://i.imgur.com/IUeMFey.jpg",
+      "c": "News",
+      "i": "ChardiklaTimeTVNorthAmerica.in@SD",
+      "s": [
+        "https://chardikalanorthamerica.gigabitcdn.net/in-chardikala/chardikala-north-usa/playlist.m3u8"
+      ],
+      "raw_name": "Chardikla Time TV North America (1080p)",
+      "geo": false
+    },
+    {
+      "n": "CNBC Awaaz",
+      "l": "https://jiotvimages.cdn.jio.com/dare_images/images/CNBCAwaaz.png",
+      "c": "Business",
+      "i": "CNBCAwaaz.in@SD",
+      "s": [
+        "https://n18syndication.akamaized.net/bpk-tv/CNBC_Awaaz_NW18_MOB/output01/master.m3u8"
+      ],
+      "raw_name": "CNBC Awaaz (1080p)",
+      "geo": false
+    },
+    {
+      "n": "CNBC Bajar",
+      "l": "https://jiotvimages.cdn.jio.com/dare_images/images/CNBCBajar.png",
+      "c": "Business",
+      "i": "CNBCBajar.in@SD",
+      "s": [
+        "https://n18syndication.akamaized.net/bpk-tv/CNBC_Bazaar_NW18_MOB/output01/master.m3u8"
+      ],
+      "raw_name": "CNBC Bajar (1080p)",
+      "geo": false
+    },
+    {
+      "n": "CNBC TV18",
+      "l": "https://jiotvimages.cdn.jio.com/dare_images/images/CNBCTV18.png",
+      "c": "Business",
+      "i": "CNBCTV18.in@SD",
+      "s": [
+        "https://n18syndication.akamaized.net/bpk-tv/CNBC_TV18_NW18_MOB/output01/index.m3u8"
+      ],
+      "raw_name": "CNBC TV18 (1080p)",
+      "geo": false
+    },
+    {
+      "n": "CNBC TV18 Prime HD",
+      "l": "https://jiotvimages.cdn.jio.com/dare_images/images/CNBCTV18Prime.png",
+      "c": "Business",
+      "i": "CNBCTV18PrimeHD.in@SD",
+      "s": [
+        "https://n18syndication.akamaized.net/bpk-tv/CNBC_Tv18_Prime_HD_NW18_MOB/output01/index.m3u8"
+      ],
+      "raw_name": "CNBC TV18 Prime HD (1080p)",
+      "geo": false
+    },
+    {
+      "n": "CNN News 18",
+      "l": "https://dtil.tmsimg.com/assets/s142747_ld_h15_aa.png?lock=720x540",
+      "c": "News",
+      "i": "CNNNews18.in@SD",
+      "s": [
+        "https://n18syndication.akamaized.net/bpk-tv/CNN_News18_NW18_MOB/output01/master.m3u8"
+      ],
+      "raw_name": "CNN News 18 (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Colors Bangla HD",
+      "l": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_BANGLA/images/LOGO_HD/image.png",
+      "c": "Entertainment",
+      "i": "ColorsBangla.in@HD",
+      "s": [
+        "http://103.165.93.31:8095/colorsBangla/index.m3u8",
+        "http://103.151.60.162:2122/play/a02o/index.m3u8?hls"
+      ],
+      "raw_name": "Colors Bangla HD (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Colors Cineplex HD",
+      "l": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_CINEPLEX/images/LOGO_HD/image.png",
+      "c": "Movies",
+      "i": "ColorsCineplex.in@HD",
+      "s": [
+        "http://103.151.60.162:2122/play/a02s/index.m3u8?hls"
+      ],
+      "raw_name": "Colors Cineplex HD (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Colors HD",
+      "l": "https://i.imgur.com/M8uCJ0D.png",
+      "c": "Entertainment",
+      "i": "Colors.in@HD",
+      "s": [
+        "http://66.102.126.10:8000/play/a00a/index.m3u8",
+        "http://103.151.60.162:2122/play/a02q/index.m3u8?hls"
+      ],
+      "raw_name": "Colors HD (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Colors Infinity HD",
+      "l": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_INFINITY/images/LOGO_HD/image.png",
+      "c": "Entertainment",
+      "i": "ColorsInfinity.in@HD",
+      "s": [
+        "http://103.151.60.162:2122/play/a02r/index.m3u8?hls"
+      ],
+      "raw_name": "Colors Infinity HD (1080p)",
+      "geo": false
+    },
+    {
+      "n": "CTVN AKD Plus",
+      "l": "https://dtil.tmsimg.com/assets/s142754_ld_h15_aa.png?lock=720x540",
+      "c": "News",
+      "i": "CTVNAKDPlus.in@SD",
+      "s": [
+        "https://live.legitpro.co.in/ctvnakdplus/index.m3u8"
+      ],
+      "raw_name": "CTVN AKD Plus (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Daily Post TV",
+      "l": "https://papaji.freetvindia.com/media/Daily_post.png",
+      "c": "News",
+      "i": "DailyPostTV.in@SD",
+      "s": [
+        "https://vglivessai.akamaized.net/sg/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/103b8dd3-a888-4d1d-89a5-8a4bc25e48c1/index.m3u8"
+      ],
+      "raw_name": "Daily Post TV (1080p)",
+      "geo": false
+    },
+    {
+      "n": "DD India",
+      "l": "https://dtil.tmsimg.com/assets/s158251_ld_h15_aa.png?lock=720x540",
+      "c": "Entertainment",
+      "i": "DDIndia.in@SD",
+      "s": [
+        "https://mumbai-edge.smartplaytv.in/DDIndia/index.m3u8"
+      ],
+      "raw_name": "DD India (1080p)",
+      "geo": false
+    },
+    {
+      "n": "DD Kisan",
+      "l": "https://i.imgur.com/x56WJEa.png",
+      "c": "Infotainment",
+      "i": "DDKisan.in@SD",
+      "s": [
+        "https://mumbai-edge.smartplaytv.in/DDKisan/index.m3u8"
+      ],
+      "raw_name": "DD Kisan (1080p)",
+      "geo": false
+    },
+    {
+      "n": "DD National HD",
+      "l": "https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/DD%20National.png",
+      "c": "Entertainment",
+      "i": "DDNational.in@HD",
+      "s": [
+        "https://mumbai-edge.smartplaytv.in/DDNational/index.m3u8"
+      ],
+      "raw_name": "DD National HD (1080p)",
+      "geo": false
+    },
+    {
+      "n": "DD News",
+      "l": "https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/DD%20News%20HD.png",
+      "c": "News",
+      "i": "DDNews.in@SD",
+      "s": [
+        "https://mumbai-edge.smartplaytv.in/DDNews/index.m3u8"
+      ],
+      "raw_name": "DD News (1080p)",
+      "geo": false
+    },
+    {
+      "n": "DD Sports",
+      "l": "https://dtil.tmsimg.com/assets/s158255_ld_h15_aa.png?lock=720x540",
+      "c": "Sports",
+      "i": "DDSports.in@SD",
+      "s": [
+        "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/b17adfe543354fdd8d189b110617cddd/index.m3u8"
+      ],
+      "raw_name": "DD Sports (1080p)",
+      "geo": false
+    },
+    {
+      "n": "DD Tamil HD",
+      "l": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DD_TAMIL/images/LOGO_HD/image.png",
+      "c": "Entertainment",
+      "i": "DDTamil.in@HD",
+      "s": [
+        "https://cdn.pishow.tv/ott/live/1737/master.m3u8"
+      ],
+      "raw_name": "DD Tamil HD (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Disney Channel HD",
+      "l": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DISNEY_CHANNEL_HD/images/LOGO_HD/image.png",
+      "c": "Kids",
+      "i": "DisneyChannel.in@HD",
+      "s": [
+        "http://66.102.126.10:8000/play/a013/index.m3u8"
+      ],
+      "raw_name": "Disney Channel HD (1080p)",
+      "geo": false
+    },
+    {
+      "n": "DocuBay TV",
+      "l": "https://i.imgur.com/OGyeLLR.png",
+      "c": "Infotainment",
+      "i": "DocuBayTV.in@SD",
+      "s": [
+        "https://cc-mgr91yrk4pehy.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-mgr91yrk4pehy/playlist.m3u8"
+      ],
+      "raw_name": "DocuBay TV (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Epic Bharat Digital",
+      "l": "https://dtil.tmsimg.com/assets/GNLZZGG0032BW6T.png?lock=720x540",
+      "c": "Entertainment",
+      "i": "EpicBharat.in@Digital",
+      "s": [
+        "https://cc-p1izg43bk7sj5.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-p1izg43bk7sj5/DIYC/PMSL/IN10/Nazara_IN_B/Nazara_IN_B.m3u8",
+        "https://epiconvh.akamaized.net/live/nazara/master.m3u8"
+      ],
+      "raw_name": "Epic Bharat Digital (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Epic Bhojpuri Digital",
+      "l": "https://dtil.tmsimg.com/assets/GNLZZGG0032BVJ8.png?lock=720x540",
+      "c": "Movies",
+      "i": "EpicBhojpuri.in@Digital",
+      "s": [
+        "https://cc-8hy4a26pz2uos.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-8hy4a26pz2uos/playlist.m3u8"
+      ],
+      "raw_name": "Epic Bhojpuri Digital (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Epic Crimes",
+      "l": "https://i.imgur.com/a5kaqDc.png",
+      "c": "Infotainment",
+      "i": "EpicCrimes.in@SD",
+      "s": [
+        "https://cc-wsuyg2uxeak04.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-wsuyg2uxeak04/master.m3u8"
+      ],
+      "raw_name": "Epic Crimes (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Epic Kids Digital",
+      "l": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_GUBBARE/images/LOGO_HD/image.png",
+      "c": "Kids",
+      "i": "EpicKids.in@Digital",
+      "s": [
+        "https://cc-t8lqe1o99pszu.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-t8lqe1o99pszu/playlist.m3u8"
+      ],
+      "raw_name": "Epic Kids Digital (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Epic Music Digital",
+      "l": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SHOWBOX/images/LOGO_HD/image.png",
+      "c": "Music",
+      "i": "EpicMusic.in@Digital",
+      "s": [
+        "https://cc-3cyxq80qusspd.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-3cyxq80qusspd/playlist.m3u8"
+      ],
+      "raw_name": "Epic Music Digital (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Epic TV Digital",
+      "l": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_EPIC/images/LOGO_HD/image.png",
+      "c": "Entertainment",
+      "i": "EpicTV.in@Digital",
+      "s": [
+        "https://cc-czbq30x55knit.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-czbq30x55knit/DIYC/PMSL/IN10/Epic_TV_IN_B/Epic_TV_IN_B.m3u8"
+      ],
+      "raw_name": "Epic TV Digital (1080p)",
+      "geo": false
+    },
+    {
+      "n": "ETV Andhra Pradesh",
+      "l": "https://i.imgur.com/pFNCRnf.png",
+      "c": "News",
+      "i": "ETVAndhraPradesh.in@SD",
+      "s": [
+        "https://d1g35elx8qnif3.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a8a08e108/ETV_AP_H264_cloud_in/index.m3u8",
+        "https://mumbai-edge.smartplaytv.in/ETVAP/index.m3u8"
+      ],
+      "raw_name": "ETV Andhra Pradesh (1080p)",
+      "geo": false
+    },
+    {
+      "n": "ETV Beats",
+      "l": "https://jiotvimages.cdn.jio.com/dare_images/images/ETVBeats1.png",
+      "c": "Music",
+      "i": "ETVBeats.in@HD",
+      "s": [
+        "https://jmp2.uk/stvp-IN4900002RV"
+      ],
+      "raw_name": "ETV Beats (1080p)",
+      "geo": false
+    },
+    {
+      "n": "ETV Cinema HD",
+      "l": "https://dtil.tmsimg.com/assets/s143026_ld_h15_aa.png?lock=720x540",
+      "c": "Movies",
+      "i": "ETVCinema.in@HD",
+      "s": [
+        "https://d27zlkxhgwrfgo.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a8a08e108/ETV_CINEMA_H264_cloud_in/index.m3u8",
+        "https://mumbai-edge.smartplaytv.in/ETVCINEMA/index.m3u8"
+      ],
+      "raw_name": "ETV Cinema HD (1080p)",
+      "geo": false
+    },
+    {
+      "n": "ETV Comedy",
+      "l": "https://jiotvimages.cdn.jio.com/dare_images/images/ETV_Comedy.png",
+      "c": "Entertainment",
+      "i": "ETVComedy.in@HD",
+      "s": [
+        "https://cc-wie8j8y69d2uy.akamaized.net/WWBI/Amagi/ETV_Comedy_IN/playlist.m3u8"
+      ],
+      "raw_name": "ETV Comedy (1080p)",
+      "geo": false
+    },
+    {
+      "n": "ETV Josh",
+      "l": "https://jiotvimages.cdn.jio.com/dare_images/images/ETV_Josh.png",
+      "c": "Entertainment",
+      "i": "ETVJosh.in@HD",
+      "s": [
+        "https://cc-uyh1ow5zouoio.akamaized.net/WWBI/Amagi/ETV_Josh_IN/playlist.m3u8"
+      ],
+      "raw_name": "ETV Josh (1080p)",
+      "geo": false
+    },
+    {
+      "n": "ETV Life",
+      "l": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ETV_LIFE/images/LOGO_HD/image.png",
+      "c": "Infotainment",
+      "i": "ETVLife.in@SD",
+      "s": [
+        "https://mumbai-edge.smartplaytv.in/ETVLIFE/index.m3u8"
+      ],
+      "raw_name": "ETV Life (1080p)",
+      "geo": false
+    },
+    {
+      "n": "ETV Music",
+      "l": "https://jiotvimages.cdn.jio.com/dare_images/images/ETVMusic12.png",
+      "c": "Music",
+      "i": "ETVMusic.in@HD",
+      "s": [
+        "https://cc-szivnms4rlah6.akamaized.net/WWBI/Amagi/ETV_Music_IN/playlist.m3u8",
+        "https://mumbai-edge.smartplaytv.in/ETVABHIRUCHI/index.m3u8"
+      ],
+      "raw_name": "ETV Music (1080p)",
+      "geo": false
+    },
+    {
+      "n": "ETV News",
+      "l": "https://jiotvimages.cdn.jio.com/dare_images/images/ETV_News.png",
+      "c": "News",
+      "i": "ETVNews.in@HD",
+      "s": [
+        "https://cc-3448kp65yhc5w.akamaized.net/WWBI/Amagi/ETV_News_IN/playlist.m3u8"
+      ],
+      "raw_name": "ETV News (1080p)",
+      "geo": false
+    },
+    {
+      "n": "ETV Plus HD",
+      "l": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ETV_PLUS/images/LOGO_HD/image.png",
+      "c": "Entertainment",
+      "i": "ETVPlus.in@HD",
+      "s": [
+        "https://d12ee3o8yfkkhd.cloudfront.net/c6a4b411295f47f48c908d2ac0605bad/index.m3u8",
+        "https://mumbai-edge.smartplaytv.in/ETVPLUS/index.m3u8"
+      ],
+      "raw_name": "ETV Plus HD (1080p)",
+      "geo": false
+    },
+    {
+      "n": "ETV Telangana",
+      "l": "https://dtil.tmsimg.com/assets/s143032_ld_h15_aa.png?lock=720x540",
+      "c": "News",
+      "i": "ETVTelangana.in@SD",
+      "s": [
+        "https://d37d7pfp7vjqhh.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a8a08e108/ETV_TS_H264_cloud_in/index.m3u8",
+        "https://mumbai-edge.smartplaytv.in/ETVTG/index.m3u8"
+      ],
+      "raw_name": "ETV Telangana (1080p)",
+      "geo": false
+    },
+    {
+      "n": "ETV Telugu HD",
+      "l": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ETV_HD/images/LOGO_HD/image.png",
+      "c": "Entertainment",
+      "i": "ETVTelugu.in@HD",
+      "s": [
+        "https://d27zlkxhgwrfgo.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a8a08e108/ETV_HD_H264_cloud_in/index.m3u8",
+        "https://mumbai-edge.smartplaytv.in/ETVHD/index.m3u8"
+      ],
+      "raw_name": "ETV Telugu HD (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Fateh TV",
+      "l": "https://i.imgur.com/c4ItNkB.png",
+      "c": "Devotional",
+      "i": "FatehTV.in@SD",
+      "s": [
+        "https://ott.livelegitpro.in/fatehtv/fatehtv/index.m3u8"
+      ],
+      "raw_name": "Fateh TV (1080p) [Not 24/7]",
+      "geo": false
+    },
+    {
+      "n": "Friends TV",
+      "l": "https://jiotvimages.cdn.jio.com/dare_images/images/Friends_TV.png",
+      "c": "Entertainment",
+      "i": "FriendsTV.in@SD",
+      "s": [
+        "https://server.playontv.in/friendstv/index.m3u8"
+      ],
+      "raw_name": "Friends TV (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Gangaur TV",
+      "l": "https://jiotvimages.cdn.jio.com/dare_images/images/Gangaur.png",
+      "c": "Entertainment",
+      "i": "GangaurTV.in@SD",
+      "s": [
+        "https://pbgangaur.wiseplayout.com/Gangaur/master.m3u8"
+      ],
+      "raw_name": "Gangaur TV (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Global Punjab",
+      "l": "https://i.imgur.com/WDLqcWW.png",
+      "c": "News",
+      "i": "GlobalPunjab.in@SD",
+      "s": [
+        "https://server.livelegitpro.in/globalpunjab/globalpunjab/index.m3u8"
+      ],
+      "raw_name": "Global Punjab (1080p)",
+      "geo": false
+    },
+    {
+      "n": "GTC News",
+      "l": "https://www.thegtcnetwork.com/gtc-news.png",
+      "c": "News",
+      "i": "GTCNews.in@SD",
+      "s": [
+        "https://vglivessai.akamaized.net/sg/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/921cca59-daee-4f89-8c38-7ffe8de44f4c/index.m3u8"
+      ],
+      "raw_name": "GTC News (1080p)",
+      "geo": false
+    },
+    {
+      "n": "GTC Punjabi",
+      "l": "https://media.thegtcnetwork.com/uploads/gtc-pujabin-s.jpg",
+      "c": "Entertainment",
+      "i": "GTCPunjabi.in@SD",
+      "s": [
+        "https://gtc-yupp.vgcdn.net/vglive-sk-254807/index.m3u8",
+        "https://cdn.ottlive.co.in/gtcpunjabi/index.m3u8"
+      ],
+      "raw_name": "GTC Punjabi (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Guarantee News",
+      "l": "https://media.licdn.com/dms/image/v2/D560BAQHYZzbGJ7ViZA/company-logo_200_200/company-logo_200_200/0/1728031377890?e=2147483647&v=beta&t=bIsZgNUCcg0M_-Zqeu5wKYgBt_1-pI798X9lP5CxhTM",
+      "c": "News",
+      "i": "GuaranteeNews.in@SD",
+      "s": [
+        "https://guaranteenews.in:8443/live/gnews/index.m3u8"
+      ],
+      "raw_name": "Guarantee News (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Hare Krsna TV",
+      "l": "https://dtil.tmsimg.com/assets/s143102_ld_h15_aa.png?lock=720x540",
+      "c": "Devotional",
+      "i": "HareKrsnaTV.in@SD",
+      "s": [
+        "https://hktv.harekrsnatv.com/HKTV/HKWebApp/manifest.mpd"
+      ],
+      "raw_name": "Hare Krsna TV (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Harvest TV",
+      "l": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_HARVEST_TV_24X7/images/LOGO_HD/image.png",
+      "c": "Devotional",
+      "i": "HarvestTV.in@SD",
+      "s": [
+        "https://mumbai-edge.smartplaytv.in/HarvestTV/index.m3u8"
+      ],
+      "raw_name": "Harvest TV (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Hebron TV",
+      "l": "https://i0.wp.com/hebrontv.in/wp-content/uploads/2023/11/hebron-.png?w=512",
+      "c": "Devotional",
+      "i": "HebronTV.in@SD",
+      "s": [
+        "https://account20.livebox.co.in/charleshls/live.m3u8"
+      ],
+      "raw_name": "Hebron TV (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Hindi Khabar",
+      "l": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_HINDI_KHABAR/images/LOGO_HD/image.png",
+      "c": "News",
+      "i": "HindiKhabar.in@SD",
+      "s": [
+        "https://stream.ottlive.co.in/hindikhabar/index.m3u8"
+      ],
+      "raw_name": "Hindi Khabar (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Hindu Dharmam",
+      "l": "https://dtil.tmsimg.com/assets/s143131_ld_h15_aa.png?lock=720x540",
+      "c": "Devotional",
+      "i": "HinduDharmam.in@SD",
+      "s": [
+        "https://mumbai-edge.smartplaytv.in/Hindudharmam/index.m3u8"
+      ],
+      "raw_name": "Hindu Dharmam (1080p)",
+      "geo": false
+    },
+    {
+      "n": "History TV18 HD",
+      "l": "https://dtil.tmsimg.com/assets/s143132_ld_h15_aa.png?lock=720x540",
+      "c": "Infotainment",
+      "i": "HistoryTV18.in@HD",
+      "s": [
+        "https://amg01448-amg01448c16-samsung-in-3495.playouts.now.amagi.tv/playlist/amg01448-samsungindia-historychannelenglish-samsungin/playlist.m3u8"
+      ],
+      "raw_name": "History TV18 HD (1080p) [Geo-blocked]",
+      "geo": true
+    },
+    {
+      "n": "History TV18 HD Hindi",
+      "l": "https://dtil.tmsimg.com/assets/s143132_ld_h15_aa.png?lock=720x540",
+      "c": "Infotainment",
+      "i": "HistoryTV18.in@HD",
+      "s": [
+        "https://amg01448-amg01448c16-samsung-in-3495.playouts.now.amagi.tv/ts-ap-s1-n1/playlist/amg01448-samsungindia-historychannelhindi-samsungin/playlist.m3u8"
+      ],
+      "raw_name": "History TV18 HD Hindi (1080p) [Geo-blocked]",
+      "geo": true
+    },
+    {
+      "n": "India Daily Live",
+      "l": "https://jiotvimages.cdn.jio.com/dare_images/images/India_Daily_24x7.png",
+      "c": "News",
+      "i": "IndiaDailyLive.in@SD",
+      "s": [
+        "https://indiadaily.ottlive.co.in/indiadailylive/index.m3u8"
+      ],
+      "raw_name": "India Daily Live (1080p)",
+      "geo": false
+    },
+    {
+      "n": "India TV Aap Ki Adalat",
+      "l": "",
+      "c": "Other",
+      "i": "IndiaTVAapKiAdalat.in@SD",
+      "s": [
+        "https://amg01550-amg01550c6-samsung-in-4679.playouts.now.amagi.tv/playlist/amg01550-indiatvfast-indiatvakasamsung-samsungin/playlist.m3u8"
+      ],
+      "raw_name": "India TV Aap Ki Adalat (1080p) [Geo-blocked]",
+      "geo": true
+    },
+    {
+      "n": "India TV Speed News",
+      "l": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_INDIA_TV_SPEED_NEWS/images/LOGO_HD/image.png",
+      "c": "News",
+      "i": "IndiaTVSpeedNews.in@HD",
+      "s": [
+        "https://cc-lyf4c0hwzg5dd.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-lyf4c0hwzg5dd/v1/vglive-sk-479089/main.m3u8",
+        "https://cc-lyf4c0hwzg5dd.akamaized.net/v1/vglive-sk-479089/main.m3u8"
+      ],
+      "raw_name": "India TV Speed News (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Jalsha Movies HD",
+      "l": "https://i.imgur.com/25eWjX2.png",
+      "c": "Movies",
+      "i": "JalshaMovies.in@HD",
+      "s": [
+        "http://103.185.24.134:3001/JALSHA-MOVIES-HD/index.m3u8",
+        "http://103.151.60.162:2122/play/a00x/index.m3u8?hls"
+      ],
+      "raw_name": "Jalsha Movies HD (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Janta TV",
+      "l": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_JANTA_TV/images/LOGO_HD/image.png",
+      "c": "News",
+      "i": "JantaTV.in@SD",
+      "s": [
+        "https://live.jswk.online/IK_RTPM/live/index.m3u8"
+      ],
+      "raw_name": "Janta TV (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Joy TV",
+      "l": "https://joytvchennai.org/wp-content/uploads/2026/04/cropped-512.png",
+      "c": "Devotional",
+      "i": "JoyTV.in@SD",
+      "s": [
+        "https://ktismaservers.in:3412/live/joytvlive.m3u8"
+      ],
+      "raw_name": "Joy TV (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Kadak",
+      "l": "https://jiotvimages.cdn.jio.com/dare_images/images/Kadak.png",
+      "c": "News",
+      "i": "Kadak.in@SD",
+      "s": [
+        "https://n18syndication.akamaized.net/bpk-tv/Kadak_NW18_MOB/output01/master.m3u8"
+      ],
+      "raw_name": "Kadak (1080p)",
+      "geo": false
+    },
+    {
+      "n": "KBC News",
+      "l": "https://jiotvimages.cdn.jio.com/dare_images/images/kbcnews.png",
+      "c": "News",
+      "i": "KBCNews.in@SD",
+      "s": [
+        "https://stream.ottlive.co.in/kbcnews/index.m3u8"
+      ],
+      "raw_name": "KBC News (1080p)",
+      "geo": false
+    },
+    {
+      "n": "KBP Times",
+      "l": "https://jiotvimages.cdn.jio.com/dare_images/images/KBPTimes.png",
+      "c": "News",
+      "i": "KBPTimes.in@SD",
+      "s": [
+        "https://kbpnews.cloud/Kbptimes/Kbptimeslive/video.m3u8"
+      ],
+      "raw_name": "KBP Times (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Knock Bhakti",
+      "l": "https://jiotvimages.cdn.jio.com/dare_images/images/KnockBhakti.png",
+      "c": "Devotional",
+      "i": "KnockBhakti.in@SD",
+      "s": [
+        "https://knocktv2.wiseplayout.com/Knock_Bhakti_EST/master.m3u8"
+      ],
+      "raw_name": "Knock Bhakti (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Kolkata TV",
+      "l": "https://dtil.tmsimg.com/assets/s143271_ld_h15_aa.png?lock=720x540",
+      "c": "News",
+      "i": "KolkataTV.in@SD",
+      "s": [
+        "https://cdn.ottlive.co.in/kolkatatv/index.m3u8"
+      ],
+      "raw_name": "Kolkata TV (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Living India News",
+      "l": "https://i.imgur.com/YikaJvd.png",
+      "c": "News",
+      "i": "LivingIndiaNews.in@SD",
+      "s": [
+        "https://stream.ottlive.co.in/livingindia/index.m3u8"
+      ],
+      "raw_name": "Living India News (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Mahaa Bhakti",
+      "l": "https://yt3.googleusercontent.com/OWECRvCVJh-dXU2MTRZhMRIDvFvcWan0YMoWWfXsM5_WEHobQy2QoHQbGr7AZUXzMOByTMAXbg=s900-c-k-c0x00ffffff-no-rj",
+      "c": "Devotional",
+      "i": "MahaaBhakti.in@SD",
+      "s": [
+        "https://mumbai-edge.smartplaytv.in/MahaBhakthi/index.m3u8"
+      ],
+      "raw_name": "Mahaa Bhakti (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Mahaa Max",
+      "l": "https://objectstorage.ap-mumbai-1.oraclecloud.com/p/7Eg7LPw1gBcncVDrfwf__7yyrg13awaU6DmMk4gutavGYZgoAuAziv8e0aSEdU4G/n/bmaqqlwez184/b/GTPL_CHANNEL_LOGO/o/gtpl/MAHAA+MAX+LOGO.png",
+      "c": "Entertainment",
+      "i": "MahaaMax.in@SD",
+      "s": [
+        "https://mumbai-edge.smartplaytv.in/MahaMax/index.m3u8"
+      ],
+      "raw_name": "Mahaa Max (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Mahaa News",
+      "l": "https://i.imgur.com/buT76vR.png",
+      "c": "News",
+      "i": "MahaaNews.in@SD",
+      "s": [
+        "https://mumbai-edge.smartplaytv.in/MahaNews/index.m3u8"
+      ],
+      "raw_name": "Mahaa News (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Malai Murasu TV",
+      "l": "https://i.imgur.com/OC5TQxp.png",
+      "c": "News",
+      "i": "MalaiMurasuTV.in@SD",
+      "s": [
+        "https://amg17783-amg17783c1-amgplt0173.playout.now3.amagi.tv/playlist/amg17783-amg17783c1-amgplt0173/playlist.m3u8"
+      ],
+      "raw_name": "Malai Murasu TV (1080p) [Geo-blocked]",
+      "geo": true
+    },
+    {
+      "n": "Mango Mobile TV",
+      "l": "https://dvvlqr1rtlak3.cloudfront.net/Mango/MANGOTVLOGO.jpg",
+      "c": "Entertainment",
+      "i": "MangoMobileTV.in@HD",
+      "s": [
+        "https://amg01911-mangotv-amg01911c1-xiaomi-in-1270.playouts.now.amagi.tv/playlist/amg01911-mangomassmedia-mangotv-xiaomiin/playlist.m3u8"
+      ],
+      "raw_name": "Mango Mobile TV (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Manorama News",
+      "l": "https://i.imgur.com/adjRrVx.png",
+      "c": "News",
+      "i": "ManoramaNews.in@SD",
+      "s": [
+        "https://mmtvnews1.akamaized.net/v1/master/673630b269b766886555eebfddd4f27f3de3ab50/mmtvNewsCampaign1/index.m3u8"
+      ],
+      "raw_name": "Manorama News (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Mazhavil Manorama HD",
+      "l": "https://i.imgur.com/fjgzW20.png",
+      "c": "Entertainment",
+      "i": "MazhavilManorama.in@HD",
+      "s": [
+        "https://mmtv-vglivessai.akamaized.net/v1/master/673630b269b766886555eebfddd4f27f3de3ab50/f8a0827f-030f-4a0d-b7e5-338996c09a5b/index.m3u8"
+      ],
+      "raw_name": "Mazhavil Manorama HD (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Mercy TV",
+      "l": "https://i.imgur.com/klNH4tV.png",
+      "c": "Devotional",
+      "i": "MercyTV.in@SD",
+      "s": [
+        "https://5dd3981940faa.streamlock.net/mercytv/mercytv/playlist.m3u8"
+      ],
+      "raw_name": "Mercy TV (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Metro TV",
+      "l": "https://jiotvimages.cdn.jio.com/dare_images/images/Metro_TV.png",
+      "c": "Entertainment",
+      "i": "MetroTV.in@SD",
+      "s": [
+        "https://mercury.streambridge.link:8042/telugu/metrotv/index.m3u8"
+      ],
+      "raw_name": "Metro TV (1080p)",
+      "geo": false
+    },
+    {
+      "n": "MNTV",
+      "l": "https://i.imgur.com/cFNw4Af.png",
+      "c": "Entertainment",
+      "i": "MarutamTV.in@SD",
+      "s": [
+        "https://mntv.livebox.co.in/mntvhls/live.m3u8"
+      ],
+      "raw_name": "MNTV (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Movies Now HD",
+      "l": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_MOVIES_NOW/images/LOGO_HD/image.png",
+      "c": "Movies",
+      "i": "MoviesNow.in@HD",
+      "s": [
+        "http://103.151.60.162:2122/play/a02w/index.m3u8?hls"
+      ],
+      "raw_name": "Movies Now HD (1080p)",
+      "geo": false
+    },
+    {
+      "n": "National Geographic HD",
+      "l": "https://dtil.tmsimg.com/assets/s143573_ld_h15_aa.png?lock=720x540",
+      "c": "Infotainment",
+      "i": "NationalGeographic.in@HD",
+      "s": [
+        "http://103.185.24.134:3001/NATGEO-HD/index.m3u8"
+      ],
+      "raw_name": "National Geographic HD (1080p)",
+      "geo": false
+    },
+    {
+      "n": "National Geographic Wild HD",
+      "l": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NAT_GEO_WILD/images/LOGO_HD/image.png",
+      "c": "Infotainment",
+      "i": "NationalGeographicWild.in@HD",
+      "s": [
+        "http://103.185.24.134:3001/NATGEO-WILD-HD/index.m3u8",
+        "http://103.151.60.162:2122/play/a01f/index.m3u8?hls"
+      ],
+      "raw_name": "National Geographic Wild HD (1080p)",
+      "geo": false
+    },
+    {
+      "n": "NDTV Good Times",
+      "l": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_GOOD_TIMES/images/LOGO_HD/image.png",
+      "c": "Infotainment",
+      "i": "NDTVGoodTimes.in@SD",
+      "s": [
+        "https://amg01448-samsungin-ndtvgoodtimes-samsungin-ad-gp.amagi.tv/playlist/amg01448-samsungin-ndtvgoodtimes-samsungin/playlist.m3u8"
+      ],
+      "raw_name": "NDTV Good Times (1080p)",
+      "geo": false
+    },
+    {
+      "n": "NDTV Madhya Pradesh Chhattisgarh",
+      "l": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NDTV_MPCG/images/LOGO_HD/image.png",
+      "c": "News",
+      "i": "NDTVMadhyaPradeshChhattisgarh.in@SD",
+      "s": [
+        "https://ndtvregional.akamaized.net/hls/live/2102726-b/ndtvmpcg/master_1.m3u8"
+      ],
+      "raw_name": "NDTV Madhya Pradesh Chhattisgarh (1080p)",
+      "geo": false
+    },
+    {
+      "n": "NDTV Marathi",
+      "l": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NDTV_MARATHI/images/LOGO_HD/image.png",
+      "c": "News",
+      "i": "NDTVMarathi.in@SD",
+      "s": [
+        "https://web-ndtv-marathi.akamaized.net/hls/live/2110470/ndtvmarathi/master_1.m3u8"
+      ],
+      "raw_name": "NDTV Marathi (1080p)",
+      "geo": false
+    },
+    {
+      "n": "NDTV Profit",
+      "l": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NDTV_PROFIT_PRIME/images/LOGO_HD/image.png",
+      "c": "Business",
+      "i": "NDTVProfit.in@SD",
+      "s": [
+        "https://ndtvprofit.akamaized.net/hls/live/2107404/ndtvprofit/chunklist_5.m3u8",
+        "https://ndtvprofit.akamaized.net/hls/live/2107404/ndtvprofit/master_1.m3u8"
+      ],
+      "raw_name": "NDTV Profit (1080p)",
+      "geo": false
+    },
+    {
+      "n": "NDTV Rajasthan",
+      "l": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NDTV_RAJASTHAN/images/LOGO_HD/image.png",
+      "c": "News",
+      "i": "NDTVRajasthan.in@SD",
+      "s": [
+        "https://ndtvregional.akamaized.net/hls/live/2102726-b/ndtvraj/master_1.m3u8"
+      ],
+      "raw_name": "NDTV Rajasthan (1080p)",
+      "geo": false
+    },
+    {
+      "n": "News Capital Gujarat",
+      "l": "https://jiotvimages.cdn.jio.com/dare_images/images/NewsCapital_Gujarat.png",
+      "c": "News",
+      "i": "NewsCapitalGujarat.in@SD",
+      "s": [
+        "https://newscapital.com/hls/main4/stream.m3u8"
+      ],
+      "raw_name": "News Capital Gujarat (1080p)",
+      "geo": false
+    },
+    {
+      "n": "News Capital Market",
+      "l": "https://jiotvimages.cdn.jio.com/dare_images/images/NewsCapitalMarket.png",
+      "c": "Business",
+      "i": "NewsCapitalMarket.in@SD",
+      "s": [
+        "https://newscapital.com/hls/stream.m3u8?token=Nc360PermanentSecureKey987"
+      ],
+      "raw_name": "News Capital Market (1080p)",
+      "geo": false
+    },
+    {
+      "n": "News Nation",
+      "l": "https://dtil.tmsimg.com/assets/s143596_ld_h15_aa.png?lock=720x540",
+      "c": "News",
+      "i": "NewsNation.in@SD",
+      "s": [
+        "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/6cd2f649739a45ca9de1daf81cc7d0f2/index.m3u8"
+      ],
+      "raw_name": "News Nation (1080p)",
+      "geo": false
+    },
+    {
+      "n": "News Nation 81",
+      "l": "https://jiotvimages.cdn.jio.com/dare_images/images/News_Nation_81.png",
+      "c": "News",
+      "i": "NewsNation81.in@SD",
+      "s": [
+        "https://live.newsnation81.com/newsnation81/newsnation81/index.m3u8"
+      ],
+      "raw_name": "News Nation 81 (1080p)",
+      "geo": false
+    },
+    {
+      "n": "News State MP & CHG",
+      "l": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NEWS_STATE_MADHYA_PRADESH_CHHATTISGARH/images/LOGO_HD/image.png",
+      "c": "News",
+      "i": "NewsStateMPCHG.in@SD",
+      "s": [
+        "https://jmp2.uk/stvp-IN4000012ML"
+      ],
+      "raw_name": "News State MP & CHG (1080p)",
+      "geo": false
+    },
+    {
+      "n": "News State Punjab Haryana Himachal",
+      "l": "",
+      "c": "News",
+      "i": "NewsStatePunjabHaryanaHimachal.in@SD",
+      "s": [
+        "https://jmp2.uk/stvp-IN300083R1"
+      ],
+      "raw_name": "News State Punjab Haryana Himachal (1080p)",
+      "geo": false
+    },
+    {
+      "n": "News State UP & UK",
+      "l": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NEWS_STATE_UP_UK/images/LOGO_HD/image.png",
+      "c": "News",
+      "i": "NewsStateUPUK.in@SD",
+      "s": [
+        "https://jmp2.uk/stvp-IN3000846P"
+      ],
+      "raw_name": "News State UP & UK (1080p)",
+      "geo": false
+    },
+    {
+      "n": "News18 Assam North-East",
+      "l": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NEWS18_ASSAM_NORTHSYMHYPEAST/images/LOGO_HD/image.png",
+      "c": "News",
+      "i": "News18AssamNorthEast.in@SD",
+      "s": [
+        "https://n18syndication.akamaized.net/bpk-tv/News18_Assam_North_East_NW18_MOB/output01/master.m3u8"
+      ],
+      "raw_name": "News18 Assam North-East (1080p)",
+      "geo": false
+    },
+    {
+      "n": "News18 Bangla",
+      "l": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NEWS18_BANGLA/images/LOGO_HD/image.png",
+      "c": "News",
+      "i": "News18Bangla.in@SD",
+      "s": [
+        "https://n18syndication.akamaized.net/bpk-tv/News18_Bangla_NW18_MOB/output01/master.m3u8"
+      ],
+      "raw_name": "News18 Bangla (1080p)",
+      "geo": false
+    },
+    {
+      "n": "News18 Bihar Jharkhand",
+      "l": "https://i.imgur.com/FQ3zDZE.png",
+      "c": "News",
+      "i": "News18BiharJharkhand.in@SD",
+      "s": [
+        "https://n18syndication.akamaized.net/bpk-tv/News18_Bihar_Jharkhand_NW18_MOB/output01/master.m3u8"
+      ],
+      "raw_name": "News18 Bihar Jharkhand (1080p)",
+      "geo": false
+    },
+    {
+      "n": "News18 Delhi NCR JK",
+      "l": "https://jiotvimages.cdn.jio.com/dare_images/images/News18JKLH.png",
+      "c": "News",
+      "i": "News18DelhiNCRJK.in@SD",
+      "s": [
+        "https://n18syndication.akamaized.net/bpk-tv/News18_JKLH_NW18_MOB/output01/master.m3u8"
+      ],
+      "raw_name": "News18 Delhi NCR JK (1080p)",
+      "geo": false
+    },
+    {
+      "n": "News18 Gujarati",
+      "l": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NEWS18_GUJARATI/images/LOGO_HD/image.png",
+      "c": "News",
+      "i": "News18Gujarati.in@SD",
+      "s": [
+        "https://n18syndication.akamaized.net/bpk-tv/News18_Gujarati_NW18_MOB/output01/master.m3u8"
+      ],
+      "raw_name": "News18 Gujarati (1080p)",
+      "geo": false
+    },
+    {
+      "n": "News18 India",
+      "l": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NEWS18_INDIA/images/LOGO_HD/image.png",
+      "c": "News",
+      "i": "News18India.in@SD",
+      "s": [
+        "https://n18syndication.akamaized.net/bpk-tv/News18_India_NW18_MOB/output01/master.m3u8"
+      ],
+      "raw_name": "News18 India (1080p)",
+      "geo": false
+    },
+    {
+      "n": "News18 Kannada",
+      "l": "https://i.imgur.com/3XVFxdO.png",
+      "c": "News",
+      "i": "News18Kannada.in@SD",
+      "s": [
+        "https://n18syndication.akamaized.net/bpk-tv/News18_Kannada_NW18_MOB/output01/master.m3u8",
+        "https://mumbai-edge.smartplaytv.in/news18kannada/index.m3u8"
+      ],
+      "raw_name": "News18 Kannada (1080p)",
+      "geo": false
+    },
+    {
+      "n": "News18 Kerala",
+      "l": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NEWS18_KERALA/images/LOGO_HD/image.png",
+      "c": "News",
+      "i": "News18Kerala.in@SD",
+      "s": [
+        "https://nw18live.cdn.jio.com/bpk-tv/News18_Kerala_NW18_MOB/output01/index.m3u8",
+        "https://n18syndication.akamaized.net/bpk-tv/News18_Kerala_NW18_MOB/output01/master.m3u8"
+      ],
+      "raw_name": "News18 Kerala (1080p) [Geo-blocked]",
+      "geo": true
+    },
+    {
+      "n": "News18 Madhya Pradesh/Chhattisgarh",
+      "l": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NEWS18_MADHYA_PRADESH_CHHATTISGARH/images/LOGO_HD/image.png",
+      "c": "News",
+      "i": "News18MadhyaPradeshChhattisgarh.in@SD",
+      "s": [
+        "https://n18syndication.akamaized.net/bpk-tv/News18_MP_Chhattisgarh_NW18_MOB/output01/master.m3u8"
+      ],
+      "raw_name": "News18 Madhya Pradesh/Chhattisgarh (1080p)",
+      "geo": false
+    },
+    {
+      "n": "News18 Marathi",
+      "l": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NEWS18_LOKMAT/images/LOGO_HD/image.png",
+      "c": "News",
+      "i": "News18Marathi.in@SD",
+      "s": [
+        "https://n18syndication.akamaized.net/bpk-tv/News18_Lokmat_NW18_MOB/output01/master.m3u8"
+      ],
+      "raw_name": "News18 Marathi (1080p)",
+      "geo": false
+    },
+    {
+      "n": "News18 Odia",
+      "l": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NEWS18_ODIA/images/LOGO_HD/image.png",
+      "c": "News",
+      "i": "News18Odia.in@SD",
+      "s": [
+        "https://n18syndication.akamaized.net/bpk-tv/News18_Odia_NW18_MOB/output01/master.m3u8",
+        "https://mumbai-edge.smartplaytv.in/news18odiya/index.m3u8"
+      ],
+      "raw_name": "News18 Odia (1080p)",
+      "geo": false
+    },
+    {
+      "n": "News18 Punjab/Haryana/Himachal",
+      "l": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NEWS18_PUNJAB_HARYANA/images/LOGO_HD/image.png",
+      "c": "News",
+      "i": "News18PunjabHaryanaHimachal.in@SD",
+      "s": [
+        "https://n18syndication.akamaized.net/bpk-tv/News18_Punjab_Haryana_HP_NW18_MOB/output01/master.m3u8"
+      ],
+      "raw_name": "News18 Punjab/Haryana/Himachal (1080p)",
+      "geo": false
+    },
+    {
+      "n": "News18 Rajasthan",
+      "l": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NEWS18_RAJASTHAN/images/LOGO_HD/image.png",
+      "c": "News",
+      "i": "News18Rajasthan.in@SD",
+      "s": [
+        "https://n18syndication.akamaized.net/bpk-tv/News18_Rajasthan_NW18_MOB/output01/master.m3u8"
+      ],
+      "raw_name": "News18 Rajasthan (1080p)",
+      "geo": false
+    },
+    {
+      "n": "News18 Tamil Nadu",
+      "l": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NEWS18_TAMIL_NADU/images/LOGO_HD/image.png",
+      "c": "News",
+      "i": "News18TamilNadu.in@SD",
+      "s": [
+        "https://n18syndication.akamaized.net/bpk-tv/News18_Tamil_Nadu_NW18_MOB/output01/master.m3u8"
+      ],
+      "raw_name": "News18 Tamil Nadu (1080p)",
+      "geo": false
+    },
+    {
+      "n": "News18 Urdu",
+      "l": "https://i.imgur.com/8xnwMRR.png",
+      "c": "News",
+      "i": "News18Urdu.in@SD",
+      "s": [
+        "https://n18syndication.akamaized.net/bpk-tv/News18_Urdu_NW18_MOB/output01/master.m3u8"
+      ],
+      "raw_name": "News18 Urdu (1080p)",
+      "geo": false
+    },
+    {
+      "n": "News18 Uttar Pradesh Uttarakhand",
+      "l": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NEWS18_UTTAR_PRADESH_UTTARAKHAND/images/LOGO_HD/image.png",
+      "c": "News",
+      "i": "News18UttarPradeshUttarakhand.in@SD",
+      "s": [
+        "https://n18syndication.akamaized.net/bpk-tv/News18_UP_Uttarakhand_NW18_MOB/output01/master.m3u8"
+      ],
+      "raw_name": "News18 Uttar Pradesh Uttarakhand (1080p)",
+      "geo": false
+    },
+    {
+      "n": "News9Live",
+      "l": "https://jiotvimages.cdn.jio.com/dare_images/images/News9.png",
+      "c": "News",
+      "i": "News9Live.in@SD",
+      "s": [
+        "https://amg01106-amg01106c3-amgplt0844.playout.now3.amagi.tv/ts-ap-s1-n1/playlist/amg01106-amg01106c3-amgplt0844/playlist.m3u8"
+      ],
+      "raw_name": "News9Live (1080p)",
+      "geo": false
+    },
+    {
+      "n": "NH BollyFlix",
+      "l": "https://i.ibb.co/yF9MPTDK/blyflx.png",
+      "c": "Movies",
+      "i": "NHBollyFlix.in@HD",
+      "s": [
+        "https://jmp2.uk/stvp-IN46000140Q"
+      ],
+      "raw_name": "NH BollyFlix (1080p)",
+      "geo": false
+    },
+    {
+      "n": "NH BollyGold",
+      "l": "https://i.ibb.co/x9PsrMy/NH-BOLLYGOLD.png",
+      "c": "Movies",
+      "i": "NHBollyGold.in@HD",
+      "s": [
+        "https://0dc330e6408b4c3b9ac31fd37b121368.mediatailor.ap-south-1.amazonaws.com/v1/master/d367f9b863a7a04827f71ecab4cbeeb11f78a827/nh-bollygold-airtel/playlist.m3u8"
+      ],
+      "raw_name": "NH BollyGold (1080p)",
+      "geo": false
+    },
+    {
+      "n": "NH BollyRaga",
+      "l": "https://i.ibb.co/BKB9mv1K/NH-Bolly-Raga.png",
+      "c": "Music",
+      "i": "NHBollyRaga.in@HD",
+      "s": [
+        "https://jmp2.uk/stvp-IN460001373"
+      ],
+      "raw_name": "NH BollyRaga (1080p)",
+      "geo": false
+    },
+    {
+      "n": "NH Tamil Gold",
+      "l": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN400061DB_20260623T015348SQUARE.png",
+      "c": "Movies",
+      "i": "NHTamilGold.in@HD",
+      "s": [
+        "https://d3arbp6l7f096k.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-gv6wgpbb4mgwk/playlist.m3u8?ads.ads_cdn=cf&ads.app_domain=APP_DOMAIN&ads.cdn=cf"
+      ],
+      "raw_name": "NH Tamil Gold (1080p)",
+      "geo": false
+    },
+    {
+      "n": "NK TV 24x7",
+      "l": "https://www.nktv.in/wp-content/uploads/2023/01/NEW-LOGO-NEW.png",
+      "c": "News",
+      "i": "NKTV24x7.in@SD",
+      "s": [
+        "https://nktv.smartstream.video/smartstream-us/nktvplus/nktvplus/chunks.m3u8"
+      ],
+      "raw_name": "NK TV 24x7 (1080p)",
+      "geo": false
+    },
+    {
+      "n": "NK TV Bangla",
+      "l": "https://www.nktvbangla.com/wp-content/uploads/2023/09/WhatsApp-Image-2023-09-12-at-2.59.18-PM.jpg",
+      "c": "News",
+      "i": "NKTVBangla.in@SD",
+      "s": [
+        "https://nktv.smartstream.video/smartstream-us/nkbangla/nkbangla/playlist.m3u8"
+      ],
+      "raw_name": "NK TV Bangla (1080p)",
+      "geo": false
+    },
+    {
+      "n": "NKR TV Kannada",
+      "l": "https://jiotvimages.cdn.jio.com/dare_images/images/NKRTV.png",
+      "c": "Entertainment",
+      "i": "NKRTVKannada.in@SD",
+      "s": [
+        "https://stream.ottlive.co.in/nkrtv/index.m3u8"
+      ],
+      "raw_name": "NKR TV Kannada (1080p)",
+      "geo": false
+    },
+    {
+      "n": "NSC9 News",
+      "l": "https://jiotvimages.cdn.jio.com/dare_images/images/nsc9.png",
+      "c": "News",
+      "i": "NSC9News.in@SD",
+      "s": [
+        "https://legitpro.co.in/nsc9/index.m3u8"
+      ],
+      "raw_name": "NSC9 News (1080p)",
+      "geo": false
+    },
+    {
+      "n": "NTV Telugu",
+      "l": "https://i.imgur.com/WqTIoWS.png",
+      "c": "News",
+      "i": "NTVTelugu.in@SD",
+      "s": [
+        "https://mumbai-edge.smartplaytv.in/NTVTelugu/index.m3u8"
+      ],
+      "raw_name": "NTV Telugu (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Oli TV",
+      "l": "https://i.ibb.co/XfvTQyJn/main-removebg-preview.png",
+      "c": "Entertainment",
+      "i": "OliTV.in@SD",
+      "s": [
+        "https://live.olidigital.in/olitv/olitv/index.m3u8"
+      ],
+      "raw_name": "Oli TV (1080p)",
+      "geo": false
+    },
+    {
+      "n": "PMC Telugu",
+      "l": "https://jiotvimages.cdn.jio.com/dare_images/images/PMC_Telugu.png",
+      "c": "Devotional",
+      "i": "PMCTelugu.in@SD",
+      "s": [
+        "https://mumbai-edge.smartplaytv.in/PMC/index.m3u8"
+      ],
+      "raw_name": "PMC Telugu (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Pradesh24 Gujarati",
+      "l": "https://jiotvimages.cdn.jio.com/dare_images/images/Pradesh24_Gujarati.png",
+      "c": "News",
+      "i": "Pradesh24Gujarati.in@SD",
+      "s": [
+        "https://stream2.livebox.co.in/pradesh24hls/live.m3u8"
+      ],
+      "raw_name": "Pradesh24 Gujarati (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Pravasi Channel",
+      "l": "https://i.imgur.com/1dHarb7.png",
+      "c": "Other",
+      "i": "PravasiChannel.in@SD",
+      "s": [
+        "https://m6gdavepdn93-hls-live.5centscdn.com/pravasi/d0dbe915091d400bd8ee7f27f0791303.sdp/playlist.m3u8"
+      ],
+      "raw_name": "Pravasi Channel (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Prime News",
+      "l": "https://jiotvimages.cdn.jio.com/dare_images/images/Prime_News.png",
+      "c": "News",
+      "i": "PrimeNews.in@SD",
+      "s": [
+        "https://stream.ottlive.co.in/primenews/index.m3u8"
+      ],
+      "raw_name": "Prime News (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Prime9 News",
+      "l": "https://jiotvimages.cdn.jio.com/dare_images/images/Prime_9_News.png",
+      "c": "News",
+      "i": "Prime9News.in@SD",
+      "s": [
+        "https://mumbai-edge.smartplaytv.in/Prime9News/index.m3u8"
+      ],
+      "raw_name": "Prime9 News (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Prudent Media",
+      "l": "https://i.imgur.com/DG0x4UD.png",
+      "c": "News",
+      "i": "PrudentMedia.in@SD",
+      "s": [
+        "https://prudentmcdn.rixcast.com/prudentm.m3u8"
+      ],
+      "raw_name": "Prudent Media (1080p)",
+      "geo": false
+    },
+    {
+      "n": "PTC Punjabi Gold",
+      "l": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_PTC_PUNJABI_GOLD/images/LOGO_HD/image.png",
+      "c": "Entertainment",
+      "i": "PTCPunjabiGold.in@SD",
+      "s": [
+        "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/6e14bac6d0384e129521a4d005188bfb/index.m3u8"
+      ],
+      "raw_name": "PTC Punjabi Gold (1080p)",
+      "geo": false
+    },
+    {
+      "n": "PTC Punjabi HD",
+      "l": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_PTC_PUNJABI/images/LOGO_HD/image.png",
+      "c": "Entertainment",
+      "i": "PTCPunjabi.in@HD",
+      "s": [
+        "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/3e22a9c278db4e3eb779afd42e41b0a6/index.m3u8"
+      ],
+      "raw_name": "PTC Punjabi HD (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Punjabi Hits",
+      "l": "https://dtil.tmsimg.com/assets/s143691_ld_h15_aa.png?lock=720x540",
+      "c": "Music",
+      "i": "PunjabiHits.in@SD",
+      "s": [
+        "https://stream.ottlive.co.in/punjabihits/index.m3u8"
+      ],
+      "raw_name": "Punjabi Hits (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Punjabi Shorts",
+      "l": "https://www.thegtcnetwork.com/punjabi-shorts.jpg",
+      "c": "Movies",
+      "i": "PunjabiShorts.in@SD",
+      "s": [
+        "https://vglivessai.akamaized.net/ptnr-yupptv/title-Punjabi_Shorts/in/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/27c3fd7a-b01f-4b00-ac03-557ac77acd47/index.m3u8"
+      ],
+      "raw_name": "Punjabi Shorts (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Raj Digital Plus",
+      "l": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_RAJ_DIGITAL_PLUS/images/LOGO_HD/image.png",
+      "c": "Movies",
+      "i": "RajDigitalPlus.in@SD",
+      "s": [
+        "https://livestream.rajtv.tv/hlslive/Admin/px08241087/live/RajTV_Digital_plus/master_1.m3u8"
+      ],
+      "raw_name": "Raj Digital Plus (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Raj Musix Tamil",
+      "l": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_RAJ_MUSIX_TAMIL/images/LOGO_HD/image.png",
+      "c": "Music",
+      "i": "RajMusixTamil.in@SD",
+      "s": [
+        "https://livestream.rajtv.tv/hlslive/Admin/px08241087/live/Raj_Musix/master_1.m3u8"
+      ],
+      "raw_name": "Raj Musix Tamil (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Raj TV",
+      "l": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_RAJ_TV/images/LOGO_HD/image.png",
+      "c": "Entertainment",
+      "i": "RajTV.in@SD",
+      "s": [
+        "https://livestream.rajtv.tv/hlslive/Admin/px08241087/live/RAJTV/master_1.m3u8"
+      ],
+      "raw_name": "Raj TV (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Real News Kerala",
+      "l": "https://jiotvimages.cdn.jio.com/dare_images/images/Real_News_Kerala.png",
+      "c": "News",
+      "i": "RealNewsKerala.in@SD",
+      "s": [
+        "https://bk7l298nyx53-hls-live.5centscdn.com/realnews/e7dee419f91aa9e65939d3677fb9c4f5.sdp/playlist.m3u8"
+      ],
+      "raw_name": "Real News Kerala (1080p) [Not 24/7]",
+      "geo": false
+    },
+    {
+      "n": "Republic Bharat",
+      "l": "https://dtil.tmsimg.com/assets/s143724_ld_h15_aa.png?lock=720x540",
+      "c": "News",
+      "i": "RepublicBharat.in@SD",
+      "s": [
+        "https://vg-republictvlive.akamaized.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/vglive-sk-275673/main.m3u8",
+        "https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/YuppTV/RepublicBharat.m3u8"
+      ],
+      "raw_name": "Republic Bharat (1080p) [Geo-blocked]",
+      "geo": true
+    },
+    {
+      "n": "Republic TV",
+      "l": "https://dtil.tmsimg.com/assets/s143723_ld_h15_aa.png?lock=720x540",
+      "c": "News",
+      "i": "RepublicTV.in@SD",
+      "s": [
+        "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/2e31d831f08640ff92f65003bdc89991/index.m3u8",
+        "https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/YuppTV/RepublicTV.m3u8",
+        "https://samsung-republictv.amagi.tv/ts-ap-s1-n1/playlist/samsungin-republictv-samsungindia/playlist.m3u8"
+      ],
+      "raw_name": "Republic TV (1080p) [Geo-blocked]",
+      "geo": true
+    },
+    {
+      "n": "Rozana Spokesman",
+      "l": "https://www.rozanaspokesman.in/images/logospokesman.png",
+      "c": "News",
+      "i": "RozanaSpokesman.in@SD",
+      "s": [
+        "https://live1.ottlive.co.in/spokesman/spokesman/index.m3u8"
+      ],
+      "raw_name": "Rozana Spokesman (1080p)",
+      "geo": false
+    },
+    {
+      "n": "RT India",
+      "l": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Russia-today-logo.svg",
+      "c": "News",
+      "i": "RTIndia.in@HD",
+      "s": [
+        "https://rt-india.rttv.com/dvr/rtindia/playlist.m3u8",
+        "https://mumbai-edge.smartplaytv.in/RTIndia/index.m3u8"
+      ],
+      "raw_name": "RT India (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Sada TV",
+      "l": "https://i.ibb.co/cXPzpGp/SADA-CHANNEL-HBN-global-Punjabi-Satellite-TV.png",
+      "c": "Entertainment",
+      "i": "SADATV.in@SD",
+      "s": [
+        "http://cdn12.henico.net:8080/live/sadatv/index.m3u8"
+      ],
+      "raw_name": "Sada TV (1080p) [Not 24/7]",
+      "geo": false
+    },
+    {
+      "n": "Salvation TV",
+      "l": "https://content.jdmagicbox.com/comp/bangalore/l5/080pxx80.xx80.150207120517.e4l5/catalogue/salvation-tv-network-pvt-m-g-road-bangalore-religious-organizations-1sabn2d.jpg",
+      "c": "Devotional",
+      "i": "SalvationTV.in@SD",
+      "s": [
+        "https://ktismaservers.in:3902/live/salvationtvlive.m3u8"
+      ],
+      "raw_name": "Salvation TV (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Samay Kolkata",
+      "l": "https://jiotvimages.cdn.jio.com/dare_images/images/Samay_Kolkata.png",
+      "c": "News",
+      "i": "SamayKolkata.in@SD",
+      "s": [
+        "https://server.livelegitpro.in/samaykolkata/samaykolkata/index.m3u8"
+      ],
+      "raw_name": "Samay Kolkata (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Sana Plus",
+      "l": "https://i.imgur.com/N6tKUZv.png",
+      "c": "Music",
+      "i": "SanaPlus.in@SD",
+      "s": [
+        "https://galaxyott.live/hls/sanaplus.m3u8",
+        "https://mumbai-edge.smartplaytv.in/SanaPlusHD/index.m3u8"
+      ],
+      "raw_name": "Sana Plus (1080p) [Not 24/7]",
+      "geo": false
+    },
+    {
+      "n": "Sana TV",
+      "l": "https://i.imgur.com/CR7DGBv.png",
+      "c": "Entertainment",
+      "i": "SanaTV.in@SD",
+      "s": [
+        "https://vglivessai.akamaized.net/us/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/b6d9e864-ec16-410a-804d-ccf8f720bfaa/index.m3u8"
+      ],
+      "raw_name": "Sana TV (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Sansad TV 1",
+      "l": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SANSAD_TV_SYMHYP_1_HD/images/LOGO_HD/LOGO_HD_image.png",
+      "c": "News",
+      "i": "SansadTV1.in@SD",
+      "s": [
+        "https://playhls.media.nic.in/hls/live/lstv/lstv.m3u8",
+        "https://d2lk5u59tns74c.cloudfront.net/out/v1/fff8f20221d5456e8922e689d71dedc3/index.m3u8",
+        "https://mumbai-edge.smartplaytv.in/Sansad1/index.m3u8"
+      ],
+      "raw_name": "Sansad TV 1 (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Sansad TV 2",
+      "l": "https://dtil.tmsimg.com/assets/s143761_ld_h15_aa.png?lock=720x540",
+      "c": "News",
+      "i": "SansadTV2.in@HD",
+      "s": [
+        "https://d2lk5u59tns74c.cloudfront.net/out/v1/e4182054dce340da9e0ff38b6b3658a4/index.m3u8",
+        "https://playhls.media.nic.in/hls/live/rstv/rstv.m3u8"
+      ],
+      "raw_name": "Sansad TV 2 (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Sanskar TV",
+      "l": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SANSKAR/images/LOGO_HD/image.png",
+      "c": "Infotainment",
+      "i": "SanskarTV.in@SD",
+      "s": [
+        "https://d26idhjf0y1p2g.cloudfront.net/out/v1/cd66dd25b9774cb29943bab54bbf3e2f/index.m3u8"
+      ],
+      "raw_name": "Sanskar TV (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Sanskar UK",
+      "l": "",
+      "c": "Other",
+      "i": "SanskarUK.in@SD",
+      "s": [
+        "https://d34z4embz0hjf6.cloudfront.net/out/v1/7ac2789ff9a544a49337d1ffc54ce61c/index.m3u8"
+      ],
+      "raw_name": "Sanskar UK (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Sanskar USA",
+      "l": "",
+      "c": "Other",
+      "i": "SanskarUSA.in@SD",
+      "s": [
+        "https://d2netiedy8cz3x.cloudfront.net/out/v1/9bf6fa4ac8d6432cb98da13b121ba3c2/index.m3u8"
+      ],
+      "raw_name": "Sanskar USA (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Sanskar Web TV",
+      "l": "https://i.imgur.com/mu2B6hw.png",
+      "c": "Devotional",
+      "i": "SanskarWebTV.in@SD",
+      "s": [
+        "https://deatfcv3xdvi3.cloudfront.net/out/v1/7a43dd2f64e34ec28da1b4bd6923251a/index.m3u8"
+      ],
+      "raw_name": "Sanskar Web TV (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Satsang TV",
+      "l": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SATSANG/images/LOGO_HD/image.png",
+      "c": "Devotional",
+      "i": "SatsangTV.in@SD",
+      "s": [
+        "https://d2vfwvjxwtwq1t.cloudfront.net/out/v1/6b24239d5517495b986e7705490c6e65/index.m3u8"
+      ],
+      "raw_name": "Satsang TV (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Satsang Web TV",
+      "l": "https://i.imgur.com/40kNu1w.png",
+      "c": "Devotional",
+      "i": "SatsangWebTV.in@SD",
+      "s": [
+        "https://d1ji7e9jbzm5g8.cloudfront.net/out/v1/769f22f64d80442889306b9c4abea63c/index.m3u8"
+      ],
+      "raw_name": "Satsang Web TV (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Shalom",
+      "l": "https://dtil.tmsimg.com/assets/s143774_ld_h15_aa.png?lock=720x540",
+      "c": "Devotional",
+      "i": "Shalom.in@SD",
+      "s": [
+        "https://d2c4zqo2rb5uf1.cloudfront.net/master.m3u8"
+      ],
+      "raw_name": "Shalom (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Shalom Global",
+      "l": "https://dtil.tmsimg.com/assets/s143774_ld_h15_aa.png?lock=720x540",
+      "c": "Devotional",
+      "i": "Shalom.in@Global",
+      "s": [
+        "https://d28xtgmk9tfk6b.cloudfront.net/master.m3u8"
+      ],
+      "raw_name": "Shalom Global (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Shekinah TV",
+      "l": "https://jiotvimages.cdn.jio.com/dare_images/images/Shekinah.png",
+      "c": "Other",
+      "i": "ShekinahTV.in@SD",
+      "s": [
+        "https://livetv.timeiptv.in/ShekinahNewsIndia/955ad3298db330b5ee880c2c9e6f23a0.sdp/playlist.m3u8"
+      ],
+      "raw_name": "Shekinah TV (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Shemaroo Filmi Gaane",
+      "l": "https://jiotvimages.cdn.jio.com/dare_images/images/channel/0d5b07555b2d4415aa9f145273095ed7.png",
+      "c": "Movies",
+      "i": "ShemarooFilmiGaane.in@HD",
+      "s": [
+        "https://prod-runn.cdn.runn.tv/shemaroo/stream/smrfgn/playlist.m3u8"
+      ],
+      "raw_name": "Shemaroo Filmi Gaane (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Shubh TV",
+      "l": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SHUBH_TV/images/LOGO_HD/image.png",
+      "c": "Other",
+      "i": "ShubhTV.in@SD",
+      "s": [
+        "https://d2g1vdc6ozl2o8.cloudfront.net/out/v1/0a0dc7d7911b4fddbb4dfc963fdd4b9e/index.m3u8"
+      ],
+      "raw_name": "Shubh TV (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Sony BBC Earth HD",
+      "l": "https://dtil.tmsimg.com/assets/s143800_ld_h15_aa.png?lock=720x540",
+      "c": "Infotainment",
+      "i": "SonyBBCEarth.in@HD",
+      "s": [
+        "http://103.185.24.134:3001/SONY-BBC/index.m3u8"
+      ],
+      "raw_name": "Sony BBC Earth HD (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Sony Entertainment Television HD",
+      "l": "https://dtil.tmsimg.com/assets/s157589_ld_h15_aa.png?lock=720x540",
+      "c": "Entertainment",
+      "i": "SonyEntertainmentTelevision.in@HD",
+      "s": [
+        "http://38.96.178.205/SONYHD/index.m3u8"
+      ],
+      "raw_name": "Sony Entertainment Television HD (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Sony Max HD",
+      "l": "https://dtil.tmsimg.com/assets/s157590_ld_h15_aa.png?lock=720x540",
+      "c": "Movies",
+      "i": "SonyMax.in@HD",
+      "s": [
+        "http://103.185.24.134:3001/SonyMAX/index.m3u8",
+        "http://103.151.60.162:2122/play/a014/index.m3u8?hls"
+      ],
+      "raw_name": "Sony Max HD (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Sony Pix HD",
+      "l": "https://i.postimg.cc/Z5G8j67L/PIX-HD-WHITE.png",
+      "c": "Movies",
+      "i": "SonyPix.in@HD",
+      "s": [
+        "http://103.151.60.162:2122/play/a01d/index.m3u8?hls"
+      ],
+      "raw_name": "Sony Pix HD (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Sony Sports Ten 1 HD",
+      "l": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_SPORTS_TEN_1/images/LOGO_HD/image.png",
+      "c": "Sports",
+      "i": "SonySportsTen1.in@HD",
+      "s": [
+        "http://103.185.24.134:3001/SonyTenSports1/index.m3u8"
+      ],
+      "raw_name": "Sony Sports Ten 1 HD (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Sony Wah",
+      "l": "https://dtil.tmsimg.com/assets/s157974_ld_h15_aa.png?lock=720x540",
+      "c": "Movies",
+      "i": "SonyWah.in@SD",
+      "s": [
+        "https://sl.vodep39240327.workers.dev/channel/SONY+WAH.m3u8"
+      ],
+      "raw_name": "Sony Wah (1080p) [Geo-blocked]",
+      "geo": true
+    },
+    {
+      "n": "South Station",
+      "l": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN3800008CX_20260325T012316SQUARE.png",
+      "c": "Movies",
+      "i": "SouthStation.in@HD",
+      "s": [
+        "https://cc-yw7ztecy8do3q.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-yw7ztecy8do3q/SS_IN.m3u8"
+      ],
+      "raw_name": "South Station (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Spondon",
+      "l": "https://www.spondontv.com/wp-content/uploads/2025/10/cropped-SPONDON_Blue-Violet_1-copy-300x100.png",
+      "c": "Entertainment",
+      "i": "Spondon.in@SD",
+      "s": [
+        "https://nktv.smartstream.video/smartstream-us/spondon/spondon/playlist.m3u8"
+      ],
+      "raw_name": "Spondon (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Star Gold 2 HD",
+      "l": "https://i.imgur.com/G0ZfzZr.png",
+      "c": "Movies",
+      "i": "StarGold2.in@HD",
+      "s": [
+        "http://103.151.60.162:2122/play/a01v/index.m3u8?hls"
+      ],
+      "raw_name": "Star Gold 2 HD (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Star Gold HD",
+      "l": "https://i.imgur.com/xC460sj.png",
+      "c": "Movies",
+      "i": "StarGold.in@HD",
+      "s": [
+        "http://103.185.24.134:3001/Star-Gold/index.m3u8",
+        "http://103.151.60.162:2122/play/a01n/index.m3u8?hls"
+      ],
+      "raw_name": "Star Gold HD (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Star Jalsha",
+      "l": "https://i.imgur.com/IlufzR5.png",
+      "c": "Entertainment",
+      "i": "StarJalsha.in@SD",
+      "s": [
+        "http://cdn98.com/play/live.php?mac=00:1A:79:99:54:11&stream=225805&extension=ts&play_token=o1cczsG9wV"
+      ],
+      "raw_name": "Star Jalsha (1080p) [Geo-blocked]",
+      "geo": true
+    },
+    {
+      "n": "Star Movies HD",
+      "l": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_STAR_MOVIES/images/LOGO_HD/image.png",
+      "c": "Movies",
+      "i": "StarMovies.in@HD",
+      "s": [
+        "http://103.185.24.134:3001/Star-Movies/index.m3u8",
+        "http://103.151.60.162:2122/play/a02k/index.m3u8?hls"
+      ],
+      "raw_name": "Star Movies HD (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Star Sports Select 1 HD",
+      "l": "https://i.imgur.com/Mh9tKPx.png",
+      "c": "Sports",
+      "i": "StarSportsSelect1.in@HD",
+      "s": [
+        "http://103.151.60.162:2122/play/a026/index.m3u8?hls"
+      ],
+      "raw_name": "Star Sports Select 1 HD (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Star Sports Select 2 HD",
+      "l": "https://i.imgur.com/FtRT73R.png",
+      "c": "Sports",
+      "i": "StarSportsSelect2.in@HD",
+      "s": [
+        "http://103.151.60.162:2122/play/a027/index.m3u8?hls"
+      ],
+      "raw_name": "Star Sports Select 2 HD (1080p)",
+      "geo": false
+    },
+    {
+      "n": "StarPlus HD",
+      "l": "https://i.imgur.com/xWxNy3L.png",
+      "c": "Entertainment",
+      "i": "StarPlus.in@HD",
+      "s": [
+        "http://41.205.93.154/STAR-PLUS/index.m3u8",
+        "http://66.102.126.10:8000/play/a008/index.m3u8",
+        "http://103.185.24.134:3001/Star-Plus/index.m3u8"
+      ],
+      "raw_name": "StarPlus HD (1080p) [Geo-blocked]",
+      "geo": true
+    },
+    {
+      "n": "Subin TV",
+      "l": "https://jiotvimages.cdn.jio.com/dare_images/images/subintvtamil.png",
+      "c": "Entertainment",
+      "i": "SubinTV.in@SD",
+      "s": [
+        "https://stream.galaxyott.live/live/subintv/index.m3u8"
+      ],
+      "raw_name": "Subin TV (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Sudarshan News",
+      "l": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SUDARSHAN_NEWS/images/LOGO_HD/image.png",
+      "c": "News",
+      "i": "SudarshanNews.in@SD",
+      "s": [
+        "https://ott.livelegitpro.in/sudarshannews/sudarshannews/tracks-v1/index.fmp4.m3u8"
+      ],
+      "raw_name": "Sudarshan News (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Sun Surya HD",
+      "l": "https://jiotvimages.cdn.jio.com/dare_images/images/Surya_HD.png",
+      "c": "Entertainment",
+      "i": "SunSurya.in@HD",
+      "s": [
+        "https://d3dt6rg724ecr3.cloudfront.net/SuryaTv/SuryaTV-HDR10-IN-index.m3u8"
+      ],
+      "raw_name": "Sun Surya HD (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Sun TV HD",
+      "l": "https://dtil.tmsimg.com/assets/GNLZZGG002Z0M0Y.png?lock=720x540",
+      "c": "Entertainment",
+      "i": "SunTV.in@HD",
+      "s": [
+        "https://d2px1d6ssc60fw.cloudfront.net/SunTV/SunTV-HDR10-IN-index.m3u8"
+      ],
+      "raw_name": "Sun TV HD (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Suriya TV",
+      "l": "https://jiotvimages.cdn.jio.com/dare_images/images/suryatvtamil.png",
+      "c": "Entertainment",
+      "i": "SuriyaTV.in@SD",
+      "s": [
+        "https://stream.ottlive.co.in/suryatvtamil/index.m3u8"
+      ],
+      "raw_name": "Suriya TV (1080p)",
+      "geo": false
+    },
+    {
+      "n": "SVBC 2",
+      "l": "https://dtil.tmsimg.com/assets/s143890_ld_h9_aa.png?lock=720x540",
+      "c": "Devotional",
+      "i": "SVBC2.in@SD",
+      "s": [
+        "https://player.mslivestream.net/tamil/ac206e74d75b285755ee4924df87d951.sdp/playlist.m3u8"
+      ],
+      "raw_name": "SVBC 2 (1080p)",
+      "geo": false
+    },
+    {
+      "n": "SVBC 4",
+      "l": "https://jiotvimages.cdn.jio.com/dare_images/images/SVBC4.png",
+      "c": "Devotional",
+      "i": "SVBC4.in@SD",
+      "s": [
+        "https://player.mslivestream.net/mslive/13a2927187b9700ae7ea82d7841d5b68.sdp/playlist.m3u8"
+      ],
+      "raw_name": "SVBC 4 (1080p)",
+      "geo": false
+    },
+    {
+      "n": "SVBC Sri Venkateswara Bhakti Channel",
+      "l": "https://dtil.tmsimg.com/assets/s143889_ld_h9_ab.png?lock=720x540",
+      "c": "Devotional",
+      "i": "SVBC.in@SD",
+      "s": [
+        "https://player.mslivestream.net/telugu/5d076e5c3d34cb8bb08e54a4bb7e223e.sdp/playlist.m3u8"
+      ],
+      "raw_name": "SVBC Sri Venkateswara Bhakti Channel (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Swatantra TV",
+      "l": "https://jiotvimages.cdn.jio.com/dare_images/images/Swatantra_News.png",
+      "c": "News",
+      "i": "SwatantraTV.in@SD",
+      "s": [
+        "https://mumbai-edge.smartplaytv.in/SwatantraTV/index.m3u8"
+      ],
+      "raw_name": "Swatantra TV (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Tabbar Hits",
+      "l": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_TABBAR_HITS/images/LOGO_HD/image.png",
+      "c": "Music",
+      "i": "TabbarHits.in@SD",
+      "s": [
+        "https://vglivessai.akamaized.net/sg/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/e11b0319-52e8-4190-ab03-3931cc68eac9/index.m3u8"
+      ],
+      "raw_name": "Tabbar Hits (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Telugu One",
+      "l": "https://jiotvimages.cdn.jio.com/dare_images/images/teluguone.png",
+      "c": "Entertainment",
+      "i": "TeluguOne.in@HD",
+      "s": [
+        "https://teluguone-yupptv.vgcdn.net/v1/019be9e3f04d1ea55784338b5c3e89/019be9e4474415fc60e93459e1e808/teluguone_2500k.m3u8"
+      ],
+      "raw_name": "Telugu One (1080p)",
+      "geo": false
+    },
+    {
+      "n": "The Jungle Book",
+      "l": "https://pash.ink/storage/uploads/JungleBook_Logo.png",
+      "c": "Kids",
+      "i": "TheJungleBook.in@SD",
+      "s": [
+        "https://cc-4bhi5osabejc9.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-4bhi5osabejc9/junglebook.m3u8"
+      ],
+      "raw_name": "The Jungle Book (1080p)",
+      "geo": false
+    },
+    {
+      "n": "The Movie Club",
+      "l": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN38000072R_20260325T012318SQUARE.png",
+      "c": "Movies",
+      "i": "TheMovieClub.in@HD",
+      "s": [
+        "https://sis-global.prod.samsungtv.plus/v1/tvpprd/sc-mp2ar4ca425xo.m3u8",
+        "https://mumbai-edge.smartplaytv.in/TheMovieClub/index.m3u8"
+      ],
+      "raw_name": "The Movie Club (1080p)",
+      "geo": false
+    },
+    {
+      "n": "The Movie Club +2",
+      "l": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN38000072R_20260325T012318SQUARE.png",
+      "c": "Movies",
+      "i": "TheMovieClub.in@Plus2",
+      "s": [
+        "https://d3gnyty2vddhsg.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-ytipwjqub3kf8/TMC2_IN.m3u8?ads.ads_cdn=cf&ads.cdn=cf"
+      ],
+      "raw_name": "The Movie Club +2 (1080p)",
+      "geo": false
+    },
+    {
+      "n": "The Voice TV",
+      "l": "https://jiotvimages.cdn.jio.com/dare_images/images/thevoicetv.png",
+      "c": "News",
+      "i": "TheVoiceTV.in@SD",
+      "s": [
+        "https://legitpro.co.in/thevoicetv/thevoicetv/index.m3u8"
+      ],
+      "raw_name": "The Voice TV (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Times Now Navbharat",
+      "l": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_TIMES_NOW_NAVBHARAT_HD/images/LOGO_HD/image.png",
+      "c": "News",
+      "i": "TimesNowNavbharat.in@SD",
+      "s": [
+        "https://dztlhgid9me95.cloudfront.net/live-tv/Vidgyor/navbharat/navbharat_master.m3u8",
+        "https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/YuppTV/TimesNowNavbharat.m3u8",
+        "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/a5ee7c4e7a2a4b15a22a3bcf523b9776/index.m3u8",
+        "https://yupprestreamliveus.akamaized.net/v1/vglive-sk-717514/main.m3u8"
+      ],
+      "raw_name": "Times Now Navbharat (1080p) [Geo-blocked]",
+      "geo": true
+    },
+    {
+      "n": "TNP News",
+      "l": "https://jiotvimages.cdn.jio.com/dare_images/images/TNP_News.png",
+      "c": "News",
+      "i": "TNPNews.in@SD",
+      "s": [
+        "https://server.thelegitpro.in/tnpnews/tnpnews/index.m3u8"
+      ],
+      "raw_name": "TNP News (1080p)",
+      "geo": false
+    },
+    {
+      "n": "TOI Global",
+      "l": "",
+      "c": "Other",
+      "i": "TOIGlobal.in@SD",
+      "s": [
+        "https://live.sli.ke/live/npnhm84gz9/master.m3u8"
+      ],
+      "raw_name": "TOI Global (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Top News Marathi",
+      "l": "https://jiotvimages.cdn.jio.com/dare_images/images/topnewsmarathi.png",
+      "c": "News",
+      "i": "TopNewsMarathi.in@SD",
+      "s": [
+        "https://live1.ottlive.co.in/topnewsmarathi/topnewsmarathi/index.m3u8"
+      ],
+      "raw_name": "Top News Marathi (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Total Bhakti",
+      "l": "https://i.imgur.com/LPwRdmF.png",
+      "c": "Devotional",
+      "i": "TotalBhakti.in@SD",
+      "s": [
+        "https://d34z4embz0hjf6.cloudfront.net/out/v1/d55b3323a9f142638f897378f0b526fe/index.m3u8"
+      ],
+      "raw_name": "Total Bhakti (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Travelxp HD",
+      "l": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_TRAVELXP/images/LOGO_HD/image.png",
+      "c": "Infotainment",
+      "i": "Travelxp.in@HD",
+      "s": [
+        "https://amg00416-amg00416c9-samsung-in-4882.playouts.now.amagi.tv/playlist/amg00416-travelxp-travelxphd-samsungin/playlist.m3u8",
+        "http://103.151.60.162:2122/play/a01s/index.m3u8?hls"
+      ],
+      "raw_name": "Travelxp HD (1080p) [Geo-blocked]",
+      "geo": true
+    },
+    {
+      "n": "Travelxp Russia",
+      "l": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_TRAVELXP/images/LOGO_HD/image.png",
+      "c": "Infotainment",
+      "i": "Travelxp.in@Russia",
+      "s": [
+        "http://stream.mcquack.net/451/index.m3u8"
+      ],
+      "raw_name": "Travelxp Russia (1080p)",
+      "geo": false
+    },
+    {
+      "n": "TV30 India",
+      "l": "https://jiotvimages.cdn.jio.com/dare_images/images/TV30India.png",
+      "c": "News",
+      "i": "TV30India.in@SD",
+      "s": [
+        "https://stream.tv30bharat.com/hls/shree/bhattji.m3u8"
+      ],
+      "raw_name": "TV30 India (1080p)",
+      "geo": false
+    },
+    {
+      "n": "TV45",
+      "l": "https://jiotvimages.cdn.jio.com/dare_images/images/TV45.png",
+      "c": "News",
+      "i": "TV45.in@SD",
+      "s": [
+        "https://server.livelegitpro.in/bnews24/bnews24/video.m3u8"
+      ],
+      "raw_name": "TV45 (1080p)",
+      "geo": false
+    },
+    {
+      "n": "U Bangla",
+      "l": "https://jiotvimages.cdn.jio.com/dare_images/images/U_Bangla.png",
+      "c": "Other",
+      "i": "UBangla.in@SD",
+      "s": [
+        "https://stream.ottlive.co.in/ubangla/index.m3u8"
+      ],
+      "raw_name": "U Bangla (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Ultimate TV",
+      "l": "https://jiotvimages.cdn.jio.com/dare_images/images/utvtamil.png",
+      "c": "Music",
+      "i": "UltimateTV.in@SD",
+      "s": [
+        "https://stream.ottlive.co.in/utvtamil/index.m3u8"
+      ],
+      "raw_name": "Ultimate TV (1080p)",
+      "geo": false
+    },
+    {
+      "n": "UTV Palakkad",
+      "l": "https://utvpkd.in/assets/img/logo.png",
+      "c": "Entertainment",
+      "i": "UTVPalakkad.in@SD",
+      "s": [
+        "https://em4qj6nedyvg-hls-live.wmncdn.net/liveunit/89b1e919eed04e59383cf820d644c20e.sdp/playlist.m3u8",
+        "https://em4qj6nedyvg-hls-live.wmncdn.net/utv/ab2de115318ae40bdd434e193a2f2e7f.sdp/playlist.m3u8"
+      ],
+      "raw_name": "UTV Palakkad (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Vijay Takkar APAC",
+      "l": "",
+      "c": "Other",
+      "i": "VijayTakkar.in@APAC",
+      "s": [
+        "https://tglmp01.akamaized.net/out/v1/c1071012b73f4f189b202e1529e8f802/manifest.mpd"
+      ],
+      "raw_name": "Vijay Takkar APAC (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Village TV",
+      "l": "https://jiotvimages.cdn.jio.com/dare_images/images/VillageTV.png",
+      "c": "Devotional",
+      "i": "VillageTV.in@SD",
+      "s": [
+        "https://live.villagetv.net/villagetv/hd/index.m3u8"
+      ],
+      "raw_name": "Village TV (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Vistaar News",
+      "l": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_VISTAAR_NEWS/images/LOGO_HD/image.png",
+      "c": "News",
+      "i": "VistaarNews.in@SD",
+      "s": [
+        "https://stream.ottlive.co.in/vistaartv/index.m3u8"
+      ],
+      "raw_name": "Vistaar News (1080p)",
+      "geo": false
+    },
+    {
+      "n": "VTU",
+      "l": "https://i.imgur.com/zMwZRGJ.png",
+      "c": "Other",
+      "i": "VTU.in@SD",
+      "s": [
+        "https://lbgo.bozztv.com/ssh101/ssh101/afghantheatretv/playlist.m3u8"
+      ],
+      "raw_name": "VTU (1080p)",
+      "geo": false
+    },
+    {
+      "n": "WION",
+      "l": "",
+      "c": "Other",
+      "i": "WION.in@SD",
+      "s": [
+        "http://vg-zeefta.akamaized.net/ptnr-yupptv/title-wion/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/20c3c0d9-0256-43fe-bca6-70fdd490b957/main.m3u8",
+        "https://d7x8z4yuq42qn.cloudfront.net/index_7.m3u8",
+        "https://raw.githubusercontent.com/Alstruit/adaptive-streams/alstruit-10_23_in/streams/in/WION.in.m3u8"
+      ],
+      "raw_name": "WION (1080p)",
+      "geo": false
+    },
+    {
+      "n": "World Punjabi TV",
+      "l": "https://papaji.freetvindia.com/media/World_Punjabi_TV.png",
+      "c": "News",
+      "i": "WorldPunjabiTV.in@SD",
+      "s": [
+        "https://live1.ottlive.co.in/worldpunjabitv/worldpunjabitv/index.m3u8"
+      ],
+      "raw_name": "World Punjabi TV (1080p)",
+      "geo": false
+    },
+    {
+      "n": "YRF Music",
+      "l": "https://i.imgur.com/pKj3F4M.png",
+      "c": "Music",
+      "i": "YRFMusic.in@SD",
+      "s": [
+        "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-yrfmusic-xiaomi/playlist.m3u8",
+        "https://d14c63magvk61v.cloudfront.net/strm/channels/yrfmusic/master.m3u8"
+      ],
+      "raw_name": "YRF Music (1080p)",
+      "geo": false
+    },
+    {
+      "n": "ZB Cartoon",
+      "l": "https://jiotvimages.cdn.jio.com/dare_images/images/zbcatun.png",
+      "c": "Kids",
+      "i": "ZBCartoon.in@HD",
+      "s": [
+        "https://server.zillarbarta.com/zbcatun/video.m3u8"
+      ],
+      "raw_name": "ZB Cartoon (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Zee Bangla HD",
+      "l": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_BANGLA_HD/images/LOGO_HD/LOGO_HD_image.png",
+      "c": "Entertainment",
+      "i": "ZeeBangla.in@HD",
+      "s": [
+        "http://103.151.60.162:2122/play/a02p/index.m3u8?hls"
+      ],
+      "raw_name": "Zee Bangla HD (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Zee Cine Classic",
+      "l": "https://i.imgur.com/QCRhS1n.png",
+      "c": "Movies",
+      "i": "ZeeCineClassic.in@SD",
+      "s": [
+        "https://amg00862-amg00862c8-amgplt0173.playout.now3.amagi.tv/playlist/amg00862-amg00862c8-amgplt0173/playlist.m3u8"
+      ],
+      "raw_name": "Zee Cine Classic (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Zee Cinema HD",
+      "l": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_CINEMA/images/LOGO_HD/LOGO_HD_image.png",
+      "c": "Movies",
+      "i": "ZeeCinema.in@HD",
+      "s": [
+        "http://103.151.60.162:2122/play/a024/index.m3u8?hls",
+        "http://103.151.60.162:2122/play/a012/index.m3u8?hls"
+      ],
+      "raw_name": "Zee Cinema HD (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Zee Comedy Nation",
+      "l": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN2100002GD_20260325T012327SQUARE.png",
+      "c": "Entertainment",
+      "i": "ZeeComedyNation.in@HD",
+      "s": [
+        "https://amg00862-amg00862c5-amgplt0173.playout.now3.amagi.tv/playlist/amg00862-amg00862c5-amgplt0173/playlist.m3u8"
+      ],
+      "raw_name": "Zee Comedy Nation (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Zee Dil Se",
+      "l": "https://d2mxb63djushzm.cloudfront.net/images/Zee_Dil_Se.png",
+      "c": "Entertainment",
+      "i": "ZeeDilSe.in@HD",
+      "s": [
+        "https://amg00862-amg00862c6-amgplt0173.playout.now3.amagi.tv/playlist/amg00862-amg00862c6-amgplt0173/playlist.m3u8"
+      ],
+      "raw_name": "Zee Dil Se (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Zee Horror Nights",
+      "l": "https://d3bd0tgyk368z1.cloudfront.net/zeelg/LG%20logo%20artwork/400x200/zhornights.png",
+      "c": "Entertainment",
+      "i": "ZeeHorrorNights.in@HD",
+      "s": [
+        "https://amg00862-amg00862c7-amgplt0173.playout.now3.amagi.tv/playlist/amg00862-amg00862c7-amgplt0173/playlist.m3u8"
+      ],
+      "raw_name": "Zee Horror Nights (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Zee Kannada HD",
+      "l": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_KANNADA_HD/images/LOGO_HD/LOGO_HD_image.png",
+      "c": "Entertainment",
+      "i": "ZeeKannada.in@HD",
+      "s": [
+        "https://yuppnimresmum.akamaized.net/28072023/smil:zeekannadahd.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b"
+      ],
+      "raw_name": "Zee Kannada HD (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Zee News",
+      "l": "https://dtil.tmsimg.com/assets/GNLZZGG0023VWYC.png?lock=720x540",
+      "c": "News",
+      "i": "ZeeNews.in@SD",
+      "s": [
+        "https://dknttpxmr0dwf.cloudfront.net/index_57.m3u8",
+        "https://dt3lrqnyx3dks.cloudfront.net/index.m3u8"
+      ],
+      "raw_name": "Zee News (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Zee South Flix",
+      "l": "https://d3bd0tgyk368z1.cloudfront.net/zeelg/LG%20logo%20artwork/400x200/zsouthflix.png",
+      "c": "Movies",
+      "i": "ZeeSouthFlix.in@HD",
+      "s": [
+        "https://amg00862-amg00862c9-amgplt0173.playout.now3.amagi.tv/playlist/amg00862-amg00862c9-amgplt0173/playlist.m3u8"
+      ],
+      "raw_name": "Zee South Flix (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Zee Tamil HD",
+      "l": "https://dtil.tmsimg.com/assets/GNLZZGG00233WCL.png?lock=720x540",
+      "c": "Entertainment",
+      "i": "ZeeTamil.in@HD",
+      "s": [
+        "https://d2o8pibksxtln6.cloudfront.net/live/media/Zee_Tamil_HD/hls/Zee_Tamil_HD.m3u8"
+      ],
+      "raw_name": "Zee Tamil HD (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Zodiak TV",
+      "l": "https://i.imgur.com/gE166hZ.jpeg",
+      "c": "Entertainment",
+      "i": "ZodiakTV.in@SD",
+      "s": [
+        "https://ranacable.duckdns.org/ZodiakTv/index.m3u8"
+      ],
+      "raw_name": "Zodiak TV (1080p)",
+      "geo": false
+    },
+    {
+      "n": "5Plus",
+      "l": "https://i.imgur.com/L3RA9Lv.png",
+      "c": "Sports",
+      "i": "5Plus.il@SD",
+      "s": [
+        "http://89.33.29.115:8080/sportplus/index.m3u8"
+      ],
+      "raw_name": "5Plus (1080p)",
+      "geo": false
+    },
+    {
+      "n": "5Stars",
+      "l": "https://i.imgur.com/IQtAKIa.png",
+      "c": "Sports",
+      "i": "5Stars.il@SD",
+      "s": [
+        "http://89.33.29.115:8080/IL_5Stars/index.m3u8"
+      ],
+      "raw_name": "5Stars (1080p)",
+      "geo": false
+    },
+    {
+      "n": "A Spor SD",
+      "l": "https://i.imgur.com/ZhkZzLf.png",
+      "c": "Sports",
+      "i": "ASpor.tr@SD",
+      "s": [
+        "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor.m3u8"
+      ],
+      "raw_name": "A Spor SD (1080p)",
+      "geo": false
+    },
+    {
+      "n": "ACC Digital Network",
+      "l": "https://i.imgur.com/V6Kaqha.png",
+      "c": "Sports",
+      "i": "ACCDigitalNetwork.us@SD",
+      "s": [
+        "https://raycom-accdn-firetv.amagi.tv/playlist.m3u8"
+      ],
+      "raw_name": "ACC Digital Network (1080p)",
+      "geo": false
+    },
+    {
+      "n": "ACI Sport TV SD",
+      "l": "https://i.imgur.com/U8cHMOt.png",
+      "c": "Sports",
+      "i": "ACISportTV.it@SD",
+      "s": [
+        "https://webstream.multistream.it/memfs/e2cb3629-c1a2-495b-b43a-9eb386f04ed8.m3u8"
+      ],
+      "raw_name": "ACI Sport TV SD (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Africa 24 Sport",
+      "l": "https://i0.wp.com/africa24tv.com/wp-content/uploads/2023/12/LOGO-AFRICASPORT-4-HD-sans-fond.png?fit=512%2C107&ssl=1",
+      "c": "Sports",
+      "i": "Africa24Sport.fr@SD",
+      "s": [
+        "https://africa24.vedge.infomaniak.com/livecast/ik:africa24sport/manifest.m3u8"
+      ],
+      "raw_name": "Africa 24 Sport (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Alfa Sport",
+      "l": "https://i.imgur.com/vhMPYIW.png",
+      "c": "Sports",
+      "i": "AlfaSport.cy@SD",
+      "s": [
+        "https://dev.aftermind.xyz/edge-hls/unitrust/alfasports/index.m3u8?token=8TXWzhY3h6jrzqEqx"
+      ],
+      "raw_name": "Alfa Sport (1080p) [Not 24/7]",
+      "geo": false
+    },
+    {
+      "n": "American Ninja Warrior",
+      "l": "https://raw.githubusercontent.com/RoqueDJ/iptv-svg/main/1792421696158.png",
+      "c": "Sports",
+      "i": "AmericanNinjaWarrior.us@SD",
+      "s": [
+        "https://d4whmvwm0rdvi.cloudfront.net/10007/99951318/hls/master.m3u8?ads.xumo_channelId=99951318&ads.asnw=169843&ads.afid=405342864&ads.sfid=19647852&ads.csid=xumo_web_NBCUAmericanNinjaWarrior_ssai_cro&ads._fw_is_lat=0&ads._fw_us_privacy=&ads._fw_coppa=0&ads._fw_did=a5090924-15b1-4b7f-b6cd-2f06e2ba51e1&ads._fw_vcid2=512116:a5090924-15b1-4b7f-b6cd-2f06e2ba51e1&ads._fw_app_bundle=web.xumo.com&ads._fw_app_store_url=&ads._fw_content_category=&ads._fw_content_genre=&ads._fw_content_language=en&ads._fw_content_rating=&ads._fw_deviceMake=GitHubAction&ads._fw_device_model=PythonScript&ads._fw_deviceType=3-Connected_TV&ads.appVersion=1.0.0&ads.appName=XumoPlay&ads.xumo_contentId=4063&ads.xumo_contentName=NBCUAmericanNinjaWarrior&ads.xumo_providerId=4063&ads.xumo_providerName=NBCUAmericanNinjaWarrior&ads.channelId=99951318"
+      ],
+      "raw_name": "American Ninja Warrior (1080p)",
+      "geo": false
+    },
+    {
+      "n": "AS3 Sport TV",
+      "l": "https://i.ibb.co/bRmGbsyV/A3-SPORTTV.jpg",
+      "c": "Sports",
+      "i": "AS3SportTV.ve@SD",
+      "s": [
+        "https://streamtv.as3sport.online:3394/hybrid/play.m3u8"
+      ],
+      "raw_name": "AS3 Sport TV (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Awapa Sports TV",
+      "l": "https://i.imgur.com/MNw5cJH.jpg",
+      "c": "Sports",
+      "i": "AwapaSportsTV.sv@SD",
+      "s": [
+        "https://mgv-awapa.akamaized.net/hls/live/2104282/MGV_CHANNEL15/master.m3u8"
+      ],
+      "raw_name": "Awapa Sports TV (1080p) [Not 24/7]",
+      "geo": false
+    },
+    {
+      "n": "AyM Sports",
+      "l": "https://i.imgur.com/yu3Bpbd.png",
+      "c": "Sports",
+      "i": "AyMSports.mx@SD",
+      "s": [
+        "http://168.196.127.137:6001/play/a06v/index.m3u8"
+      ],
+      "raw_name": "AyM Sports (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Azteca Deportes Network",
+      "l": "https://match-images.icdb.tv/5913207f2494844101287828e87625eb.jpg",
+      "c": "Sports",
+      "i": "AztecaDeportesNetwork.mx@SD",
+      "s": [
+        "http://181.119.66.28:8081/AZTECA-DEPORTES-HD/index.m3u8"
+      ],
+      "raw_name": "Azteca Deportes Network (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Band Sports",
+      "l": "https://i.imgur.com/EuPvzJe.png",
+      "c": "Sports",
+      "i": "BandSports.br@SD",
+      "s": [
+        "https://cdn-5.nxplay.com.br/BAND_SPORTS/index.m3u8"
+      ],
+      "raw_name": "Band Sports (1080p)",
+      "geo": false
+    },
+    {
+      "n": "beIN Sports 1",
+      "l": "https://i.imgur.com/Vtk2cGI.png",
+      "c": "Sports",
+      "i": "beINSports1.qa@MENA",
+      "s": [
+        "http://primetv.cc.cd/beinfhd11/tracks-v1a1/mono.tbin.m3u8"
+      ],
+      "raw_name": "beIN Sports 1 (1080p)",
+      "geo": false
+    },
+    {
+      "n": "beIN Sports 2",
+      "l": "https://i.imgur.com/vUJZSvs.png",
+      "c": "Sports",
+      "i": "beINSports2.qa@MENA",
+      "s": [
+        "http://primetv.cc.cd/beinfhd22/index.m3u8"
+      ],
+      "raw_name": "beIN Sports 2 (1080p)",
+      "geo": false
+    },
+    {
+      "n": "beIN Sports 3",
+      "l": "https://i.imgur.com/UYSMao3.png",
+      "c": "Sports",
+      "i": "beINSports3.qa@MENA",
+      "s": [
+        "http://primetv.cc.cd/beinfhd33/index.m3u8"
+      ],
+      "raw_name": "beIN Sports 3 (1080p)",
+      "geo": false
+    },
+    {
+      "n": "beIN Sports 4",
+      "l": "https://i.imgur.com/vwAgJNi.png",
+      "c": "Sports",
+      "i": "beINSports4.qa@MENA",
+      "s": [
+        "http://primetv.cc.cd/beinfhd44/tracks-v1a1/mono.tbin.m3u8"
+      ],
+      "raw_name": "beIN Sports 4 (1080p)",
+      "geo": false
+    },
+    {
+      "n": "beIN Sports 5",
+      "l": "https://i.imgur.com/2Rha5aY.png",
+      "c": "Sports",
+      "i": "beINSports5.qa@MENA",
+      "s": [
+        "http://primetv.cc.cd/beinfhd55/tracks-v1a1/mono.tbin.m3u8"
+      ],
+      "raw_name": "beIN Sports 5 (1080p)",
+      "geo": false
+    },
+    {
+      "n": "beIN Sports 6",
+      "l": "https://i.imgur.com/0wBdLYb.png",
+      "c": "Sports",
+      "i": "beINSports6.qa@MENA",
+      "s": [
+        "http://primetv.cc.cd/beinfhd66/index.m3u8"
+      ],
+      "raw_name": "beIN Sports 6 (1080p)",
+      "geo": false
+    },
+    {
+      "n": "beIN Sports 7",
+      "l": "https://i.imgur.com/iODFwZi.png",
+      "c": "Sports",
+      "i": "beINSports7.qa@MENA",
+      "s": [
+        "http://primetv.cc.cd/beinfhd77/index.m3u8"
+      ],
+      "raw_name": "beIN Sports 7 (1080p)",
+      "geo": false
+    },
+    {
+      "n": "beIN Sports 8",
+      "l": "https://i.imgur.com/CaFEyVn.png",
+      "c": "Sports",
+      "i": "beINSports8.qa@MENA",
+      "s": [
+        "http://primetv.cc.cd/beinfhd88/index.m3u8"
+      ],
+      "raw_name": "beIN Sports 8 (1080p)",
+      "geo": false
+    },
+    {
+      "n": "beIN SPORTS XTRA",
+      "l": "https://i.ibb.co/HT49GPmB/XTRA-2.png",
+      "c": "Sports",
+      "i": "beINSPORTSXTRA.us@SD",
+      "s": [
+        "https://bein-xtra-bein.amagi.tv/playlist.m3u8"
+      ],
+      "raw_name": "beIN SPORTS XTRA (1080p)",
+      "geo": false
+    },
+    {
+      "n": "beIN SPORTS XTRA en Espanol",
+      "l": "https://i.imgur.com/V562tpO.png",
+      "c": "Sports",
+      "i": "beINSPORTSXTRAenEspanol.us@SD",
+      "s": [
+        "http://201.190.41.246:9060/play/a03y/index.m3u8"
+      ],
+      "raw_name": "beIN SPORTS XTRA en Espanol (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Belarus-5",
+      "l": "https://i.imgur.com/NJsRFud.png",
+      "c": "Sports",
+      "i": "Belarus5.by@SD",
+      "s": [
+        "https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus5.smil/playlist.m3u8",
+        "http://178.124.179.122:8080/BT5/index.m3u8"
+      ],
+      "raw_name": "Belarus-5 (1080p) [Not 24/7]",
+      "geo": false
+    },
+    {
+      "n": "Belarus-5 Internet",
+      "l": "https://i.imgur.com/NJsRFud.png",
+      "c": "Sports",
+      "i": "Belarus5.by@Internet",
+      "s": [
+        "https://edge59.dc.beltelecom.by/ngtrk/smil:belarus5int.smil/playlist.m3u8"
+      ],
+      "raw_name": "Belarus-5 Internet (1080p) [Not 24/7]",
+      "geo": false
+    },
+    {
+      "n": "Billiard TV",
+      "l": "https://i.imgur.com/BZijfKh.png",
+      "c": "Sports",
+      "i": "BilliardTV.us@SD",
+      "s": [
+        "https://pb-wm04vonaerv0k.akamaized.net/billi.m3u8"
+      ],
+      "raw_name": "Billiard TV (1080p) [Geo-blocked]",
+      "geo": true
+    },
+    {
+      "n": "Canal+ Sport",
+      "l": "https://i.imgur.com/EOXnU15.png",
+      "c": "Sports",
+      "i": "CanalPlusSport.fr@SD",
+      "s": [
+        "http://tv.streambox.fr/live/testlivestream/testlivestream/31.m3u8"
+      ],
+      "raw_name": "Canal+ Sport (1080p) [Geo-blocked]",
+      "geo": true
+    },
+    {
+      "n": "CCTV-16 HD",
+      "l": "https://i.imgur.com/ZzV6JQp.png",
+      "c": "Sports",
+      "i": "CCTV16.cn@HD",
+      "s": [
+        "http://74.91.26.218:82/live/cctv16hd.m3u8"
+      ],
+      "raw_name": "CCTV-16 HD (1080p)",
+      "geo": false
+    },
+    {
+      "n": "CCTV-Billiards",
+      "l": "https://i.imgur.com/WK3keM9.png",
+      "c": "Sports",
+      "i": "CCTVBilliards.cn@HD",
+      "s": [
+        "http://38.75.136.137:98/gslb/dsdqpub/ystq.m3u8?auth=testpub"
+      ],
+      "raw_name": "CCTV-Billiards (1080p)",
+      "geo": false
+    },
+    {
+      "n": "CCTV-Golf & Tennis",
+      "l": "https://i.imgur.com/iqJJTmH.png",
+      "c": "Sports",
+      "i": "CCTVGolfTennis.cn@HD",
+      "s": [
+        "http://38.75.136.137:98/gslb/dsdqpub/gefwq.m3u8?auth=testpub"
+      ],
+      "raw_name": "CCTV-Golf & Tennis (1080p)",
+      "geo": false
+    },
+    {
+      "n": "CCTV-Storm Football",
+      "l": "https://i.imgur.com/Fy6HkX0.png",
+      "c": "Sports",
+      "i": "CCTVStormFootball.cn@HD",
+      "s": [
+        "http://38.75.136.137:98/gslb/dsdqpub/fyzq.m3u8?auth=testpub"
+      ],
+      "raw_name": "CCTV-Storm Football (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Claro Sports",
+      "l": "https://i.imgur.com/n0kd17r.png",
+      "c": "Sports",
+      "i": "ClaroSports.mx@SD",
+      "s": [
+        "http://168.196.127.137:6001/play/a08r/index.m3u8"
+      ],
+      "raw_name": "Claro Sports (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Cricket Gold",
+      "l": "https://resources.cricket-australia.pulselive.com/cricket-australia/photo/2025/07/25/836eddae-4329-4542-ad17-dcd37e9d951a/Cricket-Gold-1920x1080_noBG.png",
+      "c": "Sports",
+      "i": "CricketGold.au@SD",
+      "s": [
+        "https://streams2.sofast.tv/ptnr-yupptv/title-cricketgold/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/b2048bb8-1686-4432-aa50-647245383e0c/manifest.m3u8"
+      ],
+      "raw_name": "Cricket Gold (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Deportes TVC",
+      "l": "https://i.imgur.com/Y1t8xkL.png",
+      "c": "Sports",
+      "i": "DeportesTVC.hn@SD",
+      "s": [
+        "http://162.19.255.233:8080/play/UNbAl57p9hXZClOu56FCTYXmD-MOS3u5IUkeXPpBt80/m3u8"
+      ],
+      "raw_name": "Deportes TVC (1080p)",
+      "geo": false
+    },
+    {
+      "n": "DeporTV",
+      "l": "https://i.imgur.com/THk9ARS.png",
+      "c": "Sports",
+      "i": "DeporTV.ar@SD",
+      "s": [
+        "http://158.172.155.130:8000/play/a09y/index.m3u8"
+      ],
+      "raw_name": "DeporTV (1080p)",
+      "geo": false
+    },
+    {
+      "n": "DiviSport",
+      "l": "https://i.logos-download.com/114030/29915-s5120-904df224e4c030fefcc45adda448b6e8.png/DiviSport_Logo_2023-s5120.png",
+      "c": "Sports",
+      "i": "DiviSport.ua@SD",
+      "s": [
+        "http://stream.mcquack.net/457/index.m3u8"
+      ],
+      "raw_name": "DiviSport (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Dong Nai TV 2",
+      "l": "https://i.imgur.com/tNKPSkO.png",
+      "c": "Sports",
+      "i": "DongNaiTV2.vn@SD",
+      "s": [
+        "https://freem3u.xyz/api/live/play.m3u8?vid=255"
+      ],
+      "raw_name": "Dong Nai TV 2 (1080p)",
+      "geo": false
+    },
+    {
+      "n": "DraftKings Network",
+      "l": "https://i.imgur.com/SFYhgrt.png",
+      "c": "Sports",
+      "i": "DraftKingsNetwork.us@SD",
+      "s": [
+        "https://na.linear.zype.com/e0bd0e23-a958-4e43-8164-4f2fef8876a8/fd3614bd-90bf-4530-a277-65ae3a1720c8-zype/live.m3u8"
+      ],
+      "raw_name": "DraftKings Network (1080p)",
+      "geo": false
+    },
+    {
+      "n": "DSports",
+      "l": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/DirecTV_Sports_Latin_America_%282018%29.png/960px-DirecTV_Sports_Latin_America_%282018%29.png",
+      "c": "Sports",
+      "i": "DSports.us@Panregional",
+      "s": [
+        "http://38.187.7.252:8000/play/a03d/index.m3u8"
+      ],
+      "raw_name": "DSports (1080p)",
+      "geo": false
+    },
+    {
+      "n": "DSports 2",
+      "l": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/DIRECTV_Sports_2_Latin_America_%282018%29.svg/960px-DIRECTV_Sports_2_Latin_America_%282018%29.svg.png",
+      "c": "Sports",
+      "i": "DSports2.us@Panregional",
+      "s": [
+        "http://187.102.208.209:8000/play/a0bq/index.m3u8"
+      ],
+      "raw_name": "DSports 2 (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Dynamo Kyiv TV",
+      "l": "https://i.imgur.com/ymxmyyG.png",
+      "c": "Sports",
+      "i": "DynamoKyivTV.ua@SD",
+      "s": [
+        "http://stream.mcquack.net/396/index.m3u8"
+      ],
+      "raw_name": "Dynamo Kyiv TV (1080p)",
+      "geo": false
+    },
+    {
+      "n": "El-Heddaf TV",
+      "l": "https://i.imgur.com/cDkIDIA.png",
+      "c": "Sports",
+      "i": "ElHeddafTV.dz@SD",
+      "s": [
+        "https://live.elheddaftv.com:8081/elheddaftv/index.m3u8"
+      ],
+      "raw_name": "El-Heddaf TV (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Eleven Sports 2",
+      "l": "https://i.imgur.com/bTIRgqG.png",
+      "c": "Sports",
+      "i": "ElevenSports2.pl@SD",
+      "s": [
+        "http://92.114.85.87:8002/play/a00f/index.m3u8"
+      ],
+      "raw_name": "Eleven Sports 2 (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Eleven Sports 3",
+      "l": "https://i.imgur.com/bWjGol4.png",
+      "c": "Sports",
+      "i": "ElevenSports3.pl@SD",
+      "s": [
+        "http://92.114.85.87:8002/play/a00g/index.m3u8"
+      ],
+      "raw_name": "Eleven Sports 3 (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Eleven Sports 4",
+      "l": "https://i.imgur.com/SEKXaAW.png",
+      "c": "Sports",
+      "i": "ElevenSports4.pl@SD",
+      "s": [
+        "http://92.114.85.87:8002/play/a00h/index.m3u8"
+      ],
+      "raw_name": "Eleven Sports 4 (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Equalympic",
+      "l": "https://i.imgur.com/ixSj4H7.png",
+      "c": "Sports",
+      "i": "Equalympic.ua@SD",
+      "s": [
+        "http://stream.mcquack.net/485/index.m3u8"
+      ],
+      "raw_name": "Equalympic (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Equidia",
+      "l": "https://i.imgur.com/QPpbRcZ.png",
+      "c": "Sports",
+      "i": "Equidia.fr@SD",
+      "s": [
+        "https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/equidia/live2.m3u8"
+      ],
+      "raw_name": "Equidia (1080p)",
+      "geo": false
+    },
+    {
+      "n": "ERT Sports 1",
+      "l": "https://i.imgur.com/EsczO2H.png",
+      "c": "Sports",
+      "i": "ERTSports1.gr@HD",
+      "s": [
+        "http://hbbtvapp.ert.gr/stream.php/v/vid_ertsports_mpeg.2ts"
+      ],
+      "raw_name": "ERT Sports 1 (1080p)",
+      "geo": false
+    },
+    {
+      "n": "ERT Sports 2",
+      "l": "https://i.imgur.com/b2SNQPi.png",
+      "c": "Sports",
+      "i": "ERTSports2.gr@HD",
+      "s": [
+        "http://hbbtvapp.ert.gr/stream.php/v/vid_ertplay2_mpeg.2ts"
+      ],
+      "raw_name": "ERT Sports 2 (1080p)",
+      "geo": false
+    },
+    {
+      "n": "ESPN (Brazil)",
+      "l": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/960px-ESPN_wordmark.svg.png",
+      "c": "Sports",
+      "i": "ESPN.br@SD",
+      "s": [
+        "http://181.78.197.59:8000/play/a07z/index.m3u8"
+      ],
+      "raw_name": "ESPN (Brazil) (1080p)",
+      "geo": false
+    },
+    {
+      "n": "ESPN 2 Latin America",
+      "l": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/ESPN2_logo.svg/960px-ESPN2_logo.svg.png",
+      "c": "Sports",
+      "i": "ESPN2LatinAmerica.us@South",
+      "s": [
+        "https://barinaslive1.boldmss.com/ESPN_2/ESPN_2.isml/ESPN_2.m3u8"
+      ],
+      "raw_name": "ESPN 2 Latin America (1080p)",
+      "geo": false
+    },
+    {
+      "n": "ESPN 2 Latin America Colombia",
+      "l": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/ESPN2_logo.svg/960px-ESPN2_logo.svg.png",
+      "c": "Sports",
+      "i": "ESPN2LatinAmerica.us@Colombia",
+      "s": [
+        "http://190.61.47.54:8000/play/a005/index.m3u8"
+      ],
+      "raw_name": "ESPN 2 Latin America Colombia (1080p)",
+      "geo": false
+    },
+    {
+      "n": "ESPN 3 (Brazil)",
+      "l": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/ESPN3_Logo.png/960px-ESPN3_Logo.png",
+      "c": "Sports",
+      "i": "ESPN3.br@SD",
+      "s": [
+        "http://190.83.2.182:8090/ESPN3/index.m3u8"
+      ],
+      "raw_name": "ESPN 3 (Brazil) (1080p)",
+      "geo": false
+    },
+    {
+      "n": "ESPN 3 Latin America",
+      "l": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/ESPN3_Logo.png/960px-ESPN3_Logo.png",
+      "c": "Sports",
+      "i": "ESPN3LatinAmerica.us@South",
+      "s": [
+        "https://barinaslive1.boldmss.com/ESPN_3/ESPN_3.isml/ESPN_3.m3u8"
+      ],
+      "raw_name": "ESPN 3 Latin America (1080p)",
+      "geo": false
+    },
+    {
+      "n": "ESPN 4 (Brazil)",
+      "l": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/ESPN_4_logo.svg/960px-ESPN_4_logo.svg.png",
+      "c": "Sports",
+      "i": "ESPN4.br@SD",
+      "s": [
+        "http://181.78.197.59:8000/play/a07n/index.m3u8"
+      ],
+      "raw_name": "ESPN 4 (Brazil) (1080p)",
+      "geo": false
+    },
+    {
+      "n": "ESPN 4 Latin America",
+      "l": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/ESPN_4_logo.svg/960px-ESPN_4_logo.svg.png",
+      "c": "Sports",
+      "i": "ESPN4LatinAmerica.us@South",
+      "s": [
+        "https://barinaslive1.boldmss.com/ESPN_4/ESPN_4.isml/ESPN_4.m3u8"
+      ],
+      "raw_name": "ESPN 4 Latin America (1080p)",
+      "geo": false
+    },
+    {
+      "n": "ESPN 5 Latin America",
+      "l": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/960px-ESPN_wordmark.svg.png",
+      "c": "Sports",
+      "i": "ESPN5LatinAmerica.us@South",
+      "s": [
+        "https://barinaslive1.boldmss.com/ESPN_5/ESPN_5.isml/ESPN_5.m3u8"
+      ],
+      "raw_name": "ESPN 5 Latin America (1080p)",
+      "geo": false
+    },
+    {
+      "n": "ESPN 6 Latin America",
+      "l": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/960px-ESPN_wordmark.svg.png",
+      "c": "Sports",
+      "i": "ESPN6LatinAmerica.us@SD",
+      "s": [
+        "https://barinaslive1.boldmss.com/ESPN_6/ESPN_6.isml/ESPN_6.m3u8"
+      ],
+      "raw_name": "ESPN 6 Latin America (1080p)",
+      "geo": false
+    },
+    {
+      "n": "ESPN 7 Latin America",
+      "l": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/960px-ESPN_wordmark.svg.png",
+      "c": "Sports",
+      "i": "ESPN7LatinAmerica.us@SD",
+      "s": [
+        "https://barinaslive1.boldmss.com/ESPN_7/ESPN_7.isml/ESPN_7.m3u8"
+      ],
+      "raw_name": "ESPN 7 Latin America (1080p)",
+      "geo": false
+    },
+    {
+      "n": "ESPN Extra Latin America",
+      "l": "https://i.imgur.com/8P8N2Ov.png",
+      "c": "Sports",
+      "i": "ESPNExtraLatinAmerica.us@Argentine",
+      "s": [
+        "https://barinaslive1.boldmss.com/ESPN/ESPN.isml/ESPN.mpd?"
+      ],
+      "raw_name": "ESPN Extra Latin America (1080p)",
+      "geo": false
+    },
+    {
+      "n": "ESPN Latin America",
+      "l": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/960px-ESPN_wordmark.svg.png",
+      "c": "Sports",
+      "i": "ESPNLatinAmerica.us@South",
+      "s": [
+        "https://barinaslive1.boldmss.com/ESPN/ESPN.isml/ESPN.m3u8"
+      ],
+      "raw_name": "ESPN Latin America (1080p)",
+      "geo": false
+    },
+    {
+      "n": "ESPN Latin America Colombia",
+      "l": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/960px-ESPN_wordmark.svg.png",
+      "c": "Sports",
+      "i": "ESPNLatinAmerica.us@Colombia",
+      "s": [
+        "http://190.61.47.54:8000/play/a004/index.m3u8"
+      ],
+      "raw_name": "ESPN Latin America Colombia (1080p)",
+      "geo": false
+    },
+    {
+      "n": "ESPN8: The Ocho",
+      "l": "https://images.fubo.tv/channel-config-ui/station-logos/on-dark/espn_8_the_ocho_bw.png",
+      "c": "Sports",
+      "i": "ESPN8TheOcho.us@ESPN8TheOchoHD",
+      "s": [
+        "https://d3b6q2ou5kp8ke.cloudfront.net/ESPNTheOcho.m3u8"
+      ],
+      "raw_name": "ESPN8: The Ocho (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Esport3",
+      "l": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Esport3.svg/960px-Esport3.svg.png",
+      "c": "Sports",
+      "i": "Esport3.es@SD",
+      "s": [
+        "https://directes-tv-cat.3catdirectes.cat/live-content/esport3-hls/master.m3u8"
+      ],
+      "raw_name": "Esport3 (1080p) [Geo-blocked]",
+      "geo": true
+    },
+    {
+      "n": "Esport3 Originals",
+      "l": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Esport3.svg/960px-Esport3.svg.png",
+      "c": "Sports",
+      "i": "Esport3.es@Originals",
+      "s": [
+        "https://directes-tv-int.3catdirectes.cat/live-content/esport3-hls/master.m3u8"
+      ],
+      "raw_name": "Esport3 Originals (1080p) [Not 24/7]",
+      "geo": false
+    },
+    {
+      "n": "Eurosport 1 Polska",
+      "l": "https://static.wikia.nocookie.net/logopedia/images/e/e7/Eurosport_1_2022.svg/revision/latest?cb=20220806090310",
+      "c": "Sports",
+      "i": "Eurosport1Polska.pl@SD",
+      "s": [
+        "http://57.128.210.196:8080/264/index.m3u8"
+      ],
+      "raw_name": "Eurosport 1 Polska (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Eurosport 1 Russia",
+      "l": "https://i.imgur.com/olQJgm7.png",
+      "c": "Sports",
+      "i": "Eurosport1.fr@Russia",
+      "s": [
+        "http://stream.mcquack.net/176/index.m3u8"
+      ],
+      "raw_name": "Eurosport 1 Russia (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Eurosport 2 Polska",
+      "l": "https://static.wikia.nocookie.net/logopedia/images/1/16/Eurosport_2_2022.svg/revision/latest?cb=20220417183127",
+      "c": "Sports",
+      "i": "Eurosport2Polska.pl@SD",
+      "s": [
+        "http://57.128.210.196:8080/263/index.m3u8"
+      ],
+      "raw_name": "Eurosport 2 Polska (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Eurosport 2 Russia",
+      "l": "https://i.imgur.com/f56dHgR.png",
+      "c": "Sports",
+      "i": "Eurosport2.fr@Russia",
+      "s": [
+        "http://stream.mcquack.net/192/index.m3u8"
+      ],
+      "raw_name": "Eurosport 2 Russia (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Eurosport 4 Polska",
+      "l": "https://static.wikia.nocookie.net/logopedia/images/a/ae/Eurosport_4_2022.svg/revision/latest?cb=20220418053934",
+      "c": "Sports",
+      "i": "Eurosport4Polska.pl@SD",
+      "s": [
+        "http://57.128.231.171:8080/291/index.m3u8"
+      ],
+      "raw_name": "Eurosport 4 Polska (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Extreme Sports Channel Polska",
+      "l": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f0/Extreme_Sports_Channel.svg/960px-Extreme_Sports_Channel.svg.png",
+      "c": "Sports",
+      "i": "ExtremeSportsChannelPolska.pl@SD",
+      "s": [
+        "http://57.128.231.171:8080/262/index.m3u8"
+      ],
+      "raw_name": "Extreme Sports Channel Polska (1080p)",
+      "geo": false
+    },
+    {
+      "n": "F1 Channel",
+      "l": "https://i.imgur.com/cjXzWsI.png",
+      "c": "Sports",
+      "i": "F1Channel.ie@US",
+      "s": [
+        "https://amg12058-c15studio-amg12058c1-lg-us-5787.playouts.now.amagi.tv/playlist.m3u8"
+      ],
+      "raw_name": "F1 Channel (1080p) [Geo-blocked]",
+      "geo": true
+    },
+    {
+      "n": "Fight Network",
+      "l": "https://i.imgur.com/vlKPZHR.png",
+      "c": "Sports",
+      "i": "FightNetwork.ca@SD",
+      "s": [
+        "https://d12a2vxqkkh1bo.cloudfront.net/hls/main.m3u8"
+      ],
+      "raw_name": "Fight Network (1080p)",
+      "geo": false
+    },
+    {
+      "n": "FITE 24/7",
+      "l": "https://i.imgur.com/ESV6qgH.png",
+      "c": "Sports",
+      "i": "FITE247.us@SD",
+      "s": [
+        "https://d3d85c7qkywguj.cloudfront.net/scheduler/scheduleMaster/263.m3u8"
+      ],
+      "raw_name": "FITE 24/7 (1080p)",
+      "geo": false
+    },
+    {
+      "n": "FloHockey",
+      "l": "https://images.fubo.tv/channel-config-ui/station-logos/on-dark/flohockey-white.png",
+      "c": "Sports",
+      "i": "FloHockey.us@HD",
+      "s": [
+        "https://amg02278-amg02278c2-flosports-worldwide-9916.playouts.now.amagi.tv/playlist.m3u8"
+      ],
+      "raw_name": "FloHockey (1080p)",
+      "geo": false
+    },
+    {
+      "n": "FloRacing",
+      "l": "https://images.fubo.tv/channel-config-ui/station-logos/on-dark/floracing-white.png",
+      "c": "Sports",
+      "i": "FloRacing.us@HD",
+      "s": [
+        "https://amg02278-amg02278c1-flosports-worldwide-7592.playouts.now.amagi.tv/playlist.m3u8"
+      ],
+      "raw_name": "FloRacing (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Fox Sports",
+      "l": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/FOX_Sports_logo.svg/960px-FOX_Sports_logo.svg.png",
+      "c": "Sports",
+      "i": "FoxSports.ar@SD",
+      "s": [
+        "http://138.59.227.20:8000/play/a085/index.m3u8"
+      ],
+      "raw_name": "Fox Sports (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Fox Sports News",
+      "l": "https://i.imgur.com/FhMQrJk.png",
+      "c": "Sports",
+      "i": "FoxSportsNews.au@SD",
+      "s": [
+        "https://skynewsau-live-premium.akamaized.net/hls/live/2105307/foxsportsnews/live_1080p.m3u8"
+      ],
+      "raw_name": "Fox Sports News (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Fubo Sports Network",
+      "l": "https://i.imgur.com/qFNRJLb.png",
+      "c": "Sports",
+      "i": "FuboSportsNetwork.us@SD",
+      "s": [
+        "https://dnf08l6u6uxnz.cloudfront.net/master.m3u8"
+      ],
+      "raw_name": "Fubo Sports Network (1080p)",
+      "geo": false
+    },
+    {
+      "n": "FUEL TV",
+      "l": "https://i.imgur.com/I8mviBy.png",
+      "c": "Sports",
+      "i": "FUELTV.pt@EMEA",
+      "s": [
+        "https://amg01074-fueltv-fueltvemeaen-rakuten-b6j62.amagi.tv/hls/amagi_hls_data_rakutenAA-fueltvemeaen/CDN/master.m3u8"
+      ],
+      "raw_name": "FUEL TV (1080p)",
+      "geo": false
+    },
+    {
+      "n": "FUEL TV AU",
+      "l": "https://i.imgur.com/I8mviBy.png",
+      "c": "Sports",
+      "i": "FUELTV.pt@AU",
+      "s": [
+        "https://amg01074-fueltv-fueltvau-samsungau-g09kq.amagi.tv/playlist/amg01074-fueltv-fueltvau-samsungau/playlist.m3u8"
+      ],
+      "raw_name": "FUEL TV AU (1080p)",
+      "geo": false
+    },
+    {
+      "n": "FUEL TV US",
+      "l": "https://i.imgur.com/I8mviBy.png",
+      "c": "Sports",
+      "i": "FUELTV.pt@US",
+      "s": [
+        "https://amg01074-fueltv-amg01074c1-firetv-us-3150.playouts.now.amagi.tv/playlist.m3u8"
+      ],
+      "raw_name": "FUEL TV US (1080p) [Geo-blocked]",
+      "geo": true
+    },
+    {
+      "n": "Futbol",
+      "l": "https://i.imgur.com/RngmCDn.png",
+      "c": "Sports",
+      "i": "Futbol.tj@SD",
+      "s": [
+        "https://live.teleradiocom.tj/8/3m.m3u8"
+      ],
+      "raw_name": "Futbol (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Futbol TV",
+      "l": "https://i.ibb.co/h1gQSkbB/Futbol-TV.png",
+      "c": "Sports",
+      "i": "FutbolTV.uz@HD",
+      "s": [
+        "http://stream3.cinerama.uz/1010/tracks-v1a1/mono.m3u8"
+      ],
+      "raw_name": "Futbol TV (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Go3 Sport 1",
+      "l": "https://i.imgur.com/0eZa0qh.png",
+      "c": "Sports",
+      "i": "Go3Sport1.ee@SD",
+      "s": [
+        "http://stream.mcquack.net/416/index.m3u8"
+      ],
+      "raw_name": "Go3 Sport 1 (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Golf +",
+      "l": "https://i.imgur.com/WHnddkg.png",
+      "c": "Sports",
+      "i": "GolfPlus.fr@SD",
+      "s": [
+        "http://tv.streambox.fr/live/testlivestream/testlivestream/49.m3u8"
+      ],
+      "raw_name": "Golf + (1080p) [Geo-blocked]",
+      "geo": true
+    },
+    {
+      "n": "Golf Channel Latin America",
+      "l": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Golf_Channel_Logo_2018.png/960px-Golf_Channel_Logo_2018.png",
+      "c": "Sports",
+      "i": "GolfChannelLatinAmerica.us@SD",
+      "s": [
+        "http://15.204.246.24:8080/GolfChannelHD/index.m3u8"
+      ],
+      "raw_name": "Golf Channel Latin America (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Golf Zone",
+      "l": "https://i.ibb.co/ZR8cRj8d/Golf-Zone.png",
+      "c": "Sports",
+      "i": "GolfZone.pl@SD",
+      "s": [
+        "http://57.128.231.171:8080/248/index.m3u8"
+      ],
+      "raw_name": "Golf Zone (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Hamdard TV",
+      "l": "https://i.ibb.co/JcD2xck/logo-hamda.png",
+      "c": "News",
+      "i": "HamdardTV.ca@SD",
+      "s": [
+        "https://tv.hamdardtv.com/hamdard/index.m3u8"
+      ],
+      "raw_name": "Hamdard TV (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Hard Knocks",
+      "l": "https://i.imgur.com/nt9B6jx.png",
+      "c": "Sports",
+      "i": "HardKnocks.ca@SD",
+      "s": [
+        "https://d3uyzhwvmemdyf.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/Hard-Knocks-DistroTV/109.m3u8?ads.vf=6pOF6kgy418"
+      ],
+      "raw_name": "Hard Knocks (1080p)",
+      "geo": false
+    },
+    {
+      "n": "HTSpor TV",
+      "l": "https://www.htspor.com/images/manifest/social-share-logo.png",
+      "c": "Sports",
+      "i": "HTSporTV.tr@SD",
+      "s": [
+        "https://ciner.daioncdn.net/ht-spor/ht-spor.m3u8?app=web"
+      ],
+      "raw_name": "HTSpor TV (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Inter TV (Italy)",
+      "l": "https://i.imgur.com/FUTqh2L.png",
+      "c": "Sports",
+      "i": "InterTV.it@SD",
+      "s": [
+        "https://d3k8wzt41aflvx.cloudfront.net/INTERTV/Live.m3u8"
+      ],
+      "raw_name": "Inter TV (Italy) (1080p)",
+      "geo": false
+    },
+    {
+      "n": "InTrouble",
+      "l": "https://i.imgur.com/a40chFI.png",
+      "c": "Sports",
+      "i": "InTrouble.nl@SD",
+      "s": [
+        "https://amg00861-amg00861c6-stirr-us-8229.playouts.now.amagi.tv/playlist.m3u8"
+      ],
+      "raw_name": "InTrouble (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Jordan Sport",
+      "l": "https://i.imgur.com/2EmrZPQ.png",
+      "c": "Sports",
+      "i": "JordanSport.jo@SD",
+      "s": [
+        "https://jrtv-live.ercdn.net/jordansporthd/jordansporthd.m3u8"
+      ],
+      "raw_name": "Jordan Sport (1080p) [Geo-blocked]",
+      "geo": true
+    },
+    {
+      "n": "Kozoom TV",
+      "l": "https://i.imgur.com/M1Ee79b.png",
+      "c": "Sports",
+      "i": "KozoomTV.fr@SD",
+      "s": [
+        "https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/fdd6f243-f971-4a1a-9510-97ac01d6b37f/manifest.m3u8"
+      ],
+      "raw_name": "Kozoom TV (1080p)",
+      "geo": false
+    },
+    {
+      "n": "KTV Sport",
+      "l": "https://i.imgur.com/R1hGX1d.png",
+      "c": "Sports",
+      "i": "KTVSport.kw@SD",
+      "s": [
+        "https://kwtspta.cdn.mangomolo.com/sp/smil:sp.stream.smil/chunklist.m3u8"
+      ],
+      "raw_name": "KTV Sport (1080p)",
+      "geo": false
+    },
+    {
+      "n": "KTV Sport Plus",
+      "l": "https://i.imgur.com/l4oX0gf.png",
+      "c": "Sports",
+      "i": "KTVSportPlus.kw@SD",
+      "s": [
+        "https://kwtsplta.cdn.mangomolo.com/spl/smil:spl.stream.smil/chunklist.m3u8"
+      ],
+      "raw_name": "KTV Sport Plus (1080p)",
+      "geo": false
+    },
+    {
+      "n": "L'Equipe",
+      "l": "https://i.imgur.com/t35zhM9.png",
+      "c": "Sports",
+      "i": "LEquipe.fr@SD",
+      "s": [
+        "https://dq37unyetkpcz.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-m04j89j7k5gtp/LEquipe_FR.m3u8"
+      ],
+      "raw_name": "L'Equipe (1080p)",
+      "geo": false
+    },
+    {
+      "n": "L1",
+      "l": "https://i.imgur.com/eRmXneK.png",
+      "c": "Sports",
+      "i": "L1.pe@SD",
+      "s": [
+        "http://45.4.1.201:8000/play/a1ai/index.m3u8"
+      ],
+      "raw_name": "L1 (1080p)",
+      "geo": false
+    },
+    {
+      "n": "L1 Max",
+      "l": "https://i.imgur.com/2fziU2B.png",
+      "c": "Sports",
+      "i": "L1Max.pe@SD",
+      "s": [
+        "http://190.93.224.42/LIGA-1-MAX/index.m3u8"
+      ],
+      "raw_name": "L1 Max (1080p)",
+      "geo": false
+    },
+    {
+      "n": "LRT Plius",
+      "l": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/LRT_Plius_Logo_2022.svg/960px-LRT_Plius_Logo_2022.svg.png",
+      "c": "Sports",
+      "i": "LRTPlius.lt@SD",
+      "s": [
+        "http://stream.mcquack.net/353/index.m3u8"
+      ],
+      "raw_name": "LRT Plius (1080p)",
+      "geo": false
+    },
+    {
+      "n": "M Sports",
+      "l": "https://msports.pk/wp-content/uploads/2026/02/m-sports-300.png",
+      "c": "Sports",
+      "i": "MSports.pk@SD",
+      "s": [
+        "https://cdn.rabta.stream/M-Sports/index.m3u8"
+      ],
+      "raw_name": "M Sports (1080p)",
+      "geo": false
+    },
+    {
+      "n": "M4 Sport",
+      "l": "https://i.imgur.com/TQ4uJZk.png",
+      "c": "Sports",
+      "i": "M4Sport.hu@SD",
+      "s": [
+        "http://88.212.15.17/live/uatlmvixrr/index.m3u8"
+      ],
+      "raw_name": "M4 Sport (1080p)",
+      "geo": false
+    },
+    {
+      "n": "MadeinBO TV",
+      "l": "https://i.imgur.com/47X44DD.png",
+      "c": "Sports",
+      "i": "MadeinBOTV.it@SD",
+      "s": [
+        "https://srvx1.selftv.video/dmchannel/live/playlist.m3u8"
+      ],
+      "raw_name": "MadeinBO TV (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Maincast Cybersport",
+      "l": "https://upload.wikimedia.org/wikipedia/commons/5/57/Maincast_%28HD_Logo%29_2024.png",
+      "c": "Sports",
+      "i": "MaincastCybersport.ua@SD",
+      "s": [
+        "http://stream.mcquack.net/487/index.m3u8"
+      ],
+      "raw_name": "Maincast Cybersport (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Maincast Sport",
+      "l": "https://upload.wikimedia.org/wikipedia/commons/5/57/Maincast_%28HD_Logo%29_2024.png",
+      "c": "Sports",
+      "i": "MaincastSport.ua@SD",
+      "s": [
+        "http://stream.mcquack.net/490/index.m3u8"
+      ],
+      "raw_name": "Maincast Sport (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Match! Ultra",
+      "l": "https://www.kartina.tv/media/news/images/News/SEO/kanal-match-ultra.jpg",
+      "c": "Sports",
+      "i": "MatchUltra.ru@4K",
+      "s": [
+        "http://31.148.5.241/kanal_3/index.m3u8"
+      ],
+      "raw_name": "Match! Ultra (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Match4",
+      "l": "https://i.imgur.com/hzexBLX.png",
+      "c": "Sports",
+      "i": "Match4.hu@SD",
+      "s": [
+        "http://141.94.193.53:80/Match4_HD/index.m3u8"
+      ],
+      "raw_name": "Match4 (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Max Sport 1",
+      "l": "https://i.imgur.com/0ohnpql.png",
+      "c": "Sports",
+      "i": "MaxSport1.bg@SD",
+      "s": [
+        "http://hls127.freeott.top:8080/BG_MAX_Sport_1_HD/video.m3u8"
+      ],
+      "raw_name": "Max Sport 1 (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Max Sport 2",
+      "l": "https://i.imgur.com/33m1wPN.png",
+      "c": "Sports",
+      "i": "MaxSport2.bg@SD",
+      "s": [
+        "http://hls127.freeott.top:8080/BG_MAX_Sport_2_HD/video.m3u8"
+      ],
+      "raw_name": "Max Sport 2 (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Max Sport 3",
+      "l": "https://i.imgur.com/eGiGgZ2.png",
+      "c": "Sports",
+      "i": "MaxSport3.bg@SD",
+      "s": [
+        "http://hls127.freeott.top:8080/BG_MAX_Sport_3_HD/video.m3u8"
+      ],
+      "raw_name": "Max Sport 3 (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Max Sport 4",
+      "l": "https://i.imgur.com/7IxXX6f.png",
+      "c": "Sports",
+      "i": "MaxSport4.bg@SD",
+      "s": [
+        "http://hls127.freeott.top:8080/BG_MAX_Sport_4_HD/video.m3u8"
+      ],
+      "raw_name": "Max Sport 4 (1080p)",
+      "geo": false
+    },
+    {
+      "n": "MMA-TV.com",
+      "l": "https://i.imgur.com/QhdxNsB.png",
+      "c": "Sports",
+      "i": "MMATVcom.ru@SD",
+      "s": [
+        "https://streams2.sofast.tv/vglive-sk-462904/playlist.m3u8"
+      ],
+      "raw_name": "MMA-TV.com (1080p)",
+      "geo": false
+    },
+    {
+      "n": "MNB Sport",
+      "l": "https://i.imgur.com/z854PC3.png",
+      "c": "Sports",
+      "i": "MNBSport.mn@SD",
+      "s": [
+        "https://live.mnb.mn/hls/mnb_sport.stream.m3u8"
+      ],
+      "raw_name": "MNB Sport (1080p)",
+      "geo": false
+    },
+    {
+      "n": "More Than Sports TV",
+      "l": "https://i.imgur.com/SLrjImc.png",
+      "c": "Sports",
+      "i": "MoreThanSportsTV.de@SD",
+      "s": [
+        "https://mts1.iptv-playoutcenter.de/mts/mts-web/playlist.m3u8"
+      ],
+      "raw_name": "More Than Sports TV (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Movistar Deportes",
+      "l": "https://i.imgur.com/Zt3iE86.png",
+      "c": "Sports",
+      "i": "MovistarDeportes.pe@SD",
+      "s": [
+        "http://45.4.1.201:8000/play/a13e/index.m3u8"
+      ],
+      "raw_name": "Movistar Deportes (1080p)",
+      "geo": false
+    },
+    {
+      "n": "N Sports",
+      "l": "https://i.imgur.com/7QnJojr.png",
+      "c": "Sports",
+      "i": "NSports.br@SD",
+      "s": [
+        "https://ogc-nsprt-tcl-roku-syndication.otteravision.com/ogc/nsprt/nsprt.m3u8"
+      ],
+      "raw_name": "N Sports (1080p)",
+      "geo": false
+    },
+    {
+      "n": "NBC Sports NOW",
+      "l": "https://i.imgur.com/EzNf2Yx.png",
+      "c": "Sports",
+      "i": "NBCSportsNOW.us@SD",
+      "s": [
+        "https://d4whmvwm0rdvi.cloudfront.net/10007/99993008/hls/master.m3u8?ads.xumo_channelId=99993008"
+      ],
+      "raw_name": "NBC Sports NOW (1080p)",
+      "geo": false
+    },
+    {
+      "n": "NHL Network",
+      "l": "https://i.imgur.com/UNZ8bef.png",
+      "c": "Sports",
+      "i": "NHLNetwork.us@SD",
+      "s": [
+        "https://nhl-firetv.amagi.tv/playlist.m3u8"
+      ],
+      "raw_name": "NHL Network (1080p)",
+      "geo": false
+    },
+    {
+      "n": "NHRA TV",
+      "l": "https://i.imgur.com/jZgcm4k.png",
+      "c": "Sports",
+      "i": "NHRATV.us@SD",
+      "s": [
+        "https://d265y4sk8257lt.cloudfront.net/nh.m3u8"
+      ],
+      "raw_name": "NHRA TV (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Okko Prajm Sport",
+      "l": "https://i.imgur.com/kQq5DMU.png",
+      "c": "Sports",
+      "i": "OkkoPrajmSport.ru@SD",
+      "s": [
+        "http://stream.mcquack.net/493/index.m3u8"
+      ],
+      "raw_name": "Okko Prajm Sport (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Olympic Channel",
+      "l": "https://i.imgur.com/wPQVVtj.png",
+      "c": "Sports",
+      "i": "OlympicChannel.es@SD",
+      "s": [
+        "https://ocshls-2-olympicchannel.akamaized.net/ocshls/OCTV_1.m3u8"
+      ],
+      "raw_name": "Olympic Channel (1080p) [Geo-blocked]",
+      "geo": true
+    },
+    {
+      "n": "Oman Sports TV",
+      "l": "https://i.imgur.com/1omi7p8.png",
+      "c": "Sports",
+      "i": "OmanSportsTV.om@SD",
+      "s": [
+        "https://partneta.cdn.mgmlcdn.com/omsport/smil:omsport.stream.smil/chunklist.m3u8"
+      ],
+      "raw_name": "Oman Sports TV (1080p) [Not 24/7]",
+      "geo": false
+    },
+    {
+      "n": "Overtime",
+      "l": "https://i.imgur.com/9S9k4IK.png",
+      "c": "Sports",
+      "i": "Overtime.us@SD",
+      "s": [
+        "https://d1a8aq6t30gkqj.cloudfront.net/v1/amc_overtime_1/samsungheadend_us/latest/main/hls/playlist_hd.m3u8"
+      ],
+      "raw_name": "Overtime (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Pac-12 Insider",
+      "l": "https://i.imgur.com/736QREy.png",
+      "c": "Sports",
+      "i": "Pac12Insider.us@SD",
+      "s": [
+        "https://pac12-firetv.amagi.tv/playlist.m3u8"
+      ],
+      "raw_name": "Pac-12 Insider (1080p)",
+      "geo": false
+    },
+    {
+      "n": "PGA Tour",
+      "l": "https://i.imgur.com/J0TY9dG.png",
+      "c": "Sports",
+      "i": "PGATour.us@SD",
+      "s": [
+        "https://d11k1mnrgfposz.cloudfront.net/playlist.m3u8"
+      ],
+      "raw_name": "PGA Tour (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Polsat Sport Fight",
+      "l": "https://i.imgur.com/8x1FV3o.png",
+      "c": "Sports",
+      "i": "PolsatSportFight.pl@SD",
+      "s": [
+        "http://57.128.210.196:8080/194/index.m3u8"
+      ],
+      "raw_name": "Polsat Sport Fight (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Premier Sports",
+      "l": "https://i.imgur.com/BURPHzI.png",
+      "c": "Sports",
+      "i": "PremierSports.ph@SD",
+      "s": [
+        "https://amg19223-amg19223c3-amgplt0351.playout.now3.amagi.tv/playlist/amg19223-amg19223c3-amgplt0351/playlist.m3u8"
+      ],
+      "raw_name": "Premier Sports (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Premier Sports 2",
+      "l": "https://i.imgur.com/UQeXWd2.png",
+      "c": "Sports",
+      "i": "PremierSports2.ph@SD",
+      "s": [
+        "https://amg19223-amg19223c4-amgplt0351.playout.now3.amagi.tv/playlist/amg19223-amg19223c4-amgplt0351/playlist.m3u8"
+      ],
+      "raw_name": "Premier Sports 2 (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Prime (Syria)",
+      "l": "https://prime1tv.com/wp-content/uploads/2025/12/7-1.png",
+      "c": "Sports",
+      "i": "Prime.sy@HD",
+      "s": [
+        "https://cdn.bestream.io/prime/prime.m3u8"
+      ],
+      "raw_name": "Prime (Syria) (1080p)",
+      "geo": false
+    },
+    {
+      "n": "PTV Sports",
+      "l": "https://i.imgur.com/CPm6GHA.png",
+      "c": "Sports",
+      "i": "PTVSports.pk@SD",
+      "s": [
+        "http://103.250.28.74:8000/play/a019/index.m3u8"
+      ],
+      "raw_name": "PTV Sports (1080p)",
+      "geo": false
+    },
+    {
+      "n": "PX Sports",
+      "l": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/PX_Sports_-_Logo.png/960px-PX_Sports_-_Logo.png",
+      "c": "Sports",
+      "i": "PXSports.mx@SD",
+      "s": [
+        "http://38.252.238.18:8000/play/a02f/index.m3u8"
+      ],
+      "raw_name": "PX Sports (1080p)",
+      "geo": false
+    },
+    {
+      "n": "QazSport",
+      "l": "https://i.imgur.com/UDJ0P5Q.png",
+      "c": "Sports",
+      "i": "QazSport.kz@SD",
+      "s": [
+        "http://stream.mcquack.net/72/index.m3u8"
+      ],
+      "raw_name": "QazSport (1080p)",
+      "geo": false
+    },
+    {
+      "n": "RACER International",
+      "l": "https://provider-static.plex.tv/epg/cms/production/dd4e5871-4347-49e3-9ea1-a8770ea9c518/RACER_Intl_logo_1500x1000.png",
+      "c": "Sports",
+      "i": "RACERInternational.pl@FAST",
+      "s": [
+        "https://amg00378-mavtv-amg00378c2-rakuten-us-1048.playouts.now.amagi.tv/playlist/amg00378-mavtvfast-motorsportsnetwork-rakutenus/playlist.m3u8"
+      ],
+      "raw_name": "RACER International (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Racer Network",
+      "l": "https://upload.wikimedia.org/wikipedia/en/7/74/Racer_Network.jpg",
+      "c": "Sports",
+      "i": "RacerNetwork.us@SD",
+      "s": [
+        "https://amg00378-mavtv-amg00378c2-samsung-au-1790.playouts.now.amagi.tv/playlist/amg00378-mavtvfast-motorsportsnetwork-samsungau/playlist.m3u8"
+      ],
+      "raw_name": "Racer Network (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Racer Select",
+      "l": "https://i.imgur.com/CurtYvn.png",
+      "c": "Sports",
+      "i": "RacerSelect.us@SD",
+      "s": [
+        "https://amg00378-amg00378c4-freelivesports-emea-5637.playouts.now.amagi.tv/playlist.m3u8"
+      ],
+      "raw_name": "Racer Select (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Rally TV",
+      "l": "https://i.postimg.cc/WtLq2C7c/logo-Rally-Tv1.png",
+      "c": "Sports",
+      "i": "RallyTV.us@SD",
+      "s": [
+        "https://rally-tv-live.akamaized.net/hls/live/2117704/RallyTV-Pri/master.m3u8"
+      ],
+      "raw_name": "Rally TV (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Red Bull TV",
+      "l": "https://images.pluto.tv/channels/5e7cb84a172a0f0007da69e4/colorLogoPNG.png",
+      "c": "Sports",
+      "i": "RedBullTV.at@EUMENA",
+      "s": [
+        "https://3ea22335.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWdiX1JlZEJ1bGxUVl9ITFM/playlist.m3u8"
+      ],
+      "raw_name": "Red Bull TV (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Red Bull TV AU",
+      "l": "https://images.pluto.tv/channels/5e7cb84a172a0f0007da69e4/colorLogoPNG.png",
+      "c": "Sports",
+      "i": "RedBullTV.at@AU",
+      "s": [
+        "https://db34cc6127ac459db55cab5f97cd66b9.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-680-WORBAUENFAST-WHALETVPLUS/680/whaletvplus/hls/master/playlist.m3u8"
+      ],
+      "raw_name": "Red Bull TV AU (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Red Bull TV BR",
+      "l": "https://images.pluto.tv/channels/5e7cb84a172a0f0007da69e4/colorLogoPNG.png",
+      "c": "Sports",
+      "i": "RedBullTV.at@BR",
+      "s": [
+        "https://d03ae6b5c6724c24867e97a3dc04934a.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-1026-WORBBRPTFAST-WHALETVPLUS/1026/hls/master/playlist.m3u8"
+      ],
+      "raw_name": "Red Bull TV BR (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Red Bull TV DE",
+      "l": "https://images.pluto.tv/channels/5e7cb84a172a0f0007da69e4/colorLogoPNG.png",
+      "c": "Sports",
+      "i": "RedBullTV.at@DE",
+      "s": [
+        "https://46cfeb23c7f74853bba7a256655a3119.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-582-WORBDACHDEFAST-WHALETVPLUS/582/whaletvplus/hls/master/playlist.m3u8"
+      ],
+      "raw_name": "Red Bull TV DE (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Red Bull TV ES",
+      "l": "https://images.pluto.tv/channels/5e7cb84a172a0f0007da69e4/colorLogoPNG.png",
+      "c": "Sports",
+      "i": "RedBullTV.at@ES",
+      "s": [
+        "https://886bd3fbc782459f8de7555d32d7e9ce.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-957-WORBLATAMESFAST-WHALETVPLUS/957/whaletvplus/hls/master/playlist.m3u8"
+      ],
+      "raw_name": "Red Bull TV ES (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Red Bull TV SD",
+      "l": "https://images.pluto.tv/channels/5e7cb84a172a0f0007da69e4/colorLogoPNG.png",
+      "c": "Sports",
+      "i": "RedBullTV.at@SD",
+      "s": [
+        "https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8"
+      ],
+      "raw_name": "Red Bull TV SD (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Red Bull TV UK",
+      "l": "https://images.pluto.tv/channels/5e7cb84a172a0f0007da69e4/colorLogoPNG.png",
+      "c": "Sports",
+      "i": "RedBullTV.at@UK",
+      "s": [
+        "https://1a3566cb46914c5499fbc86fbc4ac87e.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-932-WORBUKENFAST-WHALETVPLUS/932/whaletvplus/hls/master/playlist.m3u8"
+      ],
+      "raw_name": "Red Bull TV UK (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Red Bull TV US",
+      "l": "https://images.pluto.tv/channels/5e7cb84a172a0f0007da69e4/colorLogoPNG.png",
+      "c": "Sports",
+      "i": "RedBullTV.at@US",
+      "s": [
+        "https://0b73ace69ebb45eaa249bb87837cb958.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-644-WORBUSENFAST-LG_US/644/lgtv/hls/master/playlist.m3u8"
+      ],
+      "raw_name": "Red Bull TV US (1080p)",
+      "geo": false
+    },
+    {
+      "n": "RTSH Sport",
+      "l": "https://i.imgur.com/J6NKXyJ.png",
+      "c": "Sports",
+      "i": "RTSHSport.al@SD",
+      "s": [
+        "http://178.33.11.6:8696/live/rtshsport/playlist.m3u8"
+      ],
+      "raw_name": "RTSH Sport (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Setanta Sports",
+      "l": "https://scontent.flwo7-1.fna.fbcdn.net/v/t39.30808-6/364716463_853281776306116_3365262792418742642_n.jpg?stp=dst-webp_p843x403_q70&_nc_cat=109&ccb=1-7&_nc_sid=cc3e7e&_nc_ohc=cdryMbRE2MwQ7kNvwFeyihF&_nc_oc=Adqncj9xKrtg2aNKgZmuX6LGZlSfpAmh_HQEEkBciEg1tXwQqFuMtohNjM8-Z8hU_Ho&_nc_zt=23&_nc_ht=scontent.flwo7-1.fna&_nc_gid=nGCZSHk6GKFYzjwKY-aGWw&_nc_ss=7b289&oh=00_AQFswjCYfEBKcXRO2DpTL1Dz7arAN-82K47gi8qtwljzrw&oe=6A862750",
+      "c": "Sports",
+      "i": "SetantaSports.uk@SD",
+      "s": [
+        "http://stream.mcquack.net/313/index.m3u8"
+      ],
+      "raw_name": "Setanta Sports (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Setanta Sports 1 Eurasia",
+      "l": "https://i.imgur.com/zlJK7ca.png",
+      "c": "Sports",
+      "i": "SetantaSports1Eurasia.ie@SD",
+      "s": [
+        "http://stream.mcquack.net/234/index.m3u8"
+      ],
+      "raw_name": "Setanta Sports 1 Eurasia (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Setanta Sports 2 Eurasia",
+      "l": "https://i.imgur.com/ouHunnK.png",
+      "c": "Sports",
+      "i": "SetantaSports2Eurasia.ie@SD",
+      "s": [
+        "http://stream.mcquack.net/235/index.m3u8"
+      ],
+      "raw_name": "Setanta Sports 2 Eurasia (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Setanta Sports+ Ukraine",
+      "l": "https://i.imgur.com/gHAP4p0.png",
+      "c": "Sports",
+      "i": "SetantaSportsPlusUkraine.ua@SD",
+      "s": [
+        "http://stream.mcquack.net/390/index.m3u8"
+      ],
+      "raw_name": "Setanta Sports+ Ukraine (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Shandong TV Sports Channel",
+      "l": "https://i.imgur.com/zX4RxvG.png",
+      "c": "Sports",
+      "i": "ShandongTVSportsChannel.cn@SD",
+      "s": [
+        "http://livealone302.iqilu.com/iqilu/typd.m3u8"
+      ],
+      "raw_name": "Shandong TV Sports Channel (1080p) [Geo-blocked]",
+      "geo": true
+    },
+    {
+      "n": "Sharjah Sports",
+      "l": "https://i.imgur.com/CsEElsJ.png",
+      "c": "Sports",
+      "i": "SharjahSports.ae@SD",
+      "s": [
+        "https://svs.itworkscdn.net/smc4sportslive/smc4tv.smil/playlist.m3u8"
+      ],
+      "raw_name": "Sharjah Sports (1080p) [Geo-blocked]",
+      "geo": true
+    },
+    {
+      "n": "SKI TV",
+      "l": "https://i.imgur.com/S6qgwLG.png",
+      "c": "Sports",
+      "i": "SKITV.ch@SD",
+      "s": [
+        "https://d2xeo83q8fcni6.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/SkiTV-SportsTribal/193.m3u8"
+      ],
+      "raw_name": "SKI TV (1080p) [Not 24/7]",
+      "geo": false
+    },
+    {
+      "n": "Sport (Slovakia)",
+      "l": "https://i.imgur.com/oAtcxNZ.png",
+      "c": "Sports",
+      "i": "Sport.sk@SD",
+      "s": [
+        "http://88.212.15.17/live/test_rtvs_sport_hevc/playlist.m3u8"
+      ],
+      "raw_name": "Sport (Slovakia) (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Sport 1 Baltic",
+      "l": "https://i.imgur.com/aBY7QK4.png",
+      "c": "Sports",
+      "i": "Sport1Baltic.ua@SD",
+      "s": [
+        "http://stream.mcquack.net/461/index.m3u8"
+      ],
+      "raw_name": "Sport 1 Baltic (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Sport 2 (Ukraine)",
+      "l": "https://i.imgur.com/vk0j1mY.png",
+      "c": "Sports",
+      "i": "Sport2.ua@SD",
+      "s": [
+        "http://stream.mcquack.net/392/index.m3u8"
+      ],
+      "raw_name": "Sport 2 (Ukraine) (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Sport 3 (Israel)",
+      "l": "https://i.imgur.com/stSrBBh.png",
+      "c": "Sports",
+      "i": "Sport3.il@SD",
+      "s": [
+        "http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/BWGFFCU59AE6AEV3KF3FXTBA/12251/index.m3u8",
+        "http://stream.mcquack.net/393/index.m3u8"
+      ],
+      "raw_name": "Sport 3 (Israel) (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Sport 4 (Israel)",
+      "l": "https://i.imgur.com/wFXzzYs.png",
+      "c": "Sports",
+      "i": "Sport4.il@SD",
+      "s": [
+        "http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/BWGFFCU59AE6AEV3KF3FXTBA/2389/index.m3u8"
+      ],
+      "raw_name": "Sport 4 (Israel) (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Sport 5",
+      "l": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Sport5UA.jpg",
+      "c": "Sports",
+      "i": "Sport5.ua@SD",
+      "s": [
+        "http://stream.mcquack.net/212/index.m3u8"
+      ],
+      "raw_name": "Sport 5 (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Sport TV",
+      "l": "https://www.beltelecom.by/sites/default/files/styles/200200/public/tv-channels/2025-10/sporttv.png",
+      "c": "Sports",
+      "i": "SportTV.by@SD",
+      "s": [
+        "http://178.124.179.122:8080/SportTV/mpegts"
+      ],
+      "raw_name": "Sport TV (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Sport+ Qazaqstan",
+      "l": "https://i.imgur.com/vIV7x6n.png",
+      "c": "Sports",
+      "i": "SportPlusQazaqstan.kz@SD",
+      "s": [
+        "https://fs.uplink.kz/sport+/mono.m3u8?token=onlinetv"
+      ],
+      "raw_name": "Sport+ Qazaqstan (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Sportitalia",
+      "l": "https://i.imgur.com/0CJGGgd.png",
+      "c": "Sports",
+      "i": "Sportitalia.it@SD",
+      "s": [
+        "https://edge-001.streamup.eu/sportitalia/sihd_abr/playlist.m3u8"
+      ],
+      "raw_name": "Sportitalia (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Sportitalia Solocalcio",
+      "l": "https://i.imgur.com/hu56Ya5.png",
+      "c": "Sports",
+      "i": "SportitaliaSolocalcio.it@SD",
+      "s": [
+        "https://distribution.sportitalialive.it/sportitalia/sisolocalcio_abr/playlist.m3u8"
+      ],
+      "raw_name": "Sportitalia Solocalcio (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Sportivnyy",
+      "l": "https://i.imgur.com/ujS6mMo.png",
+      "c": "Sports",
+      "i": "Sportivnyy.ru@SD",
+      "s": [
+        "https://live-3.otcnet.ru/sportivny/index.m3u8"
+      ],
+      "raw_name": "Sportivnyy (1080p)",
+      "geo": false
+    },
+    {
+      "n": "SportsGrid",
+      "l": "https://i.imgur.com/ulGKX30.png",
+      "c": "Sports",
+      "i": "SportsGrid.us@SD",
+      "s": [
+        "https://sportsgrid-tribal.amagi.tv/playlist.m3u8"
+      ],
+      "raw_name": "SportsGrid (1080p)",
+      "geo": false
+    },
+    {
+      "n": "SporTV 2",
+      "l": "https://i.imgur.com/pBiUnb2.png",
+      "c": "Sports",
+      "i": "SporTV2.br@SD",
+      "s": [
+        "http://195.178.110.110/sportv2/index.m3u8"
+      ],
+      "raw_name": "SporTV 2 (1080p)",
+      "geo": false
+    },
+    {
+      "n": "SporTV 3",
+      "l": "https://i.imgur.com/mWOR8pi.png",
+      "c": "Sports",
+      "i": "SporTV3.br@SD",
+      "s": [
+        "http://195.178.110.110/sportv3/index.m3u8"
+      ],
+      "raw_name": "SporTV 3 (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Start Triumf",
+      "l": "https://i.imgur.com/L9jTieL.png",
+      "c": "Sports",
+      "i": "StartTriumf.ru@SD",
+      "s": [
+        "https://bl.webcaster.pro/media/playlist/free_fe8dc1b768a84b8b0333db826471f17e_hd/33_85479982/1080p/8666c3e935faf6ef47ffd601e8e48868/4821408969.m3u8"
+      ],
+      "raw_name": "Start Triumf (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Sukan RTM",
+      "l": "https://i.imgur.com/1pYYSu2.png",
+      "c": "Sports",
+      "i": "SukanRTM.my@SD",
+      "s": [
+        "https://d25tgymtnqzu8s.cloudfront.net/smil:sukan/manifest.mpd"
+      ],
+      "raw_name": "Sukan RTM (1080p) [Geo-blocked]",
+      "geo": true
+    },
+    {
+      "n": "SuperTennis",
+      "l": "https://upload.wikimedia.org/wikipedia/it/thumb/6/6a/SuperTennis_-_Logo_2016.svg/960px-SuperTennis_-_Logo_2016.svg.png",
+      "c": "Sports",
+      "i": "SuperTennis.it@SD",
+      "s": [
+        "https://live-embed.supertennix.hiway.media/restreamer/supertennix_client/gpu-a-c0-16/restreamer/outgest/aa3673f1-e178-44a9-a947-ef41db73211a/manifest.m3u8"
+      ],
+      "raw_name": "SuperTennis (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Suspilne. Sport",
+      "l": "https://i.imgur.com/16IhU0M.png",
+      "c": "Sports",
+      "i": "SuspilneSport.ua@SD",
+      "s": [
+        "http://stream.mcquack.net/444/index.m3u8"
+      ],
+      "raw_name": "Suspilne. Sport (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Swerve Combat",
+      "l": "https://i.imgur.com/eFZh7aG.png",
+      "c": "Sports",
+      "i": "SwerveCombat.us@SD",
+      "s": [
+        "https://linear-253.frequency.stream/mt/roku/253/hls/master/playlist.m3u8"
+      ],
+      "raw_name": "Swerve Combat (1080p)",
+      "geo": false
+    },
+    {
+      "n": "T Sports",
+      "l": "https://i.imgur.com/2JzlorD.png",
+      "c": "Sports",
+      "i": "TSports.bd@SD",
+      "s": [
+        "https://tvsen5.aynaott.com/TnMn5kZz8aLm/index.m3u8"
+      ],
+      "raw_name": "T Sports (1080p)",
+      "geo": false
+    },
+    {
+      "n": "talkSPORT",
+      "l": "https://upload.wikimedia.org/wikipedia/en/9/9d/Talksport_logo.png",
+      "c": "Sports",
+      "i": "talkSPORT.uk@SD",
+      "s": [
+        "https://af7a8b4e.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctZ2JfdGFsa1NQT1JUX0hMUw/playlist.m3u8"
+      ],
+      "raw_name": "talkSPORT (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Tennis Channel",
+      "l": "https://i.imgur.com/tsljAnY.png",
+      "c": "Sports",
+      "i": "TennisChannel.us@SD",
+      "s": [
+        "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischannelnl-samsungnl/playlist.m3u8"
+      ],
+      "raw_name": "Tennis Channel (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Tennis Channel 2",
+      "l": "https://image-resizer-cloud-cdn.api.cms.amdvids.com/image/7382296F-97F6-4450-B77B-8FE331FC04F6/3-1x1.png",
+      "c": "Sports",
+      "i": "TennisChannel2.us@SD",
+      "s": [
+        "https://mumbai-edge.smartplaytv.in/Tennis2/index.m3u8"
+      ],
+      "raw_name": "Tennis Channel 2 (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Tigo Sports (El Salvador)",
+      "l": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Tigo_Sports_2025.png/960px-Tigo_Sports_2025.png",
+      "c": "Sports",
+      "i": "TigoSports.sv@SD",
+      "s": [
+        "http://45.167.2.101:8000/play/a0pp/index.m3u8",
+        "http://45.5.119.43:4000/play/a05t/index.m3u8",
+        "http://168.196.127.137:6001/play/a0ay/index.m3u8"
+      ],
+      "raw_name": "Tigo Sports (El Salvador) (1080p)",
+      "geo": false
+    },
+    {
+      "n": "TJK TV",
+      "l": "https://i.imgur.com/3zHdkYG.png",
+      "c": "Sports",
+      "i": "TJKTV.tr@SD",
+      "s": [
+        "https://tjktv-live.tjk.org/tjktv.m3u8"
+      ],
+      "raw_name": "TJK TV (1080p)",
+      "geo": false
+    },
+    {
+      "n": "TJK TV 2",
+      "l": "https://i.imgur.com/3zHdkYG.png",
+      "c": "Sports",
+      "i": "TJKTV2.tr@SD",
+      "s": [
+        "https://tjktv-live.tjk.org/tjktv2/tjktv2.m3u8"
+      ],
+      "raw_name": "TJK TV 2 (1080p) [Not 24/7]",
+      "geo": false
+    },
+    {
+      "n": "Trace Sport Stars",
+      "l": "https://i.imgur.com/FabFP5A.png",
+      "c": "Sports",
+      "i": "TraceSportStars.fr@HD",
+      "s": [
+        "https://lightning-tracesport-samsungau.amagi.tv/playlist.m3u8"
+      ],
+      "raw_name": "Trace Sport Stars (1080p)",
+      "geo": false
+    },
+    {
+      "n": "TSN The Ocho",
+      "l": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA1400003R3_20240709T002034SQUARE.png",
+      "c": "Sports",
+      "i": "TSNTheOcho.ca@SD",
+      "s": [
+        "https://d3pnbvng3bx2nj.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-rds8g35qfqrnv/TSN_The_Ocho.m3u8"
+      ],
+      "raw_name": "TSN The Ocho (1080p)",
+      "geo": false
+    },
+    {
+      "n": "TV Cuatro 4.3",
+      "l": "https://i.imgur.com/Of044Jx.png",
+      "c": "Sports",
+      "i": "TVCuatro43.mx@SD",
+      "s": [
+        "https://5ca3e84a76d30.streamlock.net/tv43gto/tv43gto.smil/.m3u8"
+      ],
+      "raw_name": "TV Cuatro 4.3 (1080p)",
+      "geo": false
+    },
+    {
+      "n": "TVP Sport",
+      "l": "https://i.imgur.com/JUZDOCO.png",
+      "c": "Sports",
+      "i": "TVPSport.pl@SD",
+      "s": [
+        "http://57.128.210.196:8080/134/index.m3u8"
+      ],
+      "raw_name": "TVP Sport (1080p)",
+      "geo": false
+    },
+    {
+      "n": "TVRI Sport",
+      "l": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/TVRI_Sport_2022.svg/960px-TVRI_Sport_2022.svg.png",
+      "c": "Sports",
+      "i": "TVRISport.id@SD",
+      "s": [
+        "http://202.150.172.59/TVRISport/index.m3u8"
+      ],
+      "raw_name": "TVRI Sport (1080p)",
+      "geo": false
+    },
+    {
+      "n": "TyC Sports",
+      "l": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/TyC_Sports_logo.svg/960px-TyC_Sports_logo.svg.png",
+      "c": "Sports",
+      "i": "TyCSports.ar@SD",
+      "s": [
+        "https://amg26268-amg26268c14-freelivesports-emea-10267.playouts.now.amagi.tv/ts-us-e2-n2/playlist/amg26268-sportsstudio-tycsports-freelivesportsemea/playlist.m3u8"
+      ],
+      "raw_name": "TyC Sports (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Unbeaten",
+      "l": "https://i.imgur.com/LmkNt3v.png",
+      "c": "Sports",
+      "i": "Unbeaten.us@SD",
+      "s": [
+        "https://d1t5afz6qed3xk.cloudfront.net/Unbeaten.m3u8"
+      ],
+      "raw_name": "Unbeaten (1080p)",
+      "geo": false
+    },
+    {
+      "n": "viju+ Sport HD",
+      "l": "https://i.imgur.com/fXESG0l.png",
+      "c": "Sports",
+      "i": "vijuPlusSport.ru@HD",
+      "s": [
+        "http://46.53.200.153:7777/play/a01l/index.m3u8"
+      ],
+      "raw_name": "viju+ Sport HD (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Voyo Sport 1",
+      "l": "https://static.wikia.nocookie.net/logopedia/images/a/a3/VoyoSport1.svg",
+      "c": "Sports",
+      "i": "VoyoSport1.ro@HD",
+      "s": [
+        "http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-protv-plus16/live_fullhd?offsetSeconds=0"
+      ],
+      "raw_name": "Voyo Sport 1 (1080p)",
+      "geo": false
+    },
+    {
+      "n": "VTV6",
+      "l": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/VTV6_logo_2026_final.svg/960px-VTV6_logo_2026_final.svg.png",
+      "c": "Sports",
+      "i": "VTV6.vn@HD",
+      "s": [
+        "https://vips-livecdn.fptplay.net/live/media/vtv6/live247-hls-avc/index.m3u8"
+      ],
+      "raw_name": "VTV6 (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Willow Sports",
+      "l": "https://provider-static.plex.tv/epg/cms/production/acf3d1d8-c53e-49ca-86e9-0d9410b106b4/Willow_Sports_dark_Background_1500_1000_color.png",
+      "c": "Sports",
+      "i": "WillowSports.us@SD",
+      "s": [
+        "https://d36r8jifhgsk5j.cloudfront.net/Willow_TV.m3u8"
+      ],
+      "raw_name": "Willow Sports (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Win Sports",
+      "l": "https://i.imgur.com/DuSSrHV.png",
+      "c": "Sports",
+      "i": "WinSports.co@SD",
+      "s": [
+        "http://138.121.15.230:9002/WIN-SPORT/index.m3u8"
+      ],
+      "raw_name": "Win Sports (1080p)",
+      "geo": false
+    },
+    {
+      "n": "Win+ Futbol",
+      "l": "https://i.imgur.com/0UN87vB.png",
+      "c": "Sports",
+      "i": "WinPlusFutbol.co@SD",
+      "s": [
+        "http://181.78.12.119:16123/play/ch19/index.m3u8"
+      ],
+      "raw_name": "Win+ Futbol (1080p)",
+      "geo": false
+    },
+    {
+      "n": "World of Freesports",
+      "l": "https://i.imgur.com/lta5Mog.png",
+      "c": "Sports",
+      "i": "WorldofFreesports.de@SD",
+      "s": [
+        "https://mainstreammedia-worldoffreesportsintl-rakuten.amagi.tv/playlist.m3u8"
+      ],
+      "raw_name": "World of Freesports (1080p)",
+      "geo": false
+    },
+    {
+      "n": "World Poker Tour",
+      "l": "https://i.imgur.com/98kLMjj.png",
+      "c": "Sports",
+      "i": "WorldPokerTour.us@US",
+      "s": [
+        "https://d2e00kr7m9coe4.cloudfront.net/scheduler/scheduleMaster/406.m3u8"
+      ],
+      "raw_name": "World Poker Tour (1080p)",
+      "geo": false
+    },
+    {
+      "n": "World Poker Tour Poland",
+      "l": "https://i.imgur.com/98kLMjj.png",
+      "c": "Sports",
+      "i": "WorldPokerTour.us@Poland",
+      "s": [
+        "https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/playlist.m3u8?ads.xumo_channelId=88883102"
+      ],
+      "raw_name": "World Poker Tour Poland (1080p)",
+      "geo": false
+    },
+    {
+      "n": "World Poker Tour UK",
+      "l": "https://i.imgur.com/98kLMjj.png",
+      "c": "Sports",
+      "i": "WorldPokerTour.us@UK",
+      "s": [
+        "https://amg00477-samsungelectron-worldpokertour-samsunguk-81igb.amagi.tv/playlist/amg00477-samsungelectron-worldpokertour-samsunguk/playlist.m3u8"
+      ],
+      "raw_name": "World Poker Tour UK (1080p)",
+      "geo": false
+    },
+    {
+      "n": "WWE Network",
+      "l": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/WWE_Network_logo.svg/500px-WWE_Network_logo.svg.png",
+      "c": "Sports",
+      "i": "WWENetwork.us@SD",
+      "s": [
+        "http://103.151.60.162:2122/play/a00p/index.m3u8?hls"
+      ],
+      "raw_name": "WWE Network (1080p)",
+      "geo": false
+    }
+  ]
+}
