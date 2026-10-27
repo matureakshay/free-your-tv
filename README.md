@@ -1,319 +1,328 @@
 # Free Your TV
 
-**Your TV, minus the ads.**
+**A clean, lightweight, ad-free software suite for Android TV and Google TV.**
 
-Free Your TV is a clean, open-source software suite and debloating guide for Android TV and Google TV. It replaces ad-filled home screens, manufacturer telemetry, and sluggish interfaces with a fast, privacy-respecting setup inspired by Apple TV.
+Free Your TV replaces OEM manufacturer ad rows, background telemetry services, and sluggish interfaces with a fast, privacy-respecting Leanback setup inspired by Apple TV. Designed specifically to run smoothly on memory-constrained smart TVs (sets with 1 GB to 2 GB RAM).
 
-**No root, no cables, nothing irreversibly uninstalled, and a one-line restore if you change your mind.**
-
-![Before: stock Google TV home with a sponsored ad. After: the Free Your TV launcher](docs/stock-vs-new-side.jpg)
-
----
-
-## The Free Your TV Suite
-
-Free Your TV includes three core Android applications designed specifically for low-memory smart TVs (sets with 1 GB to 2 GB of RAM):
-
-| Application | Package Identifier | Source Path | Description |
-|---|---|---|---|
-| **Custom Launcher** | `com.freeyourtv.launcher` | [`launcher/app/`](launcher/app) | Native Java Leanback launcher with glass selection effects, ambient tile glow, dock bar, TV inputs menu, and weather/clock. |
-| **RAM Cleaner** | `com.freeyourtv.cleaner` | [`launcher/cleaner/`](launcher/cleaner) | One-click memory optimization tool that reclaims background process RAM while strictly protecting system services, the launcher, and Button Mapper. |
-| **Live TV** | `com.freeyourtv.livetv` | [`apps/live-tv/`](apps/live-tv) | Lightweight Flutter IPTV player for 1080p channels with automatic multi-stream fallback and custom user-managed M3U/M3U8 playlist support. |
-
----
-
-## Historical Origins and Attribution
-
-Free Your TV originated from the open-source **tv-vibehack** project by Gathin, created to debloat an ad-laden family Mi TV over Wi-Fi using Claude Code. The project's lineage and upstream components are preserved and credited:
-
-- **Launcher Core:** Derived from the original `tv-vibehack` launcher created by [Gathin](https://x.com/gathint) (see the [historical tweet](https://x.com/gathint/status/2111379569030939102)). Licensed under the [MIT Licence](LICENSE).
-- **Typography:** The [Outfit](https://fonts.google.com/specimen/Outfit) typeface by The Outfit Project Authors is licensed under the [SIL Open Font License 1.1](launcher/FONT-LICENSE-OFL.txt).
-- **Live TV Player:** Derived from the `tv/master` branch of [`kananinirav/Indian-IPTV-App`](https://github.com/kananinirav/Indian-IPTV-App) by Kanani Nirav, licensed under the [MIT Licence](apps/live-tv/LICENSE).
-- **Channel Indexing & Logos:** Built-in channel indexing utilizes public metadata from [`iptv-org/iptv`](https://github.com/iptv-org/iptv) (The Unlicense / Public Domain).
+**No root required, no cables needed, nothing irreversibly deleted, and a standalone restore script to revert changes at any time.**
 
 <p align="center">
-  <a href="https://x.com/gathint/status/2111379569030939102"><img src="docs/tweet.png" alt="Historical tweet: Vibe coded my parents' TV this afternoon. Before and after screenshots." width="380"></a>
+  <img src="docs/screenshots/comparison/free-your-tv-final-home.png" alt="Free Your TV Leanback launcher verified on physical TV hardware" width="750">
   <br>
-  <em>Historical context: The initial tv-vibehack experiment that inspired Free Your TV.</em>
+  <em>Production verification screenshot: Free Your TV custom launcher verified on physical TV hardware (Motorola / KTC EcoTV Pro D, Android 11, October 22, 2026).<br>
+  <strong>Note:</strong> Third-party streaming apps shown in the dock (such as TizenTube, JioHotstar, Button Mapper, and CloudStream) are user-installed apps and are not bundled with Free Your TV.</em>
 </p>
 
 ---
 
-## Table of Contents
+## Before & After: Reclaiming Your Television
 
-- [How It Works](#how-it-works)
-- [Quick Start](#quick-start)
-- [Core Applications](#core-applications)
-  - [1. Custom Launcher](#1-custom-launcher)
-  - [2. RAM Cleaner](#2-ram-cleaner)
-  - [3. Flutter Live TV](#3-flutter-live-tv)
-- [Live TV Disclaimer & Content Rights](#live-tv-disclaimer--content-rights)
-- [Prerequisites & Build Guide](#prerequisites--build-guide)
-- [Supported TVs](#supported-tvs)
-- [Doing It by Hand (Debloat & Tools)](#doing-it-by-hand-debloat--tools)
-- [Restoring Your TV](#restoring-your-tv)
-- [Upgrading and Device Recovery](#upgrading-and-device-recovery)
-- [Verified Offline Testing](#verified-offline-testing)
-- [Troubleshooting](#troubleshooting)
-- [Frequently Asked Questions](#frequently-asked-questions)
-- [Contributing](#contributing)
-- [Licence](#licence)
+| Stock Google TV Interface (Illustrative Reference) | Free Your TV Final Production Interface |
+| :---: | :---: |
+| ![Stock Google TV Reference](docs/screenshots/comparison/stock-reference-home.jpg) | ![Free Your TV Production Home](docs/screenshots/comparison/free-your-tv-final-home.png) |
+| *Typical OEM Google TV interface cluttered with auto-playing video trailers, sponsored carousels, and manufacturer recommendation rows.*<br>*(**Note:** External illustrative reference; no ADB screenshot was captured from the test TV prior to custom launcher activation).* | *Free Your TV running on physical TV hardware. Pure OLED pitch-black background, custom Power button, RAM Cleaner pill, Live TV launcher, and customized dock.* |
 
 ---
 
-## How It Works
+## The Free Your TV Software Suite
 
-Android TVs feature the same Android Debug Bridge (ADB) as Android smartphones. Once USB debugging is enabled in Developer Options, the TV listens over Wi-Fi and prompts you once to authorize your computer. After that, standard Android commands handle everything:
+Free Your TV is not merely an upstream project re-upload or a standalone launcher. It is an actively maintained, coordinated open-source software suite comprising three core Android applications:
 
-1. **Back up** the TV's installed package inventory and system settings.
-2. **Disable** manufacturer telemetry, ad rows, recommendation feeds, and preloaded bloatware via `pm disable-user`. Nothing is deleted from system partitions, so a restore script can reverse every modification.
-3. **Install** the lightweight native launcher, cleaner, and Live TV player.
-
----
-
-## Quick Start
-
-You need a computer connected to the same local network as the TV, and either a terminal or an AI coding assistant with shell capabilities (such as Claude Code):
-
-1. **On the TV:**
-   - Go to **Settings → Device Preferences → About**.
-   - Press **OK** on **Build** seven times until developer mode is unlocked.
-   - Go back to **Developer Options** and turn on **USB debugging** (and **Network / Wireless debugging** if present). Keep the TV awake.
-2. **On your computer:**
-   - Paste the debloating prompt from [`PROMPT.md`](PROMPT.md) into your assistant and provide your TV model.
-3. **Follow along:**
-   - Accept the "Allow USB debugging?" prompt on the TV screen.
-   - Confirm which streaming apps you use and which four apps belong in your dock.
-   - The assistant backs up packages, applies the debloat list, builds and installs the launcher, and validates the configuration.
+| Application | Package Identifier | Source Directory | Architecture & Description |
+|---|---|---|---|
+| **Custom Launcher** | `com.freeyourtv.launcher` | [`launcher/app/`](launcher/app) | Native Java Leanback launcher with hardware-accelerated glass highlight, remote dock editor, 28 themes, festival greetings, TV inputs, weather, and power control. |
+| **RAM Cleaner** | `com.freeyourtv.cleaner` | [`launcher/cleaner/`](launcher/cleaner) | Lightweight memory optimization tool designed for 1–2 GB RAM TVs with strict whitelist protection and honest memory delta reporting. |
+| **Flutter Live TV** | `com.freeyourtv.livetv` | [`apps/live-tv/`](apps/live-tv) | Remote-optimized IPTV player featuring 441 baseline channels, multi-stream fallback, safe automatic catalogue updates, and custom M3U/M3U8 playlist management. |
 
 ---
 
-## Core Applications
+## Core Applications & Feature Highlights
 
-### 1. Custom Launcher
+### 1. Custom Launcher (`com.freeyourtv.launcher`)
 
-- **Package ID:** `com.freeyourtv.launcher`
-- **Location:** [`launcher/app/`](launcher/app)
-- **Features:**
-  - Pitch-black OLED background with a frosted dock row at the bottom for four favorite apps.
-  - Top shelf displaying focused application titles with dynamic ambient glow matched to app artwork.
-  - Slide-up grid for remaining applications on pressing D-pad Down.
-  - Floating translucent glass highlight with spring animations (AndroidX DynamicAnimation).
-  - Quick-access buttons for Inputs (HDMI/AV/Tuner dropdown), Wi-Fi status, and Settings.
-  - Indian festival themes and greetings powered by `FestivalThemeEngine`.
-  - Configurable in [`launcher/app/src/main/res/values/config.xml`](launcher/app/src/main/res/values/config.xml).
-  - Optional drifting Clock Screensaver (`ClockDream`) to prevent burn-in.
+Built natively in Java for minimal memory footprint and instant D-pad response:
 
-### 2. RAM Cleaner
+- **Ad-Free Leanback Interface:** Replaces OEM promotional carousels, sponsored banners, and recommendation rows with a clean, distraction-free home screen. *(Note: "Ad-free" applies strictly to the Free Your TV launcher and its own interfaces; it does not remove advertisements delivered inside third-party streaming applications).*
+- **OLED Dark Surface & Dynamic Ambient Glow:** Pitch-black background with dynamic ambient backlighting on the top shelf that automatically samples and reflects the dominant colors of the focused app.
+- **Hardware-Accelerated Glass Highlight ([`GlassView`](launcher/app/src/main/java/com/freeyourtv/launcher/GlassView.java)):** Translucent floating glass slab with specular rim lighting and fluid spring physics (AndroidX `DynamicAnimation`) that glides between tiles without CPU redraw bottlenecks.
+- **Icon-Only Power Button & Dialog Control:** Located at the top right of the home screen. On click, it triggers Android's native system power dialog (`GLOBAL_ACTION_POWER_DIALOG` with Lockdown, Power off, Restart) via [`HomeKeyService`](launcher/app/src/main/java/com/freeyourtv/launcher/HomeKeyService.java) (Accessibility Service). If the accessibility service is not yet enabled, it gracefully guides the user to Android Settings.
+- **Customizable Dock Sizing (4, 5, or 6 Apps):** Supports user-selected dock bar sizes. The grid layout manager ([`GridLayoutManager`](launcher/app/src/main/java/com/freeyourtv/launcher/MainActivity.java)), card dimensions, and dock band decoration ([`DockDecoration`](launcher/app/src/main/java/com/freeyourtv/launcher/DockDecoration.java)) dynamically recalculate spans and persist preferences.
+- **Interactive Dock & Grid Arrangement Editor:** Long-pressing any app card or pressing the remote **Menu** button opens an on-screen context menu:
+  - *Dock apps:* Move Left, Move Right, Remove from Dock.
+  - *Grid apps:* Add to Dock, Move Left, Move Right, Move Up, Move Down.
+  - Direct access to Android App Info for any installed application.
+  - Custom arrangements persist reliably in `SharedPreferences` (`favourites` and `gridOrder`).
+- **28 Built-In Themes & Dedicated Festival Wallpapers:**
+  - *Standard Themes:* OLED Pitch Black (`dark`), Clean Day (`light`), Gradient (`aurora`), and Custom wallpaper.
+  - *24 Dedicated Festival Themes:* Hand-crafted vector wallpapers and themed color palettes for Diwali, Holi, Republic Day, Independence Day, Makar Sankranti/Pongal, Maha Shivratri, Ugadi, Ram Navami, Mahavir Jayanti, Baisakhi, Buddha Purnima, Rath Yatra, Raksha Bandhan, Krishna Janmashtami, Ganesh Chaturthi, Onam, Navratri, Dussehra, Karwa Chauth, Govardhan Puja, Bhai Dooj, Chhath Puja, Guru Nanak Jayanti, and Christmas. *(Note: Gregorian New Year is not implemented; regional New Year themes such as Ugadi and Baisakhi are supported).*
+- **72-Festival Calendar & Luminous English Greetings:** Built-in multi-year Pan-Indian festival calendar automatically activates matching festival themes on festival dates. Displays a luminous English greeting banner (e.g. *"Happy Diwali"*, *"Happy Holi"*, *"Happy Republic Day"*) with warm gold luminance (`#FFFFDF7A`), aura shadow effects, and entrance animations.
+- **Live Weather Integration ([`WeatherManager`](launcher/app/src/main/java/com/freeyourtv/launcher/WeatherManager.java)):** Free weather using the Open-Meteo public API (no API keys required, zero analytics tracking based on static source audit). Includes 30+ preconfigured Indian and global cities with automatic caching and Celsius/Fahrenheit toggle.
+- **TV Inputs Menu:** Instant switching between HDMI 1–4, AV, and TV Tuner inputs via Android's native `TvInputManager`.
+- **Status Indicators & Network Tracking:** Real-time Wi-Fi connectivity and automatic VPN indicator ([`VpnBadge`](launcher/app/src/main/java/com/freeyourtv/launcher/VpnBadge.java)) tracking Android network callbacks.
+- **OLED Burn-In Protection Screensaver ([`ClockDream`](launcher/app/src/main/java/com/freeyourtv/launcher/ClockDream.java)):** Built-in drifting clock screensaver (`DreamService`) prevents image retention on OLED and plasma panels.
 
-- **Package ID:** `com.freeyourtv.cleaner`
-- **Location:** [`launcher/cleaner/`](launcher/cleaner)
-- **Features:**
-  - One-click automatic background process memory optimization.
-  - Non-misleading reporting: calculates genuine memory deltas before and after cleanup, reporting "RAM Already Optimal" if no cached memory was freed.
-  - Strict whitelist safety: never terminates `com.freeyourtv.launcher`, `flar2.homebutton` (Button Mapper), Google Play Services, input methods, or core system framework daemons.
-  - Auto-closes and returns to the home launcher 1.8 seconds after displaying results.
+---
 
-### 3. Flutter Live TV
+### 2. RAM Cleaner (`com.freeyourtv.cleaner`)
 
-- **Package ID:** `com.freeyourtv.livetv`
-- **Location:** [`apps/live-tv/`](apps/live-tv)
-- **Features:**
-  - Leanback remote-optimized UI with categorized sidebar navigation.
-  - 1080p stream filtering with automatic fallback switching across 45 channels with multi-stream alternatives.
-  - **Custom M3U/M3U8 Playlist Support:** Users can import remote playlist URLs, name them, refresh them on demand, enable or disable playlists selectively, and delete them.
-  - Persistent playlist storage with offline caching so channels open instantly on startup.
+Smart TVs frequently suffer from aggressive memory bloat caused by background streaming services. The Free Your TV RAM Cleaner lives in [`launcher/cleaner/`](launcher/cleaner) and provides genuine optimization without gimmicks:
+
+- **Strict Whitelist Safety:** Never terminates the custom launcher (`com.freeyourtv.launcher`), Button Mapper (`flar2.homebutton`), Google Play Services, active keyboard/input methods, or core system framework daemons.
+- **Honest Memory Reporting:** Calculates genuine available RAM before and after cleanup via `ActivityManager.MemoryInfo`. If background memory is already reclaimed, it reports *"RAM Already Optimal"* rather than fabricating inflated numbers.
+- **Non-Intrusive Workflow:** One-click execution with a clean circular progress indicator, automatically dismissing back to the launcher 1.8 seconds after displaying results.
+
+---
+
+### 3. Flutter Live TV (`com.freeyourtv.livetv`)
+
+The Live TV player is built using Flutter for smooth remote navigation on TV screens:
+
+- **441 Baseline Channels Across 10 Categories:** Sports (200), News (94), Entertainment (45), Movies (28), Devotional (24), Music (16), Infotainment (13), Other (11), Business (6), and Kids (4).
+- **Multi-Stream Fallbacks:** Bundles 45 fallback channel stream mappings for continuous playback if a primary stream fails.
+- **Safe Automatic Catalogue Updates:**
+  - Automated upstream ingestion from community IPTV streams with a 24-hour refresh interval check.
+  - Wire-level safety guards: Strict 10 MB streaming response limit prevents out-of-memory crashes on low-end TVs; 15-second total timeout covers connection handshake and full body transfer.
+  - Pre-disk structural validation: Verifies minimum channel count (≥ 441), valid categories, non-empty stream URLs, and fallback integrity before touching storage.
+  - Atomic persistence (`.tmp` write and flush before rename) ensures cache files cannot be corrupted by sudden TV power-offs.
+  - **Fallback Preservation Guarantee:** When an upstream primary stream URL changes, the previous working primary is preserved as Fallback #1, ensuring no working streams are silently discarded.
+  - Remote-accessible **Refresh Channels** button in the sidebar for manual on-demand updates.
+- **Custom M3U/M3U8 Playlist Management:**
+  - Dedicated **Manage Playlists** interface designed for TV remote navigation.
+  - Add remote M3U/M3U8 playlist URLs with custom display names.
+  - Enable or disable playlists selectively without deleting them.
+  - On-demand refresh of user playlists.
+  - User playlist data is stored in isolated files (`playlists.json`), completely untouched by built-in catalogue updates.
 
 ---
 
 ## Live TV Disclaimer & Content Rights
 
 > [!IMPORTANT]
-> **Free Your TV is an open-source media player and does not host, stream, re-encode, or broadcast any media content.**
+> **Free Your TV is an open-source media player software suite and does not host, stream, broadcast, or re-encode media content.**
+>
+> 1. **Third-Party Public Streams:** Built-in channel indexing parses publicly accessible M3U playlist URLs aggregated from upstream community sources. Free Your TV does not operate streaming servers or Content Delivery Networks (CDNs).
+> 2. **No Availability or Authorization Guarantee:** The availability, resolution, server uptime, geographic compatibility, and broadcast authorization of third-party streams are outside the control of Free Your TV. Streams may experience buffering, geoblocking, or discontinuation by their origin hosts without notice.
+> 3. **User-Managed Playlists:** Users importing custom M3U or M3U8 playlists are solely responsible for ensuring they possess the necessary rights, licences, and authorization to access their configured streams.
+> 4. **Trademarks & Copyrights:** Free Your TV does not claim ownership of or copyright in any third-party logos, channel names, or broadcast streams accessed through the player.
 
-1. **Third-Party Streams:** Built-in channel indexing parses publicly accessible M3U playlist URLs aggregated from upstream community sources. Free Your TV does not operate streaming servers or Content Delivery Networks (CDNs).
-2. **No Availability Guarantee:** The availability, resolution, server uptime, and geographic compatibility of third-party streams are outside the control of Free Your TV. Streams may experience buffering, geoblocking, or discontinuation by their respective origin hosts without notice.
-3. **User-Managed Playlists:** Users who import custom M3U or M3U8 playlists are solely responsible for ensuring they possess the necessary rights, licences, and authorization to access their configured streams.
-4. **Content Rights:** Free Your TV does not claim ownership of or copyright in any third-party logos, channel trademarks, or broadcast media accessed through the player.
+---
+
+## Curated Screenshot Gallery
+
+The visual interface across all three applications has been documented through physical hardware captures and automated QA verification:
+
+### 1. Launcher & System Controls
+| Final Home Screen (OLED Black) | Native Android TV Power Menu |
+| :---: | :---: |
+| [![Final Home Screen](docs/screenshots/launcher/final-home-oled.png)](docs/screenshots/launcher/final-home-oled.png) | [![Native Power Dialog](docs/screenshots/launcher/native-power-dialog.png)](docs/screenshots/launcher/native-power-dialog.png) |
+| *Final home screen showing top status pills (Power, Cleaner, Live TV, Wi-Fi, Inputs, Clock).* | *Native system power dialog showing Lockdown, Power off, and Restart.* |
+
+| Dock Context Menu | App Grid Context Menu | Settings Popup Menu |
+| :---: | :---: | :---: |
+| [![Dock Context Menu](docs/screenshots/launcher/dock-context-menu.png)](docs/screenshots/launcher/dock-context-menu.png) | [![App Grid Context Menu](docs/screenshots/launcher/app-grid-context-menu.png)](docs/screenshots/launcher/app-grid-context-menu.png) | [![Settings Popup Menu](docs/screenshots/launcher/settings-popup-menu.png)](docs/screenshots/launcher/settings-popup-menu.png) |
+| *Long-press OK to Move Left, Move Right, or Remove from Dock.* | *Slide-up app grid menu to add apps to dock or reorder.* | *Settings dropdown providing dock configuration and TV system settings.* |
+
+### 2. Festival Themes & Luminous Greetings
+| Republic Day (Production Capture) | Dussehra (Live Hardware Capture) |
+| :---: | :---: |
+| [![Republic Day Theme](docs/screenshots/themes/festival-republic-day.png)](docs/screenshots/themes/festival-republic-day.png) | [![Dussehra Live Theme](docs/screenshots/themes/festival-dussehra-live.png)](docs/screenshots/themes/festival-dussehra-live.png) |
+| *Republic Day theme with tricolor vector background and luminous greeting banner.* | *Dussehra theme captured live on physical TV hardware on Dussehra (20 October 2026).* |
+
+| Diwali (Date-Simulation Capture) | Christmas (Date-Simulation Capture) |
+| :---: | :---: |
+| [![Diwali Simulated](docs/screenshots/themes/festival-diwali-simulated.png)](docs/screenshots/themes/festival-diwali-simulated.png) | [![Christmas Simulated](docs/screenshots/themes/festival-christmas-simulated.png)](docs/screenshots/themes/festival-christmas-simulated.png) |
+| *Diwali theme with diya vector art (historical QA date simulation capture with banner).* | *Christmas theme with festive pine vector art (historical QA date simulation capture with banner).* |
+
+### 3. Live Weather Integration
+| Delhi Weather on Home | Weather Settings Menu | City Selector Dialog |
+| :---: | :---: | :---: |
+| [![Delhi Weather](docs/screenshots/weather/weather-delhi-home.png)](docs/screenshots/weather/weather-delhi-home.png) | [![Weather Settings](docs/screenshots/weather/weather-settings.png)](docs/screenshots/weather/weather-settings.png) | [![City Picker](docs/screenshots/weather/weather-city-picker.png)](docs/screenshots/weather/weather-city-picker.png) |
+| *Real-time temperature and condition display.* | *Weather configuration screen for city and unit.* | *Preconfigured Indian and global cities selector.* |
+
+### 4. RAM Cleaner & Flutter Live TV
+| RAM Cleaner Result Dialog | Live TV Category Guide (News) | Live Stream Playback (Aaj Tak HD) |
+| :---: | :---: | :---: |
+| [![Cleaner Result](docs/screenshots/cleaner/cleaner-result.png)](docs/screenshots/cleaner/cleaner-result.png) | [![Live TV Guide](docs/screenshots/livetv/livetv-channel-guide.png)](docs/screenshots/livetv/livetv-channel-guide.png) | [![Live Playback](docs/screenshots/livetv/livetv-playback.png)](docs/screenshots/livetv/livetv-playback.png) |
+| *Honest memory delta reporting actual MB freed.* | *441-channel electronic programme and category guide.* | *Hardware-accelerated live stream playback.* |
+
+👉 **[Explore the Complete 27-Screenshot Gallery & SHA-256 Checksums](docs/screenshots/README.md)**
+
+---
+
+## Hardware Evidence vs. QA Simulation & Known Gaps
+
+> [!NOTE]
+> **Hardware Verification Environment:**
+> - **Test Device:** Motorola / KTC EcoTV Pro D (`hongkong`), Android 11 (API 30), 1080p Full HD (`1920x1080`).
+> - **Testing Dates:** October 19–22, 2026.
+> - **Physical Hardware Captures:** Final Home OLED (`screen_final_home.png`), Power Dialog (`test_settings_main.png`), Dussehra Theme (`live_home_after_install.png`), Cleaner Result (`screen_cleaner_result.png`), Live TV Guide & Playback (`screen_cat_news.png`, `screen_playback_aajtak.png`), and Playlist Management (`screen_manage_playlists.png`).
+> - **QA Date-Simulation Captures:** Diwali and Christmas screenshots were captured during automated multi-year calendar validation by overriding the system clock. They include an on-screen simulation banner to distinguish them from clean real-date production captures.
+
+> [!WARNING]
+> **Known Screenshot Evidence Gaps:**
+> - **Pre-Install Stock TV Screen:** As established in Phase 7H, no ADB screencap was taken before custom launcher activation on the test TV. The stock Google TV image is an external illustrative reference.
+> - **Light/White Theme (`light`):** Supported in code; lacks historical screenshot evidence.
+> - **Aurora Gradient Theme (`aurora`):** Supported in code; lacks historical screenshot evidence.
+> - **Custom Wallpaper Picker:** Supported in code; lacks historical screenshot evidence.
+> - **6-App Dock Bar & Dock-Size Picker UI:** Supported in code; lacks historical screenshot evidence.
+> - **Gregorian New Year:** Not implemented in source code; no screenshot exists.
+> *These variants are actively awaiting fresh capture in future hardware testing sessions.*
 
 ---
 
 ## Prerequisites & Build Guide
 
-### Required Prerequisites
+### Environment Prerequisites
 
-| Requirement | Minimum Version | Used By |
+| Tool | Minimum Version | Required By |
 |---|---|---|
-| **Java Development Kit (JDK)** | JDK 17 (e.g. OpenJDK 17 or Android Studio JBR) | Launcher, RAM Cleaner, Live TV runner |
+| **Java Development Kit (JDK)** | JDK 17 (OpenJDK 17 or Android Studio JBR) | Launcher, RAM Cleaner, Live TV runner |
 | **Android SDK** | Compile SDK 34, Build-Tools 34.0.0 | Launcher, RAM Cleaner |
-| **Flutter SDK** | Flutter 3.2.1+ (Dart SDK `>=3.2.1 <4.0.0`) | Flutter Live TV |
-| **Python** | Python 3.8+ (with `venv` module) | `tools/tv.py` and debloat scripts |
+| **Flutter SDK** | Flutter 3.2.1+ (Dart `>=3.2.1 <4.0.0`) | Flutter Live TV |
+| **Python** | Python 3.8+ (with `venv` module) | `tools/tv.py` and debloat tools |
 
-### Building and Installing the Launcher
+---
 
-**On Windows (PowerShell):**
-```powershell
-powershell -ExecutionPolicy Bypass -File launcher\build-and-install.ps1 -TvHost 192.168.1.50
-```
+### Building the Custom Launcher (`com.freeyourtv.launcher`)
 
-**On Linux / macOS (Bash):**
 ```bash
-TV_HOST=192.168.1.50 launcher/build-and-install.sh
+cd launcher
+./gradlew :app:assembleRelease
 ```
+*Output APK:* `launcher/app/build/outputs/apk/release/app-release-unsigned.apk`
 
-### Building and Installing the RAM Cleaner
+---
+
+### Building the RAM Cleaner (`com.freeyourtv.cleaner`)
 
 ```bash
 cd launcher
 ./gradlew :cleaner:assembleRelease
-# Install over ADB
-python3 ../tools/tv.py --push cleaner/build/outputs/apk/release/cleaner-release.apk /data/local/tmp/cleaner.apk
-python3 ../tools/tv.py 'pm install -r /data/local/tmp/cleaner.apk; rm /data/local/tmp/cleaner.apk'
 ```
+*Output APK:* `launcher/cleaner/build/outputs/apk/release/cleaner-release-unsigned.apk`
 
-### Building and Installing Flutter Live TV
+---
+
+### Building Flutter Live TV (`com.freeyourtv.livetv`)
 
 ```bash
 cd apps/live-tv
 flutter build apk --release --target-platform android-arm --android-skip-build-dependency-validation
-# Install over ADB
-python3 ../../tools/tv.py --push build/app/outputs/flutter-apk/app-release.apk /data/local/tmp/livetv.apk
-python3 ../../tools/tv.py 'pm install -r /data/local/tmp/livetv.apk; rm /data/local/tmp/livetv.apk'
 ```
-*(For 64-bit TVs, specify `--target-platform android-arm64`.)*
+*(For 64-bit Android TV devices, specify `--target-platform android-arm64`.)*
+*Output APK:* `apps/live-tv/build/app/outputs/flutter-apk/app-release.apk`
 
 ---
 
-## Supported TVs
+### Verified Offline Test Execution
 
-Free Your TV works on any television or streaming box running **Android TV** or **Google TV**: Xiaomi, Redmi, TCL, Hisense, Sony, OnePlus, Realme, Nvidia Shield, and others.
-
-Samsung (Tizen) and LG (webOS) run non-Android operating systems and are not compatible. Amazon Fire TV (Fire OS) supports debloating only, as Fire OS prevents third-party launchers from replacing the default home activity.
-
-Pre-tested debloat profiles are available in [`examples/`](examples/):
-
-| Model | OS |
-|---|---|
-| BenQ E55-735 (Changhong AI PONT, DVB96BQ) | Google TV 14 |
-| CHiQ AI PONT (DVB93CQ) | Android TV 11 |
-| Hisense SmartTV 4K FFM (huangshan, MediaTek) | Android TV 10 |
-| Insignia 55" F30 4K Fire TV (NS-55F301NA25, AFTDCT31, duckie) | Fire OS 7 / Android 9 |
-| NVIDIA SHIELD TV Pro 2019 (P2897, mdarcy) | Android TV 11 |
-| OnePlus TV (D00, Dubai) | Google TV 14 |
-| RCA AI PONT SA (Changhong, redwood, ISDB92RC) | Android 14 |
-| SANYO ATV R2 (SCBC, Realtek RTD285O) | Android TV 9 |
-| Sony BRAVIA 4K UR2 (BRAVIA_UR2_4K, MediaTek) | Android TV 10 |
-| Sony BRAVIA XBR-65X900E (2017, BRAVIA_ATV2) | Android TV 9 |
-| TCL 55" 4K Google TV, 2023 (G10, G10_4K_US_NF) | Google TV 12 |
-| TCL 65C725 (Smart TV Pro, BeyondTV4) | Android TV 11 |
-| TCL BeyondTV (India) | Android TV 9 |
-| TCL QM6K Pro, 2025 (G08, MediaTek tcl9618) | Google TV 14 |
-| Xiaomi Mi Box S (MIBOX4, oneday), streaming box | Android TV 9 |
-| Xiaomi Mi TV (MiTV-MOOQ0, croods) | Android TV 10 |
-| Xiaomi Mi TV 4A (MiTV-MOOQ1) | Android TV 10 |
-| Xiaomi MiTV-AESP0 stick (aquaman, 1 GB) | Android TV 9 |
-| Xiaomi MiTV-AXSO0 (dangal; Mi TV 4C Pro 2019 / 4A Pro) | Android TV 9 |
-| Xiaomi MiTV-MOOR2 (venom, MediaTek) | Google TV 11 |
-| Xiaomi TV A Pro 75" 2026 (MiTV-MZTU0, river, MediaTek) | Google TV 14 |
-
----
-
-## Doing It by Hand (Debloat & Tools)
-
-Every action performed by the assistant can be executed directly using the standalone Python tools:
+All three applications include comprehensive unit test suites verified to pass completely offline without network access:
 
 ```bash
-python3 -m venv tools/venv && tools/venv/bin/pip install -r tools/requirements.txt
-export TV_HOST=192.168.1.50                                   # your TV's IP address
-
-tools/venv/bin/python -I tools/tv.py --probe                 # model, Android version, firmware
-tools/venv/bin/python -I tools/tv.py 'pm list packages'      # run a shell command on the TV
-tools/disable.sh examples/xiaomi-mi-tv-4a/debloat.txt        # apply a debloat list
-tools/restore.sh examples/xiaomi-mi-tv-4a/debloat.txt        # undo debloat and restore stock launcher
-```
-
-### Windows PowerShell
-
-```powershell
-python -m venv tools\venv; tools\venv\Scripts\python.exe -m pip install -r tools\requirements.txt
-powershell -ExecutionPolicy Bypass -File launcher\build-and-install.ps1 -TvHost 192.168.1.50
-powershell -ExecutionPolicy Bypass -File tools\disable.ps1 -TvHost 192.168.1.50 examples\xiaomi-mi-tv-4a\debloat.txt
-powershell -ExecutionPolicy Bypass -File tools\restore.ps1 -TvHost 192.168.1.50 examples\xiaomi-mi-tv-4a\debloat.txt
-```
-
----
-
-## Restoring Your TV
-
-To revert modifications and restore the stock TV launcher:
-
-```bash
-TV_HOST=192.168.1.50 tools/restore.sh examples/<your tv>/debloat.txt                 # Android TV
-TV_HOST=192.168.1.50 tools/restore.sh examples/<your tv>/debloat.txt com.google.android.apps.tv.launcherx   # Google TV
-```
-
-The restore script re-enables all disabled packages in your debloat list, re-enables the stock launcher, restores the default home role, and resets UI animation scales.
-
----
-
-## Upgrading and Device Recovery
-
-- **Package Migration:** Free Your TV applications use the unified namespace `com.freeyourtv.*`. If an older installation of `com.gathin.tvhome` exists on the TV, Android treats `com.freeyourtv.launcher` as a separate application and both will coexist.
-- **Button Mapper Configuration:** If you use Button Mapper (`flar2.homebutton`) or a remote key remapping service, ensure the Home button is configured to launch `com.freeyourtv.launcher`.
-- **Default Home Role:** On some Android TV firmware, assigning the default home activity requires manual confirmation. If pressing the remote Home button prompts you to select a launcher, choose **Free Your TV** and select **Always**.
-- **Accessibility Permissions:** If using optional input key features (`-InputKeyService` or `-HomeKeyService`), verify under TV Settings → Device Preferences → Accessibility that the Free Your TV service is enabled.
-
----
-
-## Verified Offline Testing
-
-All core application test suites are verified to run completely offline without network dependencies:
-
-```bash
-# 1. Launcher unit tests
+# 1. Launcher unit tests (20 tasks)
 cd launcher
 ./gradlew :app:testDebugUnitTest --offline
 
-# 2. RAM Cleaner unit tests
+# 2. RAM Cleaner unit tests (20 tasks)
 ./gradlew :cleaner:testDebugUnitTest --offline
 
-# 3. Flutter Live TV unit and widget tests
+# 3. Flutter Live TV unit and widget tests (34 tests)
 cd ../apps/live-tv
 flutter test --no-pub
 ```
 
 ---
 
-## Troubleshooting
+## Planned Integrations & Optional Tools
 
-- **macOS Local Network Privacy:** `adb connect` may report "No route to host" even when the port is open because macOS Local Network privacy blocks the Google `adb` binary. `tools/tv.py` connects via pure Python sockets, bypassing this issue.
-- **Setup Wizard Intercepting Home:** On certain Google TV firmware (e.g. Xiaomi MiTV-MOOR2), `com.google.android.tungsten.setupwraith` answers the HOME intent at higher priority. Disabling `setupwraith` frees the Home slot. Re-enable it before performing a factory reset.
-- **USB Power Cut:** Some streaming boxes (like the Xiaomi Mi Box S) switch their USB port into ADB peripheral mode when USB debugging is enabled, cutting power to connected USB drives. Disable USB debugging once setup is complete.
-- **Screenshots Blank:** Screenshots taken while HDMI or Live TV video overlays are playing may return empty frames due to DRM/hardware plane overlays. Return to the home screen before running `screencap`.
-
----
-
-## Frequently Asked Questions
-
-**Is this safe? Can it brick my TV?**  
-Nothing is written to boot partitions or system ROMs. All debloating is performed via `pm disable-user`, which affects only the user space profile and can be reversed at any time from TV Settings or via `tools/restore.sh`.
-
-**Do streaming apps still update?**  
-Yes. Netflix, Prime Video, YouTube, Hotstar, and the Google Play Store remain enabled and update normally.
-
-**Can I download prebuilt APKs?**  
-Free Your TV does not publish prebuilt binaries. Building from source ensures transparency, security, and exact control over what runs on your hardware.
+- **Button Mapper ([`flar2.homebutton`](https://play.google.com/store/apps/details?id=flar2.homebutton)):** Recommended optional third-party utility. On Android TV devices where OEM firmware restricts third-party launchers, Button Mapper allows you to remap the remote Home key to open `com.freeyourtv.launcher` or launch Live TV directly with a double-tap.
+- **External Video Players & Streaming Apps:** The Free Your TV launcher organizes and launches all installed streaming apps (Netflix, Prime Video, YouTube, Hotstar, etc.).
+- **Future Integration Hooks (Planned):**
+  - *SmartTube / YouTube:* Planned launcher top-shelf shortcut and direct deep-linking hooks. *(Not currently bundled or integrated in source code).*
+  - *NetMirror:* Planned streaming shortcut integration for supported media services. *(Not currently bundled or integrated in source code).*
 
 ---
 
-## Contributing
+## Supported Hardware & Debloating Guide
 
-Debloat profiles for additional TV models are warmly welcomed. See [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidelines and testing practices.
+Free Your TV works on any television, streaming stick, or set-top box running **Android TV** or **Google TV** (Xiaomi, Redmi, TCL, Hisense, Sony, OnePlus, Realme, Nvidia Shield, Motorola, and others).
+
+*Note: Samsung (Tizen) and LG (webOS) run proprietary non-Android operating systems and are not compatible. Amazon Fire TV (Fire OS) supports debloating only.*
+
+### Applying Debloat Profiles Over Wi-Fi
+
+Debloating uses reversible Android package manager commands (`pm disable-user --user 0`) to disable manufacturer ad rows and telemetry packages without deleting system files:
+
+1. **Enable Developer Options on TV:**
+   - Navigate to **Settings → Device Preferences → About**.
+   - Press **OK** on **Build** seven times until developer mode is unlocked.
+   - Go to **Developer Options** and turn on **USB debugging**.
+2. **Apply Profile via Standalone Python Tools:**
+   ```bash
+   python3 -m venv tools/venv && tools/venv/bin/pip install -r tools/requirements.txt
+   export TV_HOST=192.168.1.50   # Replace with your TV IP address
+
+   # Probe device
+   tools/venv/bin/python -I tools/tv.py --probe
+
+   # Apply debloat profile (e.g. Xiaomi Mi TV 4A)
+   tools/disable.sh examples/xiaomi-mi-tv-4a/debloat.txt
+   ```
+
+Pre-tested debloat profiles are provided in [`examples/`](examples/) for over 15 popular TV models.
+
+### Restoring Your TV
+
+To revert debloating and restore the factory launcher:
+
+```bash
+# Android TV
+TV_HOST=192.168.1.50 tools/restore.sh examples/<your-tv>/debloat.txt
+
+# Google TV
+TV_HOST=192.168.1.50 tools/restore.sh examples/<your-tv>/debloat.txt com.google.android.apps.tv.launcherx
+```
+
+> [!NOTE]
+> **Restore Script Behavior:**
+> The restore script re-enables all disabled system packages listed in the profile (`pm enable`) and restores the default home resolver. It cannot recover third-party application data cleared by the user or restore changes outside the scope of the package profile.
 
 ---
 
-## Licence
+## Current Limitations & Roadmap
 
-- Free Your TV is licensed under the [MIT Licence](LICENSE) (Copyright (c) 2026 Gathin).
-- Live TV module derived from Kanani Nirav's work under the [MIT Licence](apps/live-tv/LICENSE).
-- Outfit font software is licensed under the [SIL Open Font License 1.1](launcher/FONT-LICENSE-OFL.txt).
+### Known Limitations
+- **DRM-Protected Content:** The Live TV player supports public, unencrypted HLS (`m3u8`) streams. Encrypted DRM streams (Widevine L1/L3) cannot be played.
+- **Accessibility Service for Power Menu:** Android TV security restricts third-party apps from invoking global system dialogs. Triggering the native power dialog via the top-right power button requires enabling the Free Your TV Accessibility Service in TV Settings.
+- **Platform Compatibility:** Exclusively supports Android TV / Google TV. Non-Android smart TV platforms (Tizen, webOS) are unsupported.
+
+### Project Roadmap
+- [ ] User-customized wallpaper image importing via local storage or USB.
+- [ ] Folder and category grouping for app grid tiles.
+- [ ] Quick-access remote shortcuts for user-specified media utilities.
+- [ ] EPG (Electronic Program Guide) timeline view for Live TV.
+
+---
+
+## Attribution, Lineage & Licensing
+
+Free Your TV combines original engineering, extensive customization, and respected upstream open-source foundations:
+
+### Free Your TV Project & Modifications
+- **Project Maintainer:** [matureakshay](https://github.com/matureakshay)
+- **Original Modifications & Engineering:**
+  - Unified package namespace migration to `com.freeyourtv.*`.
+  - Development of the standalone RAM Cleaner module ([`launcher/cleaner/`](launcher/cleaner)) with whitelist protection.
+  - Launcher dock size customization (4, 5, or 6 apps) with dynamic span recalculation.
+  - Interactive D-pad dock and grid reordering context menu with persistent state.
+  - Icon-only power button integrated with [`HomeKeyService`](launcher/app/src/main/java/com/freeyourtv/launcher/HomeKeyService.java) Accessibility Service.
+  - 28-theme engine with 24 dedicated Indian festival vector wallpapers, multi-year festival calendar, and luminous greeting banner.
+  - Open-Meteo live weather manager with 30+ preconfigured cities.
+  - Safe automatic Live TV catalogue updater with wire limits, atomic persistence, and fallback preservation.
+  - User-managed custom M3U/M3U8 playlist management interface in Flutter Live TV.
+
+### Upstream Foundations & Licences
+- **Launcher Core:** Derived from the open-source `tv-vibehack` launcher created by [Gathin](https://x.com/gathint) under the [MIT Licence](LICENSE).
+- **Typography:** The [Outfit](https://fonts.google.com/specimen/Outfit) typeface by The Outfit Project Authors is licensed under the [SIL Open Font License 1.1](launcher/FONT-LICENSE-OFL.txt).
+- **Live TV Player:** Derived from the `tv/master` branch of [`kananinirav/Indian-IPTV-App`](https://github.com/kananinirav/Indian-IPTV-App) by Kanani Nirav under the [MIT Licence](apps/live-tv/LICENSE).
+- **Channel Indexing Metadata:** Public channel catalogue metadata utilizes data from [`iptv-org/iptv`](https://github.com/iptv-org/iptv) (Public Domain / The Unlicense).
