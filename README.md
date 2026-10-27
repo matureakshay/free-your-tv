@@ -36,6 +36,129 @@ Free Your TV is not merely an upstream project re-upload or a standalone launche
 
 ---
 
+## Free Viewing Alternatives: Cut the Cord & Stop Paying for Ads
+
+Free Your TV empowers you to replace bloated, subscription-heavy, ad-saturated commercial services with lightweight, privacy-respecting alternatives:
+
+<table width="100%">
+  <thead>
+    <tr>
+      <th width="38%" align="center">BEFORE (Commercial Service)</th>
+      <th width="6%" align="center"></th>
+      <th width="38%" align="center">AFTER (Free Alternative)</th>
+      <th width="18%" align="center">Status &amp; Architecture</th>
+    </tr>
+  </thead>
+  <tbody>
+    <!-- Row 1: YouTube -> SmartTube -->
+    <tr>
+      <td align="center">
+        <img src="docs/alternatives/youtube.svg" alt="YouTube for Android TV logo" width="160" height="90"><br>
+        <strong>YouTube for Android TV</strong><br>
+        <sub>Unskippable pre-rolls, mid-roll ads, sponsored banners, and background video pause.</sub>
+      </td>
+      <td align="center" style="font-size: 20px;">➔</td>
+      <td align="center">
+        <img src="docs/alternatives/smarttube.svg" alt="SmartTube open-source player logo" width="160" height="90"><br>
+        <strong>SmartTube</strong><br>
+        <sub>Free &amp; open-source, built-in SponsorBlock, ad-free playback, up to 4K 60fps HDR, background audio, zero Google tracking.</sub>
+      </td>
+      <td align="left">
+        <strong>Category:</strong> Independent App<br>
+        <strong>Installer:</strong> <span style="color:#d29922">Planned / Sideload</span><br>
+        <strong>Licence:</strong> GPL-3.0
+      </td>
+    </tr>
+    <!-- Row 2: Netflix -> CloudStream -->
+    <tr>
+      <td align="center">
+        <img src="docs/alternatives/netflix.svg" alt="Netflix streaming service logo" width="160" height="90"><br>
+        <strong>Netflix</strong><br>
+        <sub>Recurring monthly subscription fees, password-sharing crackdowns, DRM lock-in, and tier-limited resolutions.</sub>
+      </td>
+      <td align="center" style="font-size: 20px;">➔</td>
+      <td align="center">
+        <img src="docs/alternatives/cloudstream.svg" alt="CloudStream 3 open-source media scraper logo" width="160" height="90"><br>
+        <strong>CloudStream 3</strong><br>
+        <sub>Free &amp; open-source modular media streaming framework with community extensions, multilingual subtitles, and remote-friendly UI.</sub>
+      </td>
+      <td align="left">
+        <strong>Category:</strong> Independent App<br>
+        <strong>Installer:</strong> <span style="color:#d29922">Planned / Sideload</span><br>
+        <strong>Licence:</strong> GPL-3.0
+      </td>
+    </tr>
+    <!-- Row 3: Prime Video -> NetMirror -->
+    <tr>
+      <td align="center">
+        <img src="docs/alternatives/prime-video.svg" alt="Prime Video streaming logo" width="160" height="90"><br>
+        <strong>Prime Video</strong><br>
+        <sub>Paid subscription with embedded commercial ads, additional rental paywalls, and regional catalog lockouts.</sub>
+      </td>
+      <td align="center" style="font-size: 20px;">➔</td>
+      <td align="center">
+        <img src="docs/alternatives/netmirror.svg" alt="NetMirror TV third-party streaming utility logo" width="160" height="90"><br>
+        <strong>NetMirror TV</strong><br>
+        <sub>Independent third-party media aggregator indexed for Android TV D-pad navigation with multiple server stream mirrors.</sub>
+      </td>
+      <td align="left">
+        <strong>Category:</strong> Independent App<br>
+        <strong>Installer:</strong> <span style="color:#d29922">Planned / Sideload</span><br>
+        <strong>Package:</strong> <code>app.netmirror.newtv</code>
+      </td>
+    </tr>
+    <!-- Row 4: Cable TV / DTH -> Free Your TV Live TV -->
+    <tr>
+      <td align="center">
+        <img src="docs/alternatives/cable-tv.svg" alt="Cable / DTH satellite television icon" width="160" height="90"><br>
+        <strong>Cable / DTH Set-Top Box</strong><br>
+        <sub>Recurring satellite packs, proprietary set-top box hardware, extra remote controls, and expensive per-channel tiers.</sub>
+      </td>
+      <td align="center" style="font-size: 20px;">➔</td>
+      <td align="center">
+        <img src="docs/alternatives/livetv.png" alt="Free Your TV Live TV official banner" width="160" height="90"><br>
+        <strong>Free Your TV Live TV</strong><br>
+        <sub><strong>Built-in 441-channel Pan-Indian catalogue</strong> across 10 categories, 45 fallback stream mappings, safe auto-updates, and custom M3U playlist manager.</sub>
+      </td>
+      <td align="left">
+        <strong>Category:</strong> Built-In Suite<br>
+        <strong>Installer:</strong> <span style="color:#238636">Implemented (Built-in)</span><br>
+        <strong>Package:</strong> <code>com.freeyourtv.livetv</code>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+### Install Only What You Choose
+
+Free Your TV respects user autonomy: **we never silently install, bundle, or download third-party applications without explicit user review and approval.**
+
+#### Current Installer Verification & Scope
+A static source audit of the repository installer tools confirms the exact state of deployment today:
+1. **Free Your TV Launcher (`com.freeyourtv.launcher`):** Built and installed via [`launcher/build-and-install.ps1`](launcher/build-and-install.ps1) and [`launcher/build-and-install.sh`](launcher/build-and-install.sh). The script verifies connection, builds the release APK, uploads via `b64push.py`, installs via `pm install -r`, sets default home, and prompts to enable optional accessibility services. If installation fails, the stock launcher is immediately preserved/restored.
+2. **RAM Cleaner (`com.freeyourtv.cleaner`):** Built locally via `./gradlew :cleaner:assembleRelease` and installed via standard `adb install`.
+3. **Flutter Live TV (`com.freeyourtv.livetv`):** Built locally via `flutter build apk` and installed via standard `adb install`. It includes a built-in 441-channel catalogue and custom M3U playlist import capabilities.
+4. **Third-Party Viewing Alternatives (SmartTube, CloudStream, NetMirror):**
+   - **Current Status:** **Planned / Installer not yet available.**
+   - Automated download-and-install scripts for third-party APKs are currently in development and are **not yet bundled** in the repository.
+   - Users who choose to use these alternatives install them independently via standard Android sideloading (ADB, USB drive, Send Files to TV, or Downloader).
+   - **No Silent Uninstallation:** Installing Free Your TV or applying debloat profiles **never** uninstalls YouTube, Netflix, Prime Video, or any other commercial streaming app. Debloating is strictly an explicit user action that only *disables* packages for user 0 (`pm disable-user --user 0`), which can be fully reverted at any time using [`tools/restore.sh`](tools/restore.sh) or [`tools/restore.ps1`](tools/restore.ps1).
+   - **Failure Isolation:** If an optional third-party app fails to install, crashes, or is uninstalled by the user, the Free Your TV launcher, RAM cleaner, and system operation remain completely unaffected.
+
+> [!NOTE]
+> ### Product Boundaries & Honest Disclaimers
+> To maintain complete transparency, Free Your TV upholds strict architectural distinctions:
+> - **Free Your TV Launcher:** Our custom-engineered Leanback launcher (`com.freeyourtv.launcher`), providing the home screen, on-TV remote dock editor, 28 themes, luminous festival greetings, weather, and power controls.
+> - **Debloating:** Reversible ADB scripts (`tools/disable.*` and `tools/restore.*`) to disable preinstalled manufacturer bloatware and telemetry packages without deleting system files.
+> - **Free Viewing Alternatives:** Independent, third-party open-source applications (such as SmartTube and CloudStream) that users may independently choose to sideload. Free Your TV does not develop, bundle, or officially endorse these applications.
+> - **Free Your TV Live TV:** Our built-in Flutter IPTV player (`com.freeyourtv.livetv`), featuring a curated 441-channel Pan-Indian catalogue across 10 categories, 45 fallback stream mappings, automatic safe catalogue refreshes, and custom M3U/M3U8 playlist management.
+>
+> **Disclaimers:**
+> - Free Your TV does not promise that every commercial paid subscription can be completely replaced, that third-party streams will remain permanently available, or that third-party streaming providers will remain operational.
+> - All third-party trademarks, logos, and service names (YouTube, Netflix, Prime Video, etc.) are the property of their respective owners and are referenced strictly for identification and comparison under fair use. Their mention does not imply affiliation, sponsorship, or endorsement.
+
+---
+
 ## Core Applications & Feature Highlights
 
 ### 1. Custom Launcher (`com.freeyourtv.launcher`)
